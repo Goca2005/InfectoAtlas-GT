@@ -440,7 +440,7 @@ export default function App() {
     'inicio': 'InfectoAtlas GT · portal académico',
     'atlas-visual': 'Atlas visual · imágenes con procedencia',
     'live': 'InfectoAtlas LIVE',
-    'laboratorio-3d': 'Laboratorio virtual · muestras y estructuras',
+    'laboratorio-3d': 'Laboratorio virtual · muestras reales',
     'microorganismos': 'Catálogo de Microorganismos',
     'vectores': 'Vectores Artrópodos en Guatemala',
     'enfermedades': 'Enfermedades Infecciosas',
@@ -488,7 +488,7 @@ export default function App() {
         {/* Dynamic Section Router */}
         <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
 <Suspense fallback={<div role="status" className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-600">Preparando sección…</div>}>
-          {currentSection === 'laboratorio-3d' && <Suspense fallback={<p role="status">Preparando laboratorio 3D…</p>}><MicrobeLab microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism}/></Suspense>}
+          {currentSection === 'laboratorio-3d' && <Suspense fallback={<p role="status">Preparando laboratorio…</p>}><MicrobeLab microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism}/></Suspense>}
           {currentSection === 'atlas-visual' && <VisualAtlas microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism}/>}
           {currentSection === 'live' && <InfectoAtlasLive microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
           {currentSection === 'inicio' && (

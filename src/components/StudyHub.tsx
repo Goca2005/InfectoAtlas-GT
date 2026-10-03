@@ -9,8 +9,7 @@ import {
   Sparkles, 
   Layers, 
   Clock, 
-  FileQuestion, 
-  Box
+  FileQuestion
 } from 'lucide-react';
 
 interface StudyHubProps {
@@ -228,20 +227,6 @@ export const StudyHub: React.FC<StudyHubProps> = ({
             </p>
           </div>
 
-          <div className="rounded-lg border border-slate-200 bg-white p-4 space-y-2 opacity-85">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 font-bold text-slate-900">
-                <Box className="h-4 w-4 text-slate-500" />
-                <span>Modelos 3D y Estructuras Anatómicas</span>
-              </div>
-              <span className="text-[10px] font-bold text-amber-800 bg-amber-100/70 px-2 py-0.5 rounded">
-                En desarrollo
-              </span>
-            </div>
-            <p className="text-slate-500 text-[11px] leading-relaxed">
-              Integración con Three.js / React Three Fiber para manipulación espacial interactiva de cápsulas, fimbrias y viriones.
-            </p>
-          </div>
 
           <div className="rounded-lg border border-slate-200 bg-white p-4 space-y-2 opacity-85">
             <div className="flex items-center justify-between">
