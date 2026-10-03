@@ -9,9 +9,13 @@ const headers = {
 };
 const json = (value, status = 200, extra = {}) => new Response(JSON.stringify(value), { status, headers: { ...headers, ...extra } });
 
+// Workers supports manual/follow, but rejects redirect:error. Manual never
+// follows a redirect; the shared transport rejects its non-2xx response.
+export const workerFetch = (url, options) => fetch(url.toString(), { ...options, redirect: 'manual' });
+
 // Dependencies are injectable for tests; no pending requests are shared between
 // Workers invocations. NCBI credentials stay in server-side environment bindings.
-export function createWorker({ cache = () => caches.default, service = env => createPubmedService({ request: createNcbiTransport({ env, fetchImpl: (url, options) => fetch(url.toString(), options) }) }) } = {}) {
+export function createWorker({ cache = () => caches.default, service = env => createPubmedService({ request: createNcbiTransport({ env, fetchImpl: workerFetch }) }) } = {}) {
   return {
     async fetch(request, env, ctx) {
       const url = new URL(request.url);
