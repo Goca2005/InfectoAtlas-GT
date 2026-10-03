@@ -1,9 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {FICHA_SECTIONS,organizeFichaDocuments} from '../src/services/academicFicha.ts';
+import {FICHA_SECTIONS,organizeFichaDocuments,fichaDocumentBlocks} from '../src/services/academicFicha.ts';
 import {analyzeAcademicDocument} from '../src/services/aiDocumentAnalyzer.ts';
 import {INITIAL_MICROORGANISMS} from '../src/data/microorganisms.ts';
 const source=(id,text,number=1)=>({document:{id,title:'Fuente de prueba',sourceTier:'Material docente'},pageNumber:number,text,association:'direct',headingPage:number,mentionedNames:['Escherichia coli']});
+
+test('morphology heading retains paragraphs that mention diagnostic forms without moving them into diagnosis',()=>{
+  const text='MORFOLOGIA Es un protozoo. La forma diagnóstica es un ooquiste. DIAGNÓSTICO Microscopía.';
+  const blocks=fichaDocumentBlocks(text);
+  assert.equal(blocks[0].section,'morphology');assert.equal(blocks[1].section,'diagnosis');
+  assert.equal(blocks.map(b=>b.text).join(''),text);
+});
+test('a slide whose only heading is extracted last keeps its full literal body under that heading',()=>{
+  const text='Es un protozoo. La forma diagnóstica es el ooquiste. MORFOLOGIA';
+  assert.deepEqual(fichaDocumentBlocks(text),[{start:0,end:text.length,text,section:'morphology'}]);
+});
+test('singular disease and symptom headings stay clinical; ciclosporiasis does not become a cycle heading',()=>{
+  const text='ENFERMEDAD CICLOSPORIASIS. SINTOMATOLOGÍA. Diarrea y dolor. CICLO DE VIDA Ooquistes.';
+  const blocks=fichaDocumentBlocks(text);
+  assert.deepEqual(blocks.map(b=>b.section),['clinical','clinical','cycle']);
+  assert.equal(blocks.map(b=>b.text).join(''),text);
+});
 test('academic index includes eight sections and retains every literal documentary block',()=>{
   const page=source('fixture','MORFOLOGÍA Bacilo DIAGNÓSTICO Cultivo TRATAMIENTO Referencia PREVENCIÓN Higiene CICLO Estadios SÍNTOMAS Fiebre');
   const before=JSON.stringify(page),groups=organizeFichaDocuments([page]);

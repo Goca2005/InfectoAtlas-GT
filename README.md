@@ -1,4 +1,8 @@
-# InfectoAtlas GT · Atlas académico y documental — v0.6.0
+# InfectoAtlas GT · Atlas académico y documental — v0.7.0
+
+## Avance 0.7.0
+
+Ampliación académica de 28 fichas: 138 apartados con citas a 38 fuentes CDC/OMS, ocho nuevas referencias y 67 fotografías adicionales. La búsqueda cubre toda la ficha y la organización de tus documentos reconoce mejor los encabezados de morfología y sintomatología. [Recorrido, fuentes, verificación y pendientes](docs/FICHAS-ACADEMICAS.md).
 
 ## Avance 0.6.0
 
@@ -8,7 +12,7 @@ Portal académico con imágenes auténticas, atlas visual filtrable, referencias
 
 «Ver ficha» abre un dossier con índice de ocho apartados: identidad/morfología, patogenia/clínica, diagnóstico, tratamiento, transmisión/prevención, ciclo/estadios, Guatemala y fuentes. Se muestran los datos guardados y los fragmentos literales de la biblioteca dentro de cada tema, con páginas de origen. El texto completo sigue disponible en Documentos. El índice es lateral en escritorio y un selector en móvil.
 
-La colección incluida reúne 43 referencias, 38 con imágenes; 207 fotografías distintas y 209 asociaciones con perfiles, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
+La colección incluida reúne 51 referencias, 44 con imágenes; 274 fotografías distintas y 276 asociaciones con perfiles, 22 ciclos originales CDC para 21 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
 
 Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; el atlas académico v0.5.0 se integró en main mediante PR #3. Esta entrega continúa la Fase 4C con muestras reales, coordenadas experimentales y manifestaciones clínicas.
 
@@ -48,7 +52,7 @@ Se incluye `.github/workflows/checks.yml` para ejecutar instalación, tipos, pru
 
 Configuración de las acciones según sus fuentes oficiales: [checkout](https://github.com/actions/checkout) y [setup-node](https://github.com/actions/setup-node).
 
-En esta entrega pasaron 60 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` en este entorno. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub. Las pruebas no equivalen a validación clínica independiente.
+En esta entrega pasaron 100 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` en este entorno. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub. Las pruebas no equivalen a validación clínica independiente.
 
 ## Iniciar y verificar
 

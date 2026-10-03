@@ -1,0 +1,32 @@
+[
+  {
+    "scientificName": "Cyclospora cayetanensis",
+    "aliases": [
+      "Cyclospora cayetanensis"
+    ],
+    "category": "parasito",
+    "scope": "CDC DPDx: referencia internacional; no documenta incidencia en Guatemala.",
+    "images": [],
+    "diagnosticPearls": [],
+    "cycles": [
+      {
+        "title": "Cyclospora: maduración ambiental",
+        "imageUrl": "https://www.cdc.gov/dpdx/cyclosporiasis/modules/Cyclosporiasis_LifeCycle_19.jpg?_=03958",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cyclosporiasis/index.html",
+        "infective": [
+          "Ooquiste esporulado"
+        ],
+        "diagnostic": [
+          "Ooquiste no esporulado en heces"
+        ],
+        "steps": [
+          "Eliminación fecal no infectiva.",
+          "Esporulación ambiental durante días o semanas.",
+          "Ingestión del ooquiste maduro.",
+          "Multiplicación intestinal y nueva eliminación."
+        ],
+        "note": "El ooquiste recién eliminado no es infectivo."
+      }
+    ]
+  }
+]

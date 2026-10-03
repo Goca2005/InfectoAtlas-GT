@@ -5,6 +5,23 @@ import { CLINICAL_PATTERNS, clinicalPatterns } from './clinicalPatterns';
 import { normalizeScientificName } from './catalogExpansion';
 import { learningSupplement } from './learningAtlas';
 import type { Microorganism } from '../types/microorganism';
+import { ACADEMIC_PROFILES, academicSources, type AcademicProfile } from './academicContent';
+
+function academicReference(profile: AcademicProfile): Microorganism {
+  return {
+    id: `public-academic-${catalogIdentity(profile.scientificName).replace(/[^a-z0-9]+/g, '-')}`,
+    scientificName: profile.scientificName, category: profile.category, publicReference: true,
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: { family: 'Taxonomía completa pendiente', genus: 'No informado en esta ficha', species: profile.scientificName },
+    morphology: { shape: 'Consultar síntesis académica con fuentes.', size: 'No informado en esta ficha', specialStructures: [] },
+    microbiologyCharacteristics: {}, externalAndInternalStructures: [], virulenceFactors: [], reservoir: [], transmissionRoute: [],
+    associatedDiseases: [], signsAndSymptoms: [], complications: [], clinicalSpecimens: [], diagnosticMethods: [], labFindings: [],
+    treatment: { disclaimer: 'Síntesis educativa. Consultar la guía vigente y su aplicación local antes de decisiones clínicas.', firstLine: [], alternatives: [] },
+    prevention: [], guatemalaRelevance: { endemicStatus: 'No documentado en esta ficha', priorityLevel: 'No evaluada', departmentsWithHighPrevalence: [], officialNotes: profile.scope },
+    imagery: [], bibliography: academicSources(profile.sourceIds).map(s => ({ source: s.issuer, title: s.title, url: s.url, year: s.published?.slice(0,4) ?? 'Consultar fuente', consultedAt: s.consultedAt, status: 'Fuentes pendientes de revisión' as const })),
+    lastReviewedDate: 'Pendiente de revisión clínica independiente',
+  };
+}
 
 export function catalogIdentity(name: string) {
   const normalized = normalizeScientificName(name);
@@ -38,6 +55,10 @@ function referenceCatalog(): Microorganism[] {
   for (const p of CLINICAL_PATTERNS) for (const name of p.names) {
     const key = catalogIdentity(name);
     if (!map.has(key)) { const reference = clinicalReference(name); if (reference) map.set(key, reference); }
+  }
+  for (const profile of ACADEMIC_PROFILES.filter(p => p.newReference)) {
+    const key = catalogIdentity(profile.scientificName);
+    if (!map.has(key)) map.set(key, academicReference(profile));
   }
   return Array.from(map.values());
 }

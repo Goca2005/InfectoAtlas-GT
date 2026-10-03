@@ -13,10 +13,30 @@ export const FICHA_SECTIONS=[
 ] as const;
 export type FichaSectionId=typeof FICHA_SECTIONS[number]['id'];
 export interface FichaExcerpt {text:string;section:DocumentSection;sources:{page:DocumentPageLink;start:number;end:number}[]}
+/** Recognizable headings control grouping, without changing the source text or saved index. */
+export function fichaDocumentBlocks(text:string):{section:DocumentSection;text:string;start:number;end:number}[]{
+  const heading=/\b(?:DIAGN[ÓO]STICO|TRATAMIENTO|PREVENCI[ÓO]N|MORFOLOG[IÍ]A|S[IÍ]NTOMAS|SINTOMATOLOG[IÍ]A|ENFERMEDAD(?:ES)?|CICLO(?: DE VIDA)?|EPIDEMIOLOG[IÍ]A|TRANSMISI[ÓO]N|RESERVORIO|PATOGENIA|COMPLICACIONES|MUESTRAS?|ESTADIOS?)\b/g;
+  const matches=Array.from(text.matchAll(heading));
+  if(!matches.length)return documentBlocks(text);
+  const sectionForHeading=(value:string):DocumentSection=>{
+    const name=value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+    return /^(diagnostico|muestra)/.test(name)?'diagnosis':name==='tratamiento'?'treatment':name==='prevencion'?'prevention':name==='morfologia'?'morphology':/^(sintoma|enfermedad|patogenia|complicaciones)/.test(name)?'clinical':/^(ciclo\b|estadio)/.test(name)?'cycle':'epidemiology';
+  };
+  // Slide extractors can place the only heading after its body. Keep that page whole.
+  if(matches.length===1&&matches[0].index!>0&&!text.slice(matches[0].index!+matches[0][0].length).trim()){
+    return [{start:0,end:text.length,text,section:sectionForHeading(matches[0][0])}];
+  }
+  const bounds=[...new Set([0,...matches.map(m=>m.index!),text.length])].sort((a,b)=>a-b);
+  return bounds.slice(0,-1).map((start,i)=>{
+    const end=bounds[i+1],literal=text.slice(start,end),match=matches.find(m=>m.index===start);
+    if(!match)return {start,end,text:literal,section:documentBlocks(literal)[0]?.section??'general'};
+    return {start,end,text:literal,section:sectionForHeading(match[0])};
+  }).filter(b=>b.text.trim());
+}
 /** Group literal excerpts by topic; exact duplicates share citations. No clinical facts are inferred. */
 export function organizeFichaDocuments(pages:DocumentPageLink[]):Record<FichaSectionId,FichaExcerpt[]>{
   const result:Record<FichaSectionId,FichaExcerpt[]>={identity:[],clinical:[],diagnosis:[],treatment:[],prevention:[],cycle:[],guatemala:[],sources:[]};
-  for(const page of pages)for(const block of documentBlocks(page.text)){
+  for(const page of pages)for(const block of fichaDocumentBlocks(page.text)){
     const target=FICHA_SECTIONS.find(s=>(s.topics as readonly string[]).includes(block.section));
     if(!target)continue;
     const text=block.text.trim();if(!text)continue;

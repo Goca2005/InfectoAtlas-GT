@@ -1,0 +1,2161 @@
+{
+  "schemaVersion": 1,
+  "consultedAt": "2026-10-03",
+  "reviewStatus": "Síntesis editorial con fuentes; revisión clínica independiente pendiente",
+  "sources": [
+    {
+      "id": "ref-a5d1431f1ea0",
+      "url": "https://www.cdc.gov/tetanus/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Tetanus",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-09-08"
+    },
+    {
+      "id": "ref-8859ff0d6ee4",
+      "url": "https://www.cdc.gov/tetanus/hcp/clinical-care/index.html",
+      "title": "Clinical Care of Tetanus",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-09-08"
+    },
+    {
+      "id": "ref-c18c8145129c",
+      "url": "https://www.cdc.gov/pertussis/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Pertussis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-12-01"
+    },
+    {
+      "id": "ref-840ec772087b",
+      "url": "https://www.cdc.gov/pertussis/php/laboratories/index.html",
+      "title": "Laboratory Testing for Pertussis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-12-02"
+    },
+    {
+      "id": "ref-26ff90ef4f0f",
+      "url": "https://www.cdc.gov/lyme/hcp/diagnosis-testing/index.html",
+      "title": "Clinical Testing and Diagnosis for Lyme Disease",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-05-15"
+    },
+    {
+      "id": "ref-c3ab2ee36c30",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html",
+      "title": "Signs and Symptoms of Untreated Lyme Disease",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-7e1f5a852837",
+      "url": "https://www.cdc.gov/parvovirus-b19/about/index.html",
+      "title": "About Parvovirus B19",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-12-17"
+    },
+    {
+      "id": "ref-5f7d9425c71f",
+      "url": "https://www.cdc.gov/chickenpox/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Chickenpox (Varicella)",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-07-15"
+    },
+    {
+      "id": "ref-62cab8909107",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm",
+      "title": "Syphilis · STI Treatment Guidelines",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-e85e564365c5",
+      "url": "https://www.cdc.gov/syphilis/about/index.html",
+      "title": "About Syphilis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-01-30"
+    },
+    {
+      "id": "ref-98bae5a88ad5",
+      "url": "https://www.cdc.gov/rubella/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Rubella",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-07-15"
+    },
+    {
+      "id": "ref-39ea9dd65a6f",
+      "url": "https://www.cdc.gov/measles/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Measles",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-08-05"
+    },
+    {
+      "id": "ref-01e6ebd34286",
+      "url": "https://www.cdc.gov/diphtheria/hcp/clinical-guidance/index.html",
+      "title": "Clinical Guidance for Diphtheria",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-07-31"
+    },
+    {
+      "id": "ref-50d5fc4aa4a2",
+      "url": "https://www.cdc.gov/ringworm/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Ringworm",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-07-15"
+    },
+    {
+      "id": "ref-61a1348cc52e",
+      "url": "https://www.cdc.gov/ringworm/about/index.html",
+      "title": "Ringworm Basics",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-01-06"
+    },
+    {
+      "id": "ref-2c4259309acc",
+      "url": "https://www.cdc.gov/tb/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Tuberculosis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-01-06"
+    },
+    {
+      "id": "ref-581492bec1b3",
+      "url": "https://www.cdc.gov/mrsa/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Methicillin-resistant Staphylococcus aureus (MRSA)",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-06-27"
+    },
+    {
+      "id": "ref-04eb1c524934",
+      "url": "https://www.cdc.gov/candidiasis/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Invasive Candidiasis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-04-24"
+    },
+    {
+      "id": "ref-c604c45887d0",
+      "url": "https://www.cdc.gov/histoplasmosis/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Histoplasmosis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-04-24"
+    },
+    {
+      "id": "ref-17bd7ab12042",
+      "url": "https://www.cdc.gov/cryptococcosis/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Cryptococcosis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-04-24"
+    },
+    {
+      "id": "ref-4557c7e5e0a1",
+      "url": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+      "title": "DPDx — Giardiasis: quiste infectivo y diagnóstico fecal",
+      "issuer": "CDC",
+      "kind": "Atlas diagnóstico y ciclo biológico",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-59f55570175d",
+      "url": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+      "title": "DPDx — Amebiasis: la microscopía no siempre identifica la especie",
+      "issuer": "CDC",
+      "kind": "Atlas diagnóstico y ciclo biológico",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-6e58e24f77ec",
+      "url": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "title": "DPDx — Ascariasis: huevo embrionado y migración pulmonar",
+      "issuer": "CDC",
+      "kind": "Atlas diagnóstico y ciclo biológico",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-f8edb5bae3d9",
+      "url": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "title": "DPDx — Enterobiasis: el sitio de toma importa",
+      "issuer": "CDC",
+      "kind": "Atlas diagnóstico y ciclo biológico",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-ffb75e37213a",
+      "url": "https://www.cdc.gov/meningococcal/hcp/clinical-guidance/index.html",
+      "title": "Clinical Guidance for Meningococcal Disease",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "ref-2bee9e0c0dcf",
+      "url": "https://www.cdc.gov/cholera/about/index.html",
+      "title": "Cholera",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-05-29"
+    },
+    {
+      "id": "ref-c4f4cd194e93",
+      "url": "https://www.cdc.gov/cholera/hcp/case-definition/index.html",
+      "title": "Cholera case definition, diagnosis and reporting",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-02-07"
+    },
+    {
+      "id": "ref-29de11b207b1",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+      "title": "Herpes simplex virus",
+      "issuer": "OMS",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-05-30"
+    },
+    {
+      "id": "ref-857495c9c672",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+      "title": "STI Treatment Guidelines — Genital Herpes",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-3147d9c14968",
+      "url": "https://www.cdc.gov/hepatitis-b/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Hepatitis B",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2025-08-29"
+    },
+    {
+      "id": "ref-d28e95622cd6",
+      "url": "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html",
+      "title": "Clinical Testing and Diagnosis for Hepatitis B",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-08-14"
+    },
+    {
+      "id": "ref-f882160f78ef",
+      "url": "https://www.cdc.gov/covid/hcp/clinical-care/covid19-presentation.html",
+      "title": "Clinical Presentation of COVID-19",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-02-05"
+    },
+    {
+      "id": "ref-90fc83f93c28",
+      "url": "https://www.cdc.gov/covid/hcp/clinical-care/overview-testing-sars-cov-2.html",
+      "title": "Overview of Testing for SARS-CoV-2",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-08-29"
+    },
+    {
+      "id": "ref-0f6099eff126",
+      "url": "https://www.cdc.gov/covid/hcp/clinical-care/management-and-treatment.html",
+      "title": "COVID-19 Treatment Clinical Care",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2026-02-05"
+    },
+    {
+      "id": "ref-4a5fc005b672",
+      "url": "https://www.cdc.gov/aspergillosis/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Aspergillosis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-04-24"
+    },
+    {
+      "id": "ref-75c6009aed35",
+      "url": "https://www.cdc.gov/sporotrichosis/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Sporotrichosis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03",
+      "published": "2024-04-24"
+    },
+    {
+      "id": "ref-6e216865085c",
+      "url": "https://www.cdc.gov/dpdx/cyclosporiasis/index.html",
+      "title": "DPDx — Cyclosporiasis",
+      "issuer": "CDC",
+      "kind": "Atlas diagnóstico y ciclo biológico",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-22e958b58e9f",
+      "url": "https://www.cdc.gov/cyclosporiasis/hcp/clinical-care/index.html",
+      "title": "Clinical Care of Cyclosporiasis",
+      "issuer": "CDC",
+      "kind": "Guía clínica",
+      "consultedAt": "2026-10-03"
+    }
+  ],
+  "profiles": [
+    {
+      "scientificName": "Clostridium tetani",
+      "aliases": [
+        "Clostridium tetani"
+      ],
+      "category": "bacteria",
+      "subtitle": "Esporas ambientales, neurotoxina y diagnóstico clínico",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-a5d1431f1ea0",
+        "ref-8859ff0d6ee4"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Agente y patogenia",
+          "paragraphs": [
+            "Las esporas de C. tetani pueden germinar en condiciones anaerobias de una herida. La tetanospasmina interfiere con la neurotransmisión inhibitoria y produce contracciones y espasmos."
+          ],
+          "sourceIds": [
+            "ref-a5d1431f1ea0"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Formas de presentación",
+          "paragraphs": [
+            "El tétanos puede ser generalizado, localizado o cefálico; el neonatal pertenece a la forma generalizada. Trismo, rigidez y espasmos son claves clínicas. La incubación del generalizado suele estar entre 3 y 21 días."
+          ],
+          "sourceIds": [
+            "ref-a5d1431f1ea0"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Cómo se reconoce",
+          "paragraphs": [
+            "El diagnóstico se basa en la clínica y en excluir causas más probables. No hay una prueba de laboratorio capaz de confirmar o descartar por sí sola el tétanos."
+          ],
+          "sourceIds": [
+            "ref-a5d1431f1ea0"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios del manejo hospitalario",
+          "paragraphs": [
+            "Es una urgencia que requiere hospitalización. El manejo incluye inmunoglobulina antitetánica, cuidado de la herida, antibióticos, control de espasmos y soporte respiratorio según gravedad. La inmunoglobulina neutraliza toxina todavía no unida a terminaciones nerviosas; no revierte la ya fijada."
+          ],
+          "sourceIds": [
+            "ref-8859ff0d6ee4"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Puerta de entrada y protección",
+          "paragraphs": [
+            "Las esporas entran por lesiones de piel o por contaminación del muñón umbilical. La prevención combina vacunación y cuidado de heridas; la inmunoglobulina profiláctica depende de la herida y los antecedentes de vacunación."
+          ],
+          "sourceIds": [
+            "ref-a5d1431f1ea0"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Espora y bacteria vegetativa",
+          "paragraphs": [
+            "La espora es la forma ambiental resistente; la germinación en un sitio anaerobio permite la producción de toxina. El padecimiento no proporciona inmunidad protectora: se revisa la vacunación durante la recuperación."
+          ],
+          "sourceIds": [
+            "ref-a5d1431f1ea0",
+            "ref-8859ff0d6ee4"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Bordetella pertussis",
+      "aliases": [
+        "Bordetella pertussis"
+      ],
+      "category": "bacteria",
+      "subtitle": "Fases de la tos ferina y elección del momento diagnóstico",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-c18c8145129c",
+        "ref-840ec772087b"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Microbiología y virulencia",
+          "paragraphs": [
+            "B. pertussis es una bacteria Gram negativa exigente que requiere medios especiales para aislarse. Entre sus productos están la toxina pertussis, hemaglutinina filamentosa, pertactina y toxina citotraqueal."
+          ],
+          "sourceIds": [
+            "ref-c18c8145129c"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Fases clínicas",
+          "paragraphs": [
+            "La fase catarral se parece a una infección respiratoria leve; después aparecen paroxismos de tos. La convalecencia puede durar semanas o meses. Los lactantes tienen mayor riesgo de complicaciones graves."
+          ],
+          "sourceIds": [
+            "ref-c18c8145129c"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra y ventana de detección",
+          "paragraphs": [
+            "Se utiliza hisopado o aspirado nasofaríngeo. El cultivo es más útil en las primeras dos semanas desde el inicio de tos; la PCR, hasta las semanas 3–4. La serología tiene su mejor ventana entre las semanas 2–8 y su desempeño depende de la prueba."
+          ],
+          "sourceIds": [
+            "ref-c18c8145129c",
+            "ref-840ec772087b"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Interpretación",
+          "paragraphs": [
+            "El cultivo tiene elevada especificidad, pero menor sensibilidad que la PCR. Una PCR debe interpretarse con síntomas y exposición; las pruebas con varios blancos ayudan a distinguir especies de Bordetella."
+          ],
+          "sourceIds": [
+            "ref-840ec772087b"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Oportunidad del tratamiento",
+          "paragraphs": [
+            "El tratamiento temprano, idealmente antes de los paroxismos, tiene mayor beneficio clínico. La selección del antibiótico y la profilaxis de contactos se consultan en la guía enlazada y requieren valoración individual."
+          ],
+          "sourceIds": [
+            "ref-c18c8145129c"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Reservorio humano y prevención",
+          "paragraphs": [
+            "La transmisión ocurre entre personas por gotículas o secreciones respiratorias. La vacunación y la profilaxis de contactos seleccionados son herramientas de prevención; la inmunidad después de infección no es permanente."
+          ],
+          "sourceIds": [
+            "ref-c18c8145129c"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Borrelia burgdorferi",
+      "aliases": [
+        "Borrelia burgdorferi"
+      ],
+      "category": "bacteria",
+      "subtitle": "Eritema migratorio, exposición a garrapatas y serología",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-26ff90ef4f0f",
+        "ref-c3ab2ee36c30"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Agente y alcance",
+          "paragraphs": [
+            "B. burgdorferi es una bacteria transmitida por garrapatas infectadas. La evaluación incluye el lugar de exposición o viaje y las posibles enfermedades que imitan la presentación."
+          ],
+          "sourceIds": [
+            "ref-26ff90ef4f0f"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones para reconocer",
+          "paragraphs": [
+            "El eritema migratorio se expande progresivamente y no siempre tiene forma de diana. Pueden aparecer fiebre, cefalea y fatiga; las formas posteriores pueden involucrar articulaciones, corazón o sistema nervioso."
+          ],
+          "sourceIds": [
+            "ref-c3ab2ee36c30"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Serología en dos etapas",
+          "paragraphs": [
+            "El algoritmo utiliza dos pruebas en secuencia: un inmunoensayo inicial y una segunda prueba cuando la primera es positiva o indeterminada. Se emplean inmunoblot o dos inmunoensayos según el algoritmo validado."
+          ],
+          "sourceIds": [
+            "ref-26ff90ef4f0f"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Límites del resultado",
+          "paragraphs": [
+            "La serología puede ser negativa al inicio, durante las primeras 4–6 semanas. Los anticuerpos pueden persistir por meses o años y no sirven para demostrar curación. Existen reacciones cruzadas; una IgM aislada después de 30 días de síntomas no debe interpretarse como confirmación."
+          ],
+          "sourceIds": [
+            "ref-26ff90ef4f0f"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Contexto de exposición",
+          "paragraphs": [
+            "La fotografía de una lesión o garrapata no confirma infección. Registrar exposición, tiempo de evolución y diagnóstico diferencial antes de interpretar una prueba; esta referencia no demuestra transmisión autóctona en Guatemala."
+          ],
+          "sourceIds": [
+            "ref-26ff90ef4f0f"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Parvovirus B19",
+      "aliases": [
+        "Parvovirus B19"
+      ],
+      "category": "virus",
+      "subtitle": "Eritema infeccioso, artralgias y riesgo hematológico",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-7e1f5a852837"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Enfermedad asociada",
+          "paragraphs": [
+            "El parvovirus B19 causa eritema infeccioso o quinta enfermedad. Muchas infecciones son leves o pasan inadvertidas."
+          ],
+          "sourceIds": [
+            "ref-7e1f5a852837"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Presentación por edad",
+          "paragraphs": [
+            "En niños puede aparecer eritema de mejillas seguido de un exantema corporal reticulado. En adultos pueden predominar dolor e inflamación articular incluso sin exantema."
+          ],
+          "sourceIds": [
+            "ref-7e1f5a852837"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Situaciones de mayor riesgo",
+          "paragraphs": [
+            "Los trastornos hemolíticos y la inmunosupresión aumentan el riesgo de anemia importante. En el embarazo puede haber transmisión fetal y complicaciones; los hallazgos requieren evaluación específica."
+          ],
+          "sourceIds": [
+            "ref-7e1f5a852837"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Estudio de sangre",
+          "paragraphs": [
+            "En circunstancias seleccionadas, los anticuerpos en sangre ayudan a evaluar exposición reciente, susceptibilidad o inmunidad. La indicación y la interpretación dependen del contexto clínico."
+          ],
+          "sourceIds": [
+            "ref-7e1f5a852837"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Manejo por gravedad",
+          "paragraphs": [
+            "El manejo habitual es sintomático. Si hay anemia grave pueden requerirse medidas de soporte, productos sanguíneos y otras terapias especializadas."
+          ],
+          "sourceIds": [
+            "ref-7e1f5a852837"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Varicella-zoster virus",
+      "aliases": [
+        "Varicella-zoster virus",
+        "Virus de la varicela",
+        "VVZ",
+        "VZV"
+      ],
+      "category": "virus",
+      "subtitle": "Primoinfección, latencia y reactivación",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-5f7d9425c71f"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Biología del virus",
+          "paragraphs": [
+            "VZV es un virus de ADN del grupo herpesvirus. La primoinfección produce varicela; después persiste latente en ganglios sensitivos. La reactivación origina herpes zóster."
+          ],
+          "sourceIds": [
+            "ref-5f7d9425c71f"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Varicela y grupos vulnerables",
+          "paragraphs": [
+            "En personas no vacunadas las lesiones pasan de máculas a pápulas, vesículas y costras. La sobreinfección bacteriana cutánea y la neumonía son complicaciones importantes. Embarazo, inmunosupresión y ciertos recién nacidos aumentan el riesgo."
+          ],
+          "sourceIds": [
+            "ref-5f7d9425c71f"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Confirmación etiológica",
+          "paragraphs": [
+            "La PCR es la prueba más útil para confirmar VZV. Debe distinguirse el diagnóstico de infección actual de una prueba serológica de inmunidad; los ensayos comerciales pueden no detectar todos los anticuerpos posvacunales."
+          ],
+          "sourceIds": [
+            "ref-5f7d9425c71f"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y control",
+          "paragraphs": [
+            "Se transmite por contacto con lesiones o inhalación de partículas infecciosas. La contagiosidad puede comenzar antes del exantema y persiste hasta la formación de costras. La vacuna y las precauciones hospitalarias reducen transmisión."
+          ],
+          "sourceIds": [
+            "ref-5f7d9425c71f"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Latencia y zóster",
+          "paragraphs": [
+            "La varicela y el zóster corresponden a etapas distintas de infección por el mismo virus. Estudiar cada fotografía según la presentación documentada; no confundir lesiones de reactivación con primoinfección."
+          ],
+          "sourceIds": [
+            "ref-5f7d9425c71f"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Treponema pallidum",
+      "aliases": [
+        "Treponema pallidum"
+      ],
+      "category": "bacteria",
+      "subtitle": "Estadios de sífilis y combinación de pruebas",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-62cab8909107",
+        "ref-e85e564365c5"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Infección sistémica",
+          "paragraphs": [
+            "T. pallidum causa sífilis. Se distinguen estadios primario, secundario, latente y terciario; el estadio orienta tratamiento y seguimiento."
+          ],
+          "sourceIds": [
+            "ref-62cab8909107"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones por estadio",
+          "paragraphs": [
+            "El chancro primario suele ser indoloro, pero puede ser doloroso, múltiple o atípico. La sífilis secundaria puede causar exantema, lesiones mucosas y adenopatías. La latencia carece de manifestaciones visibles."
+          ],
+          "sourceIds": [
+            "ref-62cab8909107"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Afectación neurológica, ocular y auditiva",
+          "paragraphs": [
+            "Neurosífilis, sífilis ocular y otosífilis pueden aparecer en cualquier estadio. La afectación ocular o auditiva puede ocasionar secuelas permanentes."
+          ],
+          "sourceIds": [
+            "ref-62cab8909107"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Pruebas complementarias",
+          "paragraphs": [
+            "El diagnóstico serológico requiere combinar una prueba no treponémica, como RPR o VDRL, con una treponémica. Un solo tipo de prueba es insuficiente; los títulos no treponémicos se utilizan para seguimiento."
+          ],
+          "sourceIds": [
+            "ref-62cab8909107"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y embarazo",
+          "paragraphs": [
+            "La infección se transmite por contacto directo con lesiones infecciosas y puede transmitirse durante el embarazo. El control incluye pruebas oportunas, tratamiento y evaluación de parejas según la guía."
+          ],
+          "sourceIds": [
+            "ref-e85e564365c5"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Tratamiento según estadio",
+          "paragraphs": [
+            "La penicilina G parenteral es el tratamiento preferido. La preparación, duración y evaluación neurológica dependen del estadio y contexto; la infección durante el embarazo requiere manejo específico con penicilina."
+          ],
+          "sourceIds": [
+            "ref-62cab8909107"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Rubella virus",
+      "aliases": [
+        "Rubella virus",
+        "Virus de la rubéola",
+        "Rubivirus rubellae"
+      ],
+      "category": "virus",
+      "subtitle": "Rubéola adquirida y síndrome congénito",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-98bae5a88ad5"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Clasificación y reservorio",
+          "paragraphs": [
+            "Virus envuelto de ARN de sentido positivo del género Rubivirus y familia Matonaviridae. Los seres humanos son su hospedero natural."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Rubéola adquirida",
+          "paragraphs": [
+            "Puede producir fiebre leve, exantema maculopapular y adenopatías retroauriculares o suboccipitales. Muchas infecciones son asintomáticas; el exantema no permite establecer un diagnóstico confiable."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Embarazo y enfermedad congénita",
+          "paragraphs": [
+            "La infección puede ocasionar complicaciones fetales. La tríada congénita de la tarjeta clínica corresponde a esa forma y debe distinguirse de la rubéola adquirida."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestras de referencia",
+          "paragraphs": [
+            "Se utilizan muestras nasofaríngeas, faríngeas u orina para detección molecular y sangre para serología. Los resultados se interpretan según exposición y momento de toma."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Control",
+          "paragraphs": [
+            "Se transmite por secreciones nasofaríngeas. La prevención se basa en vacunas con componente contra rubéola y evaluación rápida de casos sospechosos; el esquema aplicable en Guatemala se contrasta con MSPAS."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Measles virus",
+      "aliases": [
+        "Measles virus",
+        "Virus del sarampión",
+        "Morbillivirus hominis"
+      ],
+      "category": "virus",
+      "subtitle": "Pródromo respiratorio, Koplik y confirmación de laboratorio",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-39ea9dd65a6f"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Agente y reservorio",
+          "paragraphs": [
+            "Virus envuelto de ARN del género Morbillivirus, familia Paramyxoviridae. El ser humano es su hospedero natural."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Secuencia clínica",
+          "paragraphs": [
+            "El pródromo combina fiebre, tos, coriza y conjuntivitis; pueden aparecer manchas de Koplik. Después surge un exantema maculopapular que se extiende desde la cabeza hacia tronco y extremidades."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Complicaciones",
+          "paragraphs": [
+            "Puede causar otitis, diarrea, neumonía y encefalitis. La panencefalitis esclerosante subaguda es una complicación tardía poco frecuente."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestras y confirmación",
+          "paragraphs": [
+            "La confirmación se apoya en detección molecular y serología. Se recomienda obtener una muestra respiratoria u orina y sangre ante clínica compatible, coordinando el estudio con salud pública."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión aérea",
+          "paragraphs": [
+            "La persona puede contagiar desde cuatro días antes hasta cuatro días después del inicio del exantema. La vacunación, el aislamiento y las precauciones aéreas son medidas de control."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Corynebacterium diphtheriae",
+      "aliases": [
+        "Corynebacterium diphtheriae"
+      ],
+      "category": "bacteria",
+      "subtitle": "Distinguir identificación bacteriana y producción de toxina",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-01e6ebd34286"
+      ],
+      "sections": [
+        {
+          "section": "clinical",
+          "title": "Cuadros respiratorio y cutáneo",
+          "paragraphs": [
+            "La sospecha clínica exige actuación rápida. En la forma respiratoria deben vigilarse la vía aérea y las complicaciones cardíacas y neurológicas."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Aislamiento y toxigenicidad",
+          "paragraphs": [
+            "Se cultiva el sitio afectado, por ejemplo faringe o lesión cutánea, preferentemente antes del antibiótico. Identificar C. diphtheriae no basta: debe evaluarse si la cepa produce toxina."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de tratamiento",
+          "paragraphs": [
+            "La difteria respiratoria requiere antitoxina y antibióticos. Para la forma cutánea suelen bastar antibióticos. La guía menciona eritromicina o penicilina y advierte considerar resistencia regional."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Precauciones y contactos",
+          "paragraphs": [
+            "Se emplean precauciones de gotículas para enfermedad respiratoria y de contacto para cutánea. Es necesario evaluar contactos y comprobar eliminación bacteriana según el protocolo de salud pública."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Inmunidad después de infección",
+          "paragraphs": [
+            "La enfermedad no garantiza inmunidad. Durante la recuperación se revisa y completa la vacunación correspondiente."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Trichophyton rubrum / T. mentagrophytes",
+      "aliases": [
+        "Trichophyton rubrum",
+        "Trichophyton mentagrophytes"
+      ],
+      "category": "hongo",
+      "subtitle": "Dermatofitosis: localización clínica y confirmación de especie",
+      "scope": "Referencia general de dermatofitosis compartida por dos fichas. No atribuye una imagen ni un resultado de especie al otro dermatofito.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-50d5fc4aa4a2",
+        "ref-61a1348cc52e"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Alcance de esta síntesis",
+          "paragraphs": [
+            "Los dermatofitos causan infección de piel, pelo o uñas. Esta síntesis comparte criterios de dermatofitosis; la galería conserva la especie exacta atribuida en cada registro original."
+          ],
+          "sourceIds": [
+            "ref-50d5fc4aa4a2"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Nombres por localización",
+          "paragraphs": [
+            "Tinea corporis afecta piel corporal; tinea pedis, pies; tinea cruris, ingles; tinea capitis, cuero cabelludo. Onicomicosis describe infección fúngica ungueal, que también puede tener causas distintas de los dermatofitos."
+          ],
+          "sourceIds": [
+            "ref-50d5fc4aa4a2"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra e interpretación",
+          "paragraphs": [
+            "Se obtienen raspados cutáneos o muestras ungueales según la lesión. Se recomienda confirmar la infección porque puede confundirse con eccema o psoriasis. La apariencia clínica por sí sola no determina la especie."
+          ],
+          "sourceIds": [
+            "ref-50d5fc4aa4a2",
+            "ref-61a1348cc52e"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Evitar manejo basado solo en apariencia",
+          "paragraphs": [
+            "El tratamiento depende de localización y pruebas. Los corticoides tópicos pueden empeorar una tiña. La sospecha de resistencia necesita pruebas y orientación especializada."
+          ],
+          "sourceIds": [
+            "ref-50d5fc4aa4a2"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión",
+          "paragraphs": [
+            "Contacto con personas, animales o superficies contaminadas; también objetos compartidos. Mantener la piel seca, evitar compartir artículos personales y usar calzado protector en duchas comunes reduce exposición."
+          ],
+          "sourceIds": [
+            "ref-61a1348cc52e"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Mycobacterium tuberculosis",
+      "aliases": [
+        "Mycobacterium tuberculosis"
+      ],
+      "category": "bacteria",
+      "subtitle": "Separar infección tuberculosa y enfermedad activa",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-2c4259309acc"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Infección y enfermedad",
+          "paragraphs": [
+            "La infección tuberculosa puede permanecer sin síntomas y sin contagio. La enfermedad activa puede afectar pulmón u otros órganos; no son situaciones equivalentes."
+          ],
+          "sourceIds": [
+            "ref-2c4259309acc"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones",
+          "paragraphs": [
+            "Tos persistente, dolor torácico, hemoptisis, fiebre, pérdida de peso y sudoración nocturna orientan a tuberculosis pulmonar. La presentación extrapulmonar depende del órgano afectado."
+          ],
+          "sourceIds": [
+            "ref-2c4259309acc"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Qué demuestra cada prueba",
+          "paragraphs": [
+            "IGRA y prueba cutánea identifican infección; no excluyen por sí solas enfermedad activa. La evaluación integra clínica, radiografía y muestras respiratorias con baciloscopía, pruebas moleculares, cultivo y susceptibilidad."
+          ],
+          "sourceIds": [
+            "ref-2c4259309acc"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Tratamiento combinado",
+          "paragraphs": [
+            "El régimen depende de susceptibilidad, localización y características del paciente. Requiere combinación de fármacos y seguimiento del programa de tuberculosis; no se selecciona un esquema únicamente por una imagen."
+          ],
+          "sourceIds": [
+            "ref-2c4259309acc"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión aérea",
+          "paragraphs": [
+            "La enfermedad pulmonar o laríngea puede transmitir partículas por el aire. La detección, el tratamiento y las precauciones aéreas interrumpen la transmisión."
+          ],
+          "sourceIds": [
+            "ref-2c4259309acc"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Staphylococcus aureus",
+      "aliases": [
+        "Staphylococcus aureus"
+      ],
+      "category": "bacteria",
+      "subtitle": "Colonización, infección y resistencia son conceptos distintos",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-581492bec1b3"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Alcance de la referencia",
+          "paragraphs": [
+            "S. aureus puede colonizar piel y nariz sin producir enfermedad. MRSA designa cepas resistentes a meticilina: esta síntesis no atribuye esa resistencia a todo S. aureus."
+          ],
+          "sourceIds": [
+            "ref-581492bec1b3"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Infección localizada o invasiva",
+          "paragraphs": [
+            "Puede producir abscesos y otras infecciones cutáneas purulentas; las formas invasivas incluyen bacteriemia, neumonía e infección quirúrgica."
+          ],
+          "sourceIds": [
+            "ref-581492bec1b3"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Resistencia requiere laboratorio",
+          "paragraphs": [
+            "La apariencia de una lesión no identifica MRSA. La confirmación y selección del antibiótico necesitan pruebas de laboratorio e interpretación de susceptibilidad."
+          ],
+          "sourceIds": [
+            "ref-581492bec1b3"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Control del foco",
+          "paragraphs": [
+            "El drenaje puede ser fundamental en abscesos. La necesidad y elección de antibióticos dependen de gravedad, sitio y resultados de susceptibilidad."
+          ],
+          "sourceIds": [
+            "ref-581492bec1b3"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Contacto y heridas",
+          "paragraphs": [
+            "Cubrir heridas, higiene de manos y evitar compartir objetos contaminados ayuda a reducir la transmisión por contacto. Las tasas de la fuente estadounidense no se trasladan a Guatemala."
+          ],
+          "sourceIds": [
+            "ref-581492bec1b3"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Candida albicans",
+      "aliases": [
+        "Candida albicans"
+      ],
+      "category": "hongo",
+      "subtitle": "Distinguir colonización mucosa e infección invasiva",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-04eb1c524934"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Especie y contexto",
+          "paragraphs": [
+            "Candida puede formar parte de la microbiota gastrointestinal y cutánea. C. albicans es una de las especies causantes de candidiasis; un aislamiento no equivale automáticamente a infección invasiva."
+          ],
+          "sourceIds": [
+            "ref-04eb1c524934"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Enfermedad invasiva",
+          "paragraphs": [
+            "La candidemia puede manifestarse con fiebre y escalofríos. El riesgo aumenta cuando se alteran barreras, se utilizan dispositivos o existen condiciones predisponentes."
+          ],
+          "sourceIds": [
+            "ref-04eb1c524934"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Sangre y pruebas complementarias",
+          "paragraphs": [
+            "El cultivo de sangre y la identificación de especie orientan el diagnóstico invasivo. El β-D-glucano es complementario y no específico de Candida; necesita interpretación clínica."
+          ],
+          "sourceIds": [
+            "ref-04eb1c524934"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Manejo según forma y susceptibilidad",
+          "paragraphs": [
+            "Una equinocandina suele ser tratamiento inicial del adulto con candidiasis invasiva. Fluconazol puede corresponder a situaciones seleccionadas. Estas recomendaciones no equivalen al manejo de candidiasis superficial ni neonatal."
+          ],
+          "sourceIds": [
+            "ref-04eb1c524934"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Dispositivos y barreras",
+          "paragraphs": [
+            "El cuidado de catéteres, higiene de manos y uso prudente de antimicrobianos son medidas de prevención hospitalaria."
+          ],
+          "sourceIds": [
+            "ref-04eb1c524934"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Histoplasma capsulatum",
+      "aliases": [
+        "Histoplasma capsulatum"
+      ],
+      "category": "hongo",
+      "subtitle": "Exposición ambiental, antígeno e infección diseminada",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-c604c45887d0"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Exposición",
+          "paragraphs": [
+            "La infección comienza por inhalación de formas ambientales del hongo al perturbar suelo relacionado con excrementos de aves o murciélagos."
+          ],
+          "sourceIds": [
+            "ref-c604c45887d0"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Del pulmón a la diseminación",
+          "paragraphs": [
+            "Puede producir enfermedad pulmonar aguda o crónica. Las formas diseminadas son especialmente relevantes en personas inmunodeprimidas."
+          ],
+          "sourceIds": [
+            "ref-c604c45887d0"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Elegir método y muestra",
+          "paragraphs": [
+            "El antígeno en orina o suero es útil. Los anticuerpos pueden tardar semanas y ser menos sensibles con inmunosupresión. El cultivo puede demorar hasta seis semanas; la microscopía tiene sensibilidad limitada."
+          ],
+          "sourceIds": [
+            "ref-c604c45887d0"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Gravedad determina el manejo",
+          "paragraphs": [
+            "Algunos cuadros leves se resuelven sin tratamiento. Itraconazol o anfotericina B se utilizan según gravedad, diseminación y compromiso del sistema nervioso central."
+          ],
+          "sourceIds": [
+            "ref-c604c45887d0"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Reducir exposición",
+          "paragraphs": [
+            "Debe evaluarse el riesgo de actividades que remueven suelo contaminado. La distribución regional no demuestra incidencia ni prevalencia en un departamento guatemalteco."
+          ],
+          "sourceIds": [
+            "ref-c604c45887d0"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Cryptococcus neoformans",
+      "aliases": [
+        "Cryptococcus neoformans"
+      ],
+      "category": "hongo",
+      "subtitle": "Pulmón, sistema nervioso y antígeno criptocócico",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-17bd7ab12042"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Fuente ambiental",
+          "paragraphs": [
+            "C. neoformans se relaciona con suelo, madera y excrementos de aves. La exposición ocurre por inhalación; C. gattii es otra especie y no debe confundirse con esta ficha."
+          ],
+          "sourceIds": [
+            "ref-17bd7ab12042"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Presentación",
+          "paragraphs": [
+            "Puede afectar pulmón y sistema nervioso central. Cefalea, alteración del estado mental, rigidez de cuello o fotofobia requieren evaluación de meningitis; la inmunosupresión aumenta el riesgo."
+          ],
+          "sourceIds": [
+            "ref-17bd7ab12042"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestras y pruebas",
+          "paragraphs": [
+            "El antígeno criptocócico se estudia en suero, plasma o líquido cefalorraquídeo. El cultivo permite confirmación. La tinta china proporciona una observación rápida, pero no sustituye el conjunto de pruebas."
+          ],
+          "sourceIds": [
+            "ref-17bd7ab12042"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Sitio y gravedad",
+          "paragraphs": [
+            "Los cuadros graves o del sistema nervioso suelen requerir anfotericina B y flucitosina, seguidas de fluconazol. El manejo pulmonar leve es diferente y debe individualizarse."
+          ],
+          "sourceIds": [
+            "ref-17bd7ab12042"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Giardia lamblia",
+      "aliases": [
+        "Giardia lamblia",
+        "Giardia duodenalis",
+        "Giardia intestinalis"
+      ],
+      "category": "parasito",
+      "subtitle": "Giardiasis: quiste infectivo y diagnóstico fecal",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-4557c7e5e0a1"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Nombre y morfología",
+          "paragraphs": [
+            "Giardia duodenalis también se conoce como G. lamblia o G. intestinalis. El trofozoíto presenta dos núcleos, flagelos y disco ventral; el quiste maduro tiene cuatro núcleos."
+          ],
+          "sourceIds": [
+            "ref-4557c7e5e0a1"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones",
+          "paragraphs": [
+            "La infección puede ser asintomática o causar diarrea, distensión, dolor abdominal y náuseas. La infección crónica puede producir malabsorción."
+          ],
+          "sourceIds": [
+            "ref-4557c7e5e0a1"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra y sensibilidad",
+          "paragraphs": [
+            "Se investigan quistes o trofozoítos en heces mediante microscopía; también existen detección de antígeno e inmunofluorescencia. Puede ser necesario repetir muestras por eliminación variable."
+          ],
+          "sourceIds": [
+            "ref-4557c7e5e0a1"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios con nombre",
+          "paragraphs": [
+            "Forma infectiva: quiste ingerido. Formas diagnósticas: quistes y trofozoítos en heces. La excistación libera trofozoítos que se multiplican en intestino delgado; la enquistación permite salida fecal."
+          ],
+          "sourceIds": [
+            "ref-4557c7e5e0a1"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión",
+          "paragraphs": [
+            "La ingestión fecal-oral de quistes en agua, alimentos o manos permite la infección. Los quistes son resistentes y pueden ser infectivos al eliminarse."
+          ],
+          "sourceIds": [
+            "ref-4557c7e5e0a1"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Entamoeba histolytica",
+      "aliases": [
+        "Entamoeba histolytica"
+      ],
+      "category": "parasito",
+      "subtitle": "Amebiasis: la microscopía no siempre identifica la especie",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-59f55570175d"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Especies que se parecen",
+          "paragraphs": [
+            "E. histolytica es patógena. E. dispar y otras especies pueden tener morfología semejante: no se distingue con certeza la especie por una imagen aislada."
+          ],
+          "sourceIds": [
+            "ref-59f55570175d"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Invasión intestinal y extraintestinal",
+          "paragraphs": [
+            "Puede causar colitis y disentería; el absceso hepático es una presentación extraintestinal importante."
+          ],
+          "sourceIds": [
+            "ref-59f55570175d"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Confirmación e interpretación",
+          "paragraphs": [
+            "La PCR permite distinguir especies. Microscopía y pruebas de antígeno se interpretan con el contexto. La eritrofagocitosis no es un criterio absolutamente específico; la serología puede reflejar exposición previa."
+          ],
+          "sourceIds": [
+            "ref-59f55570175d"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios con nombre",
+          "paragraphs": [
+            "Forma infectiva: quiste maduro ingerido. Formas diagnósticas: quistes y trofozoítos en heces. Tras excistación, los trofozoítos colonizan intestino grueso y algunos invaden tejidos."
+          ],
+          "sourceIds": [
+            "ref-59f55570175d"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Ruta fecal-oral",
+          "paragraphs": [
+            "Agua, alimentos o manos contaminadas transmiten quistes; también puede existir exposición fecal durante contacto sexual."
+          ],
+          "sourceIds": [
+            "ref-59f55570175d"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Ascaris lumbricoides",
+      "aliases": [
+        "Ascaris lumbricoides"
+      ],
+      "category": "parasito",
+      "subtitle": "Ascariasis: huevo embrionado y migración pulmonar",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-6e58e24f77ec"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Reconocer el huevo",
+          "paragraphs": [
+            "El huevo fecundado tiene pared gruesa y cubierta mamelonada, aunque puede estar decorticado. El huevo no fecundado es más alargado y no es infectivo."
+          ],
+          "sourceIds": [
+            "ref-6e58e24f77ec"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Carga y localización",
+          "paragraphs": [
+            "Las infecciones leves pueden ser asintomáticas. Cargas elevadas pueden causar obstrucción intestinal; la migración de adultos puede afectar vía biliar. La fase larvaria incluye paso pulmonar."
+          ],
+          "sourceIds": [
+            "ref-6e58e24f77ec"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra fecal",
+          "paragraphs": [
+            "La búsqueda microscópica de huevos en heces es el método habitual. La concentración mejora recuperación; técnicas como Kato-Katz permiten cuantificación en contextos definidos."
+          ],
+          "sourceIds": [
+            "ref-6e58e24f77ec"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios con nombre",
+          "paragraphs": [
+            "Forma infectiva: huevo fecundado embrionado con larva. Forma diagnóstica: huevo en heces. La larva atraviesa intestino, migra por sangre hacia pulmones, asciende y se deglute; el adulto vive en intestino delgado."
+          ],
+          "sourceIds": [
+            "ref-6e58e24f77ec"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Maduración ambiental",
+          "paragraphs": [
+            "Los huevos necesitan días o semanas en el ambiente para ser infectivos. La eliminación fecal de huevos no implica contagio inmediato por contacto casual."
+          ],
+          "sourceIds": [
+            "ref-6e58e24f77ec"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Enterobius vermicularis",
+      "aliases": [
+        "Enterobius vermicularis"
+      ],
+      "category": "parasito",
+      "subtitle": "Enterobiasis: el sitio de toma importa",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-f8edb5bae3d9"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Oxiuro",
+          "paragraphs": [
+            "Es un nematodo humano. Sus huevos son transparentes, alargados y aplanados de un lado; la hembra migra de noche hacia la región perianal."
+          ],
+          "sourceIds": [
+            "ref-f8edb5bae3d9"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestación característica",
+          "paragraphs": [
+            "El prurito perianal nocturno es característico. El rascado puede causar excoriaciones y sobreinfección; ocasionalmente aparece compromiso vulvovaginal."
+          ],
+          "sourceIds": [
+            "ref-f8edb5bae3d9"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Cinta adhesiva perianal",
+          "paragraphs": [
+            "La muestra se obtiene por la mañana antes de lavado o defecación. Buscar huevos en heces es menos útil que la toma perianal dirigida."
+          ],
+          "sourceIds": [
+            "ref-f8edb5bae3d9"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios con nombre",
+          "paragraphs": [
+            "Forma infectiva: huevo embrionado ingerido. Forma diagnóstica: huevo en región perianal; también pueden observarse adultos. Los huevos pueden hacerse infectivos en cuatro a seis horas, favoreciendo autoinoculación y transmisión por objetos."
+          ],
+          "sourceIds": [
+            "ref-f8edb5bae3d9"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Manos y ropa de cama",
+          "paragraphs": [
+            "La higiene de manos y el control de contaminación de ropa y superficies interrumpen la ingestión de huevos."
+          ],
+          "sourceIds": [
+            "ref-f8edb5bae3d9"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Neisseria meningitidis",
+      "aliases": [
+        "Neisseria meningitidis"
+      ],
+      "category": "bacteria",
+      "subtitle": "Meningitis y septicemia: reconocer urgencia y confirmar",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-ffb75e37213a"
+      ],
+      "sections": [
+        {
+          "section": "clinical",
+          "title": "Presentación invasiva",
+          "paragraphs": [
+            "Puede producir meningitis o septicemia, con fiebre, cefalea y rigidez de cuello; la sepsis puede presentarse sin meningitis. Los lactantes pueden tener una presentación diferente."
+          ],
+          "sourceIds": [
+            "ref-ffb75e37213a"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Confirmación",
+          "paragraphs": [
+            "El cultivo y la detección molecular permiten investigar enfermedad meningocócica e identificar serogrupo. La sospecha clínica exige actuar con rapidez."
+          ],
+          "sourceIds": [
+            "ref-ffb75e37213a"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Tratamiento inicial",
+          "paragraphs": [
+            "El manejo empírico incluye una cefalosporina de espectro amplio como ceftriaxona o cefotaxima. Penicilina o ampicilina requieren susceptibilidad demostrada; no se asume sensibilidad."
+          ],
+          "sourceIds": [
+            "ref-ffb75e37213a"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Seguimiento y prevención",
+          "paragraphs": [
+            "La evaluación de contactos y vacunación dependen del contexto. Las recomendaciones del CDC requieren adaptación a protocolos locales; esta ficha no confirma un brote en Guatemala."
+          ],
+          "sourceIds": [
+            "ref-ffb75e37213a"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Vibrio cholerae",
+      "aliases": [
+        "Vibrio cholerae"
+      ],
+      "category": "bacteria",
+      "subtitle": "Diarrea acuosa y rehidratación: no esperar confirmación para actuar",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-2bee9e0c0dcf",
+        "ref-c4f4cd194e93"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Agente intestinal",
+          "paragraphs": [
+            "V. cholerae causa cólera tras ingestión de agua o alimentos contaminados. Los serogrupos O1 y O139 y la toxigenicidad son relevantes para confirmar cólera epidémico."
+          ],
+          "sourceIds": [
+            "ref-2bee9e0c0dcf",
+            "ref-c4f4cd194e93"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones",
+          "paragraphs": [
+            "Muchas infecciones son leves o asintomáticas. La diarrea acuosa intensa, vómitos y calambres pueden acompañarse de deshidratación rápida y choque."
+          ],
+          "sourceIds": [
+            "ref-2bee9e0c0dcf"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Heces y confirmación",
+          "paragraphs": [
+            "El cultivo de heces o PCR permiten confirmar. Las pruebas rápidas pueden apoyar una alerta temprana, pero requieren confirmación. La necesidad de evaluar toxigenicidad depende del contexto epidemiológico."
+          ],
+          "sourceIds": [
+            "ref-c4f4cd194e93"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Prioridad inmediata",
+          "paragraphs": [
+            "Reponer líquidos es esencial y no debe retrasarse por esperar pruebas. El manejo puede incluir antibióticos y zinc en niños según evaluación clínica."
+          ],
+          "sourceIds": [
+            "ref-2bee9e0c0dcf",
+            "ref-c4f4cd194e93"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Agua y saneamiento",
+          "paragraphs": [
+            "Agua segura, higiene y saneamiento reducen exposición. Los mariscos crudos pueden ser una fuente; el contacto casual no es la vía habitual."
+          ],
+          "sourceIds": [
+            "ref-2bee9e0c0dcf"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Herpes simplex virus 1",
+      "aliases": [
+        "Herpes simplex virus 1",
+        "HSV-1",
+        "Virus herpes simple tipo 1"
+      ],
+      "category": "virus",
+      "subtitle": "Herpes oral y genital: localización y tipo viral",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-29de11b207b1",
+        "ref-857495c9c672"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Tipo y latencia",
+          "paragraphs": [
+            "HSV-1 suele causar herpes oral, pero también puede producir herpes genital. Persiste en estado latente y puede reactivarse."
+          ],
+          "sourceIds": [
+            "ref-29de11b207b1"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Lesiones y situaciones especiales",
+          "paragraphs": [
+            "Vesículas o úlceras dolorosas pueden acompañarse de ardor u hormigueo previo; también puede haber infección sin síntomas. El compromiso ocular, encefalitis y herpes neonatal requieren evaluación específica."
+          ],
+          "sourceIds": [
+            "ref-29de11b207b1"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra de lesión",
+          "paragraphs": [
+            "En lesiones genitales, NAAT o cultivo con tipificación permiten distinguir HSV-1 y HSV-2. Un resultado negativo en una lesión antigua no excluye infección. La serología HSV-1 no localiza el sitio de infección; IgM no se recomienda."
+          ],
+          "sourceIds": [
+            "ref-857495c9c672"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Control de episodios",
+          "paragraphs": [
+            "Aciclovir, valaciclovir o famciclovir reducen síntomas y recurrencias, pero no eliminan la latencia. La decisión de supresión depende de presentación y recurrencias."
+          ],
+          "sourceIds": [
+            "ref-29de11b207b1",
+            "ref-857495c9c672"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión",
+          "paragraphs": [
+            "El contacto oral o sexual puede transmitir incluso sin lesiones. Evitar contacto durante lesiones reduce riesgo; el preservativo no elimina toda exposición cutánea."
+          ],
+          "sourceIds": [
+            "ref-29de11b207b1"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Hepatitis B virus",
+      "aliases": [
+        "Hepatitis B virus",
+        "HBV",
+        "Virus de la hepatitis B"
+      ],
+      "category": "virus",
+      "subtitle": "Interpretar el panel serológico sin confundir infección e inmunidad",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-3147d9c14968",
+        "ref-d28e95622cd6"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Virus y órgano",
+          "paragraphs": [
+            "HBV es un virus envuelto con ADN parcialmente bicatenario de la familia Hepadnaviridae. Se replica en el hígado y puede producir infección aguda o crónica."
+          ],
+          "sourceIds": [
+            "ref-3147d9c14968"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Infección silenciosa y evolución",
+          "paragraphs": [
+            "La infección puede ser asintomática. La infección crónica puede evolucionar a enfermedad hepática grave y cáncer; el diagnóstico no depende de observar ictericia."
+          ],
+          "sourceIds": [
+            "ref-3147d9c14968",
+            "ref-d28e95622cd6"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Panel inicial en sangre",
+          "paragraphs": [
+            "El panel combina HBsAg, anti-HBs y anti-HBc total. HBsAg orienta a infección actual; anti-HBs puede indicar inmunidad; anti-HBc indica infección previa o actual y no aparece por vacunación sola."
+          ],
+          "sourceIds": [
+            "ref-d28e95622cd6"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "IgM y resultados discordantes",
+          "paragraphs": [
+            "IgM anti-HBc apoya infección reciente, pero también puede aparecer en reactivación. Un anti-HBc aislado tiene varias interpretaciones; no se etiqueta automáticamente como infección aguda."
+          ],
+          "sourceIds": [
+            "ref-d28e95622cd6"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Evaluación y seguimiento",
+          "paragraphs": [
+            "La infección confirmada requiere evaluación clínica, seguimiento y selección individual del manejo. Los resultados serológicos deben interpretarse en conjunto."
+          ],
+          "sourceIds": [
+            "ref-d28e95622cd6"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Sangre y prevención perinatal",
+          "paragraphs": [
+            "Se transmite por exposición a sangre, contacto sexual y durante el nacimiento. La vacunación y prevención de exposición son medidas centrales; el esquema local se contrasta con MSPAS."
+          ],
+          "sourceIds": [
+            "ref-3147d9c14968"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "SARS-CoV-2",
+      "aliases": [
+        "SARS-CoV-2",
+        "Severe acute respiratory syndrome coronavirus 2"
+      ],
+      "category": "virus",
+      "subtitle": "Prueba viral, gravedad y momento clínico",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-f882160f78ef",
+        "ref-90fc83f93c28",
+        "ref-0f6099eff126"
+      ],
+      "sections": [
+        {
+          "section": "clinical",
+          "title": "Espectro clínico",
+          "paragraphs": [
+            "La infección puede ser asintomática o evolucionar a enfermedad crítica. Edad, inmunosupresión y otras condiciones modifican el riesgo de progresión."
+          ],
+          "sourceIds": [
+            "ref-f882160f78ef"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra y método",
+          "paragraphs": [
+            "Las pruebas moleculares detectan ARN y las pruebas de antígeno detectan proteínas virales. La serología no se utiliza para diagnosticar infección aguda."
+          ],
+          "sourceIds": [
+            "ref-f882160f78ef",
+            "ref-90fc83f93c28"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Interpretar un resultado",
+          "paragraphs": [
+            "Una prueba de antígeno negativa no excluye infección y puede necesitar repetición o NAAT. El ARN puede persistir después del episodio: positividad molecular no demuestra por sí sola contagiosidad actual."
+          ],
+          "sourceIds": [
+            "ref-90fc83f93c28"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Seleccionar por riesgo",
+          "paragraphs": [
+            "El manejo depende de gravedad, riesgo de progresión y tiempo desde inicio. La valoración determina si corresponde tratamiento específico y comprueba contraindicaciones e interacciones."
+          ],
+          "sourceIds": [
+            "ref-0f6099eff126"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Antes de los síntomas",
+          "paragraphs": [
+            "Puede haber transmisión antes de aparecer síntomas. La vacunación y medidas de prevención respiratoria se revisan según recomendaciones vigentes y contexto local."
+          ],
+          "sourceIds": [
+            "ref-f882160f78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Aspergillus fumigatus",
+      "aliases": [
+        "Aspergillus fumigatus"
+      ],
+      "category": "hongo",
+      "subtitle": "No confundir aislamiento, alergia y enfermedad invasiva",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-4a5fc005b672"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Exposición ambiental",
+          "paragraphs": [
+            "Aspergillus se encuentra en suelo, polvo y materiales de construcción. La inhalación de esporas es habitual; esta referencia general de aspergilosis incluye A. fumigatus sin atribuirle todos los casos."
+          ],
+          "sourceIds": [
+            "ref-4a5fc005b672"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Formas distintas",
+          "paragraphs": [
+            "Las manifestaciones incluyen enfermedad alérgica y formas invasivas. Inmunosupresión o enfermedad pulmonar aumentan riesgo; fiebre, tos y dolor torácico necesitan interpretación contextual."
+          ],
+          "sourceIds": [
+            "ref-4a5fc005b672"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra e interpretación",
+          "paragraphs": [
+            "Cultivo, microscopía e histopatología se integran con el cuadro. Galactomanano en suero o lavado broncoalveolar puede apoyar el diagnóstico; β-D-glucano no es específico. Algunas instituciones utilizan PCR."
+          ],
+          "sourceIds": [
+            "ref-4a5fc005b672"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Individualizar",
+          "paragraphs": [
+            "El tratamiento depende de la forma clínica y gravedad. Un esquema para enfermedad alérgica no equivale al de infección invasiva; requiere orientación especializada."
+          ],
+          "sourceIds": [
+            "ref-4a5fc005b672"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Exposición y resistencia",
+          "paragraphs": [
+            "La exposición ambiental y medidas hospitalarias se evalúan según riesgo. Las cifras de resistencia estadounidenses no se presentan como prevalencia en Guatemala."
+          ],
+          "sourceIds": [
+            "ref-4a5fc005b672"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Sporothrix schenckii",
+      "aliases": [
+        "Sporothrix schenckii"
+      ],
+      "category": "hongo",
+      "subtitle": "Inoculación ambiental y confirmación de especie",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-75c6009aed35"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Especie y exposición",
+          "paragraphs": [
+            "S. schenckii se relaciona con plantas, suelo y materiales vegetales que pueden inocularse en una herida. No se atribuyen a esta especie todos los brotes por otros Sporothrix."
+          ],
+          "sourceIds": [
+            "ref-75c6009aed35"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones",
+          "paragraphs": [
+            "Pueden aparecer nódulos, abscesos, úlceras y adenopatías. En inmunosupresión puede existir enfermedad grave o diseminada."
+          ],
+          "sourceIds": [
+            "ref-75c6009aed35"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Cultivo",
+          "paragraphs": [
+            "El cultivo permite confirmar esporotricosis; técnicas moleculares ayudan a identificar especie. Una fotografía de lesión no distingue por sí sola S. schenckii de S. brasiliensis."
+          ],
+          "sourceIds": [
+            "ref-75c6009aed35"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Según gravedad",
+          "paragraphs": [
+            "Itraconazol se emplea en cuadros seleccionados; las formas graves pueden requerir anfotericina B inicial. Duración y seguimiento dependen de respuesta y presentación."
+          ],
+          "sourceIds": [
+            "ref-75c6009aed35"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Proteger piel",
+          "paragraphs": [
+            "Guantes y ropa protectora reducen heridas al manipular plantas o materiales potencialmente contaminados. Las referencias de otros países no prueban un brote guatemalteco."
+          ],
+          "sourceIds": [
+            "ref-75c6009aed35"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Cyclospora cayetanensis",
+      "aliases": [
+        "Cyclospora cayetanensis"
+      ],
+      "category": "parasito",
+      "subtitle": "Ooquiste no infectivo al salir: la maduración ambiental importa",
+      "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-6e216865085c",
+        "ref-22e958b58e9f"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Ooquiste",
+          "paragraphs": [
+            "Es un coccidio humano. El ooquiste mide aproximadamente 7,5–10 μm, presenta autofluorescencia y tinción ácido-alcohol resistente variable."
+          ],
+          "sourceIds": [
+            "ref-6e216865085c"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Diarrea persistente",
+          "paragraphs": [
+            "Puede causar diarrea acuosa con recaídas y pérdida de peso. La inmunosupresión modifica evolución y riesgo."
+          ],
+          "sourceIds": [
+            "ref-6e216865085c"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Heces y método específico",
+          "paragraphs": [
+            "La eliminación puede ser escasa e intermitente: una muestra negativa no excluye infección. Se emplean técnicas dirigidas, autofluorescencia, tinciones modificadas o PCR; confirmar qué incluye el panel disponible."
+          ],
+          "sourceIds": [
+            "ref-6e216865085c"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios con nombre",
+          "paragraphs": [
+            "Forma infectiva: ooquiste esporulado, con dos esporoquistes y dos esporozoítos por cada uno. Forma diagnóstica: ooquiste no esporulado en heces. Este madura durante días o semanas en el ambiente antes de ser infectivo."
+          ],
+          "sourceIds": [
+            "ref-6e216865085c"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Alimentos y agua",
+          "paragraphs": [
+            "La infección se adquiere al ingerir ooquistes maduros en agua o alimentos. A diferencia de Cryptosporidium, el ooquiste recién eliminado no permite contagio inmediato."
+          ],
+          "sourceIds": [
+            "ref-6e216865085c"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Tratamiento documentado",
+          "paragraphs": [
+            "Trimetoprim-sulfametoxazol es el tratamiento de elección según el CDC. La evaluación considera edad, embarazo, alergias e inmunosupresión; esta síntesis no prescribe dosis."
+          ],
+          "sourceIds": [
+            "ref-22e958b58e9f"
+          ]
+        }
+      ]
+    }
+  ]
+}
