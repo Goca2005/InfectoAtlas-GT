@@ -1,3 +1,5 @@
+import type { MicroorganismCategory } from './microorganism';
+
 export type AcademicSubject =
   | 'Parasitología'
   | 'Bacteriología'
@@ -76,6 +78,7 @@ export interface ExtractionProposal {
   targetMicroorganismId: string;
   targetMicroorganismName: string;
   isNewOrganism: boolean;
+  proposedCategory?: MicroorganismCategory;
   field: FieldToModify;
   previousValue: string | null;
   proposedValue: string;

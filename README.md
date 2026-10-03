@@ -1,4 +1,10 @@
-# InfectoAtlas GT · Fase 4B documental — v0.4.2
+# InfectoAtlas GT · Fase 4C inicial — v0.4.3
+
+## Nueva ampliación de catálogo e imágenes
+
+**Microorganismos → Explorar fichas documentadas** ofrece ocho fichas educativas con fuentes CDC enlazadas y cuatro fotografías reales con créditos, licencia y límites de interpretación. Se añaden únicamente las especies ausentes mediante un botón con vista previa; las versiones personales se conservan. El importador de PDF evita crear fichas repetidas y conserva la categoría bacteriana, viral, fúngica o parasitaria sin inventar campos clínicos.
+
+Consulta [el recorrido, fuentes, límites y roadmap](docs/CATALOGO-IMAGENES.md). Los modelos Three.js siguen pendientes. La Fase 4B documental ya está integrada en main mediante PR #2.
 
 Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. La base utilizada es `InfectoAtlas-GT.zip`, incluida dentro del ZIP entregado: contiene los respaldos corregidos, configuración de Replit y pruebas. La carpeta exterior del ZIP corresponde a una versión anterior.
 
@@ -36,7 +42,7 @@ Se incluye `.github/workflows/checks.yml` para ejecutar instalación, tipos, pru
 
 Configuración de las acciones según sus fuentes oficiales: [checkout](https://github.com/actions/checkout) y [setup-node](https://github.com/actions/setup-node).
 
-En esta entrega pasaron 54 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Se conservaron las mismas pruebas; solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` y el entorno rechazó la ejecución fuera del sandbox. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub.
+En esta entrega pasaron 60 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` en este entorno. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub. Las pruebas no equivalen a validación clínica independiente.
 
 ## Iniciar y verificar
 

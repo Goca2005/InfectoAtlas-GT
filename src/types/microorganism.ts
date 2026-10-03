@@ -74,8 +74,8 @@ export interface TreatmentProtocol {
 }
 
 export interface GuatemalaEpidemiology {
-  endemicStatus: 'Endémico' | 'Hiperendémico' | 'Brote esporádico' | 'Vigilancia activa' | 'Raro / Controlado';
-  priorityLevel: 'Alta' | 'Media' | 'Baja';
+  endemicStatus: 'Endémico' | 'Hiperendémico' | 'Brote esporádico' | 'Vigilancia activa' | 'Raro / Controlado' | 'No documentado en esta ficha';
+  priorityLevel: 'Alta' | 'Media' | 'Baja' | 'No evaluada';
   departmentsWithHighPrevalence: string[];
   officialNotes: string;
   notificationGroup?: 'Notificación Inmediata' | 'Notificación Semanal' | 'Vigilancia Centinela';
@@ -142,12 +142,21 @@ export interface Microorganism {
     stainOrModality: string;
     creditOrSource: string;
     url?: string;
+    sourceUrl?: string;
+    license?: string;
+    licenseUrl?: string;
+    imageId?: string;
+    imageDate?: string;
+    consultedAt?: string;
+    interpretation?: string;
   }[];
 
   bibliography: {
     source: string;
     title: string;
     year: string;
+    url?: string;
+    consultedAt?: string;
     status: 'Verificado' | 'Fuentes pendientes de revisión' | 'Revisado';
   }[];
 

@@ -1,3 +1,4 @@
+import { ReferenceCatalogPanel } from './ReferenceCatalogPanel';
 import React, { useState } from 'react';
 import { Microorganism, MicroorganismCategory, ParasiteTaxonGroup } from '../types/microorganism';
 import { MicroorganismCard } from './MicroorganismCard';
@@ -12,6 +13,8 @@ interface MicroorganismsCatalogProps {
   initialCategory?: MicroorganismCategory | 'all';
   searchQuery: string;
   onSearchChange: (q: string) => void;
+  onAddReferences: () => number;
+  onExportBackup: () => Promise<void>;
 }
 
 export const MicroorganismsCatalog: React.FC<MicroorganismsCatalogProps> = ({
@@ -23,6 +26,8 @@ export const MicroorganismsCatalog: React.FC<MicroorganismsCatalogProps> = ({
   initialCategory = 'all',
   searchQuery,
   onSearchChange,
+  onAddReferences,
+  onExportBackup,
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<MicroorganismCategory | 'all'>(initialCategory);
   const [selectedParasiteGroup, setSelectedParasiteGroup] = useState<ParasiteTaxonGroup | 'all'>('all');
@@ -81,6 +86,8 @@ export const MicroorganismsCatalog: React.FC<MicroorganismsCatalogProps> = ({
           Base de datos estructurada con fichas técnicas completas, estadios biológicos parasitológicos, guías diagnósticas y consideraciones terapéuticas basadas en evidencia.
         </p>
       </div>
+
+      <ReferenceCatalogPanel organisms={microorganisms} onSelect={onSelectOrganism} onAdd={onAddReferences} onBackup={onExportBackup} />
 
       {/* Filter and Search Controls (Segmented buttons - clean anti-slop style) */}
       <div className="space-y-3">

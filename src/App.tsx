@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Sidebar, ActiveNavSection } from './components/Sidebar';
 import { Header } from './components/Header';
 import { HomeDashboard } from './components/HomeDashboard';
+import { saveMissingReferences, normalizeScientificName } from './services/catalogExpansion';
+import { createOrganismFromProposal } from './services/proposalOrganism';
 import { MicroorganismsCatalog } from './components/MicroorganismsCatalog';
 import { VectorGallery } from './components/VectorGallery';
 import { DiseasesView } from './components/DiseasesView';
@@ -260,7 +262,14 @@ export default function App() {
   // Proposal Quality Approval: applies change to real Microorganism state & logs audit
   const handleApproveProposal = (proposalId: string, customText?: string) => {
     const proposal = extractionProposals.find(p => p.id === proposalId);
-    if (!proposal) return;
+    if (!proposal || proposal.status !== 'pendiente') return;
+    if (proposal.isNewOrganism) {
+      if (microorganisms.some(org => org.id === proposal.targetMicroorganismId || normalizeScientificName(org.scientificName) === normalizeScientificName(proposal.targetMicroorganismName))) {
+        window.alert('Esta especie ya existe. Conservamos su ficha; revisa propuestas de actualización para ella.');
+        return;
+      }
+      try { createOrganismFromProposal(proposal, proposal.proposedValue); } catch(error) { window.alert(error instanceof Error ? error.message : 'Categoría no documentada.'); return; }
+    }
 
     const finalProposedValue = customText !== undefined ? customText : proposal.proposedValue;
     const isCustomEdited = customText !== undefined && customText !== proposal.proposedValue;
@@ -276,76 +285,8 @@ export default function App() {
       let updatedList: Microorganism[];
       // If it's a proposal for a brand new microorganism
       if (proposal.isNewOrganism) {
-        const newOrg: Microorganism = {
-          id: proposal.targetMicroorganismId,
-          scientificName: proposal.targetMicroorganismName,
-          commonName: proposal.targetMicroorganismName,
-          category: 'parasito',
-          reviewStatus: 'Fuentes pendientes de revisión',
-          taxonomy: {
-            genus: proposal.targetMicroorganismName.split(' ')[0] || 'Desconocido',
-            species: proposal.targetMicroorganismName,
-            family: 'Pendiente de taxonomía completa'
-          },
-          morphology: {
-            shape: finalProposedValue,
-            size: 'En proceso de caracterización biométrica',
-            arrangement: 'En proceso de caracterización',
-            gramStain: 'Tinciones especiales',
-            specialStructures: []
-          },
-          microbiologyCharacteristics: {
-            metabolism: 'Extracción documental académica',
-            cultureMedia: ['En revisión'],
-            optimalTemp: '37 °C',
-            growthTime: 'Variable',
-            keyBiochemicalTests: ['En validación']
-          },
-          externalAndInternalStructures: ['Descrito en documento fuente'],
-          virulenceFactors: [],
-          reservoir: ['En investigación'],
-          transmissionRoute: ['Documentado en literatura'],
-          associatedDiseases: [{
-            name: `Infección por ${proposal.targetMicroorganismName}`,
-            description: finalProposedValue,
-            clinicalPresentation: ['Fiebre o síntomas característicos']
-          }],
-          signsAndSymptoms: ['Ver detalle en documento fuente'],
-          complications: ['En evaluación'],
-          clinicalSpecimens: ['Muestra clínica específica'],
-          diagnosticMethods: [{
-            method: 'Detección documentada en literatura',
-            standardRole: 'Confirmatorio',
-            keyFindings: finalProposedValue
-          }],
-          labFindings: [],
-          treatment: {
-            disclaimer: 'Información extraída de material académico. Consulte normativas oficiales MSPAS.',
-            firstLine: ['Esquema según documento académico'],
-            alternatives: []
-          },
-          prevention: ['Medidas higiénico-sanitarias'],
-          guatemalaRelevance: {
-            endemicStatus: 'Vigilancia activa',
-            priorityLevel: 'Media',
-            departmentsWithHighPrevalence: [],
-            officialNotes: 'Ficha generada a partir de extracción de documento universitario. Requiere validación.',
-            notificationGroup: 'Vigilancia Centinela'
-          },
-          imagery: [{
-            type: 'ilustracion_cientifica',
-            caption: 'Microfotografía pendiente de incorporación documental',
-            stainOrModality: 'Microscopía óptica de referencia',
-            creditOrSource: proposal.documentTitle
-          }],
-          bibliography: [{
-            source: proposal.documentTitle,
-            title: `Cita documental en página ${proposal.sourcePage}`,
-            year: '2024',
-            status: bibStatus
-          }],
-          lastReviewedDate: new Date().toISOString().split('T')[0]
-        };
+        if (prevList.some(org => org.id === proposal.targetMicroorganismId || normalizeScientificName(org.scientificName) === normalizeScientificName(proposal.targetMicroorganismName))) return prevList;
+        const newOrg = createOrganismFromProposal(proposal, finalProposedValue, academicDocuments.find(doc => doc.id === proposal.documentId)?.yearOrEdition);
         updatedList = [newOrg, ...prevList];
       } else {
         // Existing microorganism modification
@@ -384,7 +325,7 @@ export default function App() {
               {
                 source: proposal.documentTitle,
                 title: `Fragmento extraído de Pág. ${proposal.sourcePage}: ${finalProposedValue.slice(0, 80)}...`,
-                year: '2024',
+                year: academicDocuments.find(doc => doc.id === proposal.documentId)?.yearOrEdition || 'No informada',
                 status: bibStatus
               }
             ];
@@ -562,6 +503,8 @@ export default function App() {
               initialCategory={catalogInitialCategory}
               searchQuery={searchQuery}
               onSearchChange={setSearchQuery}
+              onExportBackup={handleExportBackup}
+              onAddReferences={() => { const result = saveMissingReferences(window.localStorage, microorganisms); setMicroorganisms(result.organisms); return result.added; }}
             />
           )}
 

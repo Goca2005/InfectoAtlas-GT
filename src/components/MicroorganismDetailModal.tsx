@@ -1,3 +1,4 @@
+import { SourceImageGallery, safeHttpsUrl } from './SourceImageGallery';
 import React, { useState } from 'react';
 import { Microorganism } from '../types/microorganism';
 import { 
@@ -30,7 +31,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
   onClose,
   onAddToCompare,
 }) => {
-  const [viewMode, setViewMode] = useState<'resumen' | 'completa' | 'actualizaciones'>('resumen');
+  const [viewMode, setViewMode] = useState<'resumen' | 'completa' | 'actualizaciones' | 'imagenes'>('resumen');
 
   if (!organism) return null;
 
@@ -102,6 +103,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
                 <BookOpen className="h-3.5 w-3.5" />
                 <span>Ficha Completa</span>
               </button>
+              <button type="button" onClick={() => setViewMode('imagenes')} className={`rounded-md px-3 py-1 font-semibold ${viewMode === 'imagenes' ? 'bg-white text-sky-900 shadow-xs' : 'text-slate-600 hover:text-slate-900'}`}>Imágenes reales</button>
               <button type="button" onClick={() => setViewMode('actualizaciones')} className={`rounded-md px-3 py-1 font-semibold ${viewMode === 'actualizaciones' ? 'bg-white text-sky-900 shadow-xs' : 'text-slate-600 hover:text-slate-900'}`}>Actualizaciones científicas</button>
             </div>
 
@@ -127,6 +129,8 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
 
         {/* Scrollable Content Body */}
         <div className="flex-1 overflow-y-auto p-6 space-y-6 text-sm text-slate-700">
+          {organism.id.startsWith('reference-') && <p className="rounded-lg border border-sky-200 bg-sky-50 p-3">Ficha documentada de la ampliación 4C. Síntesis educativa pendiente de revisión clínica independiente. Tus fichas anteriores no se reemplazan al consultar esta versión.</p>}
+          {viewMode === 'imagenes' && <SourceImageGallery key={organism.id} organism={organism} />}
           {viewMode === 'actualizaciones' && <LiveSearchPanel key={organism.id} microorganisms={[organism]} fixedOrganism={organism} />}
 
           {/* ========================================================= */}
@@ -495,7 +499,8 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
                       <div>
                         <span className="text-sky-700 font-semibold">{b.source}</span>
                         <span className="mx-1.5 text-slate-300">·</span>
-                        <span className="italic">{b.title} ({b.year})</span>
+                        {safeHttpsUrl(b.url) ? <a href={safeHttpsUrl(b.url)} target="_blank" rel="noopener noreferrer" className="italic underline text-sky-700">{b.title} ({b.year})</a> : <span className="italic">{b.title} ({b.year})</span>}
+                        {b.consultedAt && <span className="block">Fuente consultada: {b.consultedAt}</span>}
                       </div>
                       <span className={`text-[10px] shrink-0 font-medium px-2 py-0.5 rounded ${
                         b.status === 'Verificado' 

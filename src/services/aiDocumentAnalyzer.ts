@@ -1,5 +1,6 @@
 import { AcademicDocument, ExtractionProposal, FieldToModify } from '../types/academicLibrary';
-import { Microorganism } from '../types/microorganism';
+import { normalizeScientificName } from './catalogExpansion';
+import { Microorganism, MicroorganismCategory } from '../types/microorganism';
 
 /**
  * Intelligent Document Analyzer for University Medical Documents & Clinical Guidelines.
@@ -10,8 +11,7 @@ export async function analyzeAcademicDocument(
   doc: AcademicDocument,
   existingMicroorganisms: Microorganism[]
 ): Promise<ExtractionProposal[]> {
-  // Simulate asynchronous AI processing time for realistic user experience
-  await new Promise((resolve) => setTimeout(resolve, 800));
+  // Deterministic text rules; proposals still need human review.
 
   const proposals: ExtractionProposal[] = [];
   const knownOrganismsMap = new Map<string, Microorganism>();
@@ -31,7 +31,8 @@ export async function analyzeAcademicDocument(
   });
 
   // Candidate external microorganisms not currently in the base 24 catalog
-  const potentialNewOrganisms = [
+  const existingNames = new Set(existingMicroorganisms.map(org => normalizeScientificName(org.scientificName)));
+  const potentialNewOrganisms: { name: string; genus: string; category: MicroorganismCategory }[] = [
     { name: 'Toxoplasma gondii', genus: 'Toxoplasma', category: 'parasito' },
     { name: 'Schistosoma mansoni', genus: 'Schistosoma', category: 'parasito' },
     { name: 'Shigella dysenteriae', genus: 'Shigella', category: 'bacteria' },
@@ -202,7 +203,7 @@ export async function analyzeAcademicDocument(
     // 2. Detect potential novel organisms not currently in database
     potentialNewOrganisms.forEach((candidate) => {
       const candRegex = new RegExp(`\\b${candidate.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-      if (candRegex.test(text)) {
+      if (!existingNames.has(normalizeScientificName(candidate.name)) && candRegex.test(text)) {
         const sentences = text.split(/(?<=[.!?])\s+/);
         const candSentence = sentences.find((s) => candRegex.test(s)) || sentences[0];
 
@@ -216,6 +217,9 @@ export async function analyzeAcademicDocument(
           targetMicroorganismId: `new-${candidate.name.toLowerCase().replace(/\s+/g, '-')}`,
           targetMicroorganismName: candidate.name,
           isNewOrganism: true,
+          proposedCategory: candidate.category,
+          originalSnippet: candSentence.trim(),
+          isExplicitFact: true,
           field: 'Nueva ficha de microorganismo',
           previousValue: null,
           proposedValue: `Crear nueva ficha clínica para ${candidate.name} clasificado preliminarmente como ${candidate.category}. Mención documental en Pág. ${page.pageNumber}: "${candSentence.trim()}"`,
@@ -230,7 +234,7 @@ export async function analyzeAcademicDocument(
   // Remove duplicate proposals on the exact same field and organism
   const seenKeys = new Set<string>();
   const uniqueProposals = proposals.filter((p) => {
-    const key = `${p.targetMicroorganismId}-${p.field}-${p.sourcePage}`;
+    const key = `${p.targetMicroorganismId}-${p.field}-${p.isNewOrganism ? 'new' : p.sourcePage}`;
     if (seenKeys.has(key)) return false;
     seenKeys.add(key);
     return true;

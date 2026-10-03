@@ -204,7 +204,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="border-t border-slate-800 p-3.5 text-[11px] text-slate-400">
           <div className="flex items-center gap-1.5 font-medium text-slate-300">
             <ShieldAlert className="h-3.5 w-3.5 text-amber-400" />
-            <span>Fase 1: Datos Clínicos</span>
+            <span>Fase 4C: Catálogo e imágenes</span>
           </div>
           <p className="mt-1 text-[10px] leading-tight text-slate-500">
             Atlas de referencia para educación médica. Datos farmacológicos sujetos a sensibilidad local y antibiograma.
