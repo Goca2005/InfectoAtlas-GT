@@ -1,10 +1,14 @@
-# InfectoAtlas GT · Atlas académico y documental — v0.5.1
+# InfectoAtlas GT · Atlas académico y documental — v0.6.0
+
+## Avance 0.6.0
+
+Portal académico con imágenes auténticas, atlas visual filtrable, referencias públicas disponibles desde la primera visita y práctica de observación con muestras reales. [Cambios y verificación](docs/PORTAL-ACADEMICO.md) · [Dónde y cómo publicarlo cuando esté listo](docs/PUBLICACION.md).
 
 ## Ficha académica y atlas visual
 
 «Ver ficha» abre un dossier con índice de ocho apartados: identidad/morfología, patogenia/clínica, diagnóstico, tratamiento, transmisión/prevención, ciclo/estadios, Guatemala y fuentes. Se muestran los datos guardados y los fragmentos literales de la biblioteca dentro de cada tema, con páginas de origen. El texto completo sigue disponible en Documentos. El índice es lateral en escritorio y un selector en móvil.
 
-La ampliación incluye 32 galerías ampliadas y dos fichas documentales con fotografías clínicas; 204 imágenes de referencia, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
+La colección incluida reúne 43 referencias, 38 con imágenes; 207 fotografías distintas y 209 asociaciones con perfiles, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
 
 Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; el atlas académico v0.5.0 se integró en main mediante PR #3. Esta entrega continúa la Fase 4C con muestras reales, coordenadas experimentales y manifestaciones clínicas.
 

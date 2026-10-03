@@ -25,6 +25,7 @@ export type ActiveNavSection =
   | 'vectores'
   | 'enfermedades'
   | 'atlas-diagnostico'
+  | 'atlas-visual'
   | 'biblioteca-academica'
   | 'epidemiologia'
   | 'guatemala'
@@ -56,6 +57,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'live' as ActiveNavSection, label: 'InfectoAtlas LIVE', icon: Activity, count: null },
     { id: 'laboratorio-3d' as ActiveNavSection, label: 'Laboratorio virtual', icon: Microscope, count: null },
     { id: 'microorganismos' as ActiveNavSection, label: 'Microorganismos', icon: Microscope, count: microorganismCount },
+    { id: 'atlas-visual' as ActiveNavSection, label: 'Atlas visual', icon: Layers, count: null },
     { id: 'atlas-diagnostico' as ActiveNavSection, label: 'Atlas Diagnóstico', icon: Layers, count: 5 },
     { id: 'biblioteca-academica' as ActiveNavSection, label: 'Biblioteca Académica', icon: Library, count: academicDocCount, highlight: pendingProposalsCount > 0 },
     { id: 'vectores' as ActiveNavSection, label: 'Vectores Artrópodos', icon: Bug, count: 3 },

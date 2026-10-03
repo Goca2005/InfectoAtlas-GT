@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import { buildDocumentAtlas } from './services/documentAtlas';
+import { buildPublicCatalog } from './services/publicCatalog';
+const VisualAtlas = lazy(() => import('./components/VisualAtlas').then(m => ({ default: m.VisualAtlas })));
 const MicrobeLab = lazy(() => import('./components/MicrobeLab'));
 import { Sidebar, ActiveNavSection } from './components/Sidebar';
 import { Header } from './components/Header';
@@ -7,22 +9,22 @@ import { HomeDashboard } from './components/HomeDashboard';
 import { saveMissingReferences, normalizeScientificName } from './services/catalogExpansion';
 import { createOrganismFromProposal } from './services/proposalOrganism';
 import { MicroorganismsCatalog } from './components/MicroorganismsCatalog';
-import { VectorGallery } from './components/VectorGallery';
-import { DiseasesView } from './components/DiseasesView';
-import { DiagnosticsAtlas } from './components/DiagnosticsAtlas';
-import { AcademicLibrary } from './components/AcademicLibrary';
+const VectorGallery = lazy(() => import('./components/VectorGallery').then(m => ({ default: m.VectorGallery })));
+const DiseasesView = lazy(() => import('./components/DiseasesView').then(m => ({ default: m.DiseasesView })));
+const DiagnosticsAtlas = lazy(() => import('./components/DiagnosticsAtlas').then(m => ({ default: m.DiagnosticsAtlas })));
+const AcademicLibrary = lazy(() => import('./components/AcademicLibrary').then(m => ({ default: m.AcademicLibrary })));
 import { ReviewExtractedInfoModal } from './components/ReviewExtractedInfoModal';
-import { GuatemalaExplorer } from './components/GuatemalaExplorer';
-import { EpidemiologyView } from './components/EpidemiologyView';
-import { StudyHub } from './components/StudyHub';
-import { BibliographyView } from './components/BibliographyView';
-import { ComparatorView } from './components/ComparatorView';
+const GuatemalaExplorer = lazy(() => import('./components/GuatemalaExplorer').then(m => ({ default: m.GuatemalaExplorer })));
+const EpidemiologyView = lazy(() => import('./components/EpidemiologyView').then(m => ({ default: m.EpidemiologyView })));
+const StudyHub = lazy(() => import('./components/StudyHub').then(m => ({ default: m.StudyHub })));
+const BibliographyView = lazy(() => import('./components/BibliographyView').then(m => ({ default: m.BibliographyView })));
+const ComparatorView = lazy(() => import('./components/ComparatorView').then(m => ({ default: m.ComparatorView })));
 import { MicroorganismDetailModal } from './components/MicroorganismDetailModal';
 import { ComparatorModal } from './components/ComparatorModal';
 import { storageService } from './services/storageService';
 import type { BackupData, BackupImportMode, BackupImportPlan } from './types/backup';
 import { epidemiologyService } from './services/epidemiologyService';
-import { InfectoAtlasLive } from './components/InfectoAtlasLive';
+const InfectoAtlasLive = lazy(() => import('./components/InfectoAtlasLive').then(m => ({ default: m.InfectoAtlasLive })));
 import { LIVE_EVENT } from './services/liveService';
 import { appendBulletinToLibrary, OfficialBulletinRepository } from './services/officialBulletins';
 import type { OfficialBulletin } from './types/officialBulletin';
@@ -64,7 +66,7 @@ export default function App() {
   const [backupImportPreview, setBackupImportPreview] = useState<(BackupImportPlan & { fileName: string }) | null>(null);
   const [backupImportError, setBackupImportError] = useState<string | null>(null);
   const [isApplyingBackup, setIsApplyingBackup] = useState(false);
-  const documentAtlas=useMemo(()=>buildDocumentAtlas(academicDocuments,microorganisms,extractionProposals),[academicDocuments,microorganisms,extractionProposals]);
+  const documentAtlas=useMemo(()=>buildDocumentAtlas(academicDocuments,buildPublicCatalog(microorganisms),extractionProposals),[academicDocuments,microorganisms,extractionProposals]);
   const displayMicroorganisms=documentAtlas.organisms;
 
   const getCurrentBackupData = (): Promise<BackupData> => storageService.getBackupData({
@@ -435,7 +437,8 @@ export default function App() {
   };
 
   const sectionTitles: Record<ActiveNavSection, string> = {
-    'inicio': 'Panel General',
+    'inicio': 'InfectoAtlas GT · portal académico',
+    'atlas-visual': 'Atlas visual · imágenes con procedencia',
     'live': 'InfectoAtlas LIVE',
     'laboratorio-3d': 'Laboratorio virtual · muestras y estructuras',
     'microorganismos': 'Catálogo de Microorganismos',
@@ -484,11 +487,15 @@ export default function App() {
 
         {/* Dynamic Section Router */}
         <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
+<Suspense fallback={<div role="status" className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-600">Preparando sección…</div>}>
           {currentSection === 'laboratorio-3d' && <Suspense fallback={<p role="status">Preparando laboratorio 3D…</p>}><MicrobeLab microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism}/></Suspense>}
+          {currentSection === 'atlas-visual' && <VisualAtlas microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism}/>}
           {currentSection === 'live' && <InfectoAtlasLive microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
           {currentSection === 'inicio' && (
             <HomeDashboard
               microorganisms={displayMicroorganisms}
+              documentCount={academicDocuments.length}
+              unreadablePages={documentAtlas.unreadablePages}
               onNavigateSection={handleSelectSection}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
               onOpenComparator={() => setIsComparatorOpen(true)}
@@ -548,7 +555,7 @@ export default function App() {
           {currentSection === 'vectores' && (
             <VectorGallery
               onSelectPathogen={(pathogenId) => {
-                const found = microorganisms.find(m => m.id === pathogenId);
+                const found = displayMicroorganisms.find(m => m.id === pathogenId);
                 if (found) setSelectedOrganism(found);
               }}
             />
@@ -597,6 +604,7 @@ export default function App() {
           {currentSection === 'fuentes' && (
             <BibliographyView />
           )}
+        </Suspense>
         </main>
       </div>
 
@@ -630,7 +638,7 @@ export default function App() {
 
       {/* Side-by-Side Comparator Modal */}
       <ComparatorModal
-        microorganisms={microorganisms}
+        microorganisms={displayMicroorganisms}
         initialOrganismA={comparatorInitialOrganism}
         isOpen={isComparatorOpen}
         onClose={() => setIsComparatorOpen(false)}

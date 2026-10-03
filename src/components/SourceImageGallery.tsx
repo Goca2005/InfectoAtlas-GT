@@ -4,7 +4,7 @@ import { curatedImages, learningSupplement } from '../services/learningAtlas';
 import { CdcAttribution } from './CdcAttribution';
 
 export function safeHttpsUrl(value?: string) { try { const url = new URL(value || ''); return url.protocol === 'https:' && !url.username && !url.password ? url.href : undefined; } catch { return undefined; } }
-function ImageCard({ image }: { image: Microorganism['imagery'][number] }) {
+export function ImageCard({ image }: { image: Microorganism['imagery'][number] }) {
   const [failed, setFailed] = useState(false);
   const url = safeHttpsUrl(image.url);
   const sourceUrl = safeHttpsUrl(image.sourceUrl);
