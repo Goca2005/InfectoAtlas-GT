@@ -11,7 +11,7 @@ const json = (value, status = 200, extra = {}) => new Response(JSON.stringify(va
 
 // Dependencies are injectable for tests; no pending requests are shared between
 // Workers invocations. NCBI credentials stay in server-side environment bindings.
-export function createWorker({ cache = () => caches.default, service = env => createPubmedService({ request: createNcbiTransport({ env }) }) } = {}) {
+export function createWorker({ cache = () => caches.default, service = env => createPubmedService({ request: createNcbiTransport({ env, fetchImpl: (url, options) => fetch(url.toString(), options) }) }) } = {}) {
   return {
     async fetch(request, env, ctx) {
       const url = new URL(request.url);
