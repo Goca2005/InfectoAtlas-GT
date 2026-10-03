@@ -3,44 +3,9 @@ import { EpidemiologicalNotificationReport } from '../types/guatemala';
 export type ReportListener = (report: EpidemiologicalNotificationReport) => void;
 
 class EpidemiologySurveillanceService {
-  private reports: EpidemiologicalNotificationReport[] = [
-    {
-      id: 'rep-gt-2024-01',
-      timestamp: '2024-11-04T08:30:00Z',
-      source: 'MSPAS_SIGSA',
-      departmentId: 'gt-esc',
-      diseaseId: 'virus-del-dengue',
-      pathogenScientificName: 'Dengue virus (Serotipos 2 y 3)',
-      syndromeCategory: 'Febril Agudo / Arbovirosis',
-      eventDescription: 'Alerta epidemiológica por incremento atípico de casos de Dengue con Signos de Alarma en municipios costeros de Escuintla.',
-      verifiedStatus: 'Alerta Epidemiológica',
-      referenceWeek: 'SE-44 2024'
-    },
-    {
-      id: 'rep-gt-2024-02',
-      timestamp: '2024-02-12T14:15:00Z',
-      source: 'CNE_Vigilancia',
-      departmentId: 'gt-suc',
-      diseaseId: 'campylobacter-jejuni',
-      pathogenScientificName: 'Campylobacter jejuni / Síndrome Postinfeccioso',
-      syndromeCategory: 'Enfermedad Diarreica Aguda',
-      eventDescription: 'Vigilancia activa e intensificada de casos de parálisis flácida aguda compatible con Síndrome de Guillain-Barré tras cuadros diarreicos en Suchitepéquez y Retalhuleu.',
-      verifiedStatus: 'Oficial Confirmado',
-      referenceWeek: 'SE-06 2024'
-    },
-    {
-      id: 'rep-gt-2024-03',
-      timestamp: '2024-08-20T11:00:00Z',
-      source: 'Laboratorio_Nacional_Salud',
-      departmentId: 'gt-chq',
-      diseaseId: 'triatoma-dimidiata',
-      pathogenScientificName: 'Trypanosoma cruzi',
-      syndromeCategory: 'Zoonosis / Vectorial',
-      eventDescription: 'Índice de infestación intradomiciliaria de Triatoma dimidiata superior al 8% en comunidades rurales de Olopa y Jocotán.',
-      verifiedStatus: 'Oficial Confirmado',
-      referenceWeek: 'SE-33 2024'
-    }
-  ];
+  // No verified source documents were provided for the old example reports.
+  // Keep the surveillance API, with no synthetic official alerts at startup.
+  private reports: EpidemiologicalNotificationReport[] = [];
 
   private listeners: Set<ReportListener> = new Set();
 

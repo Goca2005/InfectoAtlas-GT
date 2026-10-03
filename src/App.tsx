@@ -16,7 +16,10 @@ import { ComparatorView } from './components/ComparatorView';
 import { MicroorganismDetailModal } from './components/MicroorganismDetailModal';
 import { ComparatorModal } from './components/ComparatorModal';
 import { storageService } from './services/storageService';
+import type { BackupData, BackupImportMode, BackupImportPlan } from './types/backup';
 import { epidemiologyService } from './services/epidemiologyService';
+import { InfectoAtlasLive } from './components/InfectoAtlasLive';
+import { LIVE_EVENT } from './services/liveService';
 import { Microorganism, MicroorganismCategory } from './types/microorganism';
 import { 
   AcademicDocument, 
@@ -52,6 +55,17 @@ export default function App() {
 
   // Bookmarks reactive state
   const [bookmarkedIds, setBookmarkedIds] = useState<string[]>([]);
+  const [backupImportPreview, setBackupImportPreview] = useState<(BackupImportPlan & { fileName: string }) | null>(null);
+  const [backupImportError, setBackupImportError] = useState<string | null>(null);
+  const [isApplyingBackup, setIsApplyingBackup] = useState(false);
+
+  const getCurrentBackupData = (): Promise<BackupData> => storageService.getBackupData({
+    microorganisms,
+    academicDocuments,
+    extractionProposals,
+    auditLogs,
+    bookmarks: bookmarkedIds
+  });
 
   // Load initial microorganisms & bookmarks from persistent storage
   useEffect(() => {
@@ -167,30 +181,63 @@ export default function App() {
     setIsReviewModalOpen(true);
   };
 
-  const handleExportBackup = () => {
-    const jsonStr = storageService.exportBackupJSON();
-    const blob = new Blob([jsonStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `InfectoAtlas_GT_Respaldo_${new Date().toISOString().split('T')[0]}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+  const handleExportBackup = async () => {
+    try {
+      const jsonStr = await storageService.exportBackupJSON({
+        microorganisms,
+        academicDocuments,
+        extractionProposals,
+        auditLogs,
+        bookmarks: bookmarkedIds
+      });
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
+      anchor.href = url;
+      anchor.download = `InfectoAtlas_GT_Respaldo_${new Date().toISOString().split('T')[0]}.json`;
+      anchor.click();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch (error) {
+      window.alert(`No se pudo crear el respaldo: ${error instanceof Error ? error.message : 'Error desconocido'}`);
+    }
   };
 
   const handleImportBackup = async (file: File) => {
     try {
+      setBackupImportError(null);
       const text = await file.text();
-      const ok = storageService.importBackupJSON(text);
-      if (ok) {
-        setAcademicDocuments(storageService.getAcademicDocuments());
-        setExtractionProposals(storageService.getExtractionProposals());
-        setAuditLogs(storageService.getAuditLogs());
-        storageService.getMicroorganisms().then(setMicroorganisms);
-      }
-    } catch (e) {
-      console.error('Error al importar respaldo:', e);
+      const currentData = await getCurrentBackupData();
+      const plan = await storageService.inspectBackupJSON(text, currentData);
+      setBackupImportPreview({ ...plan, fileName: file.name });
+    } catch (error) {
+      setBackupImportError(error instanceof Error ? error.message : 'No se pudo leer el archivo de respaldo.');
     }
+  };
+
+  const handleConfirmBackupImport = async (mode: BackupImportMode) => {
+    if (!backupImportPreview) return;
+    setIsApplyingBackup(true);
+    setBackupImportError(null);
+    try {
+      const currentData = await getCurrentBackupData();
+      const nextData = await storageService.applyBackupImport(backupImportPreview, mode, currentData);
+      setMicroorganisms(nextData.microorganisms);
+      setAcademicDocuments(nextData.academicDocuments);
+      setExtractionProposals(nextData.extractionProposals);
+      setAuditLogs(nextData.auditLogs);
+      setBookmarkedIds(nextData.bookmarks);
+      window.dispatchEvent(new Event(LIVE_EVENT));
+      setBackupImportPreview(null);
+    } catch (error) {
+      setBackupImportError(error instanceof Error ? error.message : 'No se pudo aplicar el respaldo.');
+    } finally {
+      setIsApplyingBackup(false);
+    }
+  };
+
+  const handleCancelBackupImport = () => {
+    setBackupImportPreview(null);
+    setBackupImportError(null);
   };
 
   const handleClearDemoData = () => {
@@ -433,12 +480,13 @@ export default function App() {
 
   const sectionTitles: Record<ActiveNavSection, string> = {
     'inicio': 'Panel General',
+    'live': 'InfectoAtlas LIVE',
     'microorganismos': 'Catálogo de Microorganismos',
     'vectores': 'Vectores Artrópodos en Guatemala',
     'enfermedades': 'Enfermedades Infecciosas',
     'atlas-diagnostico': 'Atlas Diagnóstico & Microscopía',
     'biblioteca-academica': 'Biblioteca Académica & Extracción Inteligente',
-    'epidemiologia': 'Vigilancia Epidemiológica Oficial',
+    'epidemiologia': 'Vigilancia Epidemiológica',
     'guatemala': 'Vigilancia en los 22 Departamentos',
     'estudiar': 'Módulo de Estudio & Flashcards',
     'comparador': 'Comparador de Patógenos',
@@ -479,6 +527,7 @@ export default function App() {
 
         {/* Dynamic Section Router */}
         <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
+          {currentSection === 'live' && <InfectoAtlasLive microorganisms={microorganisms} onSelectOrganism={setSelectedOrganism} />}
           {currentSection === 'inicio' && (
             <HomeDashboard
               microorganisms={microorganisms}
@@ -527,6 +576,11 @@ export default function App() {
               onSelectOrganism={(org) => setSelectedOrganism(org)}
               onExportBackup={handleExportBackup}
               onImportBackup={handleImportBackup}
+              backupImportPreview={backupImportPreview}
+              backupImportError={backupImportError}
+              isApplyingBackup={isApplyingBackup}
+              onConfirmBackupImport={handleConfirmBackupImport}
+              onCancelBackupImport={handleCancelBackupImport}
               onClearDemoData={handleClearDemoData}
             />
           )}
@@ -602,6 +656,7 @@ export default function App() {
 
       {/* Microorganism Detail Modal (Resumen Rápido & Ficha Completa) */}
       <MicroorganismDetailModal
+        key={selectedOrganism?.id ?? 'closed'}
         organism={selectedOrganism}
         onClose={() => setSelectedOrganism(null)}
         onAddToCompare={handleOpenComparatorWithOrganism}
@@ -617,4 +672,3 @@ export default function App() {
     </div>
   );
 }
-

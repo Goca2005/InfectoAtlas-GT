@@ -19,6 +19,7 @@ import { MicroorganismCategory } from '../types/microorganism';
 
 export type ActiveNavSection = 
   | 'inicio'
+  | 'live'
   | 'microorganismos'
   | 'vectores'
   | 'enfermedades'
@@ -51,6 +52,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const navItems = [
     { id: 'inicio' as ActiveNavSection, label: 'Inicio', icon: Home, count: null },
+    { id: 'live' as ActiveNavSection, label: 'InfectoAtlas LIVE', icon: Activity, count: null },
     { id: 'microorganismos' as ActiveNavSection, label: 'Microorganismos', icon: Microscope, count: microorganismCount },
     { id: 'atlas-diagnostico' as ActiveNavSection, label: 'Atlas Diagnóstico', icon: Layers, count: 5 },
     { id: 'biblioteca-academica' as ActiveNavSection, label: 'Biblioteca Académica', icon: Library, count: academicDocCount, highlight: pendingProposalsCount > 0 },

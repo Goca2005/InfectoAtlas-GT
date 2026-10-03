@@ -1,11 +1,12 @@
 import * as pdfjsLib from 'pdfjs-dist';
+import pdfWorkerUrl from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
 import { ExtractedPage } from '../types/academicLibrary';
 
 // Configure worker for browser environment
 if (typeof window !== 'undefined') {
   try {
-    // Attempt local bundled worker or unpkg fallback
-    pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
+    // Serve the matching worker from the same build, without a CDN dependency.
+    pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorkerUrl;
   } catch (err) {
     console.warn('PDF.js worker initialization notice:', err);
   }

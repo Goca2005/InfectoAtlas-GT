@@ -65,7 +65,7 @@ export const GuatemalaExplorer: React.FC<GuatemalaExplorerProps> = ({
               Vigilancia Epidemiológica Departamental
             </h2>
             <p className="mt-1 text-xs text-slate-600 max-w-2xl leading-relaxed">
-              Monitoreo estructurado de los 22 departamentos de Guatemala conforme a los lineamientos del Sistema de Información Gerencial de Salud (SIGSA) y el Centro Nacional de Epidemiología (MSPAS).
+              Explorador educativo de los 22 departamentos. La integración de boletines y alertas verificadas del MSPAS está en desarrollo.
             </p>
           </div>
 

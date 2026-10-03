@@ -439,11 +439,11 @@ export const MicroscopicStageVisualizer: React.FC<MicroscopicStageVisualizerProp
         <div className="absolute inset-0 bg-radial from-slate-900 via-slate-950 to-black pointer-events-none" />
 
         {/* Reticle / micrometer crosshair guidelines */}
-        <div className="absolute inset-0 pointer-events-none opacity-20">
+        <svg aria-hidden="true" className="absolute inset-0 h-full w-full pointer-events-none opacity-20">
           <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#38bdf8" strokeWidth="0.5" strokeDasharray="2 4" />
           <line x1="50%" y1="0" x2="50%" y2="100%" stroke="#38bdf8" strokeWidth="0.5" strokeDasharray="2 4" />
           <circle cx="50%" cy="50%" r="35%" fill="none" stroke="#38bdf8" strokeWidth="0.5" strokeDasharray="3 6" />
-        </div>
+        </svg>
 
         {/* SVG Stained Biology */}
         <svg viewBox="0 0 200 200" className="w-full h-full relative z-10">
