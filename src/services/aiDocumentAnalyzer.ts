@@ -236,5 +236,7 @@ export async function analyzeAcademicDocument(
     return true;
   });
 
-  return uniqueProposals;
+  return doc.sourceTier === 'Boletín o alerta oficial MSPAS / OPS / OMS'
+    ? uniqueProposals.map(proposal => ({ ...proposal, verificationStatus: 'En proceso de validación' as const }))
+    : uniqueProposals;
 }

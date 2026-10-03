@@ -1,4 +1,4 @@
-# InfectoAtlas GT · Fase 4B inicial — Alertas científicas
+# InfectoAtlas GT · Fase 4B documental — v0.4.2
 
 Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. La base utilizada es `InfectoAtlas-GT.zip`, incluida dentro del ZIP entregado: contiene los respaldos corregidos, configuración de Replit y pruebas. La carpeta exterior del ZIP corresponde a una versión anterior.
 
@@ -11,6 +11,12 @@ Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind
 - Seguimiento personal, historial de éxito/error y deduplicación por PMID/DOI. Los vínculos a especies son preliminares, basados en la consulta o menciones textuales. Las consultas no modifican las fichas clínicas ni crean propuestas de aprobación.
 - Seguimiento y últimas consultas se guardan dentro de preferencias y entran en el respaldo SHA-256 existente.
 - Los PDF usan un worker incluido en la compilación, del mismo origen y versión; no requieren descargarlo de un CDN.
+
+## Fase 4B documental: fuentes oficiales
+
+Guatemala Sentinel (MSPAS) y Global Watch (OPS/OMS) permiten incorporar una publicación concreta con PDF local o fragmento transcrito. Se conservan enlace, fecha informada, territorio, página, cita literal, huella del archivo e historial de revisión. El registro empieza vacío y pendiente; solo los PDF revisados se envían a biblioteca, donde las propuestas clínicas siguen pendientes. No hay obtención automática.
+
+Consulta el [recorrido, límites, verificaciones e integración en Replit](docs/FUENTES-OFICIALES.md). El catálogo y el servicio de respaldos existentes se conservan.
 
 ## Fase 4B: bandeja de alertas y consulta por lote
 
@@ -30,7 +36,7 @@ Se incluye `.github/workflows/checks.yml` para ejecutar instalación, tipos, pru
 
 Configuración de las acciones según sus fuentes oficiales: [checkout](https://github.com/actions/checkout) y [setup-node](https://github.com/actions/setup-node).
 
-En esta entrega pasaron 41 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Se conservaron las mismas pruebas; solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` y el entorno rechazó la ejecución fuera del sandbox. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub.
+En esta entrega pasaron 54 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Se conservaron las mismas pruebas; solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` y el entorno rechazó la ejecución fuera del sandbox. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub.
 
 ## Iniciar y verificar
 
@@ -88,15 +94,15 @@ Documentación oficial: [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NB
 | Fuente/módulo | Estado de esta entrega |
 |---|---|
 | PubMed / NCBI | Integrado y comprobado con búsquedas reales manuales |
-| Guatemala Sentinel / MSPAS | En desarrollo: enlace oficial y descriptor de fuente; sin consulta automática |
-| Global Watch / OMS y OPS | En desarrollo: enlaces oficiales y descriptores; sin consulta automática |
+| Guatemala Sentinel / MSPAS | Registro manual con PDF/transcripción, revisión, trazabilidad y vínculo a fichas |
+| Global Watch / OMS y OPS | Registro manual con PDF/transcripción y revisión; sin obtención automática |
 | AMR Radar y Treatment Tracker | Secciones informativas en desarrollo; los temas pueden consultarse en PubMed |
 | Alertas científicas personales | Fase 4B inicial: bandeja, lectura y consulta manual por lote |
 | Tareas programadas y persistencia compartida | Pendiente; sin notificaciones push ni vigilancia continua |
 | Mapa Guatemala con datos oficiales | Se conserva el explorador educativo; GeoJSON e integración cuantitativa pendientes |
 | Visor 3D con Three.js, azul marino oscuro | Fase posterior; no implementado en 4A |
 
-`server/sources.mjs` registra el modo y estado de cada fuente; `/api/live/sources` permite inspeccionarlo. OMS/OPS/MSPAS requieren validar el método de obtención y cada comunicado antes de implementar un adaptador de consultas. La alternativa prevista es enlace oficial o importación documental con revisión. No hay scraping ni cifras nacionales/departamentales generadas.
+`server/sources.mjs` registra el modo y estado de cada fuente; `/api/live/sources` permite inspeccionarlo. OMS/OPS/MSPAS requieren validar el método de obtención y cada comunicado antes de implementar un adaptador de consultas. La importación documental con revisión está implementada en v0.4.2; el conector automático sigue pendiente. No hay scraping ni cifras nacionales/departamentales generadas.
 
 Se retiraron los tres reportes precargados de vigilancia porque no incluían documentos fuente verificables y aparecían como oficiales. La API de vigilancia y el explorador se conservan con un estado vacío explicado en pantalla. Los ejemplos de biblioteca siguen identificados como demostración docente.
 
