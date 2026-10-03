@@ -1,4 +1,5 @@
 import atlasData from '../data/learningAtlas.json';
+import clinicalImageData from '../data/clinicalImages.json';
 import { REFERENCE_MICROORGANISMS } from '../data/referenceMicroorganisms';
 import { normalizeScientificName } from './catalogExpansion';
 import type { Microorganism } from '../types/microorganism';
@@ -12,7 +13,9 @@ export function learningSupplement(organism:Pick<Microorganism,'scientificName'>
 export function curatedImages(organism:Microorganism) {
   const supplement=learningSupplement(organism);
   const reference=REFERENCE_MICROORGANISMS.find(org=>normalizeScientificName(org.scientificName)===normalizeScientificName(organism.scientificName));
-  const images=[...(supplement?.images??[]),...(reference?.imagery??[]),...organism.imagery];
+  const name=normalizeScientificName(organism.scientificName);
+  const clinical=clinicalImageData.filter(e=>e.names.some(n=>normalizeScientificName(n)===name)).map(e=>e.image) as Microorganism['imagery'];
+  const images=[...(supplement?.images??[]),...clinical,...(reference?.imagery??[]),...organism.imagery];
   const ids=new Set<string>(), urls=new Set<string>();
   return images.filter(image=>{
     if(!image.url||!image.sourceUrl||!image.license)return false;

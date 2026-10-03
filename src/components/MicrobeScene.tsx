@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import type { ModelProfile } from '../data/modelProfiles';
+import type {ProteinTrace} from '../services/experimentalStructure';
 
 type SceneActions = { reset(): void; rotate(direction: number): void; zoom(factor: number): void; parts(values: string[], cut: boolean): void; spin(value: boolean): void; dispose(): void };
 // The pinned, MIT-licensed Three.js modules are served locally and fetched only when this view opens.
-async function buildScene(host: HTMLDivElement, profile: ModelProfile, onLost: () => void): Promise<SceneActions> {
+async function buildScene(host: HTMLDivElement, profile: ModelProfile, onLost: () => void, structure?:ProteinTrace): Promise<SceneActions> {
   const moduleUrl = '/vendor/three/three.module.min.js';
   const controlsUrl = '/vendor/three/OrbitControls.js';
   const T = await import(/* @vite-ignore */ moduleUrl);
@@ -11,7 +12,7 @@ async function buildScene(host: HTMLDivElement, profile: ModelProfile, onLost: (
   const renderer = new T.WebGLRenderer({ antialias: true, alpha: false });
   renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
   renderer.setClearColor(0x020b1b); renderer.localClippingEnabled = true;
-  renderer.domElement.setAttribute('aria-label', profile.title + ': modelo educativo interactivo');
+  renderer.domElement.setAttribute('aria-label', profile.title + (structure ? ': estructura experimental interactiva' : ': modelo educativo interactivo'));
   renderer.domElement.setAttribute('role', 'img');
   host.appendChild(renderer.domElement);
   const scene = new T.Scene();
@@ -42,7 +43,12 @@ async function buildScene(host: HTMLDivElement, profile: ModelProfile, onLost: (
     const mesh = new T.Mesh(g, mat(color ?? colors[['surface','genome','appendages'].indexOf(bucket)], bucket === 'surface')); buckets[bucket].add(mesh); return mesh;
   };
   const helix = (radius: number, length: number, offset=0) => Array.from({length:90},(_,i)=>{const t=i/89;return [Math.sin(t*Math.PI*10+offset)*radius,(t-.5)*length,Math.cos(t*Math.PI*10+offset)*radius];});
-  switch (profile.kind) {
+  if(structure){
+    const all=structure.chains.flatMap(c=>c.segments.flat()),box=new T.Box3();
+    all.forEach(a=>box.expandByPoint(new T.Vector3(a.x,a.y,a.z)));
+    const center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3()),scale=4/Math.max(size.x,size.y,size.z,1);
+    structure.chains.forEach((chain,i)=>{const bucket=['surface','genome','appendages'][i%3];for(const segment of chain.segments){if(segment.length<2)continue;const points=segment.map(a=>[(a.x-center.x)*scale,(a.y-center.y)*scale,(a.z-center.z)*scale]);const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p)));const geometry=new T.TubeGeometry(curve,Math.max(8,points.length*2),.012,5,false);geometries.push(geometry);buckets[bucket].add(new T.Mesh(geometry,mat(colors[i%3],false)));}});
+  }else switch (profile.kind) {
     case 'cocci': {
       const positions=[[-.65,.4,0],[.2,.65,.2],[.85,.1,-.25],[-.4,-.55,.4],[.5,-.65,.15],[-.9,-.05,-.6]];
       for(const p of positions){sphere('surface',.5,p);sphere('genome',.16,p);}
@@ -96,24 +102,24 @@ async function buildScene(host: HTMLDivElement, profile: ModelProfile, onLost: (
     dispose(){disposed=true;cancelAnimationFrame(frame);resize.disconnect();intersect.disconnect();controls.dispose();renderer.domElement.removeEventListener('webglcontextlost',lost);geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());renderer.dispose();renderer.forceContextLoss();renderer.domElement.remove();}
   };
 }
-export default function MicrobeScene({profile}:{profile:ModelProfile}) {
+export default function MicrobeScene({profile,structure}:{profile:ModelProfile;structure?:ProteinTrace}) {
   const host=useRef<HTMLDivElement>(null), actions=useRef<SceneActions|null>(null);
   const [error,setError]=useState(''),[ready,setReady]=useState(false),[spin,setSpin]=useState(false),[cut,setCut]=useState(false),[parts,setParts]=useState(['surface','genome','appendages']);
   useEffect(()=>{let cancelled=false;setReady(false);setError('');setSpin(false);setCut(false);setParts(['surface','genome','appendages']);
-    if(host.current)buildScene(host.current,profile,()=>setError('Se perdió la conexión con el visor gráfico. Cierra y vuelve a abrir el modelo.')).then(scene=>{if(cancelled){scene.dispose();return;}actions.current=scene;setReady(true);}).catch(()=>{if(!cancelled)setError('El visor requiere WebGL2. La descripción y las fuentes siguen disponibles.');});
+    if(host.current)buildScene(host.current,profile,()=>setError('Se perdió la conexión con el visor gráfico. Cierra y vuelve a abrir el modelo.'),structure).then(scene=>{if(cancelled){scene.dispose();return;}actions.current=scene;setReady(true);}).catch(()=>{if(!cancelled)setError('El visor requiere WebGL2. La descripción y las fuentes siguen disponibles.');});
     return()=>{cancelled=true;actions.current?.dispose();actions.current=null;};
-  },[profile]);
+  },[profile,structure]);
   useEffect(()=>actions.current?.parts(parts,cut),[parts,cut,ready]);
   useEffect(()=>actions.current?.spin(spin),[spin,ready]);
   const button='rounded-lg border border-sky-800 bg-slate-900 px-3 py-2 text-sm disabled:opacity-40 hover:bg-sky-950';
   return <section className="rounded-2xl border border-sky-900 bg-slate-950 text-slate-100 overflow-hidden">
-    <div className="p-5 space-y-2"><p className="text-xs uppercase tracking-widest text-sky-300">Laboratorio 3D · Three.js</p><h3 className="text-xl font-bold">{profile.title}</h3><p className="text-sm text-slate-300">{profile.scope}</p><p className="text-xs text-slate-400">Modelo educativo de InfectoAtlas GT. No es una imagen diagnóstica. Colores y proporciones no equivalen a una muestra real.</p></div>
+    <div className="p-5 space-y-2"><p className="text-xs uppercase tracking-widest text-sky-300">{structure?'Estructura experimental · traza proteica':'Laboratorio 3D · Three.js'}</p><h3 className="text-xl font-bold">{profile.title}</h3><p className="text-sm text-slate-300">{profile.scope}</p><p className="text-xs text-slate-400">{structure?'Coordenadas experimentales de referencia. Los colores distinguen cadenas; no representan el color físico de la proteína.':'Modelo educativo de InfectoAtlas GT. No es una imagen diagnóstica. Colores y proporciones no equivalen a una muestra real.'}</p></div>
     <div className="relative"><div ref={host} className="h-80 sm:h-96 w-full" />{!ready&&!error&&<p role="status" className="absolute inset-0 flex items-center justify-center">Cargando visor…</p>}{error&&<p role="alert" className="absolute inset-0 bg-slate-950/95 p-6 flex items-center justify-center">{error}</p>}</div>
     <div className="p-5 space-y-4"><p className="text-xs text-slate-400">Arrastra para girar y usa la rueda o los botones para acercar. En pantalla táctil, usa dos dedos para el zoom.</p><div className="flex flex-wrap gap-2">
       <button className={button} disabled={!ready} onClick={()=>actions.current?.rotate(-1)}>Girar izquierda</button><button className={button} disabled={!ready} onClick={()=>actions.current?.rotate(1)}>Girar derecha</button>
       <button className={button} disabled={!ready} onClick={()=>actions.current?.zoom(.85)}>Acercar</button><button className={button} disabled={!ready} onClick={()=>actions.current?.zoom(1.15)}>Alejar</button>
       <button className={button} disabled={!ready} onClick={()=>actions.current?.reset()}>Restablecer vista</button><button className={button} disabled={!ready} aria-pressed={spin} onClick={()=>setSpin(!spin)}>{spin?'Pausar giro':'Activar giro'}</button>
-    </div><div className="flex flex-wrap gap-4 text-sm">{profile.parts.map(([id,label,color])=><label key={id} className="flex items-center gap-2"><input type="checkbox" checked={parts.includes(id)} onChange={()=>setParts(parts.includes(id)?parts.filter(p=>p!==id):[...parts,id])}/><span aria-hidden style={{backgroundColor:color}} className="w-2 h-2 rounded-full"/>{label}</label>)}<label className="flex items-center gap-2"><input type="checkbox" checked={cut} onChange={()=>setCut(!cut)}/>Corte didáctico de la superficie</label></div>
+    </div><div className="flex flex-wrap gap-4 text-sm">{profile.parts.map(([id,label,color])=><label key={id} className="flex items-center gap-2"><input type="checkbox" checked={parts.includes(id)} onChange={()=>setParts(parts.includes(id)?parts.filter(p=>p!==id):[...parts,id])}/><span aria-hidden style={{backgroundColor:color}} className="w-2 h-2 rounded-full"/>{label}</label>)}<label hidden={!!structure} className="flex items-center gap-2"><input type="checkbox" checked={cut} onChange={()=>setCut(!cut)}/>Corte didáctico de la superficie</label></div>
     <a className="text-sky-300 text-sm underline" href={profile.sourceUrl} target="_blank" rel="noopener noreferrer">Fuente sobre la biología representada</a></div>
   </section>;
 }

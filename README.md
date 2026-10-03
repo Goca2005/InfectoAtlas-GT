@@ -1,12 +1,12 @@
-# InfectoAtlas GT · Atlas académico y documental — v0.5.0
+# InfectoAtlas GT · Atlas académico y documental — v0.5.1
 
 ## Ficha académica y atlas visual
 
 «Ver ficha» abre un dossier con índice de ocho apartados: identidad/morfología, patogenia/clínica, diagnóstico, tratamiento, transmisión/prevención, ciclo/estadios, Guatemala y fuentes. Se muestran los datos guardados y los fragmentos literales de la biblioteca dentro de cada tema, con páginas de origen. El texto completo sigue disponible en Documentos. El índice es lateral en escritorio y un selector en móvil.
 
-La ampliación incluye 32 galerías con 168 imágenes de referencia, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
+La ampliación incluye 32 galerías ampliadas y dos fichas documentales con fotografías clínicas; 204 imágenes de referencia, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
 
-Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; esta entrega amplía la rama de trabajo de la Fase 4C.
+Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; el atlas académico v0.5.0 se integró en main mediante PR #3. Esta entrega continúa la Fase 4C con muestras reales, coordenadas experimentales y manifestaciones clínicas.
 
 Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. Se conserva el proyecto existente, sus respaldos, configuración de Replit y pruebas; el paquete de esta entrega contiene el código fuente actualizado.
 
