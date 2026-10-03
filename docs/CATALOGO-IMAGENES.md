@@ -1,3 +1,5 @@
+> Documento de la primera entrega v0.4.3. La ampliación actual y su estado están en [ATLAS-ACADEMICO.md](ATLAS-ACADEMICO.md).
+
 # Fase 4C inicial — catálogo e imágenes reales (v0.4.3)
 
 ## Recorrido

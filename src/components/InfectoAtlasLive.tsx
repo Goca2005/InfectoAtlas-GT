@@ -7,6 +7,7 @@ import { useLiveState } from './useLiveState';
 import { LiveAlertsPanel } from './LiveAlertsPanel';
 import { OfficialBulletinsPanel } from './OfficialBulletinsPanel';
 import type { OfficialBulletin } from '../types/officialBulletin';
+import { EvidenceRadar } from './EvidenceRadar';
 
 const sections = [
   ['home', 'Inicio LIVE'], ['science', 'Actualizaciones científicas'], ['guatemala', 'Guatemala Sentinel'],
@@ -61,16 +62,7 @@ export function InfectoAtlasLive({ microorganisms, onSelectOrganism, onSendToLib
         {entry.success ? <p>{entry.records} registros recuperados · {entry.newRecords} nuevos · {entry.cacheHit ? 'caché temporal' : 'consulta a NCBI'}{entry.retrievedAt && ` · Fuente recuperada: ${liveTime(entry.retrievedAt)}`}</p> : <p className="text-rose-700">{entry.error}</p>}
       </article>)}
     </div>}
-    {['amr', 'treatment'].includes(section) && <div className="rounded-xl border border-slate-200 bg-white p-6 space-y-4">
-      <span className="rounded bg-amber-50 px-2 py-1 text-xs font-semibold text-amber-800">En desarrollo · sin conexión automática</span>
-      <h3 className="text-xl font-bold">{sections.find(([id]) => id === section)?.[1]}</h3>
-      <p className="text-sm text-slate-600">{section === 'guatemala' ? 'La incorporación de boletines del MSPAS requiere validar cada documento, su fecha y el territorio al que corresponde.' : section === 'global' ? 'OMS y OPS se incorporarán después de validar un método estable de acceso y la trazabilidad de cada comunicado.' : section === 'amr' ? 'El radar de resistencia antimicrobiana requiere fuentes revisadas, especie, territorio y métodos comparables.' : 'El seguimiento terapéutico requiere revisión de guías y aprobación clínica antes de cambiar una ficha.'}</p>
-      <p className="text-xs text-slate-500">Puedes buscar estos temas en PubMed desde Actualizaciones científicas. Un artículo reciente requiere evaluación antes de considerarse una recomendación terapéutica.</p>
-      {section === 'guatemala' && <a href="https://www.mspas.gob.gt/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-sky-700 underline">Portal oficial MSPAS <ExternalLink className="h-3 w-3" /></a>}
-      {section === 'global' && <div className="flex flex-wrap gap-4 text-sm text-sky-700 underline">
-        <a href="https://www.who.int/emergencies/disease-outbreak-news" target="_blank" rel="noopener noreferrer">OMS · Disease Outbreak News</a>
-        <a href="https://www.paho.org/en/epidemiological-alerts-and-updates" target="_blank" rel="noopener noreferrer">OPS · Alertas y actualizaciones</a>
-      </div>}
-    </div>}
+    {(section==='amr'||section==='treatment')&&<EvidenceRadar key={section} kind={section} microorganisms={microorganisms} onSelectOrganism={onSelectOrganism}/>}
+
   </div>;
 }

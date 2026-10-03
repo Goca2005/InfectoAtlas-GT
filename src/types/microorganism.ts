@@ -82,6 +82,11 @@ export interface GuatemalaEpidemiology {
 }
 
 export interface Microorganism {
+  /** Display-only documentary fichas are reconstructed from local document text. */
+  documentIndexed?: boolean;
+  documentPageCount?: number;
+  documentPreview?: string;
+  originalCategory?: MicroorganismCategory;
   id: string;
   scientificName: string;
   commonName?: string;
@@ -137,7 +142,7 @@ export interface Microorganism {
   parasiticStages?: ParasiticStage[];
 
   imagery: {
-    type: 'microfotografia_real' | 'ilustracion_cientifica' | 'modelo_educativo_3d';
+    type: 'microfotografia_real' | 'ilustracion_cientifica' | 'modelo_educativo_3d' | 'fotografia_cultivo' | 'fotografia_clinica' | 'fotografia_vector' | 'fotografia_entorno';
     caption: string;
     stainOrModality: string;
     creditOrSource: string;

@@ -90,7 +90,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
   const [docTitle, setDocTitle] = useState<string>('');
   const [docSubject, setDocSubject] = useState<AcademicSubject>('Parasitología');
   const [docAuthor, setDocAuthor] = useState<string>('');
-  const [docYear, setDocYear] = useState<string>(new Date().getFullYear().toString());
+  const [docYear, setDocYear] = useState<string>('');
   const [docTier, setDocTier] = useState<SourceTier>('Apunte universitario');
   const [isExtractingPDF, setIsExtractingPDF] = useState<boolean>(false);
   const [uploadError, setUploadError] = useState<string | null>(null);
@@ -166,7 +166,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
         title: docTitle.trim(),
         subject: docSubject,
         authorOrInstitution: docAuthor.trim() || 'No documentado',
-        yearOrEdition: docYear.trim() || new Date().getFullYear().toString(),
+        yearOrEdition: docYear.trim() || 'No informada',
         sourceTier: docTier,
         uploadDate: new Date().toISOString().split('T')[0],
         pageCount,
@@ -569,6 +569,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
                   )}
 
                   {/* Secondary Actions: Ver páginas y Eliminar */}
+                  {doc.processingStatus!=='Sin procesar'&&<button type="button" disabled={isAnalyzing} onClick={()=>handleAnalyzeDocument(doc)} className="w-full rounded-lg border border-sky-200 p-2 text-xs font-semibold text-sky-800">{isAnalyzing?'Reanalizando…':'Reanalizar con el índice ampliado'}</button>}
                   <div className="flex items-center justify-between gap-2">
                     <button
                       type="button"

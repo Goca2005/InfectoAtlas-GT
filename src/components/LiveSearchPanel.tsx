@@ -11,15 +11,16 @@ import { OfficialBulletinLinks } from './OfficialBulletinLinks';
 const TOPIC_LABELS: Record<LiveTopic, string> = { all: 'Todos los temas', diagnosis: 'Diagnóstico', treatment: 'Tratamiento', resistance: 'Resistencia antimicrobiana', epidemiology: 'Epidemiología', vaccines: 'Vacunas' };
 const fieldClass = 'mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:outline-cyan-600';
 
-export function LiveSearchPanel({ microorganisms, fixedOrganism, onSelectOrganism }: {
+export function LiveSearchPanel({ microorganisms, fixedOrganism, onSelectOrganism, initialTopic='all' }: {
   microorganisms: Microorganism[];
   fixedOrganism?: Microorganism;
   onSelectOrganism?: (organism: Microorganism) => void;
+  initialTopic?: LiveTopic;
 }) {
   const [q, setQ] = useState('');
   const [organismId, setOrganismId] = useState(fixedOrganism?.id ?? '');
   const [category, setCategory] = useState('all');
-  const [topic, setTopic] = useState<LiveTopic>('all');
+  const [topic, setTopic] = useState<LiveTopic>(initialTopic);
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
   const [publicationType, setPublicationType] = useState('all');

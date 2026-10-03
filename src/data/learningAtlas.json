@@ -1,0 +1,3073 @@
+[
+  {
+    "scientificName": "Entamoeba histolytica",
+    "aliases": [
+      "Entamoeba histolytica"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste del complejo E. histolytica/E. dispar",
+        "stainOrModality": "Montaje húmedo sin tinción",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/1/E_histodispar_2x2_A.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx E_histodispar_2x2_A.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La morfología no distingue E. histolytica de E. dispar."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste del complejo E. histolytica/E. dispar",
+        "stainOrModality": "Yodo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/1/Ehistdisp_cyst_wtmt.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ehistdisp_cyst_wtmt.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No identifica por sí solo la especie patógena."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste inmaduro de E. histolytica",
+        "stainOrModality": "Tricrómica; identificación apoyada por PCR",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/3/Ehisto_cyst_tric.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ehisto_cyst_tric.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Trofozoíto de E. histolytica",
+        "stainOrModality": "Tricrómica; identificación apoyada por PCR",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/5/Ehisto_troph_tric.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ehisto_troph_tric.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Trofozoíto con eritrocitos ingeridos",
+        "stainOrModality": "Tricrómica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/6/Ehisto_troph_tric3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ehisto_troph_tric3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La eritrofagocitosis no es un criterio absoluto para excluir E. dispar."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Trofozoítos en biopsia rectal",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/7/tissueA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx tissueA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Entamoeba histolytica",
+        "imageUrl": "https://www.cdc.gov/dpdx/amebiasis/modules/Amebiasis_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "infective": [
+          "Quiste maduro: ingestión por vía fecal-oral"
+        ],
+        "diagnostic": [
+          "Quistes y trofozoítos: heces; trofozoítos también en tejidos"
+        ],
+        "steps": [
+          "Se ingieren quistes maduros.",
+          "La excistación libera trofozoítos que llegan al colon.",
+          "Los trofozoítos se multiplican; algunos invaden tejidos.",
+          "El enquistamiento permite eliminar quistes con las heces."
+        ],
+        "note": "Para separar especies morfológicamente idénticas se requieren métodos específicos, como pruebas moleculares."
+      }
+    ],
+    "diagnosticPearls": [
+      "Para separar especies morfológicamente idénticas se requieren métodos específicos, como pruebas moleculares."
+    ]
+  },
+  {
+    "scientificName": "Giardia duodenalis",
+    "aliases": [
+      "Giardia duodenalis",
+      "Giardia lamblia",
+      "Giardia intestinalis"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste de Giardia",
+        "stainOrModality": "Yodo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/images/1/Giardia_cyst_wtmt.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Giardia_cyst_wtmt.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste de Giardia",
+        "stainOrModality": "Contraste de interferencia diferencial (DIC)",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/images/2/Giardia_cyst_dic.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Giardia_cyst_dic.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste de Giardia",
+        "stainOrModality": "Tricrómica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/images/3/Giardia_cyst_tric.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Giardia_cyst_tric.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Trofozoíto de Giardia",
+        "stainOrModality": "Yodo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/images/4/Giardia_troph_wtmt.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Giardia_troph_wtmt.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Trofozoíto de Giardia",
+        "stainOrModality": "Tricrómica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/images/5/Giardia_troph_tric.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Giardia_troph_tric.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Trofozoítos en impronta de mucosa",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/giardiasis/images/6/Giardia_troph_giemsa.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Giardia_troph_giemsa.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Giardia duodenalis",
+        "imageUrl": "https://www.cdc.gov/dpdx/giardiasis/modules/Giardia_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+        "infective": [
+          "Quiste: ingestión en agua, alimentos o por contacto fecal-oral"
+        ],
+        "diagnostic": [
+          "Quistes y trofozoítos: heces"
+        ],
+        "steps": [
+          "Se ingiere el quiste.",
+          "La excistación ocurre en intestino delgado.",
+          "Los trofozoítos se adhieren y se multiplican.",
+          "Al avanzar hacia el colon se forman quistes que salen con las heces."
+        ],
+        "note": "El quiste es la forma de transmisión; el trofozoíto participa en la colonización intestinal."
+      }
+    ],
+    "diagnosticPearls": [
+      "El quiste es la forma de transmisión; el trofozoíto participa en la colonización intestinal."
+    ]
+  },
+  {
+    "scientificName": "Ascaris lumbricoides",
+    "aliases": [
+      "Ascaris lumbricoides"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo no fecundado de Ascaris",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/1/Ascaris_egg_unfert.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_egg_unfert.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo fecundado con desarrollo temprano",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/2/Ascaris_egg_fert_embryo.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_egg_fert_embryo.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo fecundado de Ascaris",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/2/Ascaris_fertile_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_fertile_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo fecundado decorticado",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/3/Ascaris_egg_fert_decort_200x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_egg_fert_decort_200x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Larva saliendo de un huevo",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/4/Ascaris_egg_larva2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_egg_larva2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Hembra adulta de Ascaris",
+        "stainOrModality": "Fotografía macroscópica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/5/Ascaris_female.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_female.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Ascaris lumbricoides",
+        "imageUrl": "https://www.cdc.gov/dpdx/ascariasis/modules/Ascariasis_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "infective": [
+          "Huevo fértil embrionado con larva: ingestión"
+        ],
+        "diagnostic": [
+          "Huevos fecundados o no fecundados: heces"
+        ],
+        "steps": [
+          "Los huevos salen con las heces y maduran en el suelo.",
+          "La ingestión de huevos infectivos libera larvas.",
+          "Las larvas migran por pulmón, ascienden y se degluten.",
+          "Los adultos viven en intestino delgado y producen huevos."
+        ],
+        "note": "Un huevo no fecundado es diagnóstico, pero no se desarrolla como huevo infectivo."
+      }
+    ],
+    "diagnosticPearls": [
+      "Un huevo no fecundado es diagnóstico, pero no se desarrolla como huevo infectivo."
+    ]
+  },
+  {
+    "scientificName": "Plasmodium falciparum",
+    "aliases": [
+      "Plasmodium falciparum"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium falciparum: Trofozoítos en anillo, gota gruesa",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/1/Pf_rings_thickA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pf_rings_thickA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium falciparum: Trofozoítos en anillo, frotis delgado",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/1/Pf_rings_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pf_rings_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium falciparum: Trofozoíto en sangre",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/3/Pf_troph_thickA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pf_troph_thickA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium falciparum: Gametocito en sangre",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/4/Pf_gametocyte_thickA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pf_gametocyte_thickA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium falciparum: Gametocito en frotis delgado",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/4/Pf_gametocyte_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pf_gametocyte_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium falciparum: Esquizonte en frotis delgado",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/5/Pf_schizont_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pf_schizont_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Plasmodium falciparum",
+        "imageUrl": "https://www.cdc.gov/dpdx/malaria/modules/malaria_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "infective": [
+          "Esporozoíto: para el humano, inoculado por Anopheles",
+          "Gametocitos: para el mosquito que ingiere sangre"
+        ],
+        "diagnostic": [
+          "Formas sanguíneas: trofozoítos, esquizontes y gametocitos"
+        ],
+        "steps": [
+          "El mosquito inocula esporozoítos.",
+          "Se produce multiplicación en hígado y liberación de merozoítos.",
+          "Los merozoítos invaden eritrocitos y parte se transforma en gametocitos.",
+          "El mosquito ingiere gametocitos; completa la fase sexual y produce esporozoítos."
+        ],
+        "note": "Los esquizontes de P. falciparum son poco habituales en sangre periférica; su ausencia no excluye infección."
+      }
+    ],
+    "diagnosticPearls": [
+      "Los esquizontes de P. falciparum son poco habituales en sangre periférica; su ausencia no excluye infección."
+    ]
+  },
+  {
+    "scientificName": "Plasmodium vivax",
+    "aliases": [
+      "Plasmodium vivax"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium vivax: Trofozoítos en anillo, gota gruesa",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/20/Pv_rings_thickA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pv_rings_thickA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium vivax: Trofozoítos en anillo, frotis delgado",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/20/Pv_rings_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pv_rings_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium vivax: Trofozoíto en sangre",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/21/Pv_troph_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pv_troph_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium vivax: Gametocito en sangre",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/22/Pv_gametocyte_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pv_gametocyte_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium vivax: Gametocito en frotis delgado",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/22/Pv_gametocyte_thinE.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pv_gametocyte_thinE.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Plasmodium vivax: Esquizonte en frotis delgado",
+        "stainOrModality": "Microscopía de sangre; consultar tinción y preparación en CDC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/malaria/images/24/Pv_schizont_thinA.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pv_schizont_thinA.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Plasmodium vivax",
+        "imageUrl": "https://www.cdc.gov/dpdx/malaria/modules/malaria_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/malaria/index.html",
+        "infective": [
+          "Esporozoíto: para el humano, inoculado por Anopheles",
+          "Gametocitos: para el mosquito que ingiere sangre"
+        ],
+        "diagnostic": [
+          "Formas sanguíneas: trofozoítos, esquizontes y gametocitos"
+        ],
+        "steps": [
+          "El mosquito inocula esporozoítos.",
+          "Se produce multiplicación en hígado y liberación de merozoítos.",
+          "Los merozoítos invaden eritrocitos y parte se transforma en gametocitos.",
+          "El mosquito ingiere gametocitos; completa la fase sexual y produce esporozoítos."
+        ],
+        "note": "P. vivax puede conservar hipnozoítos hepáticos: esta forma explica recaídas y no se identifica en el frotis periférico."
+      }
+    ],
+    "diagnosticPearls": [
+      "P. vivax puede conservar hipnozoítos hepáticos: esta forma explica recaídas y no se identifica en el frotis periférico."
+    ]
+  },
+  {
+    "scientificName": "Taenia solium",
+    "aliases": [
+      "Taenia solium"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de Taenia spp.",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_eggs_wtmt_400x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_eggs_wtmt_400x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Los huevos no permiten separar T. solium de T. saginata."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Taenia spp.",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_egg.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia de género; la especie no se establece por este huevo."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escólex armado de T. solium",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/2/Taenia_solium_scolex1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_solium_scolex1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escólex de T. solium con ventosas y ganchos",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/2/Taenia_solium_scolex2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_solium_scolex2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Proglótide de T. solium",
+        "stainOrModality": "Carmín",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/3/Taenia_solium_carmine.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_solium_carmine.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Proglótide de T. solium",
+        "stainOrModality": "Tinta china",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/3/T_solium_proglottids_HB1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_solium_proglottids_HB1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Taenia solium",
+        "imageUrl": "https://www.cdc.gov/dpdx/taeniasis/modules/Taenia_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "infective": [
+          "Teniasis: cisticerco viable en carne de cerdo",
+          "Cisticercosis: huevo de T. solium ingerido por vía fecal-oral"
+        ],
+        "diagnostic": [
+          "Teniasis: huevos o proglótides en heces",
+          "Cisticercosis: larvas en tejidos; imagen y pruebas inmunológicas según contexto"
+        ],
+        "steps": [
+          "El cerdo ingiere huevos y desarrolla cisticercos musculares.",
+          "La persona ingiere carne con cisticercos y desarrolla la tenia adulta.",
+          "El adulto elimina huevos y proglótides.",
+          "La ingestión humana de huevos causa cisticercosis, no teniasis intestinal."
+        ],
+        "note": "Distinguir las dos vías: comer cisticercos produce teniasis; ingerir huevos puede producir cisticercosis."
+      },
+      {
+        "title": "T. solium: cisticercosis",
+        "imageUrl": "https://www.cdc.gov/dpdx/cysticercosis/modules/Cysticercosis_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cysticercosis/index.html",
+        "infective": [
+          "Huevo de T. solium: infección del humano como hospedero intermediario accidental"
+        ],
+        "diagnostic": [
+          "Cisticerco en tejidos; neuroimagen, serología y otros estudios según localización"
+        ],
+        "steps": [
+          "Los huevos proceden de un portador humano de la tenia adulta.",
+          "Se ingieren huevos mediante contaminación fecal-oral.",
+          "Las oncosferas atraviesan el intestino y migran a tejidos.",
+          "Se desarrollan cisticercos; pueden afectar el sistema nervioso."
+        ],
+        "note": "El coproparasitario no establece por sí solo un diagnóstico de neurocisticercosis."
+      }
+    ],
+    "diagnosticPearls": [
+      "Distinguir las dos vías: comer cisticercos produce teniasis; ingerir huevos puede producir cisticercosis."
+    ]
+  },
+  {
+    "scientificName": "Taenia saginata",
+    "aliases": [
+      "Taenia saginata"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de Taenia spp.",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_eggs_wtmt_400x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_eggs_wtmt_400x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El huevo no distingue T. saginata de T. solium."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Taenia spp.",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/1/Taenia_egg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_egg.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia de género, no identificación de especie."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escólex no armado de T. saginata",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/2/Taenia_saginata_scolex.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_saginata_scolex.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Proglótide de T. saginata",
+        "stainOrModality": "Carmín",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/3/Taenia_saginata_carmine.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_saginata_carmine.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Taenia saginata adulta",
+        "stainOrModality": "Fotografía macroscópica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/5/Taenia_saginata_adult1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_saginata_adult1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Adulto de Taenia saginata",
+        "stainOrModality": "Fotografía macroscópica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/taeniasis/images/5/Taenia_saginata_adult2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Taenia_saginata_adult2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Taenia saginata",
+        "imageUrl": "https://www.cdc.gov/dpdx/taeniasis/modules/Taenia_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+        "infective": [
+          "Cisticerco viable en carne de res: para el humano"
+        ],
+        "diagnostic": [
+          "Huevos y proglótides: heces"
+        ],
+        "steps": [
+          "El bovino ingiere huevos eliminados por una persona.",
+          "Las larvas forman cisticercos musculares.",
+          "La ingestión de carne con cisticercos origina adultos intestinales.",
+          "Las proglótides y huevos se eliminan al ambiente."
+        ],
+        "note": "Identificar especie mediante proglótides/escólex o métodos específicos; los huevos de Taenia son morfológicamente indistinguibles."
+      }
+    ],
+    "diagnosticPearls": [
+      "Identificar especie mediante proglótides/escólex o métodos específicos; los huevos de Taenia son morfológicamente indistinguibles."
+    ]
+  },
+  {
+    "scientificName": "Enterobius vermicularis",
+    "aliases": [
+      "Enterobius vermicularis"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de Enterobius en cinta adhesiva",
+        "stainOrModality": "Preparación con cinta de celulosa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/enterobiasis/images/1/Enterobius_cellulosetape.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Enterobius_cellulosetape.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de Enterobius",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/enterobiasis/images/1/Evermicularis_egg_HBa.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Evermicularis_egg_HBa.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de Enterobius",
+        "stainOrModality": "Microscopía UV",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/enterobiasis/images/1/Evermicularis_egg_UVa.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Evermicularis_egg_UVa.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Hembra adulta rodeada de huevos",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/enterobiasis/images/2/Ent_f.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ent_f.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Enterobius: macho y hembra",
+        "stainOrModality": "Ejemplares montados",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/enterobiasis/images/2/Ent_m_f.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ent_m_f.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Enterobius en biopsia colónica",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/enterobiasis/images/3/E_vermicularis_eggs_tissue1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx E_vermicularis_eggs_tissue1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Enterobius vermicularis",
+        "imageUrl": "https://www.cdc.gov/dpdx/enterobiasis/modules/Enterobius_LifeCycl_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+        "infective": [
+          "Huevo embrionado: ingestión"
+        ],
+        "diagnostic": [
+          "Huevos perianales: prueba de cinta adhesiva; adultos cuando se observan"
+        ],
+        "steps": [
+          "La hembra deposita huevos en pliegues perianales.",
+          "Los huevos se vuelven infectivos y pueden llegar a la boca.",
+          "Las larvas eclosionan en intestino delgado y maduran en colon.",
+          "La hembra migra de noche a la zona perianal."
+        ],
+        "note": "La cinta perianal matutina, antes de lavado o defecación, es la muestra preferida; las heces no son equivalentes."
+      }
+    ],
+    "diagnosticPearls": [
+      "La cinta perianal matutina, antes de lavado o defecación, es la muestra preferida; las heces no son equivalentes."
+    ]
+  },
+  {
+    "scientificName": "Strongyloides stercoralis",
+    "aliases": [
+      "Strongyloides stercoralis"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Larva rabditiforme L1 de Strongyloides",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/1/S_stercoralis_rhabditoid_BAM8.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_rhabditoid_BAM8.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Larva rabditiforme L2 de Strongyloides",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/1/S_stercoralis_rhabditoid_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_rhabditoid_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Extremo anterior de larva rabditiforme",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/1/S_stercoralis_rhabditoid_anterior_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_rhabditoid_anterior_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Larva filariforme L3 de Strongyloides",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/2/S_stercoralis_filariform_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_filariform_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Macho adulto de vida libre",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/3/S_stercoralis_male_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_male_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Hembra adulta de vida libre",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/3/S_stercoralis_female_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_female_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Strongyloides stercoralis",
+        "imageUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/modules/Strongyloides_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "infective": [
+          "Larva filariforme L3: penetra piel; también participa en autoinfección"
+        ],
+        "diagnostic": [
+          "Larvas, principalmente rabditiformes: heces; otras muestras en formas graves"
+        ],
+        "steps": [
+          "Las larvas rabditiformes salen en heces.",
+          "En el ambiente hay desarrollo directo o adultos de vida libre.",
+          "Las larvas filariformes penetran la piel y llegan al intestino.",
+          "Las hembras parasitarias producen larvas; algunas reinfectan al hospedero."
+        ],
+        "note": "La autoinfección permite persistencia durante años. No confundir larva rabditiforme diagnóstica con filariforme infectiva."
+      }
+    ],
+    "diagnosticPearls": [
+      "La autoinfección permite persistencia durante años. No confundir larva rabditiforme diagnóstica con filariforme infectiva."
+    ]
+  },
+  {
+    "scientificName": "Trichuris trichiura",
+    "aliases": [
+      "Trichuris trichiura"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Trichuris",
+        "stainOrModality": "Yodo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Trichuris_trichiura_egg1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Trichuris",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Trichuris_trichiura_egg3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de Trichuris de tamaño variable",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg4.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Trichuris_trichiura_egg4.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo atípico de Trichuris",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trichuriasis/images/2/Trichuris_trichiura_egg_atypical1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Trichuris_trichiura_egg_atypical1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo atípico de Trichuris",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trichuriasis/images/2/Trichuris_trichiura_egg_atypical2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Trichuris_trichiura_egg_atypical2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo atípico de Trichuris",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trichuriasis/images/2/Trichuris_trichiura_egg_atypical3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Trichuris_trichiura_egg_atypical3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Trichuris trichiura",
+        "imageUrl": "https://www.cdc.gov/dpdx/trichuriasis/modules/Trichuris_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+        "infective": [
+          "Huevo embrionado: ingestión"
+        ],
+        "diagnostic": [
+          "Huevo no embrionado: heces"
+        ],
+        "steps": [
+          "Se eliminan huevos no embrionados.",
+          "Los huevos embrionan en el suelo.",
+          "La ingestión libera larvas en intestino delgado.",
+          "Los adultos maduran en ciego y colon y producen huevos."
+        ],
+        "note": "La maduración ambiental precede a la fase infectiva; un huevo recién eliminado no es ya el huevo infectivo."
+      }
+    ],
+    "diagnosticPearls": [
+      "La maduración ambiental precede a la fase infectiva; un huevo recién eliminado no es ya el huevo infectivo."
+    ]
+  },
+  {
+    "scientificName": "Necator americanus / Ancylostoma duodenale",
+    "aliases": [
+      "Necator americanus / Ancylostoma duodenale",
+      "Necator americanus",
+      "Ancylostoma duodenale"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de anquilostómido",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hookworm/images/1/Hookworm_egg_wtmt.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Hookworm_egg_wtmt.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No permite distinguir Necator de Ancylostoma."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Larva rabditiforme de anquilostómido",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hookworm/images/2/Hookworm_rhabditiform.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Hookworm_rhabditiform.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Larva filariforme L3 de anquilostómido",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hookworm/images/3/Hookworm_filariform_A.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Hookworm_filariform_A.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Extremo posterior de larva filariforme L3",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hookworm/images/3/Hookworm_filariform_posterior_A.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Hookworm_filariform_posterior_A.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ancylostoma duodenale: extremo anterior con dientes",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hookworm/images/4/Aduodenale_head_A.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Aduodenale_head_A.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Necator americanus: extremo anterior con placas cortantes",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hookworm/images/4/Namericanus_head_B.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Namericanus_head_B.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Necator americanus / Ancylostoma duodenale",
+        "imageUrl": "https://www.cdc.gov/dpdx/hookworm/modules/Hookworm_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hookworm/index.html",
+        "infective": [
+          "Larva filariforme L3: penetración cutánea; otras rutas dependen de la especie"
+        ],
+        "diagnostic": [
+          "Huevos: heces"
+        ],
+        "steps": [
+          "Los huevos eclosionan en suelo.",
+          "Las larvas rabditiformes se desarrollan a filariformes L3.",
+          "Las L3 penetran piel, migran y llegan al intestino.",
+          "Los adultos se fijan a mucosa intestinal y eliminan huevos."
+        ],
+        "note": "Los huevos no diferencian especies. La vía oral descrita para algunas especies no debe atribuirse a N. americanus."
+      }
+    ],
+    "diagnosticPearls": [
+      "Los huevos no diferencian especies. La vía oral descrita para algunas especies no debe atribuirse a N. americanus."
+    ]
+  },
+  {
+    "scientificName": "Hymenolepis nana",
+    "aliases": [
+      "Hymenolepis nana"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de H. nana con filamentos polares",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt5.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx H_nana_egg_wtmt5.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Hymenolepis nana",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt4.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx H_nana_egg_wtmt4.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Hymenolepis nana",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_HB2010.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx H_nana_HB2010.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Proglótides maduras de H. nana",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/4/H_nana_HE3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx H_nana_HE3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de H. nana dentro de una proglótide",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/4/H_nana_HE1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx H_nana_HE1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevos de H. nana en tejido de proglótide",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/4/H_nana_HE2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx H_nana_HE2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Hymenolepis nana",
+        "imageUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/modules/H_nana_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+        "infective": [
+          "Huevo embrionado: inmediatamente infectivo; cisticercoide en artrópodos por vía alternativa"
+        ],
+        "diagnostic": [
+          "Huevos: heces"
+        ],
+        "steps": [
+          "Se ingieren huevos infectivos.",
+          "Las oncosferas penetran vellosidades y forman cisticercoides.",
+          "Los adultos se desarrollan en intestino delgado.",
+          "Se liberan huevos; puede ocurrir autoinfección interna."
+        ],
+        "note": "El ciclo directo no requiere un hospedero intermediario; existe además una vía mediante artrópodos con cisticercoides."
+      }
+    ],
+    "diagnosticPearls": [
+      "El ciclo directo no requiere un hospedero intermediario; existe además una vía mediante artrópodos con cisticercoides."
+    ]
+  },
+  {
+    "scientificName": "Trypanosoma cruzi",
+    "aliases": [
+      "Trypanosoma cruzi"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Tripomastigotes de T. cruzi, gota gruesa",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/1/Tcruzi_thick_giemsa.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_thick_giemsa.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tripomastigote de T. cruzi, frotis delgado",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/2/Tcruzi_thin_giemsa.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_thin_giemsa.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tripomastigotes de T. cruzi en sangre",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/2/Tcruzi_thin_giemsa2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_thin_giemsa2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Amastigotes de T. cruzi en tejido cardíaco",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/5/Tcruzi_tissue_he.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_tissue_he.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Amastigotes de T. cruzi en corazón",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/5/Tcruzi_tissue_he2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_tissue_he2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Epimastigote de T. cruzi en cultivo",
+        "stainOrModality": "Microscopía de cultivo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/6/Tcruzi_culture_epi.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_culture_epi.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Forma de cultivo/vector, no forma sanguínea diagnóstica habitual."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Trypanosoma cruzi",
+        "imageUrl": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/modules/Chagas_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "infective": [
+          "Tripomastigote metacíclico: heces del triatomino que contaminan piel lesionada o mucosas"
+        ],
+        "diagnostic": [
+          "Tripomastigote sanguíneo: sangre en fase aguda; amastigote: tejido"
+        ],
+        "steps": [
+          "El triatomino elimina formas metacíclicas en heces cerca de la picadura.",
+          "El parásito entra por piel lesionada o mucosa.",
+          "En tejidos se transforma en amastigote y se multiplica.",
+          "Los tripomastigotes circulantes pueden ser ingeridos por otro triatomino."
+        ],
+        "note": "La transmisión vectorial típica ocurre por contaminación con heces, no por inoculación salival. El diagnóstico crónico requiere enfoques serológicos."
+      }
+    ],
+    "diagnosticPearls": [
+      "La transmisión vectorial típica ocurre por contaminación con heces, no por inoculación salival. El diagnóstico crónico requiere enfoques serológicos."
+    ]
+  },
+  {
+    "scientificName": "Leishmania braziliensis / L. mexicana",
+    "aliases": [
+      "Leishmania braziliensis / L. mexicana",
+      "Leishmania braziliensis",
+      "Leishmania mexicana"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Amastigotes de Leishmania spp.",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/images/1/Leish_amasti2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Leish_amasti2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia de género: no identifica L. braziliensis."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Amastigotes de Leishmania spp. en impronta",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/images/2/Leish_amasti_TouchPrep_mn.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Leish_amasti_TouchPrep_mn.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No permite identificación de especie por sí sola."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Amastigotes de Leishmania spp.",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/images/2/Leish_amasti_TouchPrep2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Leish_amasti_TouchPrep2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia de género."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Amastigotes de Leishmania spp. en lesión cutánea",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/images/3/Leish_amasti_HnE_tissue_mn.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Leish_amasti_HnE_tissue_mn.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La fuente no especifica especie."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Leishmania mexicana en lesión cutánea",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/images/3/Leish_skin_DPDx.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Leish_skin_DPDx.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Promastigotes de Leishmania spp. de cultivo",
+        "stainOrModality": "Microscopía de cultivo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/leishmaniasis/images/4/Leish_epimasti_mn.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Leish_epimasti_mn.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Forma de cultivo, no forma diagnóstica tisular típica."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Leishmania braziliensis / L. mexicana",
+        "imageUrl": "https://www.cdc.gov/dpdx/leishmaniasis/modules/Leishmania_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+        "infective": [
+          "Promastigote metacíclico: inoculado por flebótomo"
+        ],
+        "diagnostic": [
+          "Amastigote: raspado, aspirado o biopsia de lesión/tejido según forma clínica"
+        ],
+        "steps": [
+          "El flebótomo inocula promastigotes.",
+          "Los macrófagos los incorporan y se forman amastigotes.",
+          "Los amastigotes se multiplican en células del hospedero.",
+          "Otro flebótomo ingiere células infectadas y desarrolla promastigotes."
+        ],
+        "note": "La microscopía identifica amastigotes, pero la determinación de especie requiere métodos adicionales."
+      }
+    ],
+    "diagnosticPearls": [
+      "La microscopía identifica amastigotes, pero la determinación de especie requiere métodos adicionales."
+    ]
+  },
+  {
+    "scientificName": "Fasciola hepatica",
+    "aliases": [
+      "Fasciola hepatica"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Fasciola hepatica",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/fascioliasis/images/1/F_hepatica_egg_wtmt_HB1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx F_hepatica_egg_wtmt_HB1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Fasciola hepatica",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/fascioliasis/images/1/F_hepatica_egg_wtmt_HB2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx F_hepatica_egg_wtmt_HB2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Huevo de Fasciola hepatica",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/fascioliasis/images/1/Fasciola_egg_2x2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Fasciola_egg_2x2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Adulto de Fasciola hepatica fijado en formalina",
+        "stainOrModality": "Ejemplar sin tinción",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/fascioliasis/images/2/Fasciola_adult_unstained1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Fasciola_adult_unstained1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Adulto de Fasciola hepatica",
+        "stainOrModality": "Carmín",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/fascioliasis/images/2/F_hepatica_adult_stained_BAM.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx F_hepatica_adult_stained_BAM.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Fasciola hepatica",
+        "imageUrl": "https://www.cdc.gov/dpdx/fascioliasis/modules/Fasciola_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+        "infective": [
+          "Metacercaria: vegetación acuática contaminada"
+        ],
+        "diagnostic": [
+          "Huevos: heces o material biliar durante fase patente"
+        ],
+        "steps": [
+          "Los huevos llegan al agua y liberan miracidios.",
+          "Un caracol permite el desarrollo y libera cercarias.",
+          "Las cercarias se enquistan como metacercarias sobre vegetación.",
+          "La ingestión origina migración hepática y adultos en conductos biliares."
+        ],
+        "note": "En la fase temprana pueden faltar huevos en heces; los huevos no son la forma infectiva que se ingiere."
+      }
+    ],
+    "diagnosticPearls": [
+      "En la fase temprana pueden faltar huevos en heces; los huevos no son la forma infectiva que se ingiere."
+    ]
+  },
+  {
+    "scientificName": "Onchocerca volvulus",
+    "aliases": [
+      "Onchocerca volvulus"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Microfilarias en nódulo: muestra de Zambia",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/1/O_volvulus_filaria_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx O_volvulus_filaria_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Caso de Zambia; no representa transmisión actual en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Microfilarias en útero de hembra adulta",
+        "stainOrModality": "Microscopía histológica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/1/O_volvulus_filaria_BAM2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx O_volvulus_filaria_BAM2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Muestra del mismo caso de Zambia."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Microfilarias en nódulo: Zambia",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/1/O_volvulus_filaria_BAM3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx O_volvulus_filaria_BAM3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Caso de referencia internacional."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Microfilaria enrollada en nódulo: Zambia",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/1/O_volvulus_filaria_BAM4.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx O_volvulus_filaria_BAM4.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Caso de referencia internacional."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Adulto de Onchocerca en nódulo subcutáneo",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/2/Ovolvulus_tissue1b.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ovolvulus_tissue1b.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Adulto de Onchocerca en tejido",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/2/Ovolvulus_tissue2b.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ovolvulus_tissue2b.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Onchocerca volvulus",
+        "imageUrl": "https://www.cdc.gov/dpdx/onchocerciasis/modules/O_volvulus_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "infective": [
+          "Larva L3: depositada por Simulium y penetra la herida"
+        ],
+        "diagnostic": [
+          "Microfilaria: biopsia superficial de piel; adultos en nódulos"
+        ],
+        "steps": [
+          "Simulium introduce larvas L3 en la piel.",
+          "Los adultos se desarrollan en nódulos subcutáneos.",
+          "Las hembras producen microfilarias que migran por piel.",
+          "Otra mosca ingiere microfilarias y desarrolla larvas L3."
+        ],
+        "note": "La muestra diagnóstica típica es piel. La descripción mundial del ciclo no prueba transmisión activa en Guatemala."
+      }
+    ],
+    "diagnosticPearls": [
+      "La muestra diagnóstica típica es piel. La descripción mundial del ciclo no prueba transmisión activa en Guatemala."
+    ]
+  },
+  {
+    "scientificName": "Sarcoptes scabiei var. hominis",
+    "aliases": [
+      "Sarcoptes scabiei var. hominis",
+      "Sarcoptes scabiei"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Sarcoptes scabiei en raspado de piel",
+        "stainOrModality": "Azul de algodón en lactofenol",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/scabies/images/1/Sarcoptes_scabiei_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/scabies/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Sarcoptes_scabiei_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ácaro de Sarcoptes en raspado de piel",
+        "stainOrModality": "Azul de algodón en lactofenol",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/scabies/images/1/Sarcoptes_scabiei_BAM2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/scabies/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Sarcoptes_scabiei_BAM2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Sarcoptes scabiei en biopsia cutánea",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/scabies/images/2/scabies_tissue_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/scabies/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx scabies_tissue_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Adulto y huevo de Sarcoptes en piel",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/scabies/images/2/scabies_tissue_BAM2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/scabies/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx scabies_tissue_BAM2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Sarcoptes scabiei var. hominis",
+        "imageUrl": "https://www.cdc.gov/dpdx/scabies/modules/Scabies_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/scabies/index.html",
+        "infective": [
+          "Hembra adulta fecundada: transmisión predominante por contacto piel con piel"
+        ],
+        "diagnostic": [
+          "Ácaros, huevos o material fecal del ácaro: raspado cutáneo"
+        ],
+        "steps": [
+          "La hembra fecundada coloniza piel y excava surcos.",
+          "Deposita huevos.",
+          "Los huevos originan larvas de tres pares de patas.",
+          "Las ninfas y adultos tienen cuatro pares de patas."
+        ],
+        "note": "La fase infestante principal es la hembra fecundada. No confundir las microfotografías de Demodex de la misma página con Sarcoptes."
+      }
+    ],
+    "diagnosticPearls": [
+      "La fase infestante principal es la hembra fecundada. No confundir las microfotografías de Demodex de la misma página con Sarcoptes."
+    ]
+  },
+  {
+    "scientificName": "Pediculus humanus capitis / corporis",
+    "aliases": [
+      "Pediculus humanus capitis / corporis",
+      "Pediculus humanus capitis",
+      "Pediculus humanus corporis",
+      "Pediculus humanus"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Pediculus humanus capitis: adulto",
+        "stainOrModality": "Fotografía de ejemplar",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/pediculosis/images/1/P_h_capitis_adult1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx P_h_capitis_adult1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Piojo de cabeza: hembra con huevos",
+        "stainOrModality": "Fotografía de ejemplar",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/pediculosis/images/1/P_h_capitis_female1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx P_h_capitis_female1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Pediculus humanus: adulto",
+        "stainOrModality": "Fotografía de ejemplar",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/pediculosis/images/1/Pediculus_humanus_louse.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Pediculus_humanus_louse.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La leyenda original no identifica la variedad capitis/corporis."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Liendre con ninfa iniciando eclosión",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/pediculosis/images/2/P_h_capitis_nit_SJ1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx P_h_capitis_nit_SJ1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cáscara vacía de la liendre tras eclosión",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/pediculosis/images/2/P_h_capitis_nit_SJ2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx P_h_capitis_nit_SJ2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Pediculus humanus capitis / corporis",
+        "imageUrl": "https://www.cdc.gov/dpdx/pediculosis/modules/Lice_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+        "infective": [
+          "Ninfa o adulto móvil: transferencia entre personas por contacto o fómites según variedad"
+        ],
+        "diagnostic": [
+          "Piojos vivos y liendres: cabello o ropa según variedad"
+        ],
+        "steps": [
+          "La hembra fija huevos al cabello o fibras de ropa según variedad.",
+          "Eclosionan ninfas.",
+          "Las ninfas pasan por mudas y llegan a adultos.",
+          "Los adultos se transfieren a otro hospedero."
+        ],
+        "note": "Una cáscara de liendre vacía no demuestra por sí sola infestación activa."
+      }
+    ],
+    "diagnosticPearls": [
+      "Una cáscara de liendre vacía no demuestra por sí sola infestación activa."
+    ]
+  },
+  {
+    "scientificName": "Cryptosporidium parvum / C. hominis",
+    "aliases": [
+      "Cryptosporidium parvum / C. hominis",
+      "Cryptosporidium parvum",
+      "Cryptosporidium hominis"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquistes de Cryptosporidium spp.",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/1/Crypto_wtmt_annot.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Crypto_wtmt_annot.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El mismo campo incluye una levadura señalada con otra flecha."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquistes de Cryptosporidium parvum",
+        "stainOrModality": "DIC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/1/DPDxCrypto_oo_DIC.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx DPDxCrypto_oo_DIC.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquistes de C. parvum",
+        "stainOrModality": "Ácido-alcohol resistente modificada",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/3/Crypto_oocyst4.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Crypto_oocyst4.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquistes de Cryptosporidium spp.",
+        "stainOrModality": "Ácido-alcohol resistente modificada",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/3/Crypto_acidfast_web.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Crypto_acidfast_web.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquistes que no captaron la tinción",
+        "stainOrModality": "Ácido-alcohol resistente modificada",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/4/Crypto_acidfast1_100x_annot.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Crypto_acidfast1_100x_annot.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La ausencia de coloración de un ooquiste no excluye Cryptosporidium."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquistes de Cryptosporidium parvum",
+        "stainOrModality": "Auramina-rodamina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/7/DPDxCrypto_oo_Aura.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx DPDxCrypto_oo_Aura.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Cryptosporidium parvum / C. hominis",
+        "imageUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/modules/Cryptosporidium_LifeCycle_lg.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "infective": [
+          "Ooquiste esporulado de pared gruesa: infectivo al eliminarse"
+        ],
+        "diagnostic": [
+          "Ooquistes de pared gruesa: heces"
+        ],
+        "steps": [
+          "Se ingieren ooquistes en agua, alimentos o por contacto.",
+          "Se liberan esporozoítos que colonizan epitelio intestinal.",
+          "La multiplicación asexual y sexual produce nuevos ooquistes.",
+          "Los de pared gruesa salen en heces; los de pared delgada favorecen autoinfección."
+        ],
+        "note": "La microscopía no distingue C. parvum de C. hominis; la identificación de especie requiere métodos específicos."
+      }
+    ],
+    "diagnosticPearls": [
+      "La microscopía no distingue C. parvum de C. hominis; la identificación de especie requiere métodos específicos."
+    ]
+  },
+  {
+    "scientificName": "Toxoplasma gondii",
+    "aliases": [
+      "Toxoplasma gondii"
+    ],
+    "category": "parasito",
+    "scope": "Referencia internacional CDC (Estados Unidos). Biología y diagnóstico aplicables al estudio en Guatemala; esta fuente no aporta cifras nacionales.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Taquizoítos de Toxoplasma: ratón experimental",
+        "stainOrModality": "Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/1/T_gondii_tachy.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_gondii_tachy.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Líquido peritoneal de ratón inoculado en laboratorio; no es una muestra clínica humana."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste tisular de Toxoplasma en cerebro",
+        "stainOrModality": "Hematoxilina y eosina",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/2/T_gondii_cyst_brain.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_gondii_cyst_brain.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quiste tisular de Toxoplasma sin tinción",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/3/T_gondii_cyst_unstained.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_gondii_cyst_unstained.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquiste esporulado de Toxoplasma",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/4/T_gondii_oocyst_sporu.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_gondii_oocyst_sporu.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Los ooquistes se eliminan en heces de félidos, no son el diagnóstico fecal humano."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquiste esporulado de Toxoplasma",
+        "stainOrModality": "DIC",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/4/T_gondii_DIC_sporu_100X1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_gondii_DIC_sporu_100X1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia de fase ambiental; no muestra coproparasitaria humana."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Ooquiste no esporulado de Toxoplasma",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/5/T_gondii_oocyst_upsporu.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx T_gondii_oocyst_upsporu.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No es todavía el ooquiste infectivo ambiental."
+      }
+    ],
+    "cycles": [
+      {
+        "title": "Toxoplasma gondii",
+        "imageUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/modules/Toxoplasma_LifeCycle_BAM1.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "infective": [
+          "Ooquiste esporulado: contaminación ambiental",
+          "Quiste tisular con bradizoítos: carne insuficientemente cocida",
+          "Taquizoíto: transmisión transplacentaria y otras vías"
+        ],
+        "diagnostic": [
+          "Taquizoítos/quistes tisulares en muestras seleccionadas; habitualmente serología y/o PCR"
+        ],
+        "steps": [
+          "Los félidos eliminan ooquistes que esporulan en el ambiente.",
+          "La ingestión de ooquistes o quistes tisulares produce infección.",
+          "Los taquizoítos se diseminan y pueden atravesar la placenta.",
+          "Los bradizoítos persisten en quistes tisulares."
+        ],
+        "note": "En humanos no se diagnostica toxoplasmosis buscando ooquistes en heces; la interpretación serológica depende del contexto."
+      }
+    ],
+    "diagnosticPearls": [
+      "En humanos no se diagnostica toxoplasmosis buscando ooquistes en heces; la interpretación serológica depende del contexto."
+    ]
+  },
+  {
+    "scientificName": "Staphylococcus aureus",
+    "aliases": [
+      "Staphylococcus aureus"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "S. aureus: agrupación bacteriana",
+        "stainOrModality": "Anticuerpos fluorescentes; iluminación UV",
+        "creditOrSource": "CDC/ Dr. J. Cohen",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28734/28734_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28734",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28734",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "S. aureus: cocos en muestra teñida",
+        "stainOrModality": "Brown y Brenn; 1280×",
+        "creditOrSource": "CDC/ Dr. Martin Hicklin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26014/26014_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26014",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 26014",
+        "imageDate": "1961",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "SARM y fagocitosis por leucocito",
+        "stainOrModality": "SEM con coloración digital",
+        "creditOrSource": "National Institute of Allergy and Infectious Diseases (NIAID); fotografía: National Institute of Allergy and Infectious Diseases (NIAID)",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/18256/18256_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=18256",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 18256",
+        "imageDate": "2012",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Microfotografía real colorizada por NIAID. Azul añadido digitalmente; no permite deducir resistencia por color."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "SARM en interacción con leucocito",
+        "stainOrModality": "SEM con coloración digital",
+        "creditOrSource": "National Institute of Allergy and Infectious Diseases (NIAID); fotografía: National Institute of Allergy and Infectious Diseases (NIAID)",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/18167/18167_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=18167",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 18167",
+        "imageDate": "2011",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Microfotografía real colorizada por NIAID; magenta y azul no son colores naturales."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Microfotografía real colorizada por NIAID. Azul añadido digitalmente; no permite deducir resistencia por color.",
+      "Microfotografía real colorizada por NIAID; magenta y azul no son colores naturales."
+    ]
+  },
+  {
+    "scientificName": "Mycobacterium tuberculosis",
+    "aliases": [
+      "Mycobacterium tuberculosis"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "M. tuberculosis en frotis de esputo",
+        "stainOrModality": "Ziehl-Neelsen; 1000×",
+        "creditOrSource": "CDC/ Ronald W. Smithwick",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/13373/13373_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=13373",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 13373",
+        "imageDate": "1975",
+        "consultedAt": "2026-10-03",
+        "interpretation": "BAAR: la tinción no identifica por sí sola la especie ni su sensibilidad."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Bacilos de M. tuberculosis",
+        "stainOrModality": "SEM; 15 549×",
+        "creditOrSource": "CDC/ Ray Butler, MS; fotografía: Janice Haney Carr",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/8438/8438_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8438",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 8438",
+        "imageDate": "2006",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Colonias de M. tuberculosis",
+        "stainOrModality": "Fotografía de cultivo",
+        "creditOrSource": "CDC/ Joe Miller",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/17459/17459_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=17459",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 17459",
+        "imageDate": "1980",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Medio no especificado en el registro. No es una guía para cultivar fuera de un laboratorio autorizado."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "M. tuberculosis: fluorescencia",
+        "stainOrModality": "Fluorocromo de Truant; 450×",
+        "creditOrSource": "CDC/ Wilbur D. Jones",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/22206/22206_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22206",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 22206",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La fluorescencia de referencia no establece sola especie o resistencia."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "BAAR: la tinción no identifica por sí sola la especie ni su sensibilidad.",
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Medio no especificado en el registro. No es una guía para cultivar fuera de un laboratorio autorizado.",
+      "La fluorescencia de referencia no establece sola especie o resistencia."
+    ]
+  },
+  {
+    "scientificName": "Candida albicans",
+    "aliases": [
+      "Candida albicans"
+    ],
+    "category": "hongo",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "C. albicans: tubos germinales",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC/ Dr. C.D. Webb",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30264/30264_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30264",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 30264",
+        "imageDate": "1972",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. albicans: pseudohifas en tejido hepático",
+        "stainOrModality": "Gömöri; 1050×",
+        "creditOrSource": "CDC/ Dr. Kaplan",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28760/28760_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28760",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28760",
+        "imageDate": "1966",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. albicans: blastoconidios y patrón filamentoso",
+        "stainOrModality": "Microscopía; 1200×",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28246/28246_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28246",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28246",
+        "imageDate": "1957",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. albicans: producción de tubo germinal",
+        "stainOrModality": "Cultivo en suero; tinción de Gram",
+        "creditOrSource": "CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26757/26757_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26757",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 26757",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "El contexto de cultivo y pruebas adicionales importa para identificar la especie."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "El contexto de cultivo y pruebas adicionales importa para identificar la especie."
+    ]
+  },
+  {
+    "scientificName": "Campylobacter jejuni",
+    "aliases": [
+      "Campylobacter jejuni"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "fotografia_cultivo",
+        "caption": "C. jejuni en medio selectivo",
+        "stainOrModality": "Fotografía de cultivo",
+        "creditOrSource": "CDC/ Sheila W. Mitchell",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26411/26411_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26411",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 26411",
+        "imageDate": "1979",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Medios Skirrow/Butzler descritos en registro histórico; no es una recomendación actual de procedimiento."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "C. jejuni: cultivo con suplementos selectivos",
+        "stainOrModality": "Fotografía de cultivo",
+        "creditOrSource": "CDC/ Sheila W. Mitchell",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26410/26410_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26410",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 26410",
+        "imageDate": "1979",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Composición histórica del registro; identificación por pruebas de laboratorio."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. jejuni: bacilos curvos en cultivo de 48 horas",
+        "stainOrModality": "Microscopía de cultivo",
+        "creditOrSource": "CDC/ R. E. Weaver, MD, PhD",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/6654/6654_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6654",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 6654",
+        "imageDate": "1980",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. jejuni: formas cocoides en cultivo de 72 horas",
+        "stainOrModality": "Gram",
+        "creditOrSource": "CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/20050110/db7ef58895714fda87913b854d7da6af/6652_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6652",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 6652",
+        "imageDate": "1980",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. jejuni: superficie de un bacilo",
+        "stainOrModality": "SEM; 9951×",
+        "creditOrSource": "CDC/ Dr. Patricia Fields, Dr. Collette Fitzgerald; fotografía: Janice Haney Carr",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/20040603/f730ff79c0e94b9d80943ef4f5a5ab73/5781_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=5781",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 5781",
+        "imageDate": "2004",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Medios Skirrow/Butzler descritos en registro histórico; no es una recomendación actual de procedimiento.",
+      "Composición histórica del registro; identificación por pruebas de laboratorio.",
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+    ]
+  },
+  {
+    "scientificName": "Shigella dysenteriae",
+    "aliases": [
+      "Shigella dysenteriae"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Shigella dysenteriae: bacilos",
+        "stainOrModality": "Campo oscuro",
+        "creditOrSource": "Armed Forces Institute of Pathology, AFIP",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/22229/22229_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22229",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 22229",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Shigella dysenteriae: morfología bacilar",
+        "stainOrModality": "Microscopía óptica",
+        "creditOrSource": "CDC/ Armed Forces Institute of Pathology (AFIP)",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/22177/22177_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22177",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 22177",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Shigella spp.: formas de cultivo experimental",
+        "stainOrModality": "Microscopía; 1125×",
+        "creditOrSource": "CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28711/28711_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28711",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28711",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Referencia de género. El registro no identifica S. dysenteriae; no se cuenta como fotografía específica de esta especie."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Prueba de agar hierro-lisina: comparación bacteriana",
+        "stainOrModality": "Fotografía de cultivos",
+        "creditOrSource": "CDC/ Dr. P.R. Edwards",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/25899/25899_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25899",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 25899",
+        "imageDate": "1961",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Tubos, de izquierda a derecha: Proteus, Providencia, Shigella spp. y E. coli. No muestra exclusivamente S. dysenteriae."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Referencia de género. El registro no identifica S. dysenteriae; no se cuenta como fotografía específica de esta especie.",
+      "Tubos, de izquierda a derecha: Proteus, Providencia, Shigella spp. y E. coli. No muestra exclusivamente S. dysenteriae."
+    ]
+  },
+  {
+    "scientificName": "Escherichia coli",
+    "aliases": [
+      "Escherichia coli"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "E. coli: bacilos Gram negativos",
+        "stainOrModality": "Gram; 1125×",
+        "creditOrSource": "CDC/ K. Skogstad",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/24573/24573_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=24573",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 24573",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "E. coli: morfología en preparación teñida",
+        "stainOrModality": "Gram; 1125×",
+        "creditOrSource": "CDC/ K. Skogstad",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/24572/24572_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=24572",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 24572",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "E. coli O127 con flagelos",
+        "stainOrModality": "TEM",
+        "creditOrSource": "CDC/ Cynthia Goldsmith; fotografía: Charles D. Humphrey; CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23594/23594_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23594",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23594",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Serogrupo O127. La morfología no establece el patotipo ni tratamiento."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "E. coli O157:H7 con flagelos",
+        "stainOrModality": "TEM",
+        "creditOrSource": "CDC/ Cynthia Goldsmith; fotografía: Charles D Humphrey; CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23593/23593_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23593",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23593",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Cepa O157:H7. No generalizar virulencia ni manejo a todas las E. coli."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Serogrupo O127. La morfología no establece el patotipo ni tratamiento.",
+      "Cepa O157:H7. No generalizar virulencia ni manejo a todas las E. coli."
+    ]
+  },
+  {
+    "scientificName": "Salmonella enterica subsp. enterica serovar Typhi",
+    "aliases": [
+      "Salmonella enterica subsp. enterica serovar Typhi",
+      "Salmonella Typhi",
+      "Salmonella typhi"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "S. Typhi: comparación de iluminación con y sin filtro UV",
+        "stainOrModality": "Globulina marcada contra antígeno H; fluorescencia",
+        "creditOrSource": "CDC/ Berenice M. Thomason, BS",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28426/28426_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28426",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28426",
+        "imageDate": "1956",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "S. Typhi en frotis fecal de portador",
+        "stainOrModality": "Anticuerpos fluorescentes; conjugado Vi",
+        "creditOrSource": "CDC/ Berenice M. Thomason",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23267/23267_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23267",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23267",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Registro histórico, no equivale a una recomendación de tamizaje actual."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "S. Typhi en preparación fecal",
+        "stainOrModality": "Anticuerpos fluorescentes; conjugado Vi",
+        "creditOrSource": "CDC/ Berenice M. Thomason",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23153/23153_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23153",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23153",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "S. Typhi en frotis con conjugado Vi",
+        "stainOrModality": "Anticuerpos fluorescentes",
+        "creditOrSource": "CDC/ Berenice M. Thomason",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23152/23152_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23152",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23152",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Registro histórico, no equivale a una recomendación de tamizaje actual."
+    ]
+  },
+  {
+    "scientificName": "Streptococcus pneumoniae",
+    "aliases": [
+      "Streptococcus pneumoniae"
+    ],
+    "category": "bacteria",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Neumococos en muestra de LCR tratada con penicilina",
+        "stainOrModality": "Anticuerpos fluorescentes",
+        "creditOrSource": "CDC/ M.S. Mitchell, MD",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29184/29184_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29184",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 29184",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "S. pneumoniae en líquido cefalorraquídeo",
+        "stainOrModality": "Anticuerpos fluorescentes",
+        "creditOrSource": "CDC/ Dr. M.S. Mitchell",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28844/28844_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28844",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28844",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Par de neumococos",
+        "stainOrModality": "Anticuerpos fluorescentes",
+        "creditOrSource": "CDC/ William B. Cherry, Ph.D.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23031/23031_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23031",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23031",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Neumococos en líquido cefalorraquídeo",
+        "stainOrModality": "Anticuerpos fluorescentes",
+        "creditOrSource": "CDC/ Dr. William B. Cherry, Ph.D.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23030/23030_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23030",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 23030",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+    ]
+  },
+  {
+    "scientificName": "Cryptococcus neoformans",
+    "aliases": [
+      "Cryptococcus neoformans"
+    ],
+    "category": "hongo",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "C. neoformans: levaduras encapsuladas en pulmón",
+        "stainOrModality": "PAS; 1200×",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30712/30712_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30712",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 30712",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "C. neoformans en LCR",
+        "stainOrModality": "Microscopía; 1187×",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28900/28900_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28900",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28900",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo de C. neoformans de muestra de suelo",
+        "stainOrModality": "Fotografía de cultivo",
+        "creditOrSource": "CDC/ Sherry Brinkman",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28874/28874_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28874",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28874",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Aislamiento ambiental de Alabama (EE. UU.), medio no especificado; no es un caso guatemalteco."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "C. neoformans: utilización de carbohidratos",
+        "stainOrModality": "Fotografía de cultivo",
+        "creditOrSource": "CDC/ Sherry Brinkman",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28872/28872_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28872",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 28872",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Prueba histórica: la identificación clínica requiere el algoritmo vigente del laboratorio."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Aislamiento ambiental de Alabama (EE. UU.), medio no especificado; no es un caso guatemalteco.",
+      "Prueba histórica: la identificación clínica requiere el algoritmo vigente del laboratorio."
+    ]
+  },
+  {
+    "scientificName": "Histoplasma capsulatum",
+    "aliases": [
+      "Histoplasma capsulatum"
+    ],
+    "category": "hongo",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "H. capsulatum: micelio y espora marcada",
+        "stainOrModality": "Conjugado de referencia",
+        "creditOrSource": "CDC/ Dr. Kaplan",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/27062/27062_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27062",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 27062",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "H. capsulatum: levaduras en histiocito de ratón",
+        "stainOrModality": "Microscopía de muestra experimental",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26882/26882_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26882",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 26882",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Ratón inoculado en laboratorio; no es un caso clínico humano de Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "H. capsulatum en hígado de ratón",
+        "stainOrModality": "Anticuerpos fluorescentes",
+        "creditOrSource": "CDC/ Dr. W. Kaplan",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29097/29097_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29097",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 29097",
+        "imageDate": "1961",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Tejido de ratón infectado; referencia experimental."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Cambios pulmonares asociados a histoplasmosis",
+        "stainOrModality": "Radiografía AP histórica; 1962",
+        "creditOrSource": "CDC/ Margaret Renz",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/27570/27570_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27570",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 27570",
+        "imageDate": "1962",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Caso histórico de Kansas, EE. UU. La radiografía no identifica por sí sola el hongo."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta.",
+      "Ratón inoculado en laboratorio; no es un caso clínico humano de Guatemala.",
+      "Tejido de ratón infectado; referencia experimental.",
+      "Caso histórico de Kansas, EE. UU. La radiografía no identifica por sí sola el hongo."
+    ]
+  },
+  {
+    "scientificName": "Influenza A virus",
+    "aliases": [
+      "Influenza A virus"
+    ],
+    "category": "virus",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Influenza A/New Jersey/76: cultivo celular",
+        "stainOrModality": "Inmunofluorescencia FITC; 875×",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/32073/32073_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=32073",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 32073",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Células MDCK infectadas con cepa histórica; no indica circulación actual en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Antígeno de influenza A en célula epitelial",
+        "stainOrModality": "Inmunofluorescencia; 216×",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/32071/32071_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=32071",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 32071",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Muestra de hisopado faríngeo; algoritmo diagnóstico actual debe consultarse aparte."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Influenza A: antígeno en cultivo celular",
+        "stainOrModality": "Inmunofluorescencia; 216×",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30640/30640_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30640",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 30640",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Cultivo de células de riñón de mono, referencia histórica."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "Células MDCK infectadas con cepa histórica; no indica circulación actual en Guatemala.",
+      "Muestra de hisopado faríngeo; algoritmo diagnóstico actual debe consultarse aparte.",
+      "Cultivo de células de riñón de mono, referencia histórica."
+    ]
+  },
+  {
+    "scientificName": "Dengue virus (DENV 1, 2, 3, 4)",
+    "aliases": [
+      "Dengue virus (DENV 1, 2, 3, 4)",
+      "Dengue virus",
+      "Virus del dengue"
+    ],
+    "category": "virus",
+    "scope": "Referencias internacionales CDC / PHIL. No son muestras ni estadísticas de Guatemala salvo indicación expresa del registro.",
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Partículas del virus del dengue en tejido",
+        "stainOrModality": "TEM",
+        "creditOrSource": "CDC/ Frederick Murphy; fotografía: Frederick Murphy",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/12493/12493_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12493",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 12493",
+        "imageDate": "2010",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La imagen no determina serotipo, fecha de infección ni epidemia guatemalteca."
+      },
+      {
+        "type": "fotografia_vector",
+        "caption": "Aedes aegypti: hembra alimentándose",
+        "stainOrModality": "Fotografía del vector",
+        "creditOrSource": "CDC/ Robert S. Craig",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/20050215/d45f0447b52b4394a9bf3b0d17dac0ff/6923_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6923",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 6923",
+        "imageDate": "1967",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Es el mosquito vector, no una imagen del virus ni una prueba diagnóstica."
+      },
+      {
+        "type": "fotografia_vector",
+        "caption": "Aedes albopictus: vector de referencia",
+        "stainOrModality": "Fotografía del vector",
+        "creditOrSource": "CDC/ James Gathany; fotografía: James Gathany",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/4409/4409_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=4409",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 4409",
+        "imageDate": "2003",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La descripción regional de la fuente no documenta transmisión en Guatemala."
+      },
+      {
+        "type": "fotografia_entorno",
+        "caption": "Neumáticos que pueden acumular agua",
+        "stainOrModality": "Fotografía del entorno",
+        "creditOrSource": "CDC/ James M. Stewart",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/15927/15927_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=15927",
+        "license": "Dominio público; atribución al CDC y a los autores indicados",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "CDC PHIL 15927",
+        "imageDate": "1980",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Contexto preventivo de criaderos; no muestra el virus ni un caso de dengue."
+      }
+    ],
+    "cycles": [],
+    "diagnosticPearls": [
+      "La imagen no determina serotipo, fecha de infección ni epidemia guatemalteca.",
+      "Es el mosquito vector, no una imagen del virus ni una prueba diagnóstica.",
+      "La descripción regional de la fuente no documenta transmisión en Guatemala.",
+      "Contexto preventivo de criaderos; no muestra el virus ni un caso de dengue."
+    ]
+  }
+]
