@@ -6,6 +6,8 @@ import { MicroorganismsCatalog } from './components/MicroorganismsCatalog';
 import { VectorGallery } from './components/VectorGallery';
 import { DiseasesView } from './components/DiseasesView';
 import { DiagnosticsAtlas } from './components/DiagnosticsAtlas';
+import { AcademicLibrary } from './components/AcademicLibrary';
+import { ReviewExtractedInfoModal } from './components/ReviewExtractedInfoModal';
 import { GuatemalaExplorer } from './components/GuatemalaExplorer';
 import { EpidemiologyView } from './components/EpidemiologyView';
 import { StudyHub } from './components/StudyHub';
@@ -16,6 +18,16 @@ import { ComparatorModal } from './components/ComparatorModal';
 import { storageService } from './services/storageService';
 import { epidemiologyService } from './services/epidemiologyService';
 import { Microorganism, MicroorganismCategory } from './types/microorganism';
+import { 
+  AcademicDocument, 
+  ExtractionProposal, 
+  AuditLogEntry 
+} from './types/academicLibrary';
+import { 
+  INITIAL_ACADEMIC_DOCUMENTS, 
+  INITIAL_EXTRACTION_PROPOSALS, 
+  INITIAL_AUDIT_LOGS 
+} from './data/initialAcademicLibrary';
 
 export default function App() {
   const [currentSection, setCurrentSection] = useState<ActiveNavSection>('inicio');
@@ -27,6 +39,13 @@ export default function App() {
   const [selectedOrganism, setSelectedOrganism] = useState<Microorganism | null>(null);
   const [catalogInitialCategory, setCatalogInitialCategory] = useState<MicroorganismCategory | 'all'>('all');
   
+  // Academic Library & Intelligent Extraction State
+  const [academicDocuments, setAcademicDocuments] = useState<AcademicDocument[]>(INITIAL_ACADEMIC_DOCUMENTS);
+  const [extractionProposals, setExtractionProposals] = useState<ExtractionProposal[]>(INITIAL_EXTRACTION_PROPOSALS);
+  const [auditLogs, setAuditLogs] = useState<AuditLogEntry[]>(INITIAL_AUDIT_LOGS);
+  const [isReviewModalOpen, setIsReviewModalOpen] = useState<boolean>(false);
+  const [reviewDocFilter, setReviewDocFilter] = useState<string | null>(null);
+
   // Modals & Comparator
   const [isComparatorOpen, setIsComparatorOpen] = useState<boolean>(false);
   const [comparatorInitialOrganism, setComparatorInitialOrganism] = useState<Microorganism | null>(null);
@@ -34,11 +53,14 @@ export default function App() {
   // Bookmarks reactive state
   const [bookmarkedIds, setBookmarkedIds] = useState<string[]>([]);
 
-  // Load initial microorganisms & bookmarks
+  // Load initial microorganisms & bookmarks from persistent storage
   useEffect(() => {
     storageService.getMicroorganisms().then((list) => {
       setMicroorganisms(list);
     });
+    setAcademicDocuments(storageService.getAcademicDocuments());
+    setExtractionProposals(storageService.getExtractionProposals());
+    setAuditLogs(storageService.getAuditLogs());
     setBookmarkedIds(storageService.getBookmarks());
   }, []);
 
@@ -63,18 +85,367 @@ export default function App() {
     setIsComparatorOpen(true);
   };
 
+  // Academic Library Actions with Persistent Storage Sync
+  const handleAddAcademicDocument = (newDoc: AcademicDocument) => {
+    setAcademicDocuments(prev => {
+      const updated = [newDoc, ...prev];
+      storageService.saveAcademicDocuments(updated);
+      return updated;
+    });
+  };
+
+  const handleDeleteAcademicDocument = (docId: string) => {
+    setAcademicDocuments(prev => {
+      const updated = prev.filter(d => d.id !== docId);
+      storageService.saveAcademicDocuments(updated);
+      return updated;
+    });
+    // Also remove pending proposals belonging to this document
+    setExtractionProposals(prev => {
+      const updated = prev.filter(p => p.documentId !== docId || p.status !== 'pendiente');
+      storageService.saveExtractionProposals(updated);
+      return updated;
+    });
+  };
+
+  const handleUpdateDocumentStatus = (
+    docId: string, 
+    status: AcademicDocument['processingStatus'], 
+    proposalsCount?: number
+  ) => {
+    setAcademicDocuments(prev => {
+      const updated = prev.map(d => {
+        if (d.id === docId) {
+          return {
+            ...d,
+            processingStatus: status,
+            extractedProposalsCount: proposalsCount !== undefined ? proposalsCount : d.extractedProposalsCount
+          };
+        }
+        return d;
+      });
+      storageService.saveAcademicDocuments(updated);
+      return updated;
+    });
+  };
+
+  const handleUpdateDocumentPageText = (docId: string, pageNumber: number, newText: string) => {
+    setAcademicDocuments(prev => {
+      const updated = prev.map(d => {
+        if (d.id === docId) {
+          const updatedPages = d.pages.map(p => {
+            if (p.pageNumber === pageNumber) {
+              return {
+                ...p,
+                textContent: newText,
+                hasExtractableText: newText.trim().length > 15,
+                charCount: newText.length
+              };
+            }
+            return p;
+          });
+          const unextractable = updatedPages.filter(p => !p.hasExtractableText).length;
+          return { ...d, pages: updatedPages, unextractablePagesCount: unextractable };
+        }
+        return d;
+      });
+      storageService.saveAcademicDocuments(updated);
+      return updated;
+    });
+  };
+
+  const handleAddProposals = (newProps: ExtractionProposal[]) => {
+    setExtractionProposals(prev => {
+      const updated = [...newProps, ...prev];
+      storageService.saveExtractionProposals(updated);
+      return updated;
+    });
+  };
+
+  const handleOpenReviewModal = (docIdFilter?: string) => {
+    setReviewDocFilter(docIdFilter || null);
+    setIsReviewModalOpen(true);
+  };
+
+  const handleExportBackup = () => {
+    const jsonStr = storageService.exportBackupJSON();
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `InfectoAtlas_GT_Respaldo_${new Date().toISOString().split('T')[0]}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleImportBackup = async (file: File) => {
+    try {
+      const text = await file.text();
+      const ok = storageService.importBackupJSON(text);
+      if (ok) {
+        setAcademicDocuments(storageService.getAcademicDocuments());
+        setExtractionProposals(storageService.getExtractionProposals());
+        setAuditLogs(storageService.getAuditLogs());
+        storageService.getMicroorganisms().then(setMicroorganisms);
+      }
+    } catch (e) {
+      console.error('Error al importar respaldo:', e);
+    }
+  };
+
+  const handleClearDemoData = () => {
+    storageService.clearDemoData();
+    setAcademicDocuments([]);
+    setExtractionProposals([]);
+    setAuditLogs([]);
+  };
+
+  // Proposal Quality Approval: applies change to real Microorganism state & logs audit
+  const handleApproveProposal = (proposalId: string, customText?: string) => {
+    const proposal = extractionProposals.find(p => p.id === proposalId);
+    if (!proposal) return;
+
+    const finalProposedValue = customText !== undefined ? customText : proposal.proposedValue;
+    const isCustomEdited = customText !== undefined && customText !== proposal.proposedValue;
+
+    const bibStatus: 'Verificado' | 'Fuentes pendientes de revisión' | 'Revisado' =
+      proposal.verificationStatus === 'Verificado con literatura científica' ||
+      proposal.verificationStatus === 'Guía oficial MSPAS (Normativa nacional)'
+        ? 'Verificado'
+        : 'Fuentes pendientes de revisión';
+
+    // Apply change to target microorganism
+    setMicroorganisms(prevList => {
+      let updatedList: Microorganism[];
+      // If it's a proposal for a brand new microorganism
+      if (proposal.isNewOrganism) {
+        const newOrg: Microorganism = {
+          id: proposal.targetMicroorganismId,
+          scientificName: proposal.targetMicroorganismName,
+          commonName: proposal.targetMicroorganismName,
+          category: 'parasito',
+          reviewStatus: 'Fuentes pendientes de revisión',
+          taxonomy: {
+            genus: proposal.targetMicroorganismName.split(' ')[0] || 'Desconocido',
+            species: proposal.targetMicroorganismName,
+            family: 'Pendiente de taxonomía completa'
+          },
+          morphology: {
+            shape: finalProposedValue,
+            size: 'En proceso de caracterización biométrica',
+            arrangement: 'En proceso de caracterización',
+            gramStain: 'Tinciones especiales',
+            specialStructures: []
+          },
+          microbiologyCharacteristics: {
+            metabolism: 'Extracción documental académica',
+            cultureMedia: ['En revisión'],
+            optimalTemp: '37 °C',
+            growthTime: 'Variable',
+            keyBiochemicalTests: ['En validación']
+          },
+          externalAndInternalStructures: ['Descrito en documento fuente'],
+          virulenceFactors: [],
+          reservoir: ['En investigación'],
+          transmissionRoute: ['Documentado en literatura'],
+          associatedDiseases: [{
+            name: `Infección por ${proposal.targetMicroorganismName}`,
+            description: finalProposedValue,
+            clinicalPresentation: ['Fiebre o síntomas característicos']
+          }],
+          signsAndSymptoms: ['Ver detalle en documento fuente'],
+          complications: ['En evaluación'],
+          clinicalSpecimens: ['Muestra clínica específica'],
+          diagnosticMethods: [{
+            method: 'Detección documentada en literatura',
+            standardRole: 'Confirmatorio',
+            keyFindings: finalProposedValue
+          }],
+          labFindings: [],
+          treatment: {
+            disclaimer: 'Información extraída de material académico. Consulte normativas oficiales MSPAS.',
+            firstLine: ['Esquema según documento académico'],
+            alternatives: []
+          },
+          prevention: ['Medidas higiénico-sanitarias'],
+          guatemalaRelevance: {
+            endemicStatus: 'Vigilancia activa',
+            priorityLevel: 'Media',
+            departmentsWithHighPrevalence: [],
+            officialNotes: 'Ficha generada a partir de extracción de documento universitario. Requiere validación.',
+            notificationGroup: 'Vigilancia Centinela'
+          },
+          imagery: [{
+            type: 'ilustracion_cientifica',
+            caption: 'Microfotografía pendiente de incorporación documental',
+            stainOrModality: 'Microscopía óptica de referencia',
+            creditOrSource: proposal.documentTitle
+          }],
+          bibliography: [{
+            source: proposal.documentTitle,
+            title: `Cita documental en página ${proposal.sourcePage}`,
+            year: '2024',
+            status: bibStatus
+          }],
+          lastReviewedDate: new Date().toISOString().split('T')[0]
+        };
+        updatedList = [newOrg, ...prevList];
+      } else {
+        // Existing microorganism modification
+        updatedList = prevList.map(org => {
+          if (org.id === proposal.targetMicroorganismId) {
+            const updated = { ...org };
+            if (proposal.field === 'Morfología microscópica') {
+              updated.morphology = {
+                ...updated.morphology,
+                shape: `${updated.morphology.shape} [Incorporado de ${proposal.documentTitle} Pág. ${proposal.sourcePage}: ${finalProposedValue}]`
+              };
+            } else if (proposal.field === 'Método de identificación') {
+              updated.diagnosticMethods = [
+                ...updated.diagnosticMethods,
+                {
+                  method: `Método documentado (Pág. ${proposal.sourcePage}): ${proposal.documentTitle.slice(0, 30)}`,
+                  standardRole: 'Tamizaje',
+                  keyFindings: finalProposedValue
+                }
+              ];
+            } else if (proposal.field === 'Tratamiento y manejo') {
+              updated.treatment = {
+                ...updated.treatment,
+                firstLine: [...updated.treatment.firstLine, `[Doc Pág. ${proposal.sourcePage}]: ${finalProposedValue}`]
+              };
+            } else if (proposal.field === 'Epidemiología y datos Guatemala') {
+              updated.guatemalaRelevance = {
+                ...updated.guatemalaRelevance,
+                officialNotes: `${updated.guatemalaRelevance.officialNotes} — [Actualización Pág. ${proposal.sourcePage}]: ${finalProposedValue}`
+              };
+            }
+
+            // Append source to bibliography
+            updated.bibliography = [
+              ...updated.bibliography,
+              {
+                source: proposal.documentTitle,
+                title: `Fragmento extraído de Pág. ${proposal.sourcePage}: ${finalProposedValue.slice(0, 80)}...`,
+                year: '2024',
+                status: bibStatus
+              }
+            ];
+
+            return updated;
+          }
+          return org;
+        });
+      }
+
+      storageService.saveMicroorganisms(updatedList);
+      return updatedList;
+    });
+
+    // Update proposal status
+    setExtractionProposals(prev => {
+      const updated = prev.map(p => {
+        if (p.id === proposalId) {
+          return {
+            ...p,
+            status: isCustomEdited ? 'editado_y_aprobado' as const : 'aprobado' as const,
+            proposedValue: finalProposedValue,
+            userEditedSnippet: isCustomEdited ? finalProposedValue : undefined,
+            reviewedAt: new Date().toISOString()
+          };
+        }
+        return p;
+      });
+      storageService.saveExtractionProposals(updated);
+      return updated;
+    });
+
+    // Record Audit Log
+    const newLog: AuditLogEntry = {
+      id: `audit-${Date.now()}`,
+      timestamp: new Date().toLocaleString('es-GT'),
+      documentTitle: proposal.documentTitle,
+      sourcePage: proposal.sourcePage,
+      microorganismId: proposal.targetMicroorganismId,
+      microorganismName: proposal.targetMicroorganismName,
+      field: proposal.field,
+      previousValue: proposal.previousValue,
+      newValue: finalProposedValue,
+      originalExtractedSnippet: proposal.originalSnippet || proposal.sourceSnippet,
+      editedByReviewer: isCustomEdited,
+      action: isCustomEdited ? 'editado' : 'aprobado'
+    };
+
+    setAuditLogs(prev => {
+      const updated = [newLog, ...prev];
+      storageService.saveAuditLogs(updated);
+      return updated;
+    });
+  };
+
+  const handleDiscardProposal = (proposalId: string, reason?: string) => {
+    // Note: Discarding a proposal NEVER modifies any microorganism record!
+    setExtractionProposals(prev => {
+      const updated = prev.map(p => {
+        if (p.id === proposalId) {
+          return {
+            ...p,
+            status: 'descartado' as const,
+            discardReason: reason || 'Descartado por el revisor',
+            reviewedAt: new Date().toISOString()
+          };
+        }
+        return p;
+      });
+      storageService.saveExtractionProposals(updated);
+      return updated;
+    });
+  };
+
+  const handleRevertAuditLog = (logId: string) => {
+    const log = auditLogs.find(l => l.id === logId);
+    if (!log) return;
+
+    // Revert microorganism state if previous value exists
+    if (log.previousValue) {
+      setMicroorganisms(prevList => {
+        const reverted = prevList.map(org => {
+          if (org.id === log.microorganismId) {
+            const updated = { ...org };
+            if (log.field === 'Morfología microscópica') {
+              updated.morphology = { ...updated.morphology, shape: log.previousValue! };
+            }
+            return updated;
+          }
+          return org;
+        });
+        storageService.saveMicroorganisms(reverted);
+        return reverted;
+      });
+    }
+
+    setAuditLogs(prev => {
+      const updated = prev.filter(l => l.id !== logId);
+      storageService.saveAuditLogs(updated);
+      return updated;
+    });
+  };
+
   const sectionTitles: Record<ActiveNavSection, string> = {
     'inicio': 'Panel General',
     'microorganismos': 'Catálogo de Microorganismos',
     'vectores': 'Vectores Artrópodos en Guatemala',
     'enfermedades': 'Enfermedades Infecciosas',
     'atlas-diagnostico': 'Atlas Diagnóstico & Microscopía',
+    'biblioteca-academica': 'Biblioteca Académica & Extracción Inteligente',
     'epidemiologia': 'Vigilancia Epidemiológica Oficial',
     'guatemala': 'Vigilancia en los 22 Departamentos',
     'estudiar': 'Módulo de Estudio & Flashcards',
     'comparador': 'Comparador de Patógenos',
     'fuentes': 'Fuentes Científicas y Bibliografía'
   };
+
+  const pendingProposalsCount = extractionProposals.filter(p => p.status === 'pendiente').length;
 
   return (
     <div className="flex min-h-screen bg-slate-50 text-slate-900 font-sans antialiased">
@@ -85,6 +456,8 @@ export default function App() {
         isOpenMobile={isMobileSidebarOpen}
         onCloseMobile={() => setIsMobileSidebarOpen(false)}
         microorganismCount={microorganisms.length}
+        academicDocCount={academicDocuments.length}
+        pendingProposalsCount={pendingProposalsCount}
       />
 
       {/* Main Content Area */}
@@ -133,6 +506,31 @@ export default function App() {
             />
           )}
 
+          {currentSection === 'atlas-diagnostico' && (
+            <DiagnosticsAtlas
+              microorganisms={microorganisms}
+              onSelectOrganism={(org) => setSelectedOrganism(org)}
+            />
+          )}
+
+          {currentSection === 'biblioteca-academica' && (
+            <AcademicLibrary
+              documents={academicDocuments}
+              onAddDocument={handleAddAcademicDocument}
+              onDeleteDocument={handleDeleteAcademicDocument}
+              onUpdateDocumentStatus={handleUpdateDocumentStatus}
+              onUpdateDocumentPageText={handleUpdateDocumentPageText}
+              proposals={extractionProposals}
+              onAddProposals={handleAddProposals}
+              onOpenReviewModal={handleOpenReviewModal}
+              microorganisms={microorganisms}
+              onSelectOrganism={(org) => setSelectedOrganism(org)}
+              onExportBackup={handleExportBackup}
+              onImportBackup={handleImportBackup}
+              onClearDemoData={handleClearDemoData}
+            />
+          )}
+
           {currentSection === 'vectores' && (
             <VectorGallery
               onSelectPathogen={(pathogenId) => {
@@ -147,10 +545,6 @@ export default function App() {
               microorganisms={microorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
-          )}
-
-          {currentSection === 'atlas-diagnostico' && (
-            <DiagnosticsAtlas />
           )}
 
           {currentSection === 'epidemiologia' && (
@@ -189,6 +583,23 @@ export default function App() {
         </main>
       </div>
 
+      {/* Review Extracted Information Modal (REVISAR INFORMACIÓN EXTRAÍDA) */}
+      <ReviewExtractedInfoModal
+        isOpen={isReviewModalOpen}
+        onClose={() => setIsReviewModalOpen(false)}
+        proposals={extractionProposals}
+        onApproveProposal={handleApproveProposal}
+        onDiscardProposal={handleDiscardProposal}
+        auditLogs={auditLogs}
+        onRevertAuditLog={handleRevertAuditLog}
+        microorganisms={microorganisms}
+        onSelectOrganism={(org) => {
+          setSelectedOrganism(org);
+          setIsReviewModalOpen(false);
+        }}
+        initialDocumentIdFilter={reviewDocFilter}
+      />
+
       {/* Microorganism Detail Modal (Resumen Rápido & Ficha Completa) */}
       <MicroorganismDetailModal
         organism={selectedOrganism}
@@ -206,3 +617,4 @@ export default function App() {
     </div>
   );
 }
+

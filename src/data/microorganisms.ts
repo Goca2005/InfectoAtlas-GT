@@ -863,5 +863,1939 @@ export const INITIAL_MICROORGANISMS: Microorganism[] = [
       { source: 'Garcia HH, et al. (Neurocysticercosis Working Group in Peru)', title: 'Clinical Practice Guideline for the Management of Neurocysticercosis: 2017 IDSA / ASTMH', year: '2018', status: 'Fuentes pendientes de revisión' }
     ],
     lastReviewedDate: '2026-03-25'
+  },
+
+  {
+    id: 'plasmodium-falciparum',
+    scientificName: 'Plasmodium falciparum',
+    commonName: 'Paludismo por falciparum / Malaria terciana maligna',
+    category: 'parasito',
+    parasiteGroup: 'protozoo',
+    reviewStatus: 'Fuentes verificadas',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Apicomplexa',
+      classTaxon: 'Aconoidasida',
+      orderTaxon: 'Haemosporida',
+      family: 'Plasmodiidae',
+      genus: 'Plasmodium',
+      species: 'P. falciparum'
+    },
+    morphology: {
+      shape: 'Protozoo apicomplejo intraeritrocítico; hematíes parasitados de TAMAÑO NORMAL (no hipertrofiados), sin punteado de Schüffner. Pueden presentar hendiduras de Maurer.',
+      size: 'Trofozoíto en anillo: 1.0 - 1.5 µm (1/5 del diámetro del hematíe); Gametocito en semiluna: 9 - 14 µm',
+      arrangement: 'Intraeritrocitario / Citoadherente endotelial profundo',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Proteína de membrana eritrocitaria 1 (PfEMP-1) mediadora de citoadherencia y formación de "rosetas"', 'Complejo apical invasor', 'Ausencia de hipnozoítos hepáticos']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Microaerófilo; degrada hemoglobina de hematíes de todas las edades (reticulocitos y maduros), generando parasitemias muy elevadas (> 5-10%)',
+      cultureMedia: ['Cultivo continuo in vitro en medio RPMI 1640 con suero humano (método de Trager-Jensen)'],
+      optimalTemp: '37 °C',
+      growthTime: 'Ciclo eritrocitario de 48 horas (fiebre terciana irregular)',
+      keyBiochemicalTests: ['Detección de proteína rica en histidina II (HRP-2) en pruebas rápidas']
+    },
+    externalAndInternalStructures: [
+      'Protuberancias ("knobs") en la superficie del eritrocito parasitado con PfEMP-1',
+      'Hendiduras de Maurer: vesículas de transporte en el citoplasma del hematíe',
+      'Pigmento hemozoína condensado'
+    ],
+    virulenceFactors: [
+      { name: 'Citoadherencia y secuestro microvascular (PfEMP-1)', mechanism: 'Se une a receptores endoteliales (CD36, ICAM-1, EPCR) causando secuestro capilar en cerebro, riñón y pulmón, evitando el paso por el bazo' },
+      { name: 'Invasión no restringida de eritrocitos', mechanism: 'Invade hematíes de cualquier edad, provocando anemia hemolítica fulminante y parasitemias potencialmente letales' },
+      { name: 'Formación de rosetas y rigidez eritrocitaria', mechanism: 'Hematíes parasitados agrupan hematíes no parasitados obstruyendo el flujo microvascular' }
+    ],
+    reservoir: ['Seres humanos infectados'],
+    transmissionRoute: ['Picadura de hembras infectadas de mosquito Anopheles', 'Transfusiones sanguíneas', 'Transmisión vertical congénita'],
+    vector: 'Anopheles albimanus / Anopheles pseudopunctipennis',
+    associatedDiseases: [
+      {
+        name: 'Malaria Grave y Complicada por P. falciparum',
+        description: 'Emergencia médica caracterizada por malaria cerebral (coma), distrés respiratorio agudo, acidosis metabólica severa, falla renal aguda y anemia grave.',
+        clinicalPresentation: ['Fiebre maligna continua o en picos irregulares', 'Alteración del estado de conciencia o convulsiones (Malaria cerebral)', 'Ictericia y coluria intensa (Fiebre hemoglobinúrica)', 'Hiperlactatemia y respiración acidótica de Kussmaul']
+      }
+    ],
+    signsAndSymptoms: ['Fiebre alta irregular', 'Cefalea intensa y mialgias', 'Ictericia cutaneomucosa', 'Postración extrema', 'Vómitos biliosos'],
+    complications: ['Malaria cerebral con edema cerebral y herniación', 'Edema pulmonar no cardiogénico', 'Insuficiencia renal aguda por necrosis tubular', 'Acidosis láctica letal'],
+    clinicalSpecimens: ['Sangre capilar periférica por punción digital inmediata'],
+    diagnosticMethods: [
+      { method: 'Gota Gruesa y Frotis Delgado con Giemsa', standardRole: 'Gold Standard', keyFindings: 'Anillos muy pequeños y delicados con formas con doble cromatina, alta parasitemia y gametocitos en semiluna; ausencia de esquizontes en sangre periférica' },
+      { method: 'Pruebas de Diagnóstico Rápido (PDR) basadas en Antígeno HRP-2', standardRole: 'Tamizaje', keyFindings: 'Sensibilidad > 95% para P. falciparum en áreas rurales remotas de Guatemala' }
+    ],
+    labFindings: ['Parasitemia > 2-5% de hematíes parasitados', 'Trombocitopenia severa (< 50,000/µL)', 'Hipoglucemia grave', 'Elevación de creatinina sérica y bilirrubina total'],
+    treatment: {
+      disclaimer: 'Tratamiento normado por el MSPAS/OPS. P. falciparum en Centroamérica suele mantener sensibilidad a Cloroquina, pero la malaria grave exige Terapia Combinada con Derivados de Artemisinina (TCA).',
+      firstLine: [
+        'Malaria no complicada: Cloroquina base 25 mg/kg dividida en 3 días (10 mg/kg día 1 y 2, 5 mg/kg día 3) + Dosis única de Primaquina 0.75 mg/kg el día 1 como gametocida (para cortar la transmisión vectorial)',
+        'Malaria grave: Artesunato intravenoso 2.4 mg/kg a las 0, 12 y 24 horas, y luego diario hasta tolerar vía oral'
+      ],
+      alternatives: [
+        'Arteméter-Lumefantrina (TCA oral) en caso de sospecha de resistencia o importación de cepas sudamericanas/africanas',
+        'Quinina intravenosa + Doxiciclina como alternativa si no hay artesunato'
+      ],
+      resistanceNotes: 'P. falciparum NO forma hipnozoítos en el hígado, por lo que NO requiere esquema de 14 días de primaquina, sino únicamente dosis única gametocitocida.'
+    },
+    prevention: ['Uso de mosquiteros tratados con insecticida (MILD)', 'Diagnóstico y tratamiento oportuno en menos de 24-48 horas', 'Vigilancia de casos en áreas endémicas del Caribe (Izabal)'],
+    guatemalaRelevance: {
+      endemicStatus: 'Vigilancia activa',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Izabal', 'Petén', 'Escuintla (esporádico)'],
+      officialNotes: 'Representa menos del 5-10% de los casos de malaria en Guatemala (dominada por P. vivax), pero es responsable de las formas clínicas de mayor gravedad y letalidad.',
+      notificationGroup: 'Notificación Inmediata'
+    },
+    parasiticStages: [
+      {
+        id: 'pf-stage-ring-micro',
+        stageType: 'trofozoito',
+        name: 'Trofozoíto en anillo delicado',
+        biologicalRole: 'Forma circulante periférica inicial con alta parasitemia e invasión eritrocitaria masiva',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Anillo citoplasmático muy delgado (1/5 del diámetro del hematíe) con uno o dos puntos de cromatina roja y formas aplicadas a la membrana.',
+        keyDimensions: '1.0 - 1.5 µm',
+        differentialCharacteristics: ['Hematíes parasitados de tamaño normal', 'Frecuente doble cromatina y poli-infección', 'Ausencia de punteado de Schüffner'],
+        primaryClinicalSpecimen: 'Frotis de sangre periférica',
+        identificationMethod: 'Tinción con Giemsa a 1000x',
+        visualRepresentationType: 'microfotografia_real'
+      },
+      {
+        id: 'pf-stage-gametocyte-micro',
+        stageType: 'gametocito',
+        name: 'Gametocito en semiluna',
+        biologicalRole: 'Estadio sexual maduro infeccioso para el mosquito Anopheles',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Forma patognomónica falciforme en semiluna, banana o salchicha con cromatina y pigmento condensados en el centro.',
+        keyDimensions: '9 - 14 µm de longitud por 2 - 3 µm de ancho',
+        differentialCharacteristics: ['Único Plasmodium humano con gametocitos alargados falciformes (todos los demás son esféricos)'],
+        primaryClinicalSpecimen: 'Gota gruesa y frotis sanguíneo',
+        identificationMethod: 'Tinción de Giemsa',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Trofozoítos en anillo delicados y gametocito en semiluna patognomónico de Plasmodium falciparum en frotis sanguíneo.',
+        stainOrModality: 'Microscopía de inmersión teñida con Giemsa (1000x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'MSPAS Guatemala - Departamento de Epidemiología', title: 'Plan Estratégico Nacional para la Eliminación de la Malaria en Guatemala 2021-2025', year: '2021', status: 'Verificado' },
+      { source: 'Organización Mundial de la Salud (OMS)', title: 'Directrices de la OMS para la malaria', year: '2023', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-20'
+  },
+
+  {
+    id: 'giardia-duodenalis',
+    scientificName: 'Giardia duodenalis',
+    commonName: 'Giardia lamblia / Giardia intestinalis',
+    category: 'parasito',
+    parasiteGroup: 'protozoo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Metamonada',
+      classTaxon: 'Trepomonadea',
+      orderTaxon: 'Diplomonadida',
+      family: 'Hexamitidae',
+      genus: 'Giardia',
+      species: 'G. duodenalis'
+    },
+    morphology: {
+      shape: 'Trofozoíto piriforme en cometa con disco suctorio ventral y aspecto de máscara/payaso; quiste ovalado con 4 núcleos y axonemas internos.',
+      size: 'Trofozoíto: 10 - 15 µm; Quiste: 8 - 12 µm de longitud',
+      arrangement: 'Unicelular flagelado con simetría bilateral',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Disco suctorio ventral cóncavo (ventosa mecánica)', 'Axostilo medial', '4 pares de flagelos (anterior, posterior, ventral y caudal)', '2 núcleos simétricos']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Microaerófilo o anaerobio; absorbe nutrientes por pinocitosis en la superficie de las microvellosidades intestinales sin penetrar la lámina propia',
+      cultureMedia: ['Medio TYI-S-33 axénico (exclusivo para investigación)'],
+      optimalTemp: '37 °C',
+      growthTime: 'Multiplicación por fisión binaria longitudinal cada 9-12 horas',
+      keyBiochemicalTests: ['Detección de coproantígenos por ELISA o inmunocromatografía']
+    },
+    externalAndInternalStructures: [
+      'Disco suctorio compuesto por microtúbulos de tubulina y giardinas',
+      'Proteínas variables de superficie (VSP) que median evasión inmune por variación antigénica',
+      'Pared quística formada por filamentos de carbohidratos (GalNAc) y proteínas ricas en cisteína'
+    ],
+    virulenceFactors: [
+      { name: 'Adhesión por disco suctorio mecánico', mechanism: 'Adhesión firme al ribete en cepillo del enterocito en duodeno y yeyuno, causando aplanamiento de vellosidades y déficit de disacaridasas' },
+      { name: 'Variación antigénica de VSP', mechanism: 'Expresión alternante de un repertorio de más de 150 genes VSP para evadir la respuesta de anticuerpos IgA secretora' },
+      { name: 'Inducción de apoptosis enterocítica e hiperpermeabilidad', mechanism: 'Disrupción de las uniones ocluyentes (claudinas y zonula occludens-1) favoreciendo la diarrea osmótica y esteatorrea' }
+    ],
+    reservoir: ['Seres humanos infectados', 'Mamíferos domésticos y silvestres (perros, gatos, castores: zoonosis potencial)'],
+    transmissionRoute: ['Fecal-oral: ingestión de agua de bebida contaminada con quistes viables (resisten cloración convencional)', 'Alimentos crudos lavados con agua contaminada', 'Transmisión directa persona a persona en guarderías y hogares'],
+    associatedDiseases: [
+      {
+        name: 'Giardiasis Intestinal Crónica / Síndrome de Malabsorción',
+        description: 'Infección duodeno-yeyunal que causa esteatorrea, pérdida de peso, déficit de lactasa con intolerancia secundaria a la lactosa y retardo en el crecimiento infantil.',
+        clinicalPresentation: ['Diarrea pastosa o líquida de olor fétido sin moco ni sangre', 'Meteorismo intenso y distensión abdominal', 'Eructos fétidos con olor a azufre o huevo podrido', 'Pérdida de peso progresiva']
+      }
+    ],
+    signsAndSymptoms: ['Diarrea esteatorreica flotante', 'Distensión abdominal', 'Dolor epigástrico', 'Anorexia y flatulencia'],
+    complications: ['Desnutrición calórico-proteica crónica en niños', 'Intolerancia persistente a la lactosa posgiardiasis', 'Déficit de vitaminas liposolubles (A, D, E, K)'],
+    clinicalSpecimens: ['Heces seriadas (3 muestras en días alternos) para búsqueda de quistes', 'Heces líquidas frescas o aspirado duodenal para trofozoítos móviles'],
+    diagnosticMethods: [
+      { method: 'Examen coproparasitoscópico seriado de concentración (Faust o Ritchie)', standardRole: 'Tamizaje', keyFindings: 'Identificación de quistes ovalados de 8-12 µm con 2 a 4 núcleos y axonemas internos en "S"' },
+      { method: 'Detección de antígeno de Giardia en heces por ELISA / Inmunocromatografía', standardRole: 'Gold Standard', keyFindings: 'Sensibilidad > 95% para descartar infección activa sin depender de la eliminación intermitente de quistes' }
+    ],
+    labFindings: ['Presencia de grasa no absorbida en heces (esteatorrea en Sudán III)', 'Ausencia de leucocitos fecales ni sangre oculta (diarrea no inflamatoria)'],
+    treatment: {
+      disclaimer: 'Tratamiento de elección con 5-nitroimidazoles o nitazoxanida. Se debe evaluar a los convivientes para tratamiento simultáneo si hay síntomas.',
+      firstLine: [
+        'Metronidazol: 250-500 mg VO c/8h por 5 a 7 días (en niños: 15 mg/kg/día dividido en 3 dosis)',
+        'Tinidazol: 2 g VO dosis única en adultos (en niños > 3 años: 50 mg/kg dosis única, máx 2 g)'
+      ],
+      alternatives: [
+        'Nitazoxanida: 500 mg VO c/12h por 3 días (en niños: 100-200 mg c/12h)',
+        'Albendazol: 400 mg VO diario por 5 días'
+      ],
+      resistanceNotes: 'Frecuente intolerancia gastrointestinal transitoria a la lactosa tras la curación parasitológica que no debe confundirse con fracaso terapéutico.'
+    },
+    prevention: ['Hervir el agua de consumo durante al menos 1 minuto (los quistes son resistentes a la cloración estándar)', 'Filtración de agua con poros < 1 µm', 'Lavado estricto de manos con agua y jabón'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Guatemala', 'Sololá', 'Quiché', 'Alta Verapaz', 'Totonicapán', 'Chimaltenango'],
+      officialNotes: 'Causa primaria de parasitosis entérica en escolares y preescolares en todo el Altiplano y áreas rurales con agua de pozo o entubada sin filtración.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'gd-stage-cyst-micro',
+        stageType: 'quiste',
+        name: 'Quiste ovalado maduro',
+        biologicalRole: 'Estadio de resistencia ambiental e infectante fecal-oral',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Quiste netamente ovalado (8-12 µm) con pared lisa y refringente, 4 núcleos agrupados y restos de axonemas flagelares en "S" o "V".',
+        keyDimensions: '8 - 12 µm de largo por 7 - 10 µm de ancho',
+        differentialCharacteristics: ['Forma ovalada nítida', 'Axonemas internos visibles con Lugol', 'Halo claro por retracción fijativa'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Coproparasitoscópico de concentración con Lugol',
+        visualRepresentationType: 'microfotografia_real'
+      },
+      {
+        id: 'gd-stage-trophozoite-micro',
+        stageType: 'trofozoito',
+        name: 'Trofozoíto piriforme con disco suctorio',
+        biologicalRole: 'Forma vegetativa móvil adherente a la mucosa duodenal',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Forma piriforme en gota con disco suctorio ventral, 2 núcleos vesiculares laterales (apariencia de ojos o payaso) y motilidad en caída de hoja.',
+        keyDimensions: '10 - 15 µm',
+        differentialCharacteristics: ['Aspecto de cara de payaso bilateralmente simétrico', 'Motilidad en caída de hoja en frotis fresco a 37 °C'],
+        primaryClinicalSpecimen: 'Heces líquidas recién emitidas / Líquido duodenal',
+        identificationMethod: 'Microscopía directa en solución salina al 0.9%',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Quiste de Giardia duodenalis con tinción de Lugol y trofozoíto piriforme flagelado.',
+        stainOrModality: 'Microscopio óptico de campo claro (1000x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Giardiasis', year: '2019', status: 'Revisado' },
+      { source: 'CDC DPDx', title: 'Laboratory Identification of Parasites: Giardiasis', year: '2024', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-25'
+  },
+
+  {
+    id: 'ascaris-lumbricoides',
+    scientificName: 'Ascaris lumbricoides',
+    commonName: 'Lombriz intestinal grande',
+    category: 'parasito',
+    parasiteGroup: 'nematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Nematoda',
+      classTaxon: 'Secernentea / Chromadorea',
+      orderTaxon: 'Ascaridida',
+      family: 'Ascarididae',
+      genus: 'Ascaris',
+      species: 'A. lumbricoides'
+    },
+    morphology: {
+      shape: 'Nematodo cilíndrico de gran tamaño (20 a 35 cm); huevos fecundados ovoides con cubierta externa gruesa muy mamelonada de color pardo.',
+      size: 'Adulto hembra: 20 - 35 cm; macho: 15 - 30 cm; Huevo fecundado: 45 - 75 µm',
+      arrangement: 'Gusano cilíndrico dioico no segmentado con cutícula estriada',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Boca anterior con tres labios prominentes denticulados', 'Cutícula externa gruesa resistente a enzimas gástricas', 'Cubierta mamelonada albuminoide del huevo teñida de biliar']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Anaerobio facultativo en la luz del yeyuno; metaboliza glucógeno mediante glucólisis y fermentación',
+      cultureMedia: ['No aplica (helminto macroscópico)'],
+      optimalTemp: '37 °C en el huésped; maduración de huevos en suelo a 20-30 °C con humedad',
+      growthTime: 'Período prepatente de 2 meses desde la ingestión del huevo larvado L2/L3',
+      keyBiochemicalTests: ['Identificación de huevos en heces por técnica de Kato-Katz cuantitativa']
+    },
+    externalAndInternalStructures: [
+      'Tubo digestivo completo con boca trilabiada, esófago cilíndrico e intestino recto',
+      'Aparato genital femenino doble tubular (hasta 200,000 huevos por hembra por día)',
+      'Espículas copuladoras en el extremo posterior curvo del macho'
+    ],
+    virulenceFactors: [
+      { name: 'Carga de masa mecánica obstructiva', mechanism: 'Ovillos de decenas de vermes adultos pueden causar oclusión intestinal mecánica del íleon terminal, invadir el colédoco (obstrucción biliar/pancreática) o el apéndice cecal' },
+      { name: 'Migración larvaria pulmonar (Ciclo de Löffler)', mechanism: 'Ruptura capilar alveolar al migrar de la circulación hacia los bronquios, provocando neumonitis eosinofílica con tos y sibilancias' },
+      { name: 'Expoliación nutricional', mechanism: 'Compite activamente con el huésped por nutrientes, carbohidratos y vitamina A en niños desnutridos' }
+    ],
+    reservoir: ['Exclusivamente el ser humano'],
+    transmissionRoute: ['Fecal-oral: ingestión de HUEVOS EMBRIONADOS que han madurado en tierra durante 2 a 3 semanas (geohelmintiasis)', 'Geofagia (pica) en niños', 'Hortalizas crudas contaminadas con aguas residuales'],
+    associatedDiseases: [
+      {
+        name: 'Ascariasis Intestinal y Obstrucción Mecánica',
+        description: 'Colonización de la luz del intestino delgado; en cargas masivas causa dolor cólico recurrente, distensión, suboclusión u oclusión intestinal en niños.',
+        clinicalPresentation: ['Eliminación espontánea de gusanos por ano, boca o nariz', 'Dolor abdominal periumbilical cólico', 'Masa abdominal palpable pastosa ("madeja de fideos")']
+      },
+      {
+        name: 'Síndrome de Löffler (Fase migratoria larvaria)',
+        description: 'Tránsito de las larvas a través de los alvéolos pulmonares hacia las vías aéreas superiores.',
+        clinicalPresentation: ['Tos seca irritativa', 'Disnea y sibilancias', 'Infiltrados pulmonares transitorios migratorios en radiografía', 'Eosinofilia marcada en sangre periférica (> 20-40%)']
+      }
+    ],
+    signsAndSymptoms: ['Expulsión de vermes adultos', 'Dolor abdominal cólico', 'Retardo del crecimiento pondoestatural', 'Tos seca y sibilancias en fase larvaria'],
+    complications: ['Obstrucción intestinal completa que requiere laparotomía quirúrgica', 'Migración aberrante al conducto colédoco con colangitis piógena o pancreatitis aguda', 'Perforación intestinal'],
+    clinicalSpecimens: ['Heces formadas / pastosas para huevos', 'Expulsión macroscópica espontánea de vermes adultos', 'Esputo (raro, durante fase de Löffler)'],
+    diagnosticMethods: [
+      { method: 'Examen coproparasitoscópico directo y de concentración cuantitativa (Kato-Katz)', standardRole: 'Gold Standard', keyFindings: 'Identificación de huevos fecundados mamelonados pardos de 45-75 µm y huevos infecundos alargados' },
+      { method: 'Inspección macroscópica del gusano adulto', standardRole: 'Confirmatorio', keyFindings: 'Gusano cilíndrico rosado de 20-35 cm con tres labios en el extremo cefálico anterior' }
+    ],
+    labFindings: ['Eosinofilia periférica muy alta durante la fase pulmonar de Löffler', 'Anemia microcítica hipocrómica por desnutrición secundaria'],
+    treatment: {
+      disclaimer: 'Tratamiento antihelmíntico altamente eficaz. En caso de suboclusión intestinal, se recomienda desparasitación supervisada o sonda nasogástrica.',
+      firstLine: [
+        'Albendazol: 400 mg VO dosis única (en niños > 1-2 años: 400 mg dosis única)',
+        'Mebendazol: 500 mg VO dosis única o 100 mg c/12h por 3 días'
+      ],
+      alternatives: [
+        'Pamoato de Pirantel: 11 mg/kg dosis única (máx 1 g) — produce parálisis espástica del verme',
+        'Ivermectina: 200 mcg/kg VO dosis única'
+      ],
+      resistanceNotes: 'En caso de sospecha de obstrucción mecánica por ovillo de vermes, se debe monitorizar al paciente; los benzimidazoles producen parálisis flácida lenta.'
+    },
+    prevention: ['Lavado riguroso de manos tras manipular tierra', 'Desparasitación masiva escolar semestral con Albendazol según directriz del MSPAS', 'Lavado cuidadoso de vegetales crudos', 'Adecuada disposición de excretas y letrinización rural'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Totonicapán', 'Alta Verapaz', 'Quiché', 'Huehuetenango', 'Chimaltenango', 'San Marcos'],
+      officialNotes: 'Geohelmintiasis más prevalente en Guatemala. Sujeta a campañas nacionales periódicas de desparasitación infantil del MSPAS en coordinación con el MINEDUC.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'al-stage-fertilized-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo fecundado mamelonado',
+        biologicalRole: 'Estadio diagnóstico eliminado en heces que madura en suelo hasta ser infectante',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo ovalado o esférico (45-75 µm) con cubierta externa gruesa muy mamelonada teñida de biliar pardo-dorado y masa celular indivisa central.',
+        keyDimensions: '45 - 75 µm por 35 - 50 µm',
+        differentialCharacteristics: ['Mamelones prominentes característicos', 'Masa germinal densa esférica', 'Pueden existir huevos decorticados lisos'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Coproparasitoscópico directo con Lugol y método Kato-Katz',
+        visualRepresentationType: 'microfotografia_real'
+      },
+      {
+        id: 'al-stage-unfertilized-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo infecundo alargado',
+        biologicalRole: 'Huevo puesto por hembras no fertilizadas que no tiene capacidad de madurar en tierra',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo alargado asimétrico (85-95 µm) con mamelones irregulares escasos y relleno interno granular amorfo sin embrión.',
+        keyDimensions: '85 - 95 µm por 40 - 45 µm',
+        differentialCharacteristics: ['Forma más alargada que el huevo fecundado', 'Contenido granular desorganizado'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Examen coproparasitoscópico de sedimentación',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Huevo fecundado mamelonado de Ascaris lumbricoides teñido con sales biliares.',
+        stainOrModality: 'Microscopía de campo claro a 400x',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Ascariasis', year: '2019', status: 'Revisado' },
+      { source: 'MSPAS Guatemala', title: 'Guía de Desparasitación Masiva Escolar en Comunidades Endémicas', year: '2022', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-22'
+  },
+
+  {
+    id: 'enterobius-vermicularis',
+    scientificName: 'Enterobius vermicularis',
+    commonName: 'Oxiuro / Pidulle',
+    category: 'parasito',
+    parasiteGroup: 'nematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Nematoda',
+      classTaxon: 'Secernentea / Chromadorea',
+      orderTaxon: 'Rhabditida / Oxyurida',
+      family: 'Oxyuridae',
+      genus: 'Enterobius',
+      species: 'E. vermicularis'
+    },
+    morphology: {
+      shape: 'Nematodo pequeño blanquecino fusiforme; hembra con cola muy puntiaguda como aguja; huevos asimétricos plano-convexos transparentes en forma de "D".',
+      size: 'Hembra adulta: 8 - 13 mm; macho: 2 - 5 mm; Huevo: 50 - 60 µm de largo por 20 - 30 µm de ancho',
+      arrangement: 'Nematodo de luz cecal con aletas cuticulares cefálicas',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Aletas cuticulares alares en el extremo cefálico anterior', 'Bulbo esofágico posterior esférico prominente', 'Extremo caudal extremadamente aguzado en la hembra']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Microaerófilo en la luz del ciego y apéndice cecal; se alimenta de bacterias y contenido colónico',
+      cultureMedia: ['No aplica (helminto macroscópico)'],
+      optimalTemp: '37 °C en el tracto digestivo; los huevos maduran en 4 a 6 horas en la región perianal oxigenada',
+      growthTime: 'Ciclo biológico completo de 2 a 6 semanas',
+      keyBiochemicalTests: ['Identificación microscópica directa mediante impronta perianal con cinta engomada']
+    },
+    externalAndInternalStructures: [
+      'Cutícula transparente lisa con estriaciones transversales finas',
+      'Esófago con doble dilatación (cuerpo cilíndrico y bulbo esférico muy marcado)',
+      'Útero de la hembra grávida repleto con más de 10,000 huevos embrionados'
+    ],
+    virulenceFactors: [
+      { name: 'Migración perianal nocturna de la hembra', mechanism: 'La hembra atraviesa el esfínter anal estimulada por el descenso térmico nocturno para depositar huevos pegajosos en los pliegues perianales' },
+      { name: 'Sustancia pruriginosa de adherencia ovular', mechanism: 'Provoca prurito anal intenso que induce rascado compulsivo, acumulando miles de huevos en lechos subungueales para re-infección continua (ciclo ano-mano-boca)' },
+      { name: 'Migración aberrante a tracto genital femenino', mechanism: 'Puede migrar hacia vulva, vagina, útero y trompas de Falopio en niñas, simulando vulvovaginitis o causando salpingitis granulomatosa' }
+    ],
+    reservoir: ['Exclusivamente el ser humano (parasitosis de grupo familiar y hacinamiento)'],
+    transmissionRoute: [
+      'Fecal-oral directa: ciclo ano-mano-boca por rascado de la región perianal',
+      'Inhalación e ingestión de polvo con huevos flotantes al sacudir ropa de cama',
+      'Retroinfección: eclosión de larvas en los márgenes perianales que reingresan activamente por el ano hacia el colon'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Oxiuriasis / Enterobiasis Infantil',
+        description: 'Infección parasitaria más frecuente en áreas urbanas de climas templados y fríos; genera alteraciones del sueño, bruxismo y vulvovaginitis.',
+        clinicalPresentation: ['Prurito perianal y perineal de predominio nocturno', 'Insomnio, terrores nocturnos y bruxismo (rechinar de dientes)', 'Excoriaciones perianales por rascado con sobreinfección bacteriana', 'Prurito vulvar y flujo vaginal en niñas pequeñas']
+      }
+    ],
+    signsAndSymptoms: ['Prurito anal nocturno intenso', 'Irritabilidad e insomnio', 'Prurito nasal reflejo', 'Visualización de pequeños hilos blancos móviles en la región anal al despertar'],
+    complications: ['Vulvovaginitis en niñas', 'Apendicitis verminosa por impactación del verme en la luz apendicular (infrecuente)', 'Salpingitis o granulomas pélvicos peritoneales'],
+    clinicalSpecimens: ['Cinta adhesiva transparente aplicada en la región perianal al despertar (Técnica de Graham). NOTA: NO solicitar coprológico en heces (rendimiento < 5%)'],
+    diagnosticMethods: [
+      { method: 'Técnica de la Cinta Engomada Transparente de Graham', standardRole: 'Gold Standard', keyFindings: 'Identificación de huevos incoloros plano-convexos en forma de "D" con larva en su interior adheridos a la cinta de celofán (realizar 3 mañanas consecutivas)' },
+      { method: 'Inspección macroscópica directa de la zona perianal de noche', standardRole: 'Tamizaje', keyFindings: 'Observación visual directa de la hembra blanca de 1 cm reptando en los pliegues anales' }
+    ],
+    labFindings: ['Rara vez se observa eosinofilia (no es un parásito invasor tisular, la eosinofilia suele ser normal)'],
+    treatment: {
+      disclaimer: 'REGLA DE TRATAMIENTO OBLIGATORIA: Se DEBE tratar simultáneamente a TODOS los miembros del núcleo familiar conviviente y REPETIR la dosis a los 14 días para erradicar las larvas nacidas de huevos re-ingeridos.',
+      firstLine: [
+        'Mebendazol: 100 mg VO dosis única, REPETIR obligatoriamente a los 14 días (para toda la familia)',
+        'Albendazol: 400 mg VO dosis única (en niños > 2 años: 400 mg; de 1-2 años: 200 mg), REPETIR a los 14 días'
+      ],
+      alternatives: [
+        'Pamoato de Pirantel: 11 mg/kg dosis única (máx 1 g), repetir a las 2 semanas'
+      ],
+      resistanceNotes: 'Ningún antihelmíntico destruye los huevos ya depositados en el entorno; la segunda dosis a los 14 días es indispensable para eliminar los vermes juveniles antes de que alcancen la madurez sexual.'
+    },
+    prevention: ['Tratamiento de todos los convivientes del hogar al mismo tiempo', 'Corte y cepillado riguroso de uñas en niños', 'Lavado con agua caliente de ropa interior, pijamas y sábanas sin sacudirlas para no dispersar huevos al aire', 'Baño matutino para eliminar huevos depositados de noche'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Media',
+      departmentsWithHighPrevalence: ['Guatemala (asentamientos urbanos y guarderías)', 'Quetzaltenango', 'Sacatepéquez', 'Chimaltenango'],
+      officialNotes: 'Muy común en escuelas primarias y guarderías del área metropolitana y centros urbanos de Guatemala. Alta tasa de recurrencia por falta de tratamiento a los contactos familiares.',
+      notificationGroup: 'Vigilancia Centinela'
+    },
+    parasiticStages: [
+      {
+        id: 'ev-stage-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo plano-convexo en forma de "D"',
+        biologicalRole: 'Estadio infectante casi inmediato que madura en horas al contacto con el oxígeno perianal',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo asimétrico plano-convexo con perfil en letra "D" (50-60 µm), cáscara lisa transparente incolora delgada y larva casi completamente formada en su interior.',
+        keyDimensions: '50 - 60 µm por 20 - 30 µm',
+        differentialCharacteristics: ['Perfil asimétrico plano-convexo patognomónico', 'Cáscara incolora transparente', 'Recolección exclusiva mediante técnica de Graham'],
+        primaryClinicalSpecimen: 'Cinta adhesiva perianal (Técnica de Graham)',
+        identificationMethod: 'Cinta de Graham montada sobre portaobjetos a 100x y 400x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Huevo transparente plano-convexo en "D" de Enterobius vermicularis en cinta de Graham.',
+        stainOrModality: 'Microscopía directa de cinta adhesiva (400x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Oxiuriasis', year: '2019', status: 'Revisado' },
+      { source: 'CDC DPDx', title: 'Laboratory Identification of Parasites: Enterobiasis', year: '2024', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-24'
+  },
+
+  {
+    id: 'taenia-saginata',
+    scientificName: 'Taenia saginata',
+    commonName: 'Tenia inerme del ganado vacuno / Solitaria',
+    category: 'parasito',
+    parasiteGroup: 'cestodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Platyhelminthes',
+      classTaxon: 'Cestoda',
+      orderTaxon: 'Cyclophyllidea',
+      family: 'Taeniidae',
+      genus: 'Taenia',
+      species: 'T. saginata'
+    },
+    morphology: {
+      shape: 'Gusano plano cestoideo de gran longitud (4 a 12 metros); escólex cuadrangular inerme sin ganchos con 4 ventosas; proglótides grávidas con más de 15 ramas uterinas dicotómicas por lado.',
+      size: 'Adulto: 4 a 10 metros; Proglótide grávida: 16 - 20 mm; Huevo: 31 - 43 µm',
+      arrangement: 'Segmentación seriada estrobilar de 1,000 a 2,000 proglótides',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Escólex inerme (sin rostelo ni corona de ganchos)', 'Cuatro ventosas prominentes', 'Proglótides con potente musculatura propia capaces de reptar activamente']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Anaerobio facultativo en yeyuno; absorbe glucosa y carbohidratos a través de microtricos tegumentarios',
+      cultureMedia: ['No aplica (helminto macroscópico)'],
+      optimalTemp: '37 °C',
+      growthTime: 'El parásito adulto puede vivir más de 10 a 25 años en el intestino humano',
+      keyBiochemicalTests: ['Diferenciación de proglótides grávidas mediante inyección uterina de tinta china']
+    },
+    externalAndInternalStructures: [
+      'Escólex piriforme de 1.5 a 2 mm provisto de 4 ventosas en copa sin rostelo',
+      'Estróbilo con proglótides grávidas muy alargadas con poro genital alternado',
+      'Útero central que emite entre 15 y 30 ramas primarias dicotómicas finas'
+    ],
+    virulenceFactors: [
+      { name: 'Adhesión por ventosas musculares', mechanism: 'Se fija a la mucosa yeyunal mediante 4 ventosas potentes sin generar úlcera profunda' },
+      { name: 'Expoliación de nutrientes', mechanism: 'Absorbe nutrientes intraluminales a lo largo de varios metros de estróbilo microtrico' }
+    ],
+    reservoir: ['Seres humanos (único hospedero definitivo del adulto)', 'Ganado vacuno (hospedero intermediario que alberga Cysticercus bovis en carne)'],
+    transmissionRoute: [
+      'Ingestión de carne de res cruda o insuficientemente cocida ("término medio", carpaccio) que contenga cisticercos viables (Cysticercus bovis)',
+      'NOTA CRÍTICA: La ingestión de huevos de T. saginata NO produce cisticercosis en el ser humano (el humano no es hospedero intermediario de T. saginata)'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Teniasis Intestinal por T. saginata',
+        description: 'Colonización benigna del intestino delgado caracterizada principalmente por la expulsión activa y alarmante de proglótides a través del ano.',
+        clinicalPresentation: ['Sensación de cuerpo extraño o reptación en el esfínter anal', 'Hallazgo de proglótides móviles individuales en ropa interior o cama', 'Molestias digestivas vagas, sensación de hambre dolorosa o náuseas leves']
+      }
+    ],
+    signsAndSymptoms: ['Salida activa espontánea de proglótides móviles por el ano', 'Sensación de hormigueo anal', 'Leve dolor epigástrico inespecífico'],
+    complications: ['Obstrucción apendicular por migración de proglótides (muy rara)', 'Impacto psicológico y ansiedad intensa ante la expulsión del parásito'],
+    clinicalSpecimens: ['Proglótides grávidas expulsadas espontáneamente en ropa o heces', 'Heces para búsqueda de huevos de Taenia sp.'],
+    diagnosticMethods: [
+      { method: 'Aclaramiento y compresión de proglótide grávida con tinta china', standardRole: 'Gold Standard', keyFindings: 'Identificación de 15 a 30 ramas uterinas principales a cada lado del tronco central con profusa ramificación dicotómica fina' },
+      { method: 'Observación del escólex tras tratamiento', standardRole: 'Confirmatorio', keyFindings: 'Escólex inerme provisto de 4 ventosas sin rostelo ni ganchos' }
+    ],
+    labFindings: ['Huevos idénticos e indistinguibles de T. solium en examen coprológico directo (reportar como Taenia sp.)', 'Eosinofilia periférica leve a moderada'],
+    treatment: {
+      disclaimer: 'Tratamiento farmacológico de dosis única muy eficaz. La niclosamida o praziquantel son de elección.',
+      firstLine: [
+        'Praziquantel: 5 a 10 mg/kg VO dosis única en ayunas',
+        'Niclosamida: 2 g masticados en ayunas en una sola toma (en niños: 50 mg/kg dosis única)'
+      ],
+      alternatives: [
+        'Albendazol: 400 mg VO diario por 3 días consecutivos'
+      ],
+      resistanceNotes: 'T. saginata NO causa cisticercosis humana, por lo que no existe riesgo de neurocisticercosis por la destrucción del estróbilo.'
+    },
+    prevention: ['Cocción completa de la carne de res (> 60-65 °C interna)', 'Inspección veterinaria en rastros para decomiso de carnes con cisticercosis bovina', 'Tratamiento de humanos portadores para evitar contaminación de pastizales'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Media',
+      departmentsWithHighPrevalence: ['Escuintla', 'Santa Rosa', 'Jutiapa', 'Petén', 'Guatemala'],
+      officialNotes: 'Presente en regiones ganaderas del sur y oriente del país. Menos peligrosa que T. solium al no causar neurocisticercosis.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'tsag-stage-proglottid-micro',
+        stageType: 'proglotide',
+        name: 'Proglótide grávida madura de T. saginata',
+        biologicalRole: 'Segmento estrobilar dotado de motilidad activa que repta por el ano para liberar huevos en pastizales',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Segmento alargado (16-20 mm x 5-7 mm) con tronco uterino medial y de 15 a 30 ramas primarias dicotómicas finas por lado.',
+        keyDimensions: '16 - 20 mm por 5 - 7 mm',
+        differentialCharacteristics: ['Más de 15 ramas uterinas principales por lado (T. solium tiene menos de 12)', 'Motilidad activa con reptación espontánea fuera del ano'],
+        primaryClinicalSpecimen: 'Proglótide móvil expulsada por el ano / Ropa interior',
+        identificationMethod: 'Inyección uterina de tinta china y conteo de ramas a 10x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Proglótide grávida de Taenia saginata inyectada con tinta china evidenciando más de 20 ramas uterinas principales dicotómicas.',
+        stainOrModality: 'Inyección con tinta china a 10x',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Teniasis', year: '2019', status: 'Revisado' },
+      { source: 'CDC DPDx', title: 'Laboratory Identification of Parasites: Taeniasis', year: '2024', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-25'
+  },
+
+  {
+    id: 'strongyloides-stercoralis',
+    scientificName: 'Strongyloides stercoralis',
+    commonName: 'Estrongiloide / Hilo del suelo',
+    category: 'parasito',
+    parasiteGroup: 'nematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Nematoda',
+      classTaxon: 'Secernentea / Chromadorea',
+      orderTaxon: 'Rhabditida',
+      family: 'Strongyloididae',
+      genus: 'Strongyloides',
+      species: 'S. stercoralis'
+    },
+    morphology: {
+      shape: 'Nematodo minúsculo filiforme; larva rabditiforme L1 con vestíbulo bucal corto; larva filariforme L3 con cola bifurcada / escotada patognomónica.',
+      size: 'Larva rabditiforme L1: 200 - 250 µm; Larva filariforme L3: 500 - 600 µm; Hembra parasitaria: 2 - 2.5 mm',
+      arrangement: 'Nematodo cilíndrico microscópico con capacidad de ciclo de vida libre en suelo y ciclo parasitario',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Vestíbulo bucal corto en L1', 'Esófago filariforme largo que abarca el 40-50% del cuerpo en L3', 'Extremo caudal bífido / escotado en L3']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Hembra partenogenética parásita que vive enterrada en las criptas glandulares de la mucosa duodenal y yeyunal',
+      cultureMedia: ['Cultivo en placa de agar nutritivo (aparición de huellas bacterianas sinuosas trazadas por la larva al reptar)'],
+      optimalTemp: '37 °C en humano; ciclo libre en suelos cálidos tropicales a 25-30 °C',
+      growthTime: 'Capacidad de multiplicarse indefinidamente en el mismo hospedero durante décadas mediante autoinfección interna',
+      keyBiochemicalTests: ['Método de concentración de Baermann por termotropismo e hidrotropismo positivo']
+    },
+    externalAndInternalStructures: [
+      'Cutícula lisa y transparente sumamente delgada',
+      'Esófago cilíndrico largo en L3 sin bulbo distal',
+      'Primordio genital grande y manifiesto en la mitad ventral de la larva L1'
+    ],
+    virulenceFactors: [
+      { name: 'Ciclo de autoinfección interna y externa', mechanism: 'Las larvas L1 pueden madurar a L3 infectantes dentro de la propia luz intestinal o en la piel perianal, penetrando de nuevo la pared y perpetuando la infección por 30 a 50 años' },
+      { name: 'Síndrome de Hiperinfección y diseminación masiva', mechanism: 'En pacientes con inmunosupresión (corticoterapia sistémica, infección por HTLV-1, neoplasias), la autoinfección se descontrola; millones de larvas invaden pulmón, SNC y transportan enterobacterias a sangre' },
+      { name: 'Penetración cutánea activa mediante metaloproteasas', mechanism: 'Secreta enzimas histolíticas que degradan queratina y colágeno para penetrar piel intacta de pies descalzos' }
+    ],
+    reservoir: ['Seres humanos infectados', 'Primates y cánidos en zonas tropicales'],
+    transmissionRoute: [
+      'Penetración percutánea activa de larvas filariformes L3 del suelo a través de la piel descalza',
+      'Autoinfección interna (las larvas L1 se transforman en L3 en el colon y penetran la mucosa)',
+      'Autoinfección externa (larvas en márgenes perianales penetran la piel de nalgas o muslos: larva currens)'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Estrongiloidiasis Crónica No Complicada',
+        description: 'Infección persistente silente o con dolor epigástrico similar a úlcera péptica, diarrea acuosa intermitente y erupción serpiginosa pruriginosa perianal rápida (larva currens).',
+        clinicalPresentation: ['Larva currens: cordón serpiginoso eritematoso muy pruriginoso que avanza varios centímetros por hora', 'Dolor abdominal epigástrico sordo', 'Diarrea acuosa postprandial y pirosis', 'Eosinofilia fluctuante pero persistente']
+      },
+      {
+        name: 'Síndrome de Hiperinfección y Estrongiloidiasis Diseminada',
+        description: 'Catástrofe clínica desencadenada típicamente tras el uso de CORTICOESTEROIDES (dexametasona, prednisona), con diseminación masiva de larvas y bacteriemia recurrente por bacilos Gram negativos.',
+        clinicalPresentation: ['Fiebre héctica y choque séptico refractario', 'Insuficiencia respiratoria aguda con hemoptisis e infiltrados difusos', 'Meningitis recurrente por enterobacterias (E. coli, Klebsiella)', 'Íleo paralítico severo']
+      }
+    ],
+    signsAndSymptoms: ['Larva currens en glúteos y muslos', 'Dolor epigástrico', 'Diarrea acuosa crónica', 'Tos y disnea en hiperinfección'],
+    complications: ['Sepsis y choque séptico recurrente por enterobacterias transportadas por larvas', 'Meningitis bacteriana por translocación', 'Distrés respiratorio agudo por hemorragia intraalveolar masiva'],
+    clinicalSpecimens: ['Heces frescas para larvas L1', 'Esputo o lavado broncoalveolar en hiperinfección para larvas L3', 'Líquido duodenal'],
+    diagnosticMethods: [
+      { method: 'Método de Baermann o Cultivo en Placa de Agar', standardRole: 'Gold Standard', keyFindings: 'Concentración térmica: visualización de larvas rabditiformes L1 vivas de 200 µm con vestíbulo bucal corto y surcos bacterianos en agar' },
+      { method: 'Examen coproparasitoscópico seriado (5 a 7 muestras)', standardRole: 'Tamizaje', keyFindings: 'Identificación de larvas L1 (sensibilidad < 30% en una sola muestra coprológica por eliminación irregular)' },
+      { method: 'Serología IgG por ELISA', standardRole: 'Confirmatorio', keyFindings: 'Excelente para despistaje en pacientes antes de iniciar corticoterapia o inmunosupresores' }
+    ],
+    labFindings: ['Eosinofilia marcada (15-40%) en forma crónica; puede DESAPARECER (eosinopenia) en hiperinfección severa (signo de mal pronóstico)', 'Hallazgo de larvas filariformes en esputo en pacientes en UCI'],
+    treatment: {
+      disclaimer: 'La Ivermectina es el tratamiento de primera línea indiscutible con tasas de curación superiores al 90-95%. Los benzimidazoles son inferiores.',
+      firstLine: [
+        'Estrongiloidiasis no complicada: Ivermectina 200 mcg/kg VO diario durante 2 días consecutivos (repetir a las 2 semanas)',
+        'Hiperinfección / Estrongiloidiasis diseminada: Ivermectina 200 mcg/kg VO diario hasta que las muestras respiratorias y fecales sean negativas por al menos 2 semanas + Antibióticos de amplio espectro para cubrir bacteriemia entérica'
+      ],
+      alternatives: [
+        'Albendazol: 400 mg VO c/12h durante 7 días (menos eficaz que la ivermectina, reservado si hay contraindicación absoluta)'
+      ],
+      resistanceNotes: 'REGLA CLÍNICA OBLIGATORIA: En todo paciente de zona endémica que vaya a recibir tratamiento inmunosupresor o corticoterapia prolongada se debe descartar y tratar profilácticamente Strongyloides para evitar el síndrome de hiperinfección mortal.'
+    },
+    prevention: ['Uso de calzado cerrado para evitar contacto directo de piel con suelo húmedo', 'Descarte serológico o parasitológico obligatorio antes de iniciar corticoterapia en pacientes de áreas endémicas', 'Saneamiento ambiental'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Escuintla', 'Suchitepéquez', 'Santa Rosa', 'Izabal', 'Retalhuleu', 'Petén'],
+      officialNotes: 'Endémica en la Costa Sur y zonas cálidas húmedas. Gran relevancia médica en hospitales de tercer nivel (Roosevelt y San Juan de Dios) donde desencadena hiperinfección en pacientes lúpicos o hematológicos tratados con esteroides.',
+      notificationGroup: 'Vigilancia Centinela'
+    },
+    parasiticStages: [
+      {
+        id: 'ss-stage-rhabditiform-micro',
+        stageType: 'larva',
+        name: 'Larva rabditiforme L1 de heces frescas',
+        biologicalRole: 'Estadio diagnóstico emitido en heces con vestíbulo bucal corto',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Larva móvil (200-250 µm) con vestíbulo bucal muy corto (menor que el ancho cefálico), esófago rabditoide y primordio genital prominente en tercio medio.',
+        keyDimensions: '200 - 250 µm por 16 µm',
+        differentialCharacteristics: ['Vestíbulo bucal corto patognomónico frente a uncinarias', 'Eliminada como larva viva en heces recién emitidas (no como huevo)'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Técnica de Baermann y examen directo en solución salina',
+        visualRepresentationType: 'microfotografia_real'
+      },
+      {
+        id: 'ss-stage-filariform-micro',
+        stageType: 'larva',
+        name: 'Larva filariforme L3 infectante',
+        biologicalRole: 'Estadio infectante que penetra piel y media autoinfección',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Larva esbelta (500-600 µm) con esófago filariforme que ocupa casi el 50% del cuerpo y extremo caudal posterior con muesca o escotadura bifurcada.',
+        keyDimensions: '500 - 600 µm',
+        differentialCharacteristics: ['Cola bifurcada con muesca terminal patognomónica (la larva de uncinarias termina en punta lisa sin muesca)', 'Esófago largo'],
+        primaryClinicalSpecimen: 'Esputo / Lavado broncoalveolar',
+        identificationMethod: 'Microscopía directa en solución salina a 400x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Larva rabditiforme L1 de Strongyloides stercoralis en heces y extremo caudal bífido de larva L3.',
+        stainOrModality: 'Microscopía óptica de campo claro (400x y 1000x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Estrongiloidiasis', year: '2019', status: 'Revisado' },
+      { source: 'World Health Organization (WHO)', title: 'Strongyloidiasis: Report of a WHO Strategic and Technical Advisory Group', year: '2023', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-24'
+  },
+
+  {
+    id: 'salmonella-enterica-typhi',
+    scientificName: 'Salmonella enterica subsp. enterica serovar Typhi',
+    commonName: 'Bacilo de Eberth / Fiebre Tifoidea',
+    category: 'bacteria',
+    reviewStatus: 'Fuentes verificadas',
+    taxonomy: {
+      domain: 'Bacteria',
+      phylum: 'Pseudomonadota (Proteobacteria)',
+      classTaxon: 'Gammaproteobacteria',
+      orderTaxon: 'Enterobacterales',
+      family: 'Enterobacteriaceae',
+      genus: 'Salmonella',
+      species: 'S. enterica subsp. enterica serovar Typhi'
+    },
+    morphology: {
+      shape: 'Bacilo Gram negativo recto de extremos redondeados, móvil por flagelos peritricos.',
+      size: '2 - 3 µm de longitud por 0.5 - 0.7 µm de ancho',
+      arrangement: 'Aislado o en pares dispersos',
+      gramStain: 'Gram negativa',
+      specialStructures: ['Antígeno capsular Vi (polisacárido de virulencia)', 'Antígeno somático O (LPS endotóxico)', 'Antígeno flagelar H', 'Flagelos peritricos']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Anaerobio facultativo, oxidasa negativa, catalasa positiva, no fermentador de lactosa, productor discreto de H2S (sulfuro de hidrógeno)',
+      cultureMedia: ['Agar MacConkey (colonias incoloras no fermentadoras de lactosa)', 'Agar Salmonella-Shigella (SS) (colonias transparentes con centro negro tenue)', 'Agar XLD', 'Caldo selenito de enriquecimiento'],
+      optimalTemp: '37 °C (rango 15-42 °C)',
+      growthTime: '24-48 horas',
+      keyBiochemicalTests: ['Oxidasa: Negativa', 'Glucosa: Fermentador sin producción apreciable de gas', 'Lactosa: Negativa', 'Indol: Negativo', 'Ureasa: Negativa', 'Citrato de Simmons: Negativo']
+    },
+    externalAndInternalStructures: [
+      'Antígeno capsular Vi que previene la fagocitosis mediada por complemento',
+      'Lipopolisacárido (LPS): lípido A responsable de la fiebre alta en meseta y endotoxemia',
+      'Islas de patogenicidad SPI-1 y SPI-2 que codifican sistemas de secreción tipo III (T3SS)'
+    ],
+    virulenceFactors: [
+      { name: 'Antígeno Vi (polisacárido capsular)', mechanism: 'Inhibe la fijación de C3b y la opsonofagocitosis por neutrófilos y macrófagos tisulares' },
+      { name: 'Supervivencia intramacrofágica sistémica', mechanism: 'SPI-2 T3SS impide la fusión fagolisosómica permitiendo la diseminación por el sistema reticuloendotelial' },
+      { name: 'Endotoxina LPS', mechanism: 'Induce fiebre sostenida en meseta, vasodilatación esplácnica, leucopenia y shock séptico' }
+    ],
+    reservoir: ['Exclusivamente seres humanos (enfermos clínicos y portadores crónicos biliares)'],
+    transmissionRoute: ['Vía fecal-oral indirecta por agua y alimentos contaminados con excretas humanas', 'Fómites y manos sucias de manipuladores de alimentos'],
+    associatedDiseases: [
+      {
+        name: 'Fiebre Tifoidea (Fiebre Entérica)',
+        description: 'Enfermedad febril sistémica prolongada con bacteriemia inicial, proliferación reticuloendotelial y afectación de placas de Peyer ileales.',
+        clinicalPresentation: ['Fiebre escalonada que se torna continua en meseta (39-40 °C)', 'Cefalea frontal intensa y letargo apático (tifos)', 'Bradicardia relativa (signo de Faget)', 'Dolor abdominal periumbilical difuso y esplenomegalia', 'Roséola tifoidea macular eritematosa en tórax y abdomen en la 2ª semana']
+      }
+    ],
+    signsAndSymptoms: ['Fiebre continua en meseta', 'Cefalea intensa', 'Constipación inicial que evoluciona a diarrea en "sopa de guisantes"', 'Dolor abdominal y hepatoesplenomegalia'],
+    complications: ['Perforación intestinal ileal (3ª semana) con peritonitis aguda letal', 'Hemorragia digestiva baja masiva', 'Colecistitis aguda y estado de portador biliar crónico', 'Encefalopatía tifoidea'],
+    clinicalSpecimens: ['Hemocultivo (positivo en 70-90% durante la 1ª semana)', 'Mielocultivo (aspirado de médula ósea, Gold Standard con > 90% sensibilidad)', 'Coprocultivo (positivo a partir de la 2ª y 3ª semana)', 'Urocultivo'],
+    diagnosticMethods: [
+      { method: 'Hemocultivo seriado (1ª semana)', standardRole: 'Confirmatorio', keyFindings: 'Aislamiento de bacilo Gram negativo oxidasa negativo, no fermentador de lactosa en agar selectivo' },
+      { method: 'Mielocultivo (aspirado de médula ósea)', standardRole: 'Gold Standard', keyFindings: 'Método diagnóstico más sensible, permanece positivo aún con antibioticoterapia previa' },
+      { method: 'Reacción de Widal (aglutinación en tubo)', standardRole: 'Tamizaje', keyFindings: 'Prueba serológica tradicional con baja especificidad y alto índice de falsos positivos en áreas endémicas; requiere títulos O y H ≥ 1:160 o cuadruplicación pareada' }
+    ],
+    labFindings: ['Leucopenia con neutropenia o recuento leucocitario normal a pesar de fiebre muy alta', 'Agranulocitosis relativa y desviación a la izquierda', 'Trombocitopenia moderada', 'Transaminasas hepáticas discretamente elevadas'],
+    treatment: {
+      disclaimer: 'El tratamiento antimicrobiano debe ajustarse según los patrones locales de susceptibilidad informados por el Laboratorio Nacional de Salud (LNS) de Guatemala, debido a cepas MDR.',
+      firstLine: [
+        'Ceftriaxona intravenosa 2 g/día (niños: 50-75 mg/kg/día) por 10-14 días en enfermedad moderada a severa',
+        'Azitromicina oral 1 g el día 1, luego 500 mg/día por 7 días (niños: 20 mg/kg/día) como opción de primera línea ambulatoria en casos no complicados'
+      ],
+      alternatives: [
+        'Ciprofloxacina oral 500 mg c/12h por 7-10 días (únicamente si el antibiograma descarta resistencia a fluoroquinolonas)',
+        'Meropenem en cepas con sospecha de BLEE o resistencia extrema'
+      ],
+      resistanceNotes: 'Cepas con resistencia a ampicilina, cloranfenicol y cotrimoxazol (MDR) y resistencia emergente a fluoroquinolonas notificadas en la región.'
+    },
+    prevention: ['Acceso a agua potable y saneamiento básico', 'Control higiénico riguroso de manipuladores de alimentos', 'Vacunación tifoidea (vacuna de polisacárido Vi o vacuna conjugada TCV) en zonas de alto riesgo'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Guatemala (áreas periurbanas)', 'San Marcos', 'Quiché', 'Huehuetenango', 'Alta Verapaz'],
+      officialNotes: 'Enfermedad de vigilancia epidemiológica semanal obligatoria. Los brotes están estrechamente ligados a contaminación fecal de fuentes de agua de consumo y alimentos callejeros.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    imagery: [
+      {
+        type: 'ilustracion_cientifica',
+        caption: 'Morfología bacilar Gram negativa de Salmonella enterica con flagelos peritricos y antígeno capsular Vi.',
+        stainOrModality: 'Microscopía óptica con tinción de Gram (1000x)',
+        creditOrSource: 'CDC Public Health Image Library (PHIL)'
+      }
+    ],
+    bibliography: [
+      { source: 'MSPAS Guatemala - Departamento de Epidemiología', title: 'Protocolo de Vigilancia Epidemiológica de Enfermedades Transmitidas por Agua y Alimentos (ETA)', year: '2022', status: 'Verificado' },
+      { source: 'World Health Organization (WHO)', title: 'Typhoid vaccines: WHO position paper', year: '2019', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-22'
+  },
+
+  {
+    id: 'trichuris-trichiura',
+    scientificName: 'Trichuris trichiura',
+    commonName: 'Tricocéfalo / Gusano látigo',
+    category: 'parasito',
+    parasiteGroup: 'nematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Nematoda',
+      classTaxon: 'Enoplea / Adenophorea',
+      orderTaxon: 'Trichocephalida',
+      family: 'Trichuridae',
+      genus: 'Trichuris',
+      species: 'T. trichiura'
+    },
+    morphology: {
+      shape: 'Nematodo con morfología en látigo (3/5 anteriores filiformes y 2/5 posteriores engrosados); huevos en forma de barril con dos tapones mucosos bipolares hialinos.',
+      size: 'Adulto: 3 a 5 cm; Huevo: 50 - 55 µm de largo por 22 - 25 µm de ancho',
+      arrangement: 'Verme en látigo enterrado en la mucosa cecal mediante su extremo filiforme',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Esticosoma anterior (hileras de células glandulares o esticocitos)', 'Tapones polares mucosos hialinos en ambos extremos del huevo', 'Espícula copuladora con vaina espinosa en el macho']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Anaerobio facultativo en la mucosa del ciego y colon ascendente; hematófago e histiófago',
+      cultureMedia: ['No aplica (helminto macroscópico)'],
+      optimalTemp: '37 °C; huevos embrionan en tierra húmeda y cálida a 25-30 °C',
+      growthTime: 'Período prepatente de 60 a 90 días',
+      keyBiochemicalTests: ['Examen coproparasitoscópico de concentración con Lugol']
+    },
+    externalAndInternalStructures: [
+      'Extremo anterior capilar muy delgado que se enhebra en la mucosa colónica',
+      'Extremo posterior engrosado que cuelga libremente en la luz del ciego',
+      'Huevo simétrico amarillento con doble cubierta lisa teñida de biliar'
+    ],
+    virulenceFactors: [
+      { name: 'Enclavamiento mucoso y microtraumatismo capilar crónico', mechanism: 'El tercio anterior filiforme se inserta profundamente en el epitelio del ciego provocando microulceraciones, pérdida hemática continua (0.005 mL/gusano/día) y colitis' },
+      { name: 'Estimulación del plexo nervioso entérico y tenesmo', mechanism: 'La inflamación rectal intensa en hiperinfecciones causa tenesmo continuo y esfuerzo defecatorio con prolapso rectal en niños malnutridos' }
+    ],
+    reservoir: ['Seres humanos'],
+    transmissionRoute: ['Fecal-oral: ingestión de huevos embrionados con larva L1 procedente de tierra contaminada (geohelmintiasis)', 'Geofagia y hortalizas crudas mal lavadas'],
+    associatedDiseases: [
+      {
+        name: 'Tricuriasis / Tricocefalosis Infantil Severa',
+        description: 'Infección colónica crónica; en cargas helmínticas masivas produce disentería crónica, tenesmo severo, prolapso rectal infantil y retraso marcado del crecimiento.',
+        clinicalPresentation: ['Diarrea crónica muco-sanguinolenta y dolor cólico', 'Tenesmo y pujo rectal intenso', 'Prolapso de la mucosa rectal al defecar con parásitos visibles', 'Anemia ferropénica severa microcítica e hipocrómica', 'Dedos en palillo de tambor (acropaquia) en tricuriasis de larga evolución']
+      }
+    ],
+    signsAndSymptoms: ['Dolor en fosa ilíaca derecha y marco colónico', 'Diarrea disentérica crónica', 'Prolapso rectal en niños', 'Palidez mucocutánea por anemia'],
+    complications: ['Prolapso rectal recurrente irreductible', 'Anemia grave refractaria', 'Desnutrición calórico-proteica grave', 'Apendicitis verminosa'],
+    clinicalSpecimens: ['Heces formadas o disentéricas'],
+    diagnosticMethods: [
+      { method: 'Examen coproparasitoscópico por concentración o técnica cuantitativa de Kato-Katz', standardRole: 'Gold Standard', keyFindings: 'Identificación de huevos pardos en barril con dos tapones polares mucosos hialinos característicos' },
+      { method: 'Rectosigmoidoscopia o colonoscopia', standardRole: 'Confirmatorio', keyFindings: 'Visualización directa de vermes en látigo enhebrados en la mucosa rectal edematosa hiperémica' }
+    ],
+    labFindings: ['Anemia microcítica hipocrómica por deficiencia de hierro', 'Eosinofilia moderada (5-15%)', 'Hipoalbuminemia en niños desnutridos'],
+    treatment: {
+      disclaimer: 'Requiere esquemas antihelmínticos de varios días debido a la localización mucosa profunda del nematodo.',
+      firstLine: [
+        'Mebendazol: 100 mg VO c/12h por 3 días consecutivos (o 500 mg dosis única)',
+        'Albendazol: 400 mg VO diario durante 3 días consecutivos (en tricuriasis severa la dosis única tiene menor eficacia curativa)'
+      ],
+      alternatives: [
+        'Oxantel + Pamoato de Pirantel: muy eficaz frente a Trichuris',
+        'Ivermectina: 200 mcg/kg VO diario por 3 días combinada con albendazol'
+      ],
+      resistanceNotes: 'La dosis única de albendazol tiene una tasa de curación de solo 30-50% para Trichuris; por ello se recomiendan 3 días consecutivos de tratamiento.'
+    },
+    prevention: ['Disposición sanitaria de excretas y letrinización', 'Lavado estricto de manos antes de comer y tras contacto con tierra', 'Lavado y desinfección de verduras y frutas de tallo corto'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Alta Verapaz', 'Quiché', 'Huehuetenango', 'Chimaltenango', 'Suchitepéquez', 'Izabal'],
+      officialNotes: 'Geohelminto de alta frecuencia en el área rural indígena de Guatemala. El prolapso rectal por tricuriasis es una complicación pediátrica clásica observada en hospitales departamentales.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'tt-stage-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo en barril con dos tapones polares mucosos',
+        biologicalRole: 'Estadio diagnóstico eliminado en heces que madura en tierra',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo simétrico elipsoidal en forma de barril con dos tapones mucosos bipolares hialinos y cáscara doble lisa castaño-dorada.',
+        keyDimensions: '50 - 55 µm por 22 - 25 µm',
+        differentialCharacteristics: ['Forma patognomónica en barril o limón con tapones polares nítidos refringentes'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Coproparasitoscópico con Lugol y Kato-Katz',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Huevo simétrico en forma de barril con dos tapones polares de Trichuris trichiura.',
+        stainOrModality: 'Microscopía óptica de campo claro (400x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Tricocefalosis', year: '2019', status: 'Revisado' },
+      { source: 'MSPAS Guatemala', title: 'Guía de Desparasitación Masiva Escolar en Comunidades Endémicas', year: '2022', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-24'
+  },
+
+  {
+    id: 'trypanosoma-cruzi',
+    scientificName: 'Trypanosoma cruzi',
+    commonName: 'Mal de Chagas / Tripanosomiasis americana',
+    category: 'parasito',
+    parasiteGroup: 'protozoo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Euglenozoa',
+      classTaxon: 'Kinetoplastea',
+      orderTaxon: 'Trypanosomatida',
+      family: 'Trypanosomatidae',
+      genus: 'Trypanosoma',
+      species: 'T. cruzi'
+    },
+    morphology: {
+      shape: 'Kinetoplastea hemoflagelado tisular; tripomastigote sanguíneo móvil en forma de "C" con membrana ondulante y cinetoplasto posterior muy grande; amastigote intracelular esférico.',
+      size: 'Tripomastigote: 20 µm (16-22 µm); Amastigote: 2 - 4 µm de diámetro',
+      arrangement: 'Tripomastigotes libres en sangre; amastigotes en nidos intracitoplasmáticos densos',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Cinetoplasto voluminoso subterminal', 'Membrana ondulante ancha con flagelo anterior', 'Glucoproteínas mucinas de superficie (cruzipaína)']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Utiliza glucosa y prolina; fosforilación oxidativa activa',
+      cultureMedia: ['Medio NNN (Novy-MacNeal-Nicolle) o medio LIT (aparición de epimastigotes flagelados)'],
+      optimalTemp: '37 °C en mamífero; 26-28 °C en vector triatomino',
+      growthTime: 'Doble tiempo de generación de amastigotes tisulares de 12-24 horas',
+      keyBiochemicalTests: ['Serología pareada por dos técnicas distintas (ELISA Chagas + IFI / HAI)']
+    },
+    externalAndInternalStructures: [
+      'Tripomastigote con silueta clásica curvada en "C" o "S"',
+      'Cinetoplasto subterminal púrpura prominente',
+      'Amastigote con núcleo esférico y cinetoplasto en bastoncillo adyacente'
+    ],
+    virulenceFactors: [
+      { name: 'Tropismo e invasión miocárdica y neuronal mientérica', mechanism: 'Cruzipaína y trans-sialidasa median la adhesión celular y escape del fagosoma hacia el citosol donde prolifera el amastigote' },
+      { name: 'Destrucción progresiva de los plexos nerviosos de Meissner y Auerbach', mechanism: 'Provoca aperistalsis, dilatación colónica y esofágica irreversible (megacolon y megaesófago chagásicos)' },
+      { name: 'Respuesta autoinmune por mimetismo molecular y daño microvascular', mechanism: 'Desencadena miocardiopatía fibrótica difusa con arritmias ventriculares letales, bloqueo de rama derecha y aneurisma apical del ventrículo izquierdo' }
+    ],
+    reservoir: ['Triatominos hematófagos (Triatoma dimidiata en Guatemala)', 'Mamíferos silvestres y peridomésticos (zarigüeyas / tacuazines, perros, gatos, roedores)', 'Seres humanos'],
+    transmissionRoute: [
+      'Vectorial: deyección de heces contaminadas con tripomastigotes metacíclicos por chinches triatominas (chinche picuda / Triatoma dimidiata) tras la hematofagia, rascadas hacia la herida o conjuntiva ocular',
+      'Oral: ingestión de jugos de frutas (caña, açaí) contaminados con heces o chinches trituradas (brotes agudos)',
+      'Congénita transplacentaria de madre infectada al feto',
+      'Transfusión sanguínea o trasplante de órganos no tamizados'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Enfermedad de Chagas Aguda',
+        description: 'Fase inicial inmediatamente posterior a la picadura; con frecuencia oligosintomática salvo por el complejo oftalmoganglionar clásico.',
+        clinicalPresentation: ['Signo de Romaña: edema bipalpebral unilateral indoloro con adenopatía preauricular y dacriocistitis', 'Chagoma de inoculación: nódulo eritematoso indurado en sitio de deyección', 'Fiebre persistente, hepatoesplenomegalia y miocarditis aguda']
+      },
+      {
+        name: 'Cardiopatía Chagásica Crónica',
+        description: 'Manifestación tardía (10 a 30 años posinfección) en el 20-30% de los infectados crónicos; principal causa de muerte cardiovascular parasitaria en Latinoamérica.',
+        clinicalPresentation: ['Bloqueo completo de rama derecha del haz de His (BCRDHH) + hemibloqueo anterior izquierdo', 'Arritmias ventriculares malignas y muerte súbita', 'Insuficiencia cardíaca congestiva dilatada refractaria', 'Aneurisma apical del ventrículo izquierdo con trombosis mural y cardioembolismo']
+      }
+    ],
+    signsAndSymptoms: ['Signo de Romaña unilateral', 'Palpitaciones y síncope', 'Disnea de esfuerzo y edemas maleolares', 'Disfagia progresiva (megaesófago) y estreñimiento crónico severo (megacolon)'],
+    complications: ['Muerte súbita por fibrilación ventricular', 'Aneurisma ventricular roto o trombosante', 'ACV cardioembólico', 'Acalasia chagásica con broncoaspiración'],
+    clinicalSpecimens: ['Sangre capilar / venosa para microhematocrito y Strout en fase aguda', 'Suero para serología en fase crónica'],
+    diagnosticMethods: [
+      { method: 'Frotis fino y Gota Gruesa con Giemsa / Micrométodo de Strout', standardRole: 'Gold Standard', keyFindings: 'Identificación de tripomastigotes sanguíneos móviles con gran cinetoplasto posterior en fase aguda' },
+      { method: 'Pruebas Serológicas Combinadas (ELISA + Inmunofluorescencia Indirecta)', standardRole: 'Confirmatorio', keyFindings: 'Para el diagnóstico de la fase crónica se exige la concordancia positiva de DOS pruebas serológicas con principios antigénicos diferentes' }
+    ],
+    labFindings: ['ECG alterado: BCRDHH, extrasístoles ventriculares polimórficas', 'Ecocardiograma: hipoquinesia o acinesia apical ventricular con aneurisma sacular'],
+    treatment: {
+      disclaimer: 'El tratamiento etiológico es curativo en fase aguda, congénita y niños pequeños; en adultos con fase crónica avanzada sin cardiopatía frena la progresión.',
+      firstLine: [
+        'Benznidazol: 5 a 7 mg/kg/día VO dividido en 2 dosis diarias durante 60 días (en niños: 5-10 mg/kg/día)',
+        'Nifurtimox: 8 a 10 mg/kg/día VO dividido en 3 dosis diarias durante 60 a 90 días'
+      ],
+      alternatives: [
+        'Manejo cardiológico específico: marcapasos definitivo para bloqueos AV, desfibrilador automático implantable (DAI) para arritmias ventriculares, anticoagulación para aneurisma apical'
+      ],
+      resistanceNotes: 'Frecuentes reacciones adversas a benznidazol (dermatitis por hipersensibilidad, polineuropatía periférica y leucopenia) que exigen monitorización estrecha.'
+    },
+    prevention: ['Mejoramiento de vivienda rural (repello de paredes de adobe y techos de paja donde anida Triatoma dimidiata)', 'Rociamiento residual intradomiciliar con insecticidas piretroides por el MSPAS', 'Tamizaje serológico estricto de sangre en todos los bancos de sangre del país'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Chiquimula', 'Jalapa', 'Jutiapa', 'Zacapa', 'El Progreso', 'Santa Rosa'],
+      officialNotes: 'Endémico en el Corredor Oriental. Triatoma dimidiata es el vector autóctono primario en Guatemala. El país cuenta con el Programa Nacional de Vigilancia y Control de Enfermedad de Chagas del MSPAS con certificación OPS.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'tc-stage-trypomastigote-micro',
+        stageType: 'tripomastigote',
+        name: 'Tripomastigote sanguíneo en "C"',
+        biologicalRole: 'Forma circulante no multiplicativa en sangre que invade células',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Célula flagelada fusiforme curvada en "C" con membrana ondulante y cinetoplasto subterminal extraordinariamente voluminoso.',
+        keyDimensions: '20 µm',
+        differentialCharacteristics: ['Gran tamaño del cinetoplasto posterior (mucho mayor que T. rangeli)', 'Silueta en "C" en frotis Giemsa'],
+        primaryClinicalSpecimen: 'Sangre capilar periférica (Gota gruesa y frotis)',
+        identificationMethod: 'Tinción de Giemsa o micrométodo de Strout',
+        visualRepresentationType: 'microfotografia_real'
+      },
+      {
+        id: 'tc-stage-amastigote-micro',
+        stageType: 'amastigote',
+        name: 'Amastigote intracelular en nidos tisulares',
+        biologicalRole: 'Estadio replicativo por fisión binaria en miocardiocitos',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Corpúsculos ovoides diminutos (2-4 µm) con núcleo y cinetoplasto en bastón agrupados en nidos dentro de fibras musculares cardíacas.',
+        keyDimensions: '2 - 4 µm',
+        differentialCharacteristics: ['Presencia de cinetoplasto en barra que lo diferencia de Toxoplasma gondii y de Histoplasma capsulatum'],
+        primaryClinicalSpecimen: 'Biopsia tisular / Músculo',
+        identificationMethod: 'Histopatología con tinción de Hematoxilina-Eosina o Giemsa',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Tripomastigote de Trypanosoma cruzi en sangre periférica y nido de amastigotes en fibra miocárdica.',
+        stainOrModality: 'Tinción de Giemsa / H&E (1000x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'MSPAS Guatemala - Departamento de Epidemiología', title: 'Norma Técnica para la Vigilancia Epidemiológica de la Enfermedad de Chagas', year: '2023', status: 'Verificado' },
+      { source: 'American Heart Association (AHA)', title: 'Chagas Cardiomyopathy Clinical Statement', year: '2018', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-26'
+  },
+
+  {
+    id: 'leishmania-braziliensis',
+    scientificName: 'Leishmania braziliensis / L. mexicana',
+    commonName: 'Leishmaniasis / Úlcera de los chicleros',
+    category: 'parasito',
+    parasiteGroup: 'protozoo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Euglenozoa',
+      classTaxon: 'Kinetoplastea',
+      orderTaxon: 'Trypanosomatida',
+      family: 'Trypanosomatidae',
+      genus: 'Leishmania',
+      species: 'L. braziliensis'
+    },
+    morphology: {
+      shape: 'Amastigote intracelular inmóvil esférico/ovoide en fagolisosomas de macrófagos; promastigote alargado flagelado en vector Lutzomyia.',
+      size: 'Amastigote: 2 - 3 µm; Promastigote: 15 - 20 µm',
+      arrangement: 'Agrupados densamente en el citoplasma de macrófagos',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Cinetoplasto en bastoncillo perpendicular al núcleo', 'Lipotetrasacárido (LPG) y metaloproteasa gp63 para evasión de la lisis del complemento']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Resiste el ambiente ácido y oxidativo del fagolisosoma del macrófago',
+      cultureMedia: ['Medio bifásico NNN a 24-26 °C'],
+      optimalTemp: '37 °C en hospedero mamífero; 24-26 °C en cultivo/vector',
+      growthTime: 'Multiplicación por fisión binaria cada 24 horas',
+      keyBiochemicalTests: ['Prueba cutánea de Montenegro (Leishmanina) de hipersensibilidad retardada']
+    },
+    externalAndInternalStructures: [
+      'Amastigote con núcleo redondeado rojo y cinetoplasto púrpura oscuro',
+      'Membrana celular externa rica en LPG',
+      'Promastigote con flagelo anterior libre largo'
+    ],
+    virulenceFactors: [
+      { name: 'gp63 y lipofosfoglucano (LPG)', mechanism: 'Inhiben el estallido respiratorio oxidativo del macrófago y degradan enzimas lisosómicas' },
+      { name: 'Metástasis mucosa linfohematógena (L. braziliensis)', mechanism: 'Meses o años tras la úlcera primaria, los amastigotes migran hacia la mucosa nasal y orofaríngea destruyendo el tabique cartilaginoso (espundia)' }
+    ],
+    reservoir: ['Roedores selváticos, zarigüeyas y perros', 'Vectores flebótomos (Lutzomyia spp., conocidos en Guatemala como papalotillas o mosca chiclera)'],
+    transmissionRoute: ['Picadura de hembras infectadas de flebótomos del género Lutzomyia en zonas boscosas y cafetaleras'],
+    associatedDiseases: [
+      {
+        name: 'Leishmaniasis Cutánea Localizada (Úlcera de los Chicleros)',
+        description: 'Úlcera indolora de bordes violáceos elevados e indurados con fondo granulomatoso limpio en pabellón auricular o extremidades.',
+        clinicalPresentation: ['Pápula eritematosa inicial que se ulcera en semanas', 'Úlcera crateriforme indolora "en volcán"', 'Linfangitis satélite y adenopatía regional']
+      },
+      {
+        name: 'Leishmaniasis Mucocutánea (Espundia)',
+        description: 'Destrucción progresiva destructiva del cartílago nasal ("nariz de tapir") y perforación palatina por L. braziliensis.',
+        clinicalPresentation: ['Congestión y epistaxis nasal crónica', 'Perforación del tabique nasal cartilaginoso', 'Destrucción de úvula, faringe y laringe']
+      }
+    ],
+    signsAndSymptoms: ['Úlcera indolora de lenta cicatrización', 'Deformidad nasal o auricular', 'Costra central en zonas expuestas'],
+    complications: ['Mutilación de la pirámide nasal y paladar', 'Sobreinfección bacteriana secundaria', 'Dificultad respiratoria por obstrucción laríngea'],
+    clinicalSpecimens: ['Frotis por raspado del borde activo de la úlcera', 'Biopsia dérmica'],
+    diagnosticMethods: [
+      { method: 'Frotis por raspado del borde de la lesión teñido con Giemsa', standardRole: 'Gold Standard', keyFindings: 'Identificación de amastigotes (cuerpos de Leishman-Donovan) dentro de macrófagos tisulares con núcleo y cinetoplasto' },
+      { method: 'Biopsia de piel y PCR de kinetoplasto', standardRole: 'Confirmatorio', keyFindings: 'Diferenciación de subgénero Viannia (L. braziliensis vs L. mexicana)' }
+    ],
+    labFindings: ['Intradermorreacción de Montenegro positiva en leishmaniasis cutánea'],
+    treatment: {
+      disclaimer: 'El tratamiento de primera línea oficial en el MSPAS son los antimoniales pentavalentes bajo supervisión médica.',
+      firstLine: [
+        'Antimoniato de Meglumina (Glucantime): 20 mg Sb5+/kg/día IM o IV lento durante 20 días continuos (en mucocutánea por 30 días)'
+      ],
+      alternatives: [
+        'Miltefosina: 2.5 mg/kg/día VO durante 28 días',
+        'Anfotericina B liposomal: para casos refractarios o con toxicidad antimonial'
+      ],
+      resistanceNotes: 'Monitorizar función cardíaca (prolongación de QTc) y enzimas hepáticas/pancreáticas durante el uso de Glucantime.'
+    },
+    prevention: ['Uso de repelente con DEET y ropa de manga larga en selvas y cafetales', 'Uso de mosquiteros de malla fina (menor poro que los de malaria)', 'Diagnóstico y tratamiento temprano de úlceras en trabajadores agrícolas'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Petén', 'Alta Verapaz', 'Izabal', 'Quiché (Ixcán)', 'Huehuetenango (norte)'],
+      officialNotes: 'Hiperendémico en el bosque húmedo tropical. Enfermedad ligada históricamente a recolectores de chicle y madera en la Reserva de la Biosfera Maya (Petén). El MSPAS distribuye Glucantime en áreas de salud endémicas.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'leish-stage-amastigote-micro',
+        stageType: 'amastigote',
+        name: 'Amastigote intracelular (Cuerpos de Leishman-Donovan)',
+        biologicalRole: 'Forma replicativa asexual en fagolisosomas de macrófagos dérmicos',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Corpúsculos esféricos u ovoides (2-3 µm) con núcleo esférico rojizo y cinetoplasto en barra púrpura perpendicular.',
+        keyDimensions: '2 - 3 µm',
+        differentialCharacteristics: ['Presencia de cinetoplasto que descarta Histoplasma capsulatum en frotis'],
+        primaryClinicalSpecimen: 'Biopsia tisular / Músculo',
+        identificationMethod: 'Frotis de raspado de borde ulceroso con Giemsa a 1000x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Amastigotes de Leishmania en el citoplasma de un macrófago dérmico en frotis teñido con Giemsa.',
+        stainOrModality: 'Microscopía de inmersión en aceite (1000x)',
+        creditOrSource: 'CDC Public Health Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'MSPAS Guatemala', title: 'Manual de Normas y Procedimientos para la Vigilancia y Control de las Leishmaniasis en Guatemala', year: '2022', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-25'
+  },
+
+  {
+    id: 'necator-americanus',
+    scientificName: 'Necator americanus / Ancylostoma duodenale',
+    commonName: 'Uncinarias / Anquilostoma',
+    category: 'parasito',
+    parasiteGroup: 'nematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Nematoda',
+      classTaxon: 'Secernentea',
+      orderTaxon: 'Strongylida',
+      family: 'Ancylostomatidae',
+      genus: 'Necator / Ancylostoma',
+      species: 'N. americanus'
+    },
+    morphology: {
+      shape: 'Nematodo cilíndrico curvo de 1 cm; cápsula bucal armada (placas cortantes semilunares en Necator; dientes quitinosos en Ancylostoma); huevos ovalados de cáscara muy delgada y transparente.',
+      size: 'Adulto: 9 - 11 mm; Huevo: 60 - 75 µm por 35 - 40 µm',
+      arrangement: 'Fijados con avidez a las vellosidades del duodeno y yeyuno',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Cápsula bucal con placas cortantes (Necator)', 'Bolsa copulatriz membranosa en el macho', 'Secreción de péptidos anticoagulantes']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Hematófago estricto intraluminal; ingiere sangre activamente del lecho capilar velloso',
+      cultureMedia: ['Cultivo de Harada-Mori para eclosión y recuperación de larvas'],
+      optimalTemp: '37 °C en intestino; maduración larvaria en suelo arenoso húmedo a 25-30 °C',
+      growthTime: 'Período prepatente de 5 a 7 semanas tras penetración dérmica',
+      keyBiochemicalTests: ['Técnica cuantitativa de Kato-Katz']
+    },
+    externalAndInternalStructures: [
+      'Cuerpo incurvado en "S" o "C"',
+      'Cápsula bucal profundamente esclerosada',
+      'Huevo de cubierta hialina finísima con 4 a 8 blastómeros embrionarios'
+    ],
+    virulenceFactors: [
+      { name: 'Hematofagia voraz activa y anticoagulantes salivales', mechanism: 'Necator expolia 0.03 mL de sangre/día y Ancylostoma hasta 0.2 mL/día, macerando la mucosa y dejando sangrado residual por secreción de factor Xa y antiplaquetarios' },
+      { name: 'Penetración percutánea activa por larvas L3', mechanism: 'Metaloproteasas degradan la dermis interdigital provocando prurito intenso ("comezón de la tierra")' }
+    ],
+    reservoir: ['Seres humanos'],
+    transmissionRoute: ['Penetración percutánea de larvas filariformes L3 del suelo contaminado al caminar descalzo en áreas agrícolas y cafetaleras'],
+    associatedDiseases: [
+      {
+        name: 'Uncinariasis y Anemia Ferropénica Severa',
+        description: 'Geohelmintiasis hematófaga crónica; causa clásica de anemia microcítica grave ("anemia de los cafetales") y retardo del neurodesarrollo infantil.',
+        clinicalPresentation: ['Dermatitis pruriginosa en pies con pápulas y vesículas ("picazón de suelo")', 'Síndrome de Löffler pulmonar transitorio', 'Palidez mucocutánea cérea intensa, astenia marcada y soplos cardíacos funcionales', 'Pica (geofagia en niños anémicos)']
+      }
+    ],
+    signsAndSymptoms: ['Palidez intensa y cansancio fácil', 'Prurito interdigital en pies', 'Dolor epigástrico que mejora al comer', 'Edemas maleolares por hipoalbuminemia'],
+    complications: ['Insuficiencia cardíaca de alto gasto por anemia severa (Hb < 5 g/dL)', 'Retraso del crecimiento físico y cognitivo escolar'],
+    clinicalSpecimens: ['Heces formadas / pastosas'],
+    diagnosticMethods: [
+      { method: 'Examen coproparasitoscópico directo con Lugol y método de Kato-Katz', standardRole: 'Gold Standard', keyFindings: 'Identificación de huevos ovalados de cáscara finísima transparente con blastómeros en heces frescas' }
+    ],
+    labFindings: ['Anemia microcítica hipocrómica severa con ferritina baja', 'Eosinofilia moderada a alta'],
+    treatment: {
+      disclaimer: 'El tratamiento etiológico debe acompañarse de suplementación obligatoria con sulfato ferroso para corregir la anemia ferropénica.',
+      firstLine: [
+        'Albendazol: 400 mg VO dosis única (en niños > 2 años: 400 mg; de 1-2 años: 200 mg)',
+        'Mebendazol: 100 mg VO c/12h por 3 días o 500 mg dosis única'
+      ],
+      alternatives: [
+        'Pamoato de Pirantel: 11 mg/kg VO diario durante 3 días',
+        'Sulfato Ferroso: 3-6 mg Fe elemental/kg/día por al menos 3 meses tras normalizar hemoglobina'
+      ],
+      resistanceNotes: 'Albendazol presenta mayor eficacia ovicida y vermicida frente a uncinarias que mebendazol.'
+    },
+    prevention: ['Uso sistemático de calzado o botas de hule en fincas cafetaleras y agrícolas', 'Letrinización rural y saneamiento básico', 'Campañas semestrales de desparasitación escolar del MSPAS'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['San Marcos', 'Suchitepéquez', 'Escuintla', 'Santa Rosa', 'Alta Verapaz', 'Chimaltenango'],
+      officialNotes: 'Hiperendémico en la región cafetalera y costa sur. Históricamente denominada "anemia de los cafetales" en Guatemala. Alta prevalencia en jornaleros y cortadores de café que laboran descalzos o con calzado deteriorado en suelos húmedos.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'unc-stage-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo segmentado con blastómeros en cáscara delgada',
+        biologicalRole: 'Estadio diagnóstico en heces que eclosiona en tierra',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo ovalado transparente con cáscara delgadísima hialina y espacio claro subcapsular que rodea a 4-8 blastómeros centrales.',
+        keyDimensions: '60 - 75 µm por 35 - 40 µm',
+        differentialCharacteristics: ['Cáscara sumamente fina y transparente', 'Contenido segmentado en blastómeros'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Examen coproparasitoscópico directo con Lugol a 400x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Huevo de uncinaria con cáscara delgada transparente y masa de blastómeros.',
+        stainOrModality: 'Microscopía óptica de campo claro (400x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Uncinariasis', year: '2019', status: 'Revisado' },
+      { source: 'MSPAS Guatemala', title: 'Guía de Manejo Clínico de las Parasitosis Intestinales', year: '2022', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-24'
+  },
+
+  {
+    id: 'hymenolepis-nana',
+    scientificName: 'Hymenolepis nana',
+    commonName: 'Tenia enana',
+    category: 'parasito',
+    parasiteGroup: 'cestodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Platyhelminthes',
+      classTaxon: 'Cestoda',
+      orderTaxon: 'Cyclophyllidea',
+      family: 'Hymenolepididae',
+      genus: 'Hymenolepis',
+      species: 'H. nana'
+    },
+    morphology: {
+      shape: 'Céstodo pequeño de 2 a 4 cm; escólex con rostelo armado retráctil con corona de ganchos y 4 ventosas; huevo esférico con filamentos polares refringentes.',
+      size: 'Adulto: 2 - 4 cm; Huevo: 30 - 47 µm de diámetro',
+      arrangement: 'Estróbilo delicado transparente de 200 proglótides más anchas que largas',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Rostelo armado con corona única de 20 a 30 ganchos', 'Cuatro ventosas en copa', 'Filamentos polares intermembranosos del huevo']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Absorbe glucosa a través de microtricos tegumentarios en la mucosa del íleon',
+      cultureMedia: ['No aplica (helminto macroscópico)'],
+      optimalTemp: '37 °C',
+      growthTime: 'Ciclo biológico muy rápido de 2 a 3 semanas',
+      keyBiochemicalTests: ['Examen coproparasitoscópico de concentración con Lugol']
+    },
+    externalAndInternalStructures: [
+      'Escólex diminuto de 0.3 mm armado',
+      'Huevo esférico transparente con doble membrana',
+      'Membrana interna con mamelones polares de los que emergen 4 a 8 filamentos'
+    ],
+    virulenceFactors: [
+      { name: 'Ciclo directo y autoinfección interna en el hospedero', mechanism: 'Único céstodo humano que NO requiere hospedero intermediario obligatorio; los huevos pueden eclosionar en el propio íleon penetrando las vellosidades intestinales (fase de cisticercoide) y generando miles de adultos' },
+      { name: 'Descamación epitelial y enteritis catarral por cisticercoides', mechanism: 'La invasión tisular de las vellosidades por larvas cisticercoides desencadena inflamación local y mala absorción' }
+    ],
+    reservoir: ['Seres humanos (particularmente niños en edad preescolar y escolar)', 'Roedores (ratones y ratas)'],
+    transmissionRoute: ['Fecal-oral directa (mano-boca) por ingestión de huevos infectantes', 'Autoinfección interna en la luz del íleon', 'Ingestión accidental de coleópteros de harina contaminados con cisticercoides'],
+    associatedDiseases: [
+      {
+        name: 'Himenolepiasis Pediátrica',
+        description: 'Infección por céstodos más común en niños guatemaltecos; cursa con dolor periumbilical, meteorismo, diarrea intermitente y retraso en la ganancia ponderal.',
+        clinicalPresentation: ['Dolor abdominal difuso recurrente de tipo cólico', 'Meteorismo, distensión abdominal y anorexia', 'Diarreas pastosas periódicas sin sangre', 'Cefalea, mareos e irritabilidad']
+      }
+    ],
+    signsAndSymptoms: ['Dolor periumbilical', 'Diarrea recurrente', 'Prurito nasal y anal leve', 'Meteorismo'],
+    complications: ['Hiperinfección masiva con síndrome de malabsorción intestinal en niños desnutridos'],
+    clinicalSpecimens: ['Heces formadas / pastosas'],
+    diagnosticMethods: [
+      { method: 'Examen coproparasitoscópico directo con Lugol y método de Faust (sulfato de zinc)', standardRole: 'Gold Standard', keyFindings: 'Identificación de huevos esféricos hialinos con filamentos polares nítidos entre las dos membranas y embrión hexacanto' }
+    ],
+    labFindings: ['Eosinofilia leve a moderada (5-10%)'],
+    treatment: {
+      disclaimer: 'El praziquantel es el fármaco de elección indiscutible con dosis ligeramente superior a la teniasis para erradicar cisticercoides tisulares.',
+      firstLine: [
+        'Praziquantel: 25 mg/kg VO dosis única en ayunas (en niños y adultos)',
+        'Nitazoxanida: 500 mg VO c/12h por 3 días (en niños de 1-3 años: 100 mg c/12h; de 4-11 años: 200 mg c/12h)'
+      ],
+      alternatives: [
+        'Niclosamida: 2 g el día 1, seguido de 1 g diario por 6 días más (7 días de tratamiento continuo para cubrir eclosión de cisticercoides)'
+      ],
+      resistanceNotes: 'Debido a la autoinfección interna, se recomienda realizar examen coprológico de control a las 2 y 4 semanas tras el tratamiento.'
+    },
+    prevention: ['Lavado estricto de manos antes de ingerir alimentos', 'Corte y aseo de uñas en escolares', 'Control de plagas de roedores en graneros y despensas de alimentos'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Media',
+      departmentsWithHighPrevalence: ['Guatemala', 'Chimaltenango', 'Quiché', 'Totonicapán', 'San Marcos'],
+      officialNotes: 'Hiperendémico en población infantil escolar. Es el céstodo diagnosticado con mayor frecuencia en laboratorios clínicos y centros de salud de Guatemala en exámenes coproparasitoscópicos rutinarios de niños.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'hn-stage-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo esférico con filamentos polares refringentes',
+        biologicalRole: 'Estadio inmediatamente infectante por ingestión fecal-oral',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo esférico transparente (30-47 µm) con doble envoltura; membrana interna con dos mamelones de donde nacen de 4 a 8 filamentos polares ondulantes y embrión hexacanto.',
+        keyDimensions: '30 - 47 µm',
+        differentialCharacteristics: ['Filamentos polares patognomónicos en el espacio intermembranoso (ausentes en Hymenolepis diminuta)'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Coproparasitoscópico directo con Lugol a 400x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Huevo esférico transparente de Hymenolepis nana con filamentos polares y ganchos del embrión hexacanto.',
+        stainOrModality: 'Microscopía óptica de campo claro (400x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Himenolepiasis', year: '2019', status: 'Revisado' },
+      { source: 'CDC DPDx', title: 'Laboratory Identification of Parasites: Hymenolepiasis', year: '2024', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-25'
+  },
+
+  {
+    id: 'fasciola-hepatica',
+    scientificName: 'Fasciola hepatica',
+    commonName: 'Duela del hígado / Pirigüey',
+    category: 'parasito',
+    parasiteGroup: 'trematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Platyhelminthes',
+      classTaxon: 'Trematoda',
+      orderTaxon: 'Echinostomida / Plagiorchiida',
+      family: 'Fasciolidae',
+      genus: 'Fasciola',
+      species: 'F. hepatica'
+    },
+    morphology: {
+      shape: 'Trematodo aplanado foliáceo en forma de hoja lanceolada con cono cefálico anterior prominente; huevos gigantes elipsoidales operculados pardo-dorados.',
+      size: 'Adulto: 2 a 3 cm de largo por 1 a 1.5 cm de ancho; Huevo: 130 - 150 µm de largo por 60 - 90 µm de ancho',
+      arrangement: 'Alojado en los canalículos biliares intra y extrahepáticos',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Cono cefálico cónico anterior', 'Dos ventosas cercanas (oral y ventral/acetábulo)', 'Tegumento espinoso con escamas cuticulares dirigidas hacia atrás', 'Opérculo polar en el huevo']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Anaerobio facultativo en bilis; hematófago e histiófago biliar',
+      cultureMedia: ['No aplica (helminto macroscópico)'],
+      optimalTemp: '37 °C; miracidios maduran en agua dulce a 20-25 °C',
+      growthTime: 'Período prepatente de 3 a 4 meses hasta oviposición biliar',
+      keyBiochemicalTests: ['ELISA de Fasciola para detección de anticuerpos séricos específicos']
+    },
+    externalAndInternalStructures: [
+      'Tegumento revestido de abundantes espinas quitinosas curvadas',
+      'Ciegos intestinales densamente ramificados que recorren todo el cuerpo',
+      'Útero anterior repleto de huevos gigantes operculados'
+    ],
+    virulenceFactors: [
+      { name: 'Migración transperitoneal y transhepática destructiva', mechanism: 'Las duelas juveniles perforan la cápsula de Glisson y tunelizan el parénquima hepático durante 6 a 8 semanas secretando catepsinas L (cisteína proteasas) que destruyen hepatocitos y causan hematomas subcapsulares y necrosis' },
+      { name: 'Obstrucción mecánica biliar y fibrosis colangítica', mechanism: 'Los vermes adultos en colédoco y conductos hepáticos inducen hiperplasia glandular, estasis biliar, colangitis esclerosante secundaria y litiasis biliar' }
+    ],
+    reservoir: ['Ganado ovino, caprino y bovino', 'Seres humanos como hospederos accidentales', 'Caracoles de agua dulce de la familia Lymnaeidae (hospederos intermediarios obligados)'],
+    transmissionRoute: [
+      'Ingestión de plantas acuáticas crudas contaminadas con metacercarias enquistadas viables (principalmente BERROS de agua dulce — Nasturtium officinale — de fuentes o riachuelos donde abreva ganado)',
+      'Ingestión de agua no tratada de manantiales o acequias con metacercarias flotantes'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Fascioliasis Aguda (Fase Invasiva Hepática)',
+        description: 'Tránsito de duelas jóvenes a través del parénquima hepático; síndrome febril prolongado con eosinofilia extrema y dolor en hipocondrio derecho.',
+        clinicalPresentation: ['Fiebre alta en agujas continua o remitente', 'Hepatomegalia dolorosa a la palpación y dolor en cuadrante superior derecho', 'Urticaria alérgica generalizada y diaforesis', 'HIPEREOSINOFILIA MASIVA en sangre periférica (frecuentemente > 50-80% del total de leucocitos)']
+      },
+      {
+        name: 'Fascioliasis Crónica (Fase Biliar Obstructiva)',
+        description: 'Establecimiento de las duelas adultas en los conductos biliares;',
+        clinicalPresentation: ['Cólicos biliares recidivantes similares a colelitiasis', 'Ictericia fluctuante de patrón obstructivo', 'Colangitis aguda bacteriana sobreagregada']
+      }
+    ],
+    signsAndSymptoms: ['Fiebre y dolor en hipocondrio derecho', 'Hepatomegalia dolorosa', 'Ictericia y coluria', 'Urticaria pruriginosa en fase aguda'],
+    complications: ['Cirrosis biliar secundaria', 'Abscesos hepáticos necróticos', 'Hematoma subcapsular hepático roto con hemoperitoneo', 'Localizaciones ectópicas (pulmón, pared abdominal, ojo)'],
+    clinicalSpecimens: ['Heces de sedimentación para huevos gigantes', 'Bilis obtenida por sondaje duodenal o CPRE', 'Suero para ELISA'],
+    diagnosticMethods: [
+      { method: 'Examen coproparasitoscópico de sedimentación rápida (técnica de Lumbreras)', standardRole: 'Gold Standard', keyFindings: 'Identificación de huevos gigantes operculados amarillo-dorados de 130-150 µm (solo positivo en fase crónica tras 3-4 meses)' },
+      { method: 'ELISA de Fasciola (anticuerpos anti-Fasciola)', standardRole: 'Confirmatorio', keyFindings: 'Prueba de elección en la fase aguda invasiva temprana antes de que comience la oviposición biliar' }
+    ],
+    labFindings: ['HIPEREOSINOFILIA marcada (> 5,000-10,000 eosinófilos/µL)', 'Fosfatasa alcalina y GGT elevadas en fase biliar', 'Tomografía hepática: trayectos lineales o serpiginosos hipodensos ramificados en el parénquima hepático ("túneles de Fasciola")'],
+    treatment: {
+      disclaimer: 'ALERTA TERAPÉUTICA CRÍTICA: El praziquantel y albendazol tienen muy baja eficacia frente a Fasciola hepatica. El fármaco de elección es el Triclabendazol.',
+      firstLine: [
+        'Triclabendazol (Egaten): 10 mg/kg VO dosis única administrada tras una comida grasa (en infecciones severas: 20 mg/kg dividido en dos tomas con intervalo de 12 horas)'
+      ],
+      alternatives: [
+        'Nitazoxanida: 500 mg VO c/12h durante 7 días consecutivos (eficacia intermedia si no se dispone de triclabendazol)'
+      ],
+      resistanceNotes: 'El Triclabendazol es el único fármaco activo tanto contra las formas inmaduras migratorias hepáticas como contra los adultos biliares.'
+    },
+    prevention: ['Evitar estrictamente el consumo de berros silvestres crudos o sin cocer procedentes de fuentes no controladas', 'Hervir el agua de bebida en áreas ganaderas', 'Control y tratamiento del ganado ovino y bovino con fasciolicidas veterinarios'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Media',
+      departmentsWithHighPrevalence: ['Chimaltenango (Patzún, Tecpán)', 'Quetzaltenango', 'Totonicapán', 'San Marcos', 'Huehuetenango'],
+      officialNotes: 'Endémico en el Altiplano Central y Occidental. Ligada a la tradición de recolectar berros silvestres en nacimientos de agua donde pastan ovejas en comunidades del altiplano guatemalteco. Causa importante de hipereosinofilia febril en pediatría.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'fh-stage-egg-micro',
+        stageType: 'huevo',
+        name: 'Huevo gigante operculado elipsoidal',
+        biologicalRole: 'Estadio diagnóstico eliminado por bilis hacia heces',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo elipsoidal voluminoso gigante (130-150 µm) de color castaño-dorado con un opérculo nítido en uno de sus polos.',
+        keyDimensions: '130 - 150 µm por 60 - 90 µm',
+        differentialCharacteristics: ['Tamaño gigante patognomónico que supera ampliamente cualquier huevo de nematodo', 'Presencia de opérculo polar'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Sedimentación coprológica rápida (técnica de Lumbreras) a 100x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Huevo gigante operculado de Fasciola hepatica en muestra biliar coprológica.',
+        stainOrModality: 'Microscopía óptica de campo claro (100x y 400x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'World Health Organization (WHO)', title: 'Foodborne trematodiases: Fascioliasis', year: '2023', status: 'Verificado' },
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Fascioliasis', year: '2019', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-25'
+  },
+
+  {
+    id: 'onchocerca-volvulus',
+    scientificName: 'Onchocerca volvulus',
+    commonName: 'Filaria de la ceguera de los ríos / Enfermedad de Robles',
+    category: 'parasito',
+    parasiteGroup: 'nematodo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Nematoda',
+      classTaxon: 'Secernentea',
+      orderTaxon: 'Spirurida',
+      family: 'Onchocercidae',
+      genus: 'Onchocerca',
+      species: 'O. volvulus'
+    },
+    morphology: {
+      shape: 'Nematodo tisular filariforme largo; adultos ovovivíparos agrupados en nódulos subcutáneos fibrosos (oncocercomas); microfilarias desnudas dérmicas sin vaina.',
+      size: 'Hembra adulta: 30 a 50 cm; Macho: 2 a 4 cm; Microfilaria dérmica: 220 - 360 µm de largo por 5 - 9 µm de ancho',
+      arrangement: 'Adultos enrollados en nódulos subcutáneos; microfilarias libres en dermis superficial y globo ocular',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Ausencia de vaina perilarval en microfilaria', 'Cola afilada desprovista de núcleos en el extremo distal', 'Endosimbionte bacteriano intracelular Wolbachia pipientis']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Dependencia metabólica y reproductiva de la bacteria endosimbionte Wolbachia',
+      cultureMedia: ['No aplica (parásito tisular humano)'],
+      optimalTemp: '37 °C',
+      growthTime: 'Los gusanos adultos pueden vivir y liberar microfilarias durante 10 a 15 años dentro de los oncocercomas',
+      keyBiochemicalTests: ['Prueba de reacción en cadena de la polimerasa (PCR O-150) en biopsias de piel']
+    },
+    externalAndInternalStructures: [
+      'Microfilaria desnuda sin vaina con columna nuclear somática',
+      'Extremo cefálico con espacio transparente',
+      'Nódulo subcutáneo esclerosado con vasos sanguíneos y estroma colágeno'
+    ],
+    virulenceFactors: [
+      { name: 'Muerte y lisis de microfilarias en la córnea y cámara anterior ocular', mechanism: 'La liberación masiva de antígenos del parásito y de la endotoxina de Wolbachia desencadena queratitis punteada, queratitis esclerosante difusa, iridociclitis crónica, sinequias y ceguera bilateral irreversible' },
+      { name: 'Dermatitis oncocercosa crónica (Enfermedad de Robles)', mechanism: 'Reacción inflamatoria cutánea con prúrigo intenso, liquenificación, atrofia epidérmica precoz ("piel de lagarto" o "piel de anciano") y despigmentación en moteado ("piel de leopardo")' }
+    ],
+    reservoir: ['Exclusivamente los seres humanos'],
+    transmissionRoute: ['Picadura diurna de jejenes hematófagos del género Simulium (Simulium metallicum / Simulium ochraceum en Guatemala) que se reproducen en ríos torrentosos de montaña'],
+    associatedDiseases: [
+      {
+        name: 'Oncocercosis / Ceguera de los Ríos (Enfermedad de Robles)',
+        description: 'Hito histórico de la medicina guatemalteca; parasitosis eliminada formalmente en Guatemala en 2016 tras un programa nacional integral de nodulectomías e ivermectina.',
+        clinicalPresentation: ['Oncocercomas: nódulos subcutáneos indoloros firmes en cuero cabelludo y prominencias óseas craneales', 'Dermatitis papular pruriginosa severa y facies leonina', 'Queratitis esclerosante y pérdida progresiva del campo visual hasta la ceguera completa bilateral']
+      }
+    ],
+    signsAndSymptoms: ['Nódulos palpables en la cabeza', 'Prurito cutáneo intratable', 'Fotofobia y disminución progresiva de agudeza visual', 'Manchas acrómicas en piel'],
+    complications: ['Ceguera bilateral irreversible', 'Caquexia oncocercosa y depresión severa'],
+    clinicalSpecimens: ['Biopsia cutánea superficial tangencial sin sangrado ("skin snip")', 'Examen oftalmológico con lámpara de hendidura'],
+    diagnosticMethods: [
+      { method: 'Biopsia superficial de piel (Skin snip) incubada en solución salina', standardRole: 'Gold Standard', keyFindings: 'Observación a 100x y 400x de microfilarias desnudas activas emergiendo del tejido cutáneo hacia la solución fisiológica' },
+      { method: 'Biomicroscopía con lámpara de hendidura', standardRole: 'Confirmatorio', keyFindings: 'Visualización directa de microfilarias móviles nadando en el humor acuoso de la cámara anterior del ojo' }
+    ],
+    labFindings: ['Eosinofilia periférica marcada (20-40%)', 'Prueba de Mazzotti positiva (reacción alérgica aguda febril con rash y adenitis tras dosis baja de dietilcarbamazina; HOY EN DESUSO POR RIESGO DE COLAPSO)']
+    ,
+    treatment: {
+      disclaimer: 'HITO HISTÓRICO GUATEMALTECO: Gracias al tratamiento semestral masivo con Ivermectina (Mectizan) durante más de dos décadas, GUATEMALA FUE CERTIFICADA LIBRE DE ONCOCERCOSIS POR LA OMS EN 2016.',
+      firstLine: [
+        'Ivermectina: 150 mcg/kg VO cada 6 meses (mata microfilarias e inhibe temporalmente la fecundidad de hembras adultas)',
+        'Doxiciclina: 100 a 200 mg/día VO durante 6 semanas (elimina Wolbachia endosimbionte, provocando la esterilización definitiva y muerte de los gusanos adultos)'
+      ],
+      alternatives: [
+        'Extirpación quirúrgica de los oncocercomas (Técnica del Dr. Rodolfo Robles de nodulectomía sistemática)'
+      ],
+      resistanceNotes: 'La ivermectina es microfilaricida pero NO mata a los gusanos adultos de forma inmediata; por ello se requirieron rondas semestrales durante 15 años hasta agotar la vida media del verme.'
+    },
+    prevention: ['Vigilancia epidemiológica post-eliminación certificada por OMS/OPS', 'Uso de ropa protectora en zonas ribereñas montañosas'],
+    guatemalaRelevance: {
+      endemicStatus: 'Raro / Controlado',
+      priorityLevel: 'Baja',
+      departmentsWithHighPrevalence: ['Histórico: Chimaltenango (Pochuta, Yepocapa), Escuintla, Sololá, Suchitepéquez, Santa Rosa, Huehuetenango'],
+      officialNotes: 'HITO NACIONAL DE SALUD PÚBLICA: En 1915 el Dr. Rodolfo Robles descubrió en Guatemala la etiología filárica de la oncocercosis, la localización craneal de los nódulos y su vínculo con la ceguera ("Enfermedad de Robles"). En 2016 Guatemala recibió la certificación oficial de la OMS como el cuarto país del mundo en eliminar totalmente la transmisión de la oncocercosis.',
+      notificationGroup: 'Notificación Inmediata'
+    },
+    parasiticStages: [
+      {
+        id: 'ov-stage-microfilaria-micro',
+        stageType: 'microfilaria',
+        name: 'Microfilaria dérmica desnuda sin vaina',
+        biologicalRole: 'Estadio diagnóstico móvil en estroma dérmico y humor acuoso',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Microfilaria esbelta (220-360 µm x 5-9 µm) sin vaina exterior con extremos afilados y columna nuclear que no alcanza el extremo de la cola.',
+        keyDimensions: '220 - 360 µm',
+        differentialCharacteristics: ['Ausencia de vaina perilarval', 'Localización estrictamente dérmica y ocular (no se halla en frotis de sangre periférica)'],
+        primaryClinicalSpecimen: 'Biopsia tisular / Músculo',
+        identificationMethod: 'Biopsia superficial de piel (skin snip) en solución salina',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Microfilaria dérmica de Onchocerca volvulus desprovista de vaina emergiendo de biopsia cutánea.',
+        stainOrModality: 'Microscopía óptica directa (400x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'Organización Mundial de la Salud (OMS) / OEPA', title: 'Verificación de la eliminación de la oncocercosis en Guatemala: Informe de la Comisión Internacional', year: '2016', status: 'Verificado' },
+      { source: 'Robles R.', title: 'Enfermedad de Robles: Oncocercosis humana en Guatemala', year: '1919', status: 'Verificado' }
+    ],
+    lastReviewedDate: '2026-03-20'
+  },
+
+  {
+    id: 'sarcoptes-scabiei',
+    scientificName: 'Sarcoptes scabiei var. hominis',
+    commonName: 'Ácaro de la sarna / Escabiosis',
+    category: 'parasito',
+    parasiteGroup: 'ectoparasito',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Arthropoda',
+      classTaxon: 'Arachnida',
+      orderTaxon: 'Sarcoptiformes / Astigmata',
+      family: 'Sarcoptidae',
+      genus: 'Sarcoptes',
+      species: 'S. scabiei'
+    },
+    morphology: {
+      shape: 'Ácaro microscópico globoso aplanado ventralmente y convexo dorsalmente con espinas triangulares cuticulares; 4 pares de patas cortas (las anteriores con ventosas pedunculadas no articuladas).',
+      size: 'Hembra adulta: 300 - 450 µm de largo por 250 µm de ancho; Macho: 200 µm; Huevo: 150 µm',
+      arrangement: 'Intraepidérmico en túneles del estrato córneo',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Espinas cónicas triangulares dorsales', 'Gnatosoma con quelíceros cortantes', 'Ventosas ambulacrales pedunculadas']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Degrada y digiere queratina del estrato córneo mediante proteasas salivales',
+      cultureMedia: ['No aplica (parásito obligado)'],
+      optimalTemp: '37 °C; a temperatura ambiente sobrevive fuera del cuerpo 24 a 48 horas',
+      growthTime: 'Ciclo biológico completo de huevo a adulto en 10 a 14 días',
+      keyBiochemicalTests: ['Examen microscópico directo de raspado de surco acarino']
+    },
+    externalAndInternalStructures: [
+      'Caparazón quitinoso globoso semiesférico',
+      'Pliegues transversales y cerdas rígidas sensoriales',
+      'Heces en pelotillas ovaladas oscuras (escíbalos)'
+    ],
+    virulenceFactors: [
+      { name: 'Excavación de túneles en el estrato córneo', mechanism: 'La hembra fertilizada avanza de 0.5 a 5 mm diarios labrando surcos serpiginosos donde deposita de 2 a 3 huevos al día y heces' },
+      { name: 'Hipersensibilidad retardada tipo IV al ácaro, huevos y escíbalos', mechanism: 'Provoca prurito intratable generalizado que empeora de noche por el calor de las sábanas, desencadenando excoriaciones y sobreinfección bacteriana por S. aureus y S. pyogenes' }
+    ],
+    reservoir: ['Exclusivamente los seres humanos'],
+    transmissionRoute: [
+      'Contacto físico directo prolongado piel con piel (frecuente transmisión intrafamiliar y sexual)',
+      'Fómites contaminados (ropa interior, sábanas, toallas) en albergues, cárceles, asilos y guarderías'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Escabiosis Clásica (Sarna)',
+        description: 'Dermatosis pruriginosa altamente contagiosa caracterizada por surcos acarinos y prurito nocturno intolerable.',
+        clinicalPresentation: ['Surco acarino (línea serpiginosa blanquecina de 5-15 mm terminada en eminencia acarina)', 'Pápulas eritematosas y vesículas perláceas', 'Topografía electiva: espacios interdigitales de manos, muñecas (cara anterior), codos, axilas, areolas mamarias, ombligo y surco subglúteo; en varones respeta genitales (chancro escabiótico en glande y escroto)', 'Respeta cara y cuero cabelludo en adultos (en lactantes sí puede comprometer cara, palmas y plantas)']
+      },
+      {
+        name: 'Sarna Costrosa o Noruega',
+        description: 'Forma masiva hiperqueratósica en pacientes inmunocomprometidos (VIH, desnutrición, uso crónico de esteroides); millones de ácaros proliferan sin control con placas psoriasiformes descamativas gruesas y poco prurito.',
+        clinicalPresentation: ['Placas queratósicas gruesas fisuradas hiperqueratósicas', 'Costras amarillentas adherentes en palmas, plantas y cuero cabelludo', 'Extraordinariamente contagiosa (millones de ácaros en las escamas)']
+      }
+    ],
+    signsAndSymptoms: ['Prurito intolerable de predominio nocturno', 'Lesiones interdigitales excoriadas', 'Varios miembros de la misma familia con prurito simultáneo'],
+    complications: ['Sobreinfección bacteriana secundaria (impétigo, celulitis, glomerulonefritis postestreptocócica por S. pyogenes)'],
+    clinicalSpecimens: ['Raspado del fondo del surco acarino con hoja de bisturí humedecida en aceite mineral (Prueba de Müller)'],
+    diagnosticMethods: [
+      { method: 'Microscopía directa de raspado cutáneo con aceite mineral (Prueba de Müller)', standardRole: 'Gold Standard', keyFindings: 'Identificación del ácaro hembra adulto (300 µm con patas cortas), huevos embrionados o escíbalos (bolitas fecales oscuras)' },
+      { method: 'Dermatoscopia (signo del ala delta o del avión a reacción)', standardRole: 'Tamizaje', keyFindings: 'Visualización de la cabeza y patas anteriores triangulares oscuras del ácaro al final del surco' }
+    ],
+    labFindings: ['Eosinofilia moderada e IgE total sérica elevada'],
+    treatment: {
+      disclaimer: 'REGLA DE TRATAMIENTO ABSOLUTA: Se DEBE tratar simultáneamente a TODOS los convivientes del hogar aunque no tengan síntomas, y lavar la ropa a > 60 °C.',
+      firstLine: [
+        'Permetrina al 5% en crema tópica: aplicar desde el cuello hasta la punta de los pies (en lactantes incluir cabeza), dejar actuar durante 8 a 14 horas y enjuagar; REPETIR obligatoriamente a los 7 días',
+        'Ivermectina oral: 200 mcg/kg VO dosis única con alimentos, REPETIR a los 7-14 días (de elección en brotes institucionales o sarna costrosa)'
+      ],
+      alternatives: [
+        'Azufre precipitado al 6-10% en vaselina: aplicar 3 noches consecutivas (fármaco de elección en recién nacidos < 2 meses y mujeres embarazadas)'
+      ],
+      resistanceNotes: 'El prurito puede persistir por 2 a 4 semanas tras el tratamiento exitoso ("prurito post-escabiótico") debido a la hipersensibilidad residual a los restos antigénicos.'
+    },
+    prevention: ['Tratamiento simultáneo de todos los contactos cercanos', 'Lavado de ropa de vestir y sábanas con agua caliente y secado al sol o planchado', 'Aislamiento de prendas no lavables en bolsas plásticas cerradas herméticamente durante 72 horas'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Media',
+      departmentsWithHighPrevalence: ['Guatemala (asentamientos urbanos)', 'Escuintla', 'Quiché', 'Alta Verapaz', 'Huehuetenango'],
+      officialNotes: 'Hiperendémico en condiciones de hacinamiento y pobreza extrema. Muy prevalente en comunidades rurales con hacinamiento y viviendas de una sola habitación. En niños indígenas del área rural suele sobreinfectarse con estreptococo con riesgo de glomerulonefritis aguda.',
+      notificationGroup: 'Vigilancia Centinela'
+    },
+    parasiticStages: [
+      {
+        id: 'sscab-stage-adult-micro',
+        stageType: 'adulto',
+        name: 'Ácaro adulto hembra ovígera',
+        biologicalRole: 'Forma patógena que labra surcos epidérmicos depositando huevos y heces',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Cuerpo globoso semiesférico ovalado (300-450 µm) con espinas triangulares en dorso convexo y 4 pares de patas cortas.',
+        keyDimensions: '300 - 450 µm',
+        differentialCharacteristics: ['Morfología compacta en tortuga diminuta con espinas dorsales características'],
+        primaryClinicalSpecimen: 'Biopsia tisular / Músculo',
+        identificationMethod: 'Raspado con aceite mineral (Müller) a 100x y 400x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Ácaro adulto de Sarcoptes scabiei obtenido mediante raspado de surco acarino con aceite mineral.',
+        stainOrModality: 'Microscopía óptica de campo claro (100x)',
+        creditOrSource: 'CDC Public Health Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'CDC DPDx', title: 'Laboratory Identification of Parasites: Scabies', year: '2024', status: 'Revisado' },
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Escabiosis', year: '2019', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-24'
+  },
+
+  {
+    id: 'pediculus-humanus',
+    scientificName: 'Pediculus humanus capitis / corporis',
+    commonName: 'Piojo de la cabeza / Piojo del cuerpo / Liendres',
+    category: 'parasito',
+    parasiteGroup: 'ectoparasito',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Arthropoda',
+      classTaxon: 'Insecta',
+      orderTaxon: 'Psocodea / Phthiraptera / Anoplura',
+      family: 'Pediculidae',
+      genus: 'Pediculus',
+      species: 'P. humanus'
+    },
+    morphology: {
+      shape: 'Insecto anopluro áptero aplanado dorsoventralmente con 3 pares de patas terminadas en uñas prensiles garfiformes adaptadas al cabello; liendre ovoide operculada adherida al pelo.',
+      size: 'Adulto: 2 a 3.5 mm de largo; Liendre: 0.8 mm de largo por 0.3 mm de ancho',
+      arrangement: 'Fijado al tallo piloso capilar o costuras de ropa',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Garras tarsales prensiles adaptadas al diámetro del pelo humano', 'Piezas bucales perforadoras retráctiles', 'Opérculo poroso en la liendre y cemento quitinoso']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Hematófago obligado estricto; se alimenta de sangre capilar varias veces al día',
+      cultureMedia: ['No aplica'],
+      optimalTemp: '30-32 °C cerca del cuero cabelludo; muere en menos de 48 horas sin sangre a temperatura ambiente',
+      growthTime: 'De liendre a adulto en 7 a 10 días tras 3 estadios ninfales',
+      keyBiochemicalTests: ['Examen macroscópico con peine lendrero y microscopía óptica de la liendre']
+    },
+    externalAndInternalStructures: [
+      'Cuerpo translúcido segmentado en cabeza, tórax fusionado y abdomen',
+      'Tubo digestivo visible que se llena de sangre roja tras alimentarse',
+      'Manguito de queratocemento transparente que une la liendre al cabello'
+    ],
+    virulenceFactors: [
+      { name: 'Picadura hematófaga e inyección salival irritante', mechanism: 'Inyecta saliva anticoagulante y vasodilatadora provocando pápulas eritematosas muy pruriginosas en nuca y región retroauricular' },
+      { name: 'Vector biológico de agentes infecciosos letales (P. humanus corporis)', mechanism: 'El piojo del cuerpo es el vector biológico de Rickettsia prowazekii (tifus epidémico exantemático), Borrelia recurrentis (fiebre recurrente epidémica) y Bartonella quintana (fiebre de las trincheras)' }
+    ],
+    reservoir: ['Exclusivamente los seres humanos'],
+    transmissionRoute: [
+      'Contacto directo cabeza con cabeza (juegos entre niños en edad escolar)',
+      'Fómites: peines, cepillos, gorros, bufandas y almohadas compartidas'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Pediculosis Capitis Infantil',
+        description: 'Ectoparasitosis más frecuente en escolares de 3 a 11 años; genera prurito intenso en nuca y región occipital.',
+        clinicalPresentation: ['Prurito persistente del cuero cabelludo de predominio occipital y retroauricular', 'Excoriaciones por rascado y eccema retroauricular', 'Visualización de liendres adheridas firmemente a menos de 6 mm del cuero cabelludo', 'Adenopatías cervicales posteriores inflamatorias reactivas']
+      }
+    ],
+    signsAndSymptoms: ['Rascado compulsivo de la cabeza', 'Sensación de cosquilleo en el cabello', 'Adenopatías occipitales dolorosas'],
+    complications: ['Sobreinfección bacteriana secundaria (impétigo del cuero cabelludo por S. aureus)', 'Plaga del cuerpo: transmisión de tifus epidémico en situaciones de guerra o campamentos de refugiados'],
+    clinicalSpecimens: ['Cabello con liendres adheridas montado en portaobjetos', 'Recolección de piojos con peine fino'],
+    diagnosticMethods: [
+      { method: 'Peinado húmedo con peine fino lendrero (dientes separados por < 0.2 mm)', standardRole: 'Gold Standard', keyFindings: 'Método 4 veces más sensible que la inspección visual para detectar ninfas y piojos adultos móviles' },
+      { method: 'Examen microscópico del cabello con liendre montado en lámina portaobjetos', standardRole: 'Confirmatorio', keyFindings: 'Identificación de la cápsula ovoide operculada adherida al tallo con ninfa viable' }
+    ],
+    labFindings: ['No requiere exámenes de laboratorio clínico complementarios'],
+    treatment: {
+      disclaimer: 'El tratamiento pediculicida químico debe combinarse obligatoriamente con el peinado diario con peine fino lendrero para retirar mecánicamente las liendres.',
+      firstLine: [
+        'Permetrina al 1% en loción: aplicar en cabello seco y limpio durante 10 minutos y enjuagar con agua; REPETIR obligatoriamente a los 7 a 9 días para matar ninfas recién eclosionadas',
+        'Retiro mecánico sistemático con peine fino de dientes metálicos (lendrera)'
+      ],
+      alternatives: [
+        'Dimeticona al 4% en loción (asfixia física por bloqueo de los espiráculos respiratorios sin generar resistencia química)',
+        'Ivermectina oral: 200 mcg/kg dosis única, repetir a los 7 días (para casos refractarios o comunitarios)'
+      ],
+      resistanceNotes: 'Resistencia mutacional en canales de sodio a piretroides en aumento mundial; en casos resistentes la dimeticona o ivermectina son superiores.'
+    },
+    prevention: ['No compartir peines, cepillos, toallas ni accesorios capilares', 'Revisión periódica semanal del cuero cabelludo en niños escolares', 'Sumergir peines y cepillos en agua caliente (> 60 °C) durante 10 minutos'],
+    guatemalaRelevance: {
+      endemicStatus: 'Hiperendémico',
+      priorityLevel: 'Media',
+      departmentsWithHighPrevalence: ['Guatemala', 'Quetzaltenango', 'Sacatepéquez', 'Escuintla', 'Alta Verapaz'],
+      officialNotes: 'Hiperendémico en escuelas y comunidades. Problema de salud escolar masivo en Guatemala. Las brigadas del MSPAS y programas de salud escolar coordinan desparasitaciones y jornadas de revisión.',
+      notificationGroup: 'Vigilancia Centinela'
+    },
+    parasiticStages: [
+      {
+        id: 'ph-stage-nit-micro',
+        stageType: 'huevo',
+        name: 'Liendre (Huevo operculado cementado al cabello)',
+        biologicalRole: 'Estadio de anclaje de resistencia adherido a la cutícula pilosa',
+        isInfectiveStage: false,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Huevo ovoide nacarado translúcido (0.8 mm) con opérculo apical provisto de poros respiratorios y cementado al tallo capilar.',
+        keyDimensions: '0.8 mm por 0.3 mm',
+        differentialCharacteristics: ['Adhesión fija con cemento insoluble que no se desprende al soplar (a diferencia de caspa o sebo)', 'Opérculo apical'],
+        primaryClinicalSpecimen: 'Biopsia tisular / Músculo',
+        identificationMethod: 'Estereomicroscopía o microscopio a 100x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Liendre de Pediculus humanus con ninfa interior cementada al tallo piloso.',
+        stainOrModality: 'Microscopía de campo claro a 100x',
+        creditOrSource: 'CDC Public Health Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'American Academy of Pediatrics (AAP)', title: 'Clinical Report: Head Lice', year: '2022', status: 'Verificado' },
+      { source: 'Botero D, Restrepo M.', title: 'Parasitosis Humanas (6ª Ed.) - Pediculosis', year: '2019', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-24'
+  },
+
+  {
+    id: 'cryptosporidium-parvum',
+    scientificName: 'Cryptosporidium parvum / C. hominis',
+    commonName: 'Criptosporidio / Criptosporidiosis',
+    category: 'parasito',
+    parasiteGroup: 'protozoo',
+    reviewStatus: 'Fuentes pendientes de revisión',
+    taxonomy: {
+      domain: 'Eukaryota',
+      phylum: 'Apicomplexa',
+      classTaxon: 'Conoidasida',
+      orderTaxon: 'Eucoccidiorida',
+      family: 'Cryptosporidiidae',
+      genus: 'Cryptosporidium',
+      species: 'C. parvum'
+    },
+    morphology: {
+      shape: 'Apicomplexa coccidio de localización intracelular pero extracitoplasmática en el borde en cepillo de enterocitos; ooquistes esféricos diminutos ácido-alcohol resistentes.',
+      size: 'Ooquiste maduro: 4.0 - 5.0 µm de diámetro',
+      arrangement: 'Ooquistes esporulados libres en materia fecal',
+      gramStain: 'Tinciones especiales',
+      specialStructures: ['Pared ooquística trilaminar rica en lípidos', 'Complejo apical invasivo', 'Propiedad tintorial Ácido-Alcohol Resistente (BAAR fecal)']
+    },
+    microbiologyCharacteristics: {
+      metabolism: 'Reside en una vacuola parasitófora epicelular sobre la membrana apical de los enterocitos',
+      cultureMedia: ['No aplica (parásito intracelular obligado)'],
+      optimalTemp: '37 °C; ooquistes sobreviven meses en agua fría clorada a 4-15 °C',
+      growthTime: 'Multiplicación esquizogónica y gametogónica rápida',
+      keyBiochemicalTests: ['Tinción de Ziehl-Neelsen modificada (Kinyoun) o antígeno fecal por ELISA']
+    },
+    externalAndInternalStructures: [
+      'Pared ooquística gruesa resistente al cloro comercial',
+      'Cuatro esporozoítos filiformes desnudos en su interior',
+      'Cuerpo residual granular central'
+    ],
+    virulenceFactors: [
+      { name: 'Destrucción de microvellosidades intestinales y atrofia', mechanism: 'Provoca acortamiento y atrofia de vellosidades intestinales con hiperplasia de criptas, alterando la absorción osmótica de solutos y agua' },
+      { name: 'Activación de secreción activa de cloruro mediada por prostaglandinas', mechanism: 'Induce diarrea secretora masiva similar al cólera, con pérdidas de hasta 10 a 15 litros diarios en pacientes con inmunodeficiencia celular grave (VIH con CD4 < 100/µL)' }
+    ],
+    reservoir: ['Seres humanos (C. hominis y C. parvum)', 'Ganado vacuno y terneros neonatos (C. parvum reservorio zoonótico primario)'],
+    transmissionRoute: [
+      'Fecal-oral indirecta: agua potable contaminada o piscinas recreativas (los ooquistes son completamente RESISTENTES A LA CLORACIÓN estándar)',
+      'Fecal-oral directa: persona a persona en guarderías y contacto con terneros infectados',
+      'Alimentos y ensaladas regadas con aguas residuales'
+    ],
+    associatedDiseases: [
+      {
+        name: 'Criptosporidiosis Intestinal en Pacientes Inmunodeprimidos (VIH/SIDA)',
+        description: 'Enfermedad definitoria de SIDA (conteo CD4 < 100/µL); causa diarrea acuosa masiva coleriforme intratable con emaciación y deshidratación refractaria.',
+        clinicalPresentation: ['Diarrea acuosa profusa no sanguinolenta (hasta 10-15 L/día)', 'Dolor cólico abdominal intenso y náuseas', 'Pérdida ponderal severa y síndrome de desgaste (wasting syndrome)', 'Colangiopatía esclerosante asociada a SIDA (dolor en hipocondrio derecho y fosfatasa alcalina elevada)']
+      },
+      {
+        name: 'Gastroenteritis Aguda Autolimitada en Inmunocompetentes',
+        description: 'Diarrea del viajero o brote en guarderías que dura de 10 a 14 días con resolución espontánea.',
+        clinicalPresentation: ['Diarrea acuosa autolimitada de 1 a 2 semanas', 'Fiebre de bajo grado y dolor periumbilical']
+      }
+    ],
+    signsAndSymptoms: ['Diarrea acuosa masiva', 'Deshidratación severa y sed intensa', 'Dolor abdominal cólico', 'Caquexia en pacientes con VIH'],
+    complications: ['Choque hipovolémico por deshidratación masiva', 'Colangitis esclerosante alitiásica', 'Desnutrición extrema'],
+    clinicalSpecimens: ['Heces formadas o líquidas'],
+    diagnosticMethods: [
+      { method: 'Tinción de Ziehl-Neelsen modificada de Kinyoun en frotis fecal', standardRole: 'Gold Standard', keyFindings: 'Identificación de ooquistes esféricos pequeños de 4-5 µm de color rojo fucsia brillante sobre fondo azul celeste (BAAR fecal positivo)' },
+      { method: 'ELISA de antígeno fecal o Inmunofluorescencia directa', standardRole: 'Confirmatorio', keyFindings: 'Mayor sensibilidad (> 95%) que la microscopía óptica convencional' }
+    ],
+    labFindings: ['Hiponatremia, hipopotasemia y acidosis metabólica por pérdidas fecales', 'Recuento de linfocitos CD4 < 100 células/µL en pacientes con VIH'],
+    treatment: {
+      disclaimer: 'En pacientes con VIH, la medida terapéutica más eficaz para la cura definitiva de la criptosporidiosis es la restitución inmune mediante TARGA (Terapia Antirretroviral de Gran Actividad).',
+      firstLine: [
+        'En pacientes con VIH: Inicio o reconstitución inmediata del TARGA para elevar el recuento de CD4 > 100-200/µL + Hidratación agresiva oral o IV con reposición electrolítica',
+        'Nitazoxanida: 500 mg VO c/12h por 3 días (en inmunocompetentes) o por 14-28 días (en inmunodeprimidos)'
+      ],
+      alternatives: [
+        'Paromomicina: 500 mg VO c/6h por 14 a 21 días (aminoglucósido luminal no absorbible con actividad parcial)'
+      ],
+      resistanceNotes: 'La nitazoxanida tiene eficacia modesta en pacientes con recuentos de CD4 inferiores a 50 células/µL sin TARGA.'
+    },
+    prevention: ['Filtración de agua con filtros de poro absoluto < 1 µm o ebullición del agua de beber durante al menos 1 minuto (la cloración NO destruye los ooquistes)', 'Evitar tragar agua en piscinas o parques acuáticos', 'Uso de guantes al manipular heces de terneros y animales de granja'],
+    guatemalaRelevance: {
+      endemicStatus: 'Endémico',
+      priorityLevel: 'Alta',
+      departmentsWithHighPrevalence: ['Guatemala (Clínica Familiar Luis Ángel García del Hospital General San Juan de Dios y Unidad de VIH del Hospital Roosevelt)', 'Escuintla', 'Quetzaltenango', 'Izabal'],
+      officialNotes: 'Endémico y oportunista mayor en unidades de atención integral a personas con VIH. Causa primaria de diarrea crónica de ingreso hospitalario en pacientes con diagnóstico tardío de VIH/SIDA en Guatemala.',
+      notificationGroup: 'Notificación Semanal'
+    },
+    parasiticStages: [
+      {
+        id: 'cp-stage-oocyst-micro',
+        stageType: 'ooquiste',
+        name: 'Ooquiste esférico ácido-alcohol resistente (BAAR fecal)',
+        biologicalRole: 'Forma esporulada infectante ambiental eliminada en heces resistente al cloro',
+        isInfectiveStage: true,
+        isDiagnosticStage: true,
+        morphologyDescription: 'Ooquiste diminuto esférico (4-5 µm) teñido de rojo fucsia magenta brillante con pared quística lipídica refractaria sobre fondo azul.',
+        keyDimensions: '4.0 - 5.0 µm',
+        differentialCharacteristics: ['Ácido-alcohol resistencia positiva que lo diferencia de levaduras y otros parásitos entéricos', 'Tamaño de 4-5 µm (Cyclospora mide 8-10 µm)'],
+        primaryClinicalSpecimen: 'Heces formadas / pastosas',
+        identificationMethod: 'Tinción de Kinyoun modificada a 1000x',
+        visualRepresentationType: 'microfotografia_real'
+      }
+    ],
+    imagery: [
+      {
+        type: 'microfotografia_real',
+        caption: 'Ooquistes ácido-alcohol resistentes de Cryptosporidium teñidos de fucsia en frotis fecal con Kinyoun.',
+        stainOrModality: 'Tinción de Kinyoun modificada (1000x)',
+        creditOrSource: 'CDC DPDx Parasite Image Library'
+      }
+    ],
+    bibliography: [
+      { source: 'CDC DPDx', title: 'Laboratory Identification of Parasites: Cryptosporidiosis', year: '2024', status: 'Revisado' },
+      { source: 'Mandell, Douglas, and Bennett’s', title: 'Principles and Practice of Infectious Diseases (9th Ed.) - Cryptosporidiosis', year: '2020', status: 'Revisado' }
+    ],
+    lastReviewedDate: '2026-03-24'
   }
 ];
+

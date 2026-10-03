@@ -21,10 +21,13 @@ export type ParasiticStageType =
   | 'amastigote'
   | 'promastigote'
   | 'tripomastigote'
+  | 'epimastigote'
   | 'gametocito'
   | 'esquizonte'
+  | 'merozoito'
   | 'esporozoito'
-  | 'cisticerco';
+  | 'cisticerco'
+  | 'otro';
 
 export interface ParasiticStage {
   id: string;

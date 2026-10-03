@@ -10,6 +10,7 @@ import {
   GraduationCap, 
   GitCompare, 
   BookOpen, 
+  Library,
   X,
   ShieldAlert,
   ChevronRight
@@ -22,6 +23,7 @@ export type ActiveNavSection =
   | 'vectores'
   | 'enfermedades'
   | 'atlas-diagnostico'
+  | 'biblioteca-academica'
   | 'epidemiologia'
   | 'guatemala'
   | 'estudiar'
@@ -34,6 +36,8 @@ interface SidebarProps {
   isOpenMobile: boolean;
   onCloseMobile: () => void;
   microorganismCount: number;
+  academicDocCount?: number;
+  pendingProposalsCount?: number;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -42,13 +46,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
   isOpenMobile,
   onCloseMobile,
   microorganismCount,
+  academicDocCount = 3,
+  pendingProposalsCount = 0,
 }) => {
   const navItems = [
     { id: 'inicio' as ActiveNavSection, label: 'Inicio', icon: Home, count: null },
     { id: 'microorganismos' as ActiveNavSection, label: 'Microorganismos', icon: Microscope, count: microorganismCount },
+    { id: 'atlas-diagnostico' as ActiveNavSection, label: 'Atlas Diagnóstico', icon: Layers, count: 5 },
+    { id: 'biblioteca-academica' as ActiveNavSection, label: 'Biblioteca Académica', icon: Library, count: academicDocCount, highlight: pendingProposalsCount > 0 },
     { id: 'vectores' as ActiveNavSection, label: 'Vectores Artrópodos', icon: Bug, count: 3 },
     { id: 'enfermedades' as ActiveNavSection, label: 'Enfermedades Infecciosas', icon: Activity, count: 7 },
-    { id: 'atlas-diagnostico' as ActiveNavSection, label: 'Atlas Diagnóstico', icon: Layers, count: 5 },
     { id: 'epidemiologia' as ActiveNavSection, label: 'Vigilancia Epidemiológica', icon: TrendingUp, count: null },
     { id: 'guatemala' as ActiveNavSection, label: 'Guatemala (22 Deptos)', icon: MapPin, count: 22 },
     { id: 'estudiar' as ActiveNavSection, label: 'Módulo de Estudio', icon: GraduationCap, count: null },
@@ -142,7 +149,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   </div>
 
                   {item.count !== null && (
-                    <span className="text-[10px] text-slate-400 tabular-nums">
+                    <span className={`text-[10px] tabular-nums px-1.5 py-0.5 rounded font-bold ${
+                      item.highlight 
+                        ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40' 
+                        : 'text-slate-400'
+                    }`}>
                       {item.count}
                     </span>
                   )}
