@@ -20,6 +20,8 @@ import type { BackupData, BackupImportMode, BackupImportPlan } from './types/bac
 import { epidemiologyService } from './services/epidemiologyService';
 import { InfectoAtlasLive } from './components/InfectoAtlasLive';
 import { LIVE_EVENT } from './services/liveService';
+import { appendBulletinToLibrary, OfficialBulletinRepository } from './services/officialBulletins';
+import type { OfficialBulletin } from './types/officialBulletin';
 import { Microorganism, MicroorganismCategory } from './types/microorganism';
 import { 
   AcademicDocument, 
@@ -100,6 +102,14 @@ export default function App() {
   };
 
   // Academic Library Actions with Persistent Storage Sync
+  const handleSendOfficialToLibrary = (record: OfficialBulletin) => {
+    const current = new OfficialBulletinRepository(localStorage).read().bulletins.find(item => item.id === record.id);
+    if (!current) throw new Error('El documento ya no está en el registro.');
+    const result = appendBulletinToLibrary(localStorage, current, storageService.getAcademicDocuments());
+    if (!result.added) return 'Este PDF ya está en la Biblioteca Académica.';
+    setAcademicDocuments(result.documents);
+    return 'PDF incorporado a la Biblioteca Académica. Sus propuestas clínicas siguen pendientes de revisión.';
+  };
   const handleAddAcademicDocument = (newDoc: AcademicDocument) => {
     setAcademicDocuments(prev => {
       const updated = [newDoc, ...prev];
@@ -527,7 +537,7 @@ export default function App() {
 
         {/* Dynamic Section Router */}
         <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
-          {currentSection === 'live' && <InfectoAtlasLive microorganisms={microorganisms} onSelectOrganism={setSelectedOrganism} />}
+          {currentSection === 'live' && <InfectoAtlasLive microorganisms={microorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
           {currentSection === 'inicio' && (
             <HomeDashboard
               microorganisms={microorganisms}
@@ -604,6 +614,9 @@ export default function App() {
           {currentSection === 'epidemiologia' && (
             <EpidemiologyView
               onGoToGuatemala={() => setCurrentSection('guatemala')}
+              microorganisms={microorganisms}
+              onSelectOrganism={setSelectedOrganism}
+              onSendToLibrary={handleSendOfficialToLibrary}
             />
           )}
 

@@ -6,6 +6,7 @@ import { LIVE_EVENT, LiveRepository, searchPubmed } from '../services/liveServic
 import { useLiveState } from './useLiveState';
 import { LiveArticleCard, liveTime } from './LiveArticleCard';
 import { organismSearchTerm } from '../../shared/organismTerms.mjs';
+import { OfficialBulletinLinks } from './OfficialBulletinLinks';
 
 const TOPIC_LABELS: Record<LiveTopic, string> = { all: 'Todos los temas', diagnosis: 'Diagnóstico', treatment: 'Tratamiento', resistance: 'Resistencia antimicrobiana', epidemiology: 'Epidemiología', vaccines: 'Vacunas' };
 const fieldClass = 'mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:outline-cyan-600';
@@ -83,6 +84,7 @@ export function LiveSearchPanel({ microorganisms, fixedOrganism, onSelectOrganis
       <p className="text-sm text-cyan-950">Literatura sobre <strong className="italic">{fixedOrganism.scientificName}</strong></p>
       <button type="button" onClick={() => toggleFollow(fixedOrganism.id)} className="rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white">{state.followedIds.includes(fixedOrganism.id) ? 'Dejar de seguir' : 'Seguir microorganismo'}</button>
     </div>}
+    {fixedOrganism && <OfficialBulletinLinks organismId={fixedOrganism.id} />}
     <p className="text-xs text-slate-600">La literatura recuperada requiere revisión. Las fichas clínicas conservan sus datos aprobados. Consultas manuales; alertas en LIVE para especies seguidas, sin vigilancia continua ni avisos externos.</p>
     <form onSubmit={event => { event.preventDefault(); void execute({ q, organism: selected ? organismSearchTerm(selected) : '', topic, from, to, offset: 0 }, selected?.id); }} className="rounded-xl border border-slate-200 bg-white p-4 space-y-3">
       <label className="block text-xs font-semibold text-slate-600">Buscar por enfermedad, término o consulta PubMed

@@ -25,7 +25,8 @@ export interface PDFExtractionResult {
  * Accurately breaks into pages and flags non-extractable / image-only pages.
  */
 export async function extractTextFromPDF(
-  fileOrBuffer: File | ArrayBuffer | Uint8Array
+  fileOrBuffer: File | ArrayBuffer | Uint8Array,
+  limits: { maxPages?: number; maxCharacters?: number } = {}
 ): Promise<PDFExtractionResult> {
   // If the user uploaded a plain text or markdown summary file
   if (fileOrBuffer instanceof File && (fileOrBuffer.name.endsWith('.txt') || fileOrBuffer.name.endsWith('.md'))) {
@@ -50,6 +51,7 @@ export async function extractTextFromPDF(
   }
 
   // Real PDF extraction
+  let closePdf: (() => Promise<void>) | undefined;
   try {
     let arrayBuffer: ArrayBuffer;
     if (fileOrBuffer instanceof File) {
@@ -69,7 +71,9 @@ export async function extractTextFromPDF(
     });
 
     const pdfDoc = await loadingTask.promise;
+    closePdf = () => loadingTask.destroy();
     const numPages = pdfDoc.numPages;
+    if (limits.maxPages && numPages > limits.maxPages) throw new Error(`El documento supera el límite de ${limits.maxPages} páginas`);
     const pages: ExtractedPage[] = [];
     let unextractablePagesCount = 0;
     let totalCharacters = 0;
@@ -112,6 +116,7 @@ export async function extractTextFromPDF(
           detectedMicroorganisms: []
         });
       }
+      if (limits.maxCharacters && totalCharacters > limits.maxCharacters) throw new Error(`El documento supera el límite de ${limits.maxCharacters} caracteres`);
     }
 
     return {
@@ -127,5 +132,7 @@ export async function extractTextFromPDF(
         ? `No se pudo extraer texto del archivo PDF: ${error.message}. Si el documento está escaneado como imagen sin capa OCR o protegido con contraseña, puede ingresar o pegar el texto de sus apuntes directamente.`
         : 'Error desconocido al procesar el archivo PDF.'
     );
+  } finally {
+    await closePdf?.().catch(() => undefined);
   }
 }

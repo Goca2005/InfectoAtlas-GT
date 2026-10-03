@@ -10,6 +10,7 @@ export type AcademicSubject =
 export type SourceTier =
   | 'Apunte universitario'
   | 'Guía oficial MSPAS / OPS'
+  | 'Boletín o alerta oficial MSPAS / OPS / OMS'
   | 'Publicación científica indexada'
   | 'Material docente';
 
@@ -55,6 +56,11 @@ export interface AcademicDocument {
   unextractablePagesCount: number;
   extractedProposalsCount: number;
   summaryNotes?: string;
+  officialSource?: {
+    bulletinId: string; sourceId: 'mspas' | 'paho' | 'who'; url: string;
+    publicationDate: string | null; sha256: string | null; reviewedAt: string | null;
+    excerpt: string; evidenceMode: 'pdf' | 'transcribed';
+  };
 }
 
 export interface ExtractionProposal {

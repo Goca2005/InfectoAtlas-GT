@@ -2,13 +2,20 @@ import React, { useState } from 'react';
 import { epidemiologyService } from '../services/epidemiologyService';
 import { GUATEMALA_DEPARTMENTS } from '../data/guatemalaDepartments';
 import { TrendingUp, AlertTriangle, ShieldCheck, Bell, MapPin, Activity, Calendar } from 'lucide-react';
+import { OfficialBulletinsPanel } from './OfficialBulletinsPanel';
+import type { OfficialBulletin } from '../types/officialBulletin';
+import type { Microorganism } from '../types/microorganism';
 
 interface EpidemiologyViewProps {
   onGoToGuatemala: () => void;
+  microorganisms: Microorganism[];
+  onSelectOrganism: (organism: Microorganism) => void;
+  onSendToLibrary: (record: OfficialBulletin) => string;
 }
 
 export const EpidemiologyView: React.FC<EpidemiologyViewProps> = ({
   onGoToGuatemala,
+  microorganisms, onSelectOrganism, onSendToLibrary,
 }) => {
   const [reports, setReports] = useState(epidemiologyService.getReports());
 
@@ -75,7 +82,7 @@ export const EpidemiologyView: React.FC<EpidemiologyViewProps> = ({
               Boletines y Reportes Epidemiológicos Oficiales
             </h3>
             <p className="text-xs text-slate-500">
-              Integración de comunicados del MSPAS en desarrollo; no hay vigilancia automática conectada.
+              Registro documental manual del MSPAS; no hay vigilancia automática conectada.
             </p>
           </div>
 
@@ -129,6 +136,7 @@ export const EpidemiologyView: React.FC<EpidemiologyViewProps> = ({
           })}
         </div>
       </div>
+      <OfficialBulletinsPanel microorganisms={microorganisms} onSelectOrganism={onSelectOrganism} onSendToLibrary={onSendToLibrary} />
     </div>
   );
 };

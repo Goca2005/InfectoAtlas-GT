@@ -427,6 +427,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
               <option value="todos">Todos los tipos de fuente</option>
               <option value="Apunte universitario">Apuntes universitarios</option>
               <option value="Guía oficial MSPAS / OPS">Guías oficiales MSPAS / OPS</option>
+              <option value="Boletín o alerta oficial MSPAS / OPS / OMS">Boletines y alertas MSPAS / OPS / OMS</option>
               <option value="Publicación científica indexada">Publicaciones científicas</option>
               <option value="Material docente">Material docente de demostración</option>
             </select>
@@ -843,6 +844,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
 
             {/* Page Content Body */}
             <div className="flex-1 overflow-y-auto p-6 space-y-4">
+              {viewingDoc.officialSource && <div className="space-y-2 rounded-lg border border-cyan-200 bg-cyan-50 p-3 text-xs text-cyan-950"><p>Documento enlazado al registro oficial · Procedencia revisada por usuario; requiere revisión clínica.</p><a href={viewingDoc.officialSource.url} target="_blank" rel="noopener noreferrer" className="break-all underline">Abrir publicación original</a><p>Publicación: {viewingDoc.officialSource.publicationDate ?? 'No consta'} · Evidencia: {viewingDoc.officialSource.evidenceMode === 'pdf' ? 'PDF local' : 'Transcripción manual'}</p><p className="break-all">SHA-256 del archivo original: {viewingDoc.officialSource.sha256 ?? 'Sin archivo PDF'}. No certifica la autoría ni las ediciones posteriores del texto.</p></div>}
               {(() => {
                 const currentPage = viewingDoc.pages.find(p => p.pageNumber === activeViewerPage) || viewingDoc.pages[0];
                 if (!currentPage) return null;
@@ -911,7 +913,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
                         </h4>
                         <p className="text-xs text-amber-800 max-w-md mx-auto">
                           Esta página contiene esquemas, imágenes escaneadas o fotografías sin texto mecanografiado legible. La aplicación no inventa información.
-                        </p>
+                </p>
                         <button
                           type="button"
                           onClick={() => {
