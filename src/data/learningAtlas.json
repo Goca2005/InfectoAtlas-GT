@@ -84,6 +84,32 @@
         "imageId": "DPDx tissueA.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure B: Cyst of E. histolytica/E. dispar in an unstained concentrated wet mount of stool. Notice the chromatoid bodies with blunt, rounded ends (arrow).",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/1/E_histodispar_2x2_B.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx E_histodispar_2x2_B.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure A: Cyst of E. histolytica/E. dispar stained with trichrome. Note the chromatoid body with blunt ends (red arrow).",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/amebiasis/images/2/Ehistdisp_cyst_tric.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ehistdisp_cyst_tric.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
       }
     ],
     "cycles": [
@@ -308,6 +334,32 @@
         "imageId": "DPDx Ascaris_female.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure B: Unfertilized egg of A. lumbricoides in an unstained wet mount, 200x magnification.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/1/Ascaris_egg_unfert2_200x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_egg_unfert2_200x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure C: Unfertilized egg of A. lumbricoides in an unstained wet mount of stool.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/ascariasis/images/1/Ascaris_lumbrcoides_infertile_BAM1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ascaris_lumbrcoides_infertile_BAM1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
       }
     ],
     "cycles": [
@@ -996,6 +1048,32 @@
         "imageId": "DPDx S_stercoralis_female_BAM1.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure D: Rhabditiform larva of S. stercoralis in an unstained wet mount of stool. Note the short buccal canal and the genital primordium (red arrow).",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/1/S_stercoralis_rhabditoid_BAM7.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_rhabditoid_BAM7.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure B: Autoinfective (L4) larva of S. stercoralis in a sputum specimen, stained with Giemsa. Image taken at 200x magnification.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/2/S_stercoralis_filariform_HB1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx S_stercoralis_filariform_HB1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
       }
     ],
     "cycles": [
@@ -1442,6 +1520,32 @@
         "imageId": "DPDx Tcruzi_culture_epi.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "Forma de cultivo/vector, no forma sanguínea diagnóstica habitual."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tripomastigotes de T. cruzi en gota gruesa · campo B",
+        "stainOrModality": "Sangre; Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/1/Tcruzi_thick_giemsa2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_thick_giemsa2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Correlacionar con preparación y contexto; la fotografía no establece por sí sola un diagnóstico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tripomastigote de T. cruzi en frotis delgado · campo C",
+        "stainOrModality": "Sangre; Giemsa",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/trypanosomiasisamerican/images/2/Tcruzi_thin_giemsa3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Tcruzi_thin_giemsa3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Correlacionar con preparación y contexto; la fotografía no establece por sí sola un diagnóstico."
       }
     ],
     "cycles": [
@@ -1764,6 +1868,32 @@
         "imageId": "DPDx Ovolvulus_tissue2b.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure C: Adult of O. volvulus in a subcutaneous nodule, stained with H&E.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/2/Ovolvulus_tissue3b.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ovolvulus_tissue3b.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure D: Adult of O. volvulus in a subcutaneous nodule, stained with H&E.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/onchocerciasis/images/2/Ovolvulus_tissue4a.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Ovolvulus_tissue4a.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
       }
     ],
     "cycles": [
@@ -2064,6 +2194,32 @@
         "imageId": "DPDx DPDxCrypto_oo_Aura.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "Referencia morfológica. Correlacionar con muestra, técnica y contexto clínico."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure B: Cryptosporidium parvum oocysts stained with modified acid-fast. Against a blue-green background, the oocysts stand out in a bright red stain.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/3/Crypto_acidfast3_web.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Crypto_acidfast3_web.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Figure D: Cryptosporidium sp. oocyst stained with modified acid-fast.",
+        "stainOrModality": "Preparación original DPDx; técnica y muestra en la leyenda",
+        "creditOrSource": "CDC / DPDx · créditos particulares en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/images/3/Crypto_acidfast2_web.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+        "license": "Material educativo CDC; condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Crypto_acidfast2_web.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La referencia de género o complejo no distingue especies. Correlacionar con las pruebas específicas y el contexto. No se infiere procedencia guatemalteca."
       }
     ],
     "cycles": [
@@ -2175,6 +2331,32 @@
         "imageId": "DPDx T_gondii_oocyst_upsporu.jpg",
         "consultedAt": "2026-10-03",
         "interpretation": "No es todavía el ooquiste infectivo ambiental."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Retinocoroiditis activa grave · toxoplasmosis ocular",
+        "stainOrModality": "Fotografía del fondo de ojo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/7/Toxo_ocular.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Toxo_ocular.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Manifestación ocular mostrada por CDC. No permite inferir que la infección sea congénita ni confirmar una tríada completa."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Retinocoroiditis periférica · toxoplasmosis ocular",
+        "stainOrModality": "Fotografía del fondo de ojo",
+        "creditOrSource": "CDC / DPDx",
+        "url": "https://www.cdc.gov/dpdx/toxoplasmosis/images/7/Congen_Toxo_ocular2.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+        "license": "Material educativo CDC; uso con atribución según condiciones de la agencia",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Congen_Toxo_ocular2.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Manifestación ocular mostrada por CDC. No permite inferir que la infección sea congénita ni confirmar una tríada completa."
       }
     ],
     "cycles": [
@@ -2266,6 +2448,62 @@
         "imageDate": "2011",
         "consultedAt": "2026-10-03",
         "interpretation": "Microfotografía real colorizada por NIAID; magenta y azul no son colores naturales."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Staphylococcus aureus · PHIL 27799",
+        "stainOrModality": "Fotografía clínica",
+        "creditOrSource": "CDC/ Dr. M.S. Ferguson",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/27799/27799_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27799",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 27799",
+        "imageDate": "1959",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This photograph depicted a close right anterior-oblique (AO) view of a patient’s forehead, highlighting the appearance of a case of staphylococcal furunculosis, a deep cutaneous infection of the hair follicles, causing a painful erythematous boil, which contained pus, and dead tissue. The condition is usually due to the bacterium, Staphylococcus aureus. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Staphylococcus aureus · PHIL 24919",
+        "stainOrModality": "Fotografía clínica",
+        "creditOrSource": "CDC/ Dr. Thomas F. Sellers, Emory University",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/24919/24919_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=24919",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 24919",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This image shows a close anterior view of a patient’s face, highlighting cutaneous lesions consistent with impetigo, a bacterial skin infection caused by group A Streptococcus and/or Staphylococcus aureus. See PHIL 24829 for another view of this patient’s condition. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Staphylococcus aureus · PHIL 24829",
+        "stainOrModality": "Fotografía clínica",
+        "creditOrSource": "CDC/ Dr. Thomas F. Sellers, Emory University",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/24829/24829_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=24829",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 24829",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This image depicts a close anterior view of a patient’s upper face, highlighting cutaneous lesions consistent with impetigo, a bacterial skin infection caused by group A Streptococcus and/or Staphylococcus aureus, however, the pathogen was not specified. See PHIL 24919 for another view of this patient’s condition. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Staphylococcus aureus · PHIL 18168",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "National Institute of Allergy and Infectious Diseases (NIAID)",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/18168/18168_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=18168",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 18168",
+        "imageDate": "2009",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Produced by the National Institute of Allergy and Infectious Diseases (NIAID), this digitally colorized, scanning electron microscopic (SEM) image, depicts two, yellow-colored, spherical, methicillin-resistant, Staphylococcus aureus (MRSA) bacteria, that were in the process of being phagocytized by a blue-colored human white blood cell (WBC), known specifically as a neutrophil. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2411,6 +2649,34 @@
         "imageDate": null,
         "consultedAt": "2026-10-03",
         "interpretation": "El contexto de cultivo y pruebas adicionales importa para identificar la especie."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Candida albicans · PHIL 28245",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28245/28245_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28245",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 28245",
+        "imageDate": "1957",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Under a magnification of 475X, this photomicrograph highlighted some of the ultrastructural morphology exhibited by the fungal organism, Candida albicans. Note here, that these C. albicans organisms were growing in a filamentous growth pattern, sprouting clusters of blastoconidia along the hypha. See PHIL 28246, for another view of these blastoconidia under a greater magnification. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Candida albicans · PHIL 26892",
+        "stainOrModality": "Fotografía clínica",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26892/26892_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26892",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 26892",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This image depicts an anterior view of a female patient’s torso. With the breasts lifted upward, exposing the upper abdomen and inferior surfaces of each breast, the patient presented with an erythematous rash in the intertriginous region beneath the breasts. The rash, diagnosed as candidiasis (moniliasis), was caused by the fungal organism Candida albicans. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2496,6 +2762,20 @@
         "imageDate": "2004",
         "consultedAt": "2026-10-03",
         "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Campylobacter jejuni · PHIL 5782",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Patricia Fields, Dr. Collette Fitzgerald",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/20040603/5ec7b8df4d6145eba33cee926dd44db4/5782_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=5782",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 5782",
+        "imageDate": "2004",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Under a low magnification of 23X, this 2004 scanning electron microscopic (SEM) image depicts a 0.1 µm polycarbonate membrane filter, which was coated with a Campylobacter jejuni bacterial film. To create this scenario, the Poretics Corporation filter had been inserted into a syringe, whereupon, a turbid bacterial suspension was drawn up into the syringe, and remaining behind on the filter membrane, were the Campylobacter jejuni bacteria. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2640,6 +2920,62 @@
         "imageDate": null,
         "consultedAt": "2026-10-03",
         "interpretation": "Cepa O157:H7. No generalizar virulencia ni manejo a todas las E. coli."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escherichia coli · PHIL 31050",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ U. Pentti Kokko, MD, DrPH, FAPHA",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/31050/31050_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31050",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 31050",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This 1963 image shows Communicable Disease Center (CDC) laboratory technician Glenda S. Cowart seated in a laboratory as she processes fecal swab specimens for analysis in an enteropathogenic Escherichia coli study. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escherichia coli · PHIL 31049",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ U. Pentti Kokko, MD, DrPH, FAPHA",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/31049/31049_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31049",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 31049",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This 1963 image shows Communicable Disease Center (CDC) laboratory technician Glenda S. Cowart seated in a laboratory as she processes fecal swab specimens for analysis in an enteropathogenic Escherichia coli study. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escherichia coli · PHIL 31048",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ U. Pentti Kokko, MD, DrPH, FAPHA",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/31048/31048_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31048",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 31048",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This 1963 image shows Communicable Disease Center (CDC) laboratory technician Glenda S. Cowart seated in a laboratory as she processes fecal swab specimens for analysis in an enteropathogenic Escherichia coli study. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Escherichia coli · PHIL 30848",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Ruth C. Bessman",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30848/30848_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30848",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30848",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Captured in 1964, this image depicts instructors and participants of a Communicable Disease Center course titled, “Course #860F – Fluorescent Antibody Techniques in Streptococcus and Escherichia coli Identification,” conducted from May 11 to May 22, 1964. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2714,6 +3050,34 @@
         "imageDate": "1965",
         "consultedAt": "2026-10-03",
         "interpretation": "Imagen histórica de referencia. Identificar la especie requiere pruebas apropiadas; la apariencia aislada no basta."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Salmonella enterica subsp. enterica serovar Typhi · PHIL 28425",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Berenice M. Thomason, BS",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28425/28425_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28425",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 28425",
+        "imageDate": "1956",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): These two photomicrographs depicted a specimen containing the bacterium Salmonella typhi, that had been stained with S Typhi, H-labeled globulin. The photomicrograph on the left shows the appearance of the S. typhi organisms viewed with a UV filter in place, while on the right, which is the same microscopic view, reveals the organisms under visible light. With the UV filter in place (LT), you can better see the fluorescing flagella. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Salmonella enterica subsp. enterica serovar Typhi · PHIL 23154",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Berenice M. Thomason",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23154/23154_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23154",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23154",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This photomicrograph of a fecal smear specimen, extracted from a typhoid carrier, processed using a fluorescent antibody (FA) staining technique, which implemented a Salmonella typhi Vi conjugate, revealed the presence of S. typhi bacteria. The FA staining method is used in the rapid detection of typhoid carriers. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2855,6 +3219,34 @@
         "imageDate": "1963",
         "consultedAt": "2026-10-03",
         "interpretation": "Prueba histórica: la identificación clínica requiere el algoritmo vigente del laboratorio."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cryptococcus neoformans · PHIL 28899",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28899/28899_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28899",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 28899",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Under a magnification of 675X, this photomicrograph shows a human cerebrospinal fluid (CSF) specimen containing a cluster of Cryptococcus neoformans organisms in a case of cryptococcosis. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cryptococcus neoformans · PHIL 28898",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28898/28898_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28898",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 28898",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Under a magnification of 500X this photomicrograph shows a human cerebrospinal fluid (CSF) specimen containing a cluster of Cryptococcus neoformans organisms in a case of cryptococcosis. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2927,6 +3319,62 @@
         "imageDate": "1962",
         "consultedAt": "2026-10-03",
         "interpretation": "Caso histórico de Kansas, EE. UU. La radiografía no identifica por sí sola el hongo."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Histoplasma capsulatum · PHIL 30248",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30248/30248_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30248",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30248",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This photomicrograph of eosin and light green–stained tissue from a greater mouse-eared bat, Myotis myotis, captured in Israel, shows histopathologic changes associated with histoplasmosis caused by Histoplasma capsulatum. H. capsulatum cells are visible clustered within a vacuole in this section. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Histoplasma capsulatum · PHIL 30247",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30247/30247_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30247",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30247",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): At 150X magnification, this photomicrograph of eosin and light green–stained liver tissue from a greater mouse-eared bat, Myotis myotis, captured in Israel, shows histopathologic changes associated with histoplasmosis caused by Histoplasma capsulatum. Clusters of atypical H. capsulatum cells, referred to as ‘bizarre forms’, with variable size and morphology are visible. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Histoplasma capsulatum · PHIL 30246",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30246/30246_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30246",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30246",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): This photomicrograph of eosin and light green–stained tissue from a greater mouse-eared bat, Myotis myotis, captured in Israel, shows histopathologic changes associated with histoplasmosis caused by Histoplasma capsulatum. Numerous H. capsulatum cells are visible throughout the tissue. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Histoplasma capsulatum · PHIL 30245",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30245/30245_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30245",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30245",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): At 150X magnification, this photomicrograph of eosin and light green–stained kidney tissue from a greater mouse-eared bat, Myotis myotis, captured in Israel, shows histopathologic changes associated with histoplasmosis caused by Histoplasma capsulatum. Clusters of yeast-like tissue forms of H. capsulatum are visible. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],
@@ -2986,6 +3434,20 @@
         "imageDate": "1977",
         "consultedAt": "2026-10-03",
         "interpretation": "Cultivo de células de riñón de mono, referencia histórica."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Influenza A virus · PHIL 30645",
+        "stainOrModality": "Preparación original PHIL; técnica descrita en la leyenda",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30645/30645_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30645",
+        "license": "Dominio público; redistribución con crédito CDC y autor conocido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30645",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Leyenda original del registro (inglés): Under a magnification of 875X, this photomicrograph of a cell culture of Madin-Darby canine kidney (MDCK) cells, stained with fluorescein isothiocyanate (FITC)-conjugated nucleoprotein antibodies and viewed using an immunofluorescent technique, shows cells infected with influenza A/New Jersey/76 (“swine”) virus. La imagen de referencia no confirma por sí sola un diagnóstico ni circulación en Guatemala."
       }
     ],
     "cycles": [],

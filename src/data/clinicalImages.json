@@ -1,0 +1,42 @@
+[
+  {
+    "names": [
+      "Measles virus",
+      "Virus del sarampión",
+      "Morbillivirus hominis"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Manchas de Koplik en la mucosa bucal · sarampión",
+      "stainOrModality": "Fotografía clínica intraoral",
+      "creditOrSource": "CDC / Heinz F. Eichenwald, MD",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/24420/24420_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=24420",
+      "license": "Dominio público; redistribución con crédito CDC y autor",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 24420",
+      "imageDate": "1958",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado en el registro original. La imagen permite estudiar el hallazgo, sin emitir resultados sobre otro paciente ni aportar cifras de Guatemala."
+    }
+  },
+  {
+    "names": [
+      "Corynebacterium diphtheriae"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Pseudomembrana amigdalina en difteria",
+      "stainOrModality": "Fotografía clínica intraoral",
+      "creditOrSource": "CDC / Carl Flint",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/23430/23430_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23430",
+      "license": "Dominio público; redistribución con crédito CDC y autor",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 23430",
+      "imageDate": "1965",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado en el registro original. La imagen permite estudiar el hallazgo, sin emitir resultados sobre otro paciente ni aportar cifras de Guatemala."
+    }
+  }
+]

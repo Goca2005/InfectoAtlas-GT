@@ -62,6 +62,6 @@ export function sectionOfText(text:string):DocumentSection {
   if(/ciclo|estadio|fase infect|fase diagn|huevo|larva|quiste|trofozo/.test(s))return 'cycle';
   if(/morfolog|estructura|gram|capsula|tamano|forma/.test(s))return 'morphology';
   if(/epidemiolog|guatemala|incidencia|prevalencia|reservorio|transmision/.test(s))return 'epidemiology';
-  if(/sintom|enfermedad|patogen|complic|clinica|lesion/.test(s))return 'clinical';
+  if(/sintom|enfermedad|patogen|complic|clinica|lesion|triada|signo de|sindrome|manifestacion/.test(s))return 'clinical';
   return 'general';
 }
