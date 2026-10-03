@@ -74,14 +74,19 @@ export interface TreatmentProtocol {
 }
 
 export interface GuatemalaEpidemiology {
-  endemicStatus: 'Endémico' | 'Hiperendémico' | 'Brote esporádico' | 'Vigilancia activa' | 'Raro / Controlado';
-  priorityLevel: 'Alta' | 'Media' | 'Baja';
+  endemicStatus: 'Endémico' | 'Hiperendémico' | 'Brote esporádico' | 'Vigilancia activa' | 'Raro / Controlado' | 'No documentado en esta ficha';
+  priorityLevel: 'Alta' | 'Media' | 'Baja' | 'No evaluada';
   departmentsWithHighPrevalence: string[];
   officialNotes: string;
   notificationGroup?: 'Notificación Inmediata' | 'Notificación Semanal' | 'Vigilancia Centinela';
 }
 
 export interface Microorganism {
+  /** Display-only documentary fichas are reconstructed from local document text. */
+  documentIndexed?: boolean;
+  documentPageCount?: number;
+  documentPreview?: string;
+  originalCategory?: MicroorganismCategory;
   id: string;
   scientificName: string;
   commonName?: string;
@@ -137,17 +142,26 @@ export interface Microorganism {
   parasiticStages?: ParasiticStage[];
 
   imagery: {
-    type: 'microfotografia_real' | 'ilustracion_cientifica' | 'modelo_educativo_3d';
+    type: 'microfotografia_real' | 'ilustracion_cientifica' | 'modelo_educativo_3d' | 'fotografia_cultivo' | 'fotografia_clinica' | 'fotografia_vector' | 'fotografia_entorno';
     caption: string;
     stainOrModality: string;
     creditOrSource: string;
     url?: string;
+    sourceUrl?: string;
+    license?: string;
+    licenseUrl?: string;
+    imageId?: string;
+    imageDate?: string;
+    consultedAt?: string;
+    interpretation?: string;
   }[];
 
   bibliography: {
     source: string;
     title: string;
     year: string;
+    url?: string;
+    consultedAt?: string;
     status: 'Verificado' | 'Fuentes pendientes de revisión' | 'Revisado';
   }[];
 

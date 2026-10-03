@@ -81,7 +81,7 @@ export const HomeDashboard: React.FC<HomeDashboardProps> = ({
         <div className="relative z-10 mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 border-t border-slate-800 pt-6 text-xs">
           <div>
             <div className="text-2xl font-extrabold text-white font-mono">{microorganisms.length}</div>
-            <div className="text-slate-400 text-[11px] mt-0.5">Fichas Clínicas Iniciales</div>
+            <div className="text-slate-400 text-[11px] mt-0.5">Fichas y entradas documentales</div>
           </div>
           <div>
             <div className="text-2xl font-extrabold text-white font-mono">22 / 22</div>
@@ -188,9 +188,9 @@ export const HomeDashboard: React.FC<HomeDashboardProps> = ({
       <div className="space-y-3">
         <div className="flex items-center justify-between text-xs">
           <span className="font-bold uppercase tracking-wider text-slate-500">
-            Patógenos de Máxima Prioridad Clínica en Guatemala
+            Selección de estudio del catálogo
           </span>
-          <span className="text-slate-400 text-[11px]">Alta incidencia nacional</span>
+          <span className="text-slate-400 text-[11px]">Prioridad del catálogo local; cifras oficiales pendientes</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -259,7 +259,7 @@ export const HomeDashboard: React.FC<HomeDashboardProps> = ({
             <span>Guatemala (22 Deptos)</span>
           </div>
           <p className="mt-1 text-xs text-slate-600 leading-relaxed">
-            Explora la epidemiología departamental oficial, zonas bioclimáticas y riesgo vectorial.
+            Explora los 22 departamentos y el contexto educativo; consulta el estado de verificación de las fuentes.
           </p>
           <div className="mt-3 text-sky-700 font-bold group-hover:translate-x-0.5 transition-transform flex items-center gap-1">
             <span>Abrir Módulo GT →</span>

@@ -20,6 +20,7 @@ import { MicroorganismCategory } from '../types/microorganism';
 export type ActiveNavSection = 
   | 'inicio'
   | 'live'
+  | 'laboratorio-3d'
   | 'microorganismos'
   | 'vectores'
   | 'enfermedades'
@@ -53,6 +54,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const navItems = [
     { id: 'inicio' as ActiveNavSection, label: 'Inicio', icon: Home, count: null },
     { id: 'live' as ActiveNavSection, label: 'InfectoAtlas LIVE', icon: Activity, count: null },
+    { id: 'laboratorio-3d' as ActiveNavSection, label: 'Laboratorio 3D', icon: Microscope, count: null },
     { id: 'microorganismos' as ActiveNavSection, label: 'Microorganismos', icon: Microscope, count: microorganismCount },
     { id: 'atlas-diagnostico' as ActiveNavSection, label: 'Atlas Diagnóstico', icon: Layers, count: 5 },
     { id: 'biblioteca-academica' as ActiveNavSection, label: 'Biblioteca Académica', icon: Library, count: academicDocCount, highlight: pendingProposalsCount > 0 },
@@ -204,7 +206,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="border-t border-slate-800 p-3.5 text-[11px] text-slate-400">
           <div className="flex items-center gap-1.5 font-medium text-slate-300">
             <ShieldAlert className="h-3.5 w-3.5 text-amber-400" />
-            <span>Fase 1: Datos Clínicos</span>
+            <span>Fase 4C: Catálogo e imágenes</span>
           </div>
           <p className="mt-1 text-[10px] leading-tight text-slate-500">
             Atlas de referencia para educación médica. Datos farmacológicos sujetos a sensibilidad local y antibiograma.

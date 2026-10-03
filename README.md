@@ -1,6 +1,14 @@
-# InfectoAtlas GT · Fase 4B documental — v0.4.2
+# InfectoAtlas GT · Atlas académico y documental — v0.5.0
 
-Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. La base utilizada es `InfectoAtlas-GT.zip`, incluida dentro del ZIP entregado: contiene los respaldos corregidos, configuración de Replit y pruebas. La carpeta exterior del ZIP corresponde a una versión anterior.
+## Ficha académica y atlas visual
+
+«Ver ficha» abre un dossier con índice de ocho apartados: identidad/morfología, patogenia/clínica, diagnóstico, tratamiento, transmisión/prevención, ciclo/estadios, Guatemala y fuentes. Se muestran los datos guardados y los fragmentos literales de la biblioteca dentro de cada tema, con páginas de origen. El texto completo sigue disponible en Documentos. El índice es lateral en escritorio y un selector en móvil.
+
+La ampliación incluye 32 galerías con 168 imágenes de referencia, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
+
+Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; esta entrega amplía la rama de trabajo de la Fase 4C.
+
+Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. Se conserva el proyecto existente, sus respaldos, configuración de Replit y pruebas; el paquete de esta entrega contiene el código fuente actualizado.
 
 ## Qué funciona
 
@@ -36,7 +44,7 @@ Se incluye `.github/workflows/checks.yml` para ejecutar instalación, tipos, pru
 
 Configuración de las acciones según sus fuentes oficiales: [checkout](https://github.com/actions/checkout) y [setup-node](https://github.com/actions/setup-node).
 
-En esta entrega pasaron 54 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Se conservaron las mismas pruebas; solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` y el entorno rechazó la ejecución fuera del sandbox. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub.
+En esta entrega pasaron 60 pruebas dentro del entorno restringido usando una copia temporal compilada con `tsc` y Node. Solo se ajustaron extensiones de imports y el atributo JSON de esa copia para Node ESM. El comando habitual con `tsx` no pudo iniciarse por una restricción de `os.userInfo` en este entorno. `pnpm test` sigue siendo el comando del proyecto para Replit/GitHub. Las pruebas no equivalen a validación clínica independiente.
 
 ## Iniciar y verificar
 

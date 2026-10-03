@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { ReferenceCatalogPanel } from './ReferenceCatalogPanel';
+import React, { useState, useEffect } from 'react';
 import { Microorganism, MicroorganismCategory, ParasiteTaxonGroup } from '../types/microorganism';
 import { MicroorganismCard } from './MicroorganismCard';
 import { Search, Filter, Microscope, RotateCcw } from 'lucide-react';
@@ -12,6 +13,8 @@ interface MicroorganismsCatalogProps {
   initialCategory?: MicroorganismCategory | 'all';
   searchQuery: string;
   onSearchChange: (q: string) => void;
+  onAddReferences: () => number;
+  onExportBackup: () => Promise<void>;
 }
 
 export const MicroorganismsCatalog: React.FC<MicroorganismsCatalogProps> = ({
@@ -23,8 +26,11 @@ export const MicroorganismsCatalog: React.FC<MicroorganismsCatalogProps> = ({
   initialCategory = 'all',
   searchQuery,
   onSearchChange,
+  onAddReferences,
+  onExportBackup,
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<MicroorganismCategory | 'all'>(initialCategory);
+  useEffect(()=>{setSelectedCategory(initialCategory);setSelectedParasiteGroup('all');},[initialCategory]);
   const [selectedParasiteGroup, setSelectedParasiteGroup] = useState<ParasiteTaxonGroup | 'all'>('all');
   const [onlyGuatemalaPriority, setOnlyGuatemalaPriority] = useState<boolean>(false);
 
@@ -81,6 +87,9 @@ export const MicroorganismsCatalog: React.FC<MicroorganismsCatalogProps> = ({
           Base de datos estructurada con fichas técnicas completas, estadios biológicos parasitológicos, guías diagnósticas y consideraciones terapéuticas basadas en evidencia.
         </p>
       </div>
+
+      <ReferenceCatalogPanel organisms={microorganisms} onSelect={onSelectOrganism} onAdd={onAddReferences} onBackup={onExportBackup} />
+      <p className="rounded-lg border border-sky-200 bg-sky-50 p-3 text-sm">{microorganisms.filter(o=>o.documentIndexed).length} entradas documentales disponibles en sus categorías. Abre la ficha y «Tus documentos» para leer el texto ordenado, con página de origen. La categoría de consulta corrige clasificaciones antiguas reconocidas sin reemplazar tus registros guardados.</p>
 
       {/* Filter and Search Controls (Segmented buttons - clean anti-slop style) */}
       <div className="space-y-3">

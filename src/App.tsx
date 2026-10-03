@@ -1,7 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
+import { buildDocumentAtlas } from './services/documentAtlas';
+const MicrobeLab = lazy(() => import('./components/MicrobeLab'));
 import { Sidebar, ActiveNavSection } from './components/Sidebar';
 import { Header } from './components/Header';
 import { HomeDashboard } from './components/HomeDashboard';
+import { saveMissingReferences, normalizeScientificName } from './services/catalogExpansion';
+import { createOrganismFromProposal } from './services/proposalOrganism';
 import { MicroorganismsCatalog } from './components/MicroorganismsCatalog';
 import { VectorGallery } from './components/VectorGallery';
 import { DiseasesView } from './components/DiseasesView';
@@ -60,6 +64,8 @@ export default function App() {
   const [backupImportPreview, setBackupImportPreview] = useState<(BackupImportPlan & { fileName: string }) | null>(null);
   const [backupImportError, setBackupImportError] = useState<string | null>(null);
   const [isApplyingBackup, setIsApplyingBackup] = useState(false);
+  const documentAtlas=useMemo(()=>buildDocumentAtlas(academicDocuments,microorganisms,extractionProposals),[academicDocuments,microorganisms,extractionProposals]);
+  const displayMicroorganisms=documentAtlas.organisms;
 
   const getCurrentBackupData = (): Promise<BackupData> => storageService.getBackupData({
     microorganisms,
@@ -180,7 +186,8 @@ export default function App() {
 
   const handleAddProposals = (newProps: ExtractionProposal[]) => {
     setExtractionProposals(prev => {
-      const updated = [...newProps, ...prev];
+      const existingIds=new Set(prev.map(p=>p.id));
+      const updated = [...newProps.filter(p=>!existingIds.has(p.id)), ...prev];
       storageService.saveExtractionProposals(updated);
       return updated;
     });
@@ -260,7 +267,14 @@ export default function App() {
   // Proposal Quality Approval: applies change to real Microorganism state & logs audit
   const handleApproveProposal = (proposalId: string, customText?: string) => {
     const proposal = extractionProposals.find(p => p.id === proposalId);
-    if (!proposal) return;
+    if (!proposal || proposal.status !== 'pendiente') return;
+    if (proposal.isNewOrganism) {
+      if (microorganisms.some(org => org.id === proposal.targetMicroorganismId || normalizeScientificName(org.scientificName) === normalizeScientificName(proposal.targetMicroorganismName))) {
+        window.alert('Esta especie ya existe. Conservamos su ficha; revisa propuestas de actualización para ella.');
+        return;
+      }
+      try { createOrganismFromProposal(proposal, proposal.proposedValue); } catch(error) { window.alert(error instanceof Error ? error.message : 'Categoría no documentada.'); return; }
+    }
 
     const finalProposedValue = customText !== undefined ? customText : proposal.proposedValue;
     const isCustomEdited = customText !== undefined && customText !== proposal.proposedValue;
@@ -276,76 +290,8 @@ export default function App() {
       let updatedList: Microorganism[];
       // If it's a proposal for a brand new microorganism
       if (proposal.isNewOrganism) {
-        const newOrg: Microorganism = {
-          id: proposal.targetMicroorganismId,
-          scientificName: proposal.targetMicroorganismName,
-          commonName: proposal.targetMicroorganismName,
-          category: 'parasito',
-          reviewStatus: 'Fuentes pendientes de revisión',
-          taxonomy: {
-            genus: proposal.targetMicroorganismName.split(' ')[0] || 'Desconocido',
-            species: proposal.targetMicroorganismName,
-            family: 'Pendiente de taxonomía completa'
-          },
-          morphology: {
-            shape: finalProposedValue,
-            size: 'En proceso de caracterización biométrica',
-            arrangement: 'En proceso de caracterización',
-            gramStain: 'Tinciones especiales',
-            specialStructures: []
-          },
-          microbiologyCharacteristics: {
-            metabolism: 'Extracción documental académica',
-            cultureMedia: ['En revisión'],
-            optimalTemp: '37 °C',
-            growthTime: 'Variable',
-            keyBiochemicalTests: ['En validación']
-          },
-          externalAndInternalStructures: ['Descrito en documento fuente'],
-          virulenceFactors: [],
-          reservoir: ['En investigación'],
-          transmissionRoute: ['Documentado en literatura'],
-          associatedDiseases: [{
-            name: `Infección por ${proposal.targetMicroorganismName}`,
-            description: finalProposedValue,
-            clinicalPresentation: ['Fiebre o síntomas característicos']
-          }],
-          signsAndSymptoms: ['Ver detalle en documento fuente'],
-          complications: ['En evaluación'],
-          clinicalSpecimens: ['Muestra clínica específica'],
-          diagnosticMethods: [{
-            method: 'Detección documentada en literatura',
-            standardRole: 'Confirmatorio',
-            keyFindings: finalProposedValue
-          }],
-          labFindings: [],
-          treatment: {
-            disclaimer: 'Información extraída de material académico. Consulte normativas oficiales MSPAS.',
-            firstLine: ['Esquema según documento académico'],
-            alternatives: []
-          },
-          prevention: ['Medidas higiénico-sanitarias'],
-          guatemalaRelevance: {
-            endemicStatus: 'Vigilancia activa',
-            priorityLevel: 'Media',
-            departmentsWithHighPrevalence: [],
-            officialNotes: 'Ficha generada a partir de extracción de documento universitario. Requiere validación.',
-            notificationGroup: 'Vigilancia Centinela'
-          },
-          imagery: [{
-            type: 'ilustracion_cientifica',
-            caption: 'Microfotografía pendiente de incorporación documental',
-            stainOrModality: 'Microscopía óptica de referencia',
-            creditOrSource: proposal.documentTitle
-          }],
-          bibliography: [{
-            source: proposal.documentTitle,
-            title: `Cita documental en página ${proposal.sourcePage}`,
-            year: '2024',
-            status: bibStatus
-          }],
-          lastReviewedDate: new Date().toISOString().split('T')[0]
-        };
+        if (prevList.some(org => org.id === proposal.targetMicroorganismId || normalizeScientificName(org.scientificName) === normalizeScientificName(proposal.targetMicroorganismName))) return prevList;
+        const newOrg = createOrganismFromProposal(proposal, finalProposedValue, academicDocuments.find(doc => doc.id === proposal.documentId)?.yearOrEdition);
         updatedList = [newOrg, ...prevList];
       } else {
         // Existing microorganism modification
@@ -384,7 +330,7 @@ export default function App() {
               {
                 source: proposal.documentTitle,
                 title: `Fragmento extraído de Pág. ${proposal.sourcePage}: ${finalProposedValue.slice(0, 80)}...`,
-                year: '2024',
+                year: academicDocuments.find(doc => doc.id === proposal.documentId)?.yearOrEdition || 'No informada',
                 status: bibStatus
               }
             ];
@@ -491,6 +437,7 @@ export default function App() {
   const sectionTitles: Record<ActiveNavSection, string> = {
     'inicio': 'Panel General',
     'live': 'InfectoAtlas LIVE',
+    'laboratorio-3d': 'Laboratorio 3D educativo',
     'microorganismos': 'Catálogo de Microorganismos',
     'vectores': 'Vectores Artrópodos en Guatemala',
     'enfermedades': 'Enfermedades Infecciosas',
@@ -513,7 +460,7 @@ export default function App() {
         onSelectSection={handleSelectSection}
         isOpenMobile={isMobileSidebarOpen}
         onCloseMobile={() => setIsMobileSidebarOpen(false)}
-        microorganismCount={microorganisms.length}
+        microorganismCount={displayMicroorganisms.length}
         academicDocCount={academicDocuments.length}
         pendingProposalsCount={pendingProposalsCount}
       />
@@ -537,10 +484,11 @@ export default function App() {
 
         {/* Dynamic Section Router */}
         <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
-          {currentSection === 'live' && <InfectoAtlasLive microorganisms={microorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
+          {currentSection === 'laboratorio-3d' && <Suspense fallback={<p role="status">Preparando laboratorio 3D…</p>}><MicrobeLab /></Suspense>}
+          {currentSection === 'live' && <InfectoAtlasLive microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
           {currentSection === 'inicio' && (
             <HomeDashboard
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onNavigateSection={handleSelectSection}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
               onOpenComparator={() => setIsComparatorOpen(true)}
@@ -554,7 +502,7 @@ export default function App() {
 
           {currentSection === 'microorganismos' && (
             <MicroorganismsCatalog
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
               onToggleBookmark={handleToggleBookmark}
               isBookmarked={(id) => bookmarkedIds.includes(id)}
@@ -562,12 +510,14 @@ export default function App() {
               initialCategory={catalogInitialCategory}
               searchQuery={searchQuery}
               onSearchChange={setSearchQuery}
+              onExportBackup={handleExportBackup}
+              onAddReferences={() => { const result = saveMissingReferences(window.localStorage, microorganisms); setMicroorganisms(result.organisms); return result.added; }}
             />
           )}
 
           {currentSection === 'atlas-diagnostico' && (
             <DiagnosticsAtlas
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
           )}
@@ -606,7 +556,7 @@ export default function App() {
 
           {currentSection === 'enfermedades' && (
             <DiseasesView
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
           )}
@@ -614,7 +564,7 @@ export default function App() {
           {currentSection === 'epidemiologia' && (
             <EpidemiologyView
               onGoToGuatemala={() => setCurrentSection('guatemala')}
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={setSelectedOrganism}
               onSendToLibrary={handleSendOfficialToLibrary}
             />
@@ -631,14 +581,14 @@ export default function App() {
 
           {currentSection === 'estudiar' && (
             <StudyHub
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
           )}
 
           {currentSection === 'comparador' && (
             <ComparatorView
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganismForDetail={(org) => setSelectedOrganism(org)}
               initialOrganismAId={comparatorInitialOrganism?.id}
             />
@@ -670,7 +620,10 @@ export default function App() {
       {/* Microorganism Detail Modal (Resumen Rápido & Ficha Completa) */}
       <MicroorganismDetailModal
         key={selectedOrganism?.id ?? 'closed'}
-        organism={selectedOrganism}
+        organism={selectedOrganism&&(displayMicroorganisms.find(o=>o.id===selectedOrganism.id)??selectedOrganism)}
+        documentPages={selectedOrganism?documentAtlas.links.get(selectedOrganism.id)??[]:[]}
+        documentProposals={extractionProposals}
+        onReviewDocument={id=>{setSelectedOrganism(null);handleOpenReviewModal(id);}}
         onClose={() => setSelectedOrganism(null)}
         onAddToCompare={handleOpenComparatorWithOrganism}
       />

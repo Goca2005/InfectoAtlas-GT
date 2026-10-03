@@ -1,16 +1,5 @@
-import * as pdfjsLib from 'pdfjs-dist';
 import pdfWorkerUrl from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
 import { ExtractedPage } from '../types/academicLibrary';
-
-// Configure worker for browser environment
-if (typeof window !== 'undefined') {
-  try {
-    // Serve the matching worker from the same build, without a CDN dependency.
-    pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorkerUrl;
-  } catch (err) {
-    console.warn('PDF.js worker initialization notice:', err);
-  }
-}
 
 export interface PDFExtractionResult {
   pages: ExtractedPage[];
@@ -53,6 +42,9 @@ export async function extractTextFromPDF(
   // Real PDF extraction
   let closePdf: (() => Promise<void>) | undefined;
   try {
+    // Load the PDF engine only when opening a PDF; keep the matching worker local.
+    const pdfjsLib = await import('pdfjs-dist');
+    pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorkerUrl;
     let arrayBuffer: ArrayBuffer;
     if (fileOrBuffer instanceof File) {
       arrayBuffer = await fileOrBuffer.arrayBuffer();
