@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
+import { buildDocumentAtlas } from './services/documentAtlas';
+const MicrobeLab = lazy(() => import('./components/MicrobeLab'));
 import { Sidebar, ActiveNavSection } from './components/Sidebar';
 import { Header } from './components/Header';
 import { HomeDashboard } from './components/HomeDashboard';
@@ -62,6 +64,8 @@ export default function App() {
   const [backupImportPreview, setBackupImportPreview] = useState<(BackupImportPlan & { fileName: string }) | null>(null);
   const [backupImportError, setBackupImportError] = useState<string | null>(null);
   const [isApplyingBackup, setIsApplyingBackup] = useState(false);
+  const documentAtlas=useMemo(()=>buildDocumentAtlas(academicDocuments,microorganisms,extractionProposals),[academicDocuments,microorganisms,extractionProposals]);
+  const displayMicroorganisms=documentAtlas.organisms;
 
   const getCurrentBackupData = (): Promise<BackupData> => storageService.getBackupData({
     microorganisms,
@@ -182,7 +186,8 @@ export default function App() {
 
   const handleAddProposals = (newProps: ExtractionProposal[]) => {
     setExtractionProposals(prev => {
-      const updated = [...newProps, ...prev];
+      const existingIds=new Set(prev.map(p=>p.id));
+      const updated = [...newProps.filter(p=>!existingIds.has(p.id)), ...prev];
       storageService.saveExtractionProposals(updated);
       return updated;
     });
@@ -432,6 +437,7 @@ export default function App() {
   const sectionTitles: Record<ActiveNavSection, string> = {
     'inicio': 'Panel General',
     'live': 'InfectoAtlas LIVE',
+    'laboratorio-3d': 'Laboratorio 3D educativo',
     'microorganismos': 'Catálogo de Microorganismos',
     'vectores': 'Vectores Artrópodos en Guatemala',
     'enfermedades': 'Enfermedades Infecciosas',
@@ -454,7 +460,7 @@ export default function App() {
         onSelectSection={handleSelectSection}
         isOpenMobile={isMobileSidebarOpen}
         onCloseMobile={() => setIsMobileSidebarOpen(false)}
-        microorganismCount={microorganisms.length}
+        microorganismCount={displayMicroorganisms.length}
         academicDocCount={academicDocuments.length}
         pendingProposalsCount={pendingProposalsCount}
       />
@@ -478,10 +484,11 @@ export default function App() {
 
         {/* Dynamic Section Router */}
         <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
-          {currentSection === 'live' && <InfectoAtlasLive microorganisms={microorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
+          {currentSection === 'laboratorio-3d' && <Suspense fallback={<p role="status">Preparando laboratorio 3D…</p>}><MicrobeLab /></Suspense>}
+          {currentSection === 'live' && <InfectoAtlasLive microorganisms={displayMicroorganisms} onSelectOrganism={setSelectedOrganism} onSendToLibrary={handleSendOfficialToLibrary} />}
           {currentSection === 'inicio' && (
             <HomeDashboard
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onNavigateSection={handleSelectSection}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
               onOpenComparator={() => setIsComparatorOpen(true)}
@@ -495,7 +502,7 @@ export default function App() {
 
           {currentSection === 'microorganismos' && (
             <MicroorganismsCatalog
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
               onToggleBookmark={handleToggleBookmark}
               isBookmarked={(id) => bookmarkedIds.includes(id)}
@@ -510,7 +517,7 @@ export default function App() {
 
           {currentSection === 'atlas-diagnostico' && (
             <DiagnosticsAtlas
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
           )}
@@ -549,7 +556,7 @@ export default function App() {
 
           {currentSection === 'enfermedades' && (
             <DiseasesView
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
           )}
@@ -557,7 +564,7 @@ export default function App() {
           {currentSection === 'epidemiologia' && (
             <EpidemiologyView
               onGoToGuatemala={() => setCurrentSection('guatemala')}
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={setSelectedOrganism}
               onSendToLibrary={handleSendOfficialToLibrary}
             />
@@ -574,14 +581,14 @@ export default function App() {
 
           {currentSection === 'estudiar' && (
             <StudyHub
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganism={(org) => setSelectedOrganism(org)}
             />
           )}
 
           {currentSection === 'comparador' && (
             <ComparatorView
-              microorganisms={microorganisms}
+              microorganisms={displayMicroorganisms}
               onSelectOrganismForDetail={(org) => setSelectedOrganism(org)}
               initialOrganismAId={comparatorInitialOrganism?.id}
             />
@@ -613,7 +620,10 @@ export default function App() {
       {/* Microorganism Detail Modal (Resumen Rápido & Ficha Completa) */}
       <MicroorganismDetailModal
         key={selectedOrganism?.id ?? 'closed'}
-        organism={selectedOrganism}
+        organism={selectedOrganism&&(displayMicroorganisms.find(o=>o.id===selectedOrganism.id)??selectedOrganism)}
+        documentPages={selectedOrganism?documentAtlas.links.get(selectedOrganism.id)??[]:[]}
+        documentProposals={extractionProposals}
+        onReviewDocument={id=>{setSelectedOrganism(null);handleOpenReviewModal(id);}}
         onClose={() => setSelectedOrganism(null)}
         onAddToCompare={handleOpenComparatorWithOrganism}
       />

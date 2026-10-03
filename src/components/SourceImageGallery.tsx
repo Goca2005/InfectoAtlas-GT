@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import type { Microorganism } from '../types/microorganism';
+import { curatedImages, learningSupplement } from '../services/learningAtlas';
+import { CdcAttribution } from './CdcAttribution';
 
 export function safeHttpsUrl(value?: string) { try { const url = new URL(value || ''); return url.protocol === 'https:' && !url.username && !url.password ? url.href : undefined; } catch { return undefined; } }
 function ImageCard({ image }: { image: Microorganism['imagery'][number] }) {
@@ -7,7 +9,7 @@ function ImageCard({ image }: { image: Microorganism['imagery'][number] }) {
   const url = safeHttpsUrl(image.url);
   const sourceUrl = safeHttpsUrl(image.sourceUrl);
   return <figure className="rounded-xl overflow-hidden border border-slate-700 bg-slate-900 text-slate-200">
-    {url && !failed ? <img src={url} alt={image.caption} loading="lazy" referrerPolicy="no-referrer" onError={() => setFailed(true)} className="w-full h-64 sm:h-80 object-contain bg-black" /> : <p className="p-6">La imagen no está disponible. Consulta el registro original del CDC.</p>}
+    {url && !failed ? <a href={url} target="_blank" rel="noopener noreferrer" aria-label={`Ampliar: ${image.caption}`}><img src={url} alt={image.caption} loading="lazy" referrerPolicy="no-referrer" onError={() => setFailed(true)} className="w-full h-64 sm:h-80 object-contain bg-black" /></a> : <p className="p-6">La imagen no está disponible. Consulta el registro original del CDC.</p>}
     <figcaption className="p-4 space-y-2 text-sm"><p className="font-bold">{image.caption}</p><p>{image.stainOrModality} · {image.imageId}</p><p>{image.interpretation}</p><p className="text-xs text-slate-400">{image.creditOrSource} · Fecha de imagen: {image.imageDate || 'No informada'}<br />{image.license} · Fuente consultada: {image.consultedAt}</p>
       {sourceUrl && <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">Abrir registro y créditos originales</a>}
       {safeHttpsUrl(image.licenseUrl) && <a href={safeHttpsUrl(image.licenseUrl)} target="_blank" rel="noopener noreferrer" className="ml-4 text-sky-300 underline">Condiciones de uso</a>}
@@ -15,8 +17,16 @@ function ImageCard({ image }: { image: Microorganism['imagery'][number] }) {
   </figure>;
 }
 export function SourceImageGallery({ organism }: { organism: Microorganism }) {
-  const realImages = organism.imagery.filter(image => image.type === 'microfotografia_real' && safeHttpsUrl(image.sourceUrl) && image.license && safeHttpsUrl(image.url));
-  return <section className="space-y-4"><h3 className="text-xl font-bold">Imágenes reales y procedencia</h3><p>Microscopía documentada. La técnica y la muestra determinan qué puede interpretarse. Las imágenes externas necesitan conexión a Internet.</p>
-    {realImages.length ? realImages.map((image, index) => <ImageCard key={`${organism.id}-${image.imageId}-${index}`} image={image} />) : <p className="rounded-lg border border-amber-200 bg-amber-50 p-4">Esta ficha todavía no tiene una imagen real con procedencia y condiciones de uso documentadas. Consulta también las fichas documentadas del catálogo.</p>}
+  const [query,setQuery]=useState(''),[type,setType]=useState('all'),[all,setAll]=useState(false);
+  const labels:Record<string,string>={microfotografia_real:'Microscopía',fotografia_cultivo:'Cultivos',fotografia_clinica:'Imagen clínica',fotografia_vector:'Vectores',fotografia_entorno:'Entorno',ilustracion_cientifica:'Ilustraciones',modelo_educativo_3d:'Modelo educativo'};
+  const realImages = curatedImages(organism).filter(image => !['ilustracion_cientifica','modelo_educativo_3d'].includes(image.type));
+  const filtered=realImages.filter(image=>(type==='all'||image.type===type)&&`${image.caption} ${image.stainOrModality} ${image.interpretation}`.toLowerCase().includes(query.toLowerCase().trim()));
+  const supplement=learningSupplement(organism);
+  return <section className="space-y-4"><h3 className="text-xl font-bold">Galería documentada · {realImages.length} imágenes</h3><p className="text-sm">Microfotografías, cultivos e imágenes clínicas; vectores y entorno se identifican aparte. Pulsa una imagen para ampliarla. La técnica y la muestra determinan qué puede interpretarse.</p>
+    {supplement&&<p className="rounded-lg bg-sky-50 border border-sky-200 p-3 text-xs">{supplement.scope} Leyendas educativas pendientes de revisión clínica independiente. Las imágenes externas necesitan conexión.</p>}
+    <CdcAttribution />
+    <div className="grid gap-3 sm:grid-cols-2"><label className="text-sm">Buscar estadio o técnica<input className="mt-1 block w-full rounded-lg border border-slate-300 p-2" value={query} onChange={e=>{setQuery(e.target.value);setAll(false);}} placeholder="Quiste, Giemsa, cultivo…"/></label><label className="text-sm">Tipo de imagen<select className="mt-1 block w-full rounded-lg border border-slate-300 p-2" value={type} onChange={e=>{setType(e.target.value);setAll(false);}}><option value="all">Todas</option>{Array.from(new Set(realImages.map(i=>i.type))).map(t=><option key={t} value={t}>{labels[t]??t}</option>)}</select></label></div>
+    {filtered.length ? <div className="grid gap-4 lg:grid-cols-2">{filtered.slice(0,all?undefined:6).map((image, index) => <ImageCard key={`${organism.id}-${image.imageId}-${index}`} image={image} />)}</div> : <p className="rounded-lg border border-amber-200 bg-amber-50 p-4">{realImages.length?'No hay imágenes que coincidan con el filtro.':'Esta ficha todavía no tiene imágenes con procedencia y condiciones de uso documentadas.'}</p>}
+    {filtered.length>6&&<button className="rounded-lg border border-slate-300 p-3 text-sm" onClick={()=>setAll(!all)}>{all?'Mostrar las primeras seis':`Ver las ${filtered.length} imágenes disponibles`}</button>}
   </section>;
 }

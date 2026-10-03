@@ -22,15 +22,18 @@ export const MicroorganismCard: React.FC<MicroorganismCardProps> = ({
     bacteria: 'Bacteria',
     virus: 'Virus',
     hongo: 'Hongo',
-    parasito: `Parásito · ${organism.parasiteGroup ?? 'Protozoo'}`,
+    parasito: organism.parasiteGroup ? `Parásito · ${organism.parasiteGroup}` : 'Parásito',
   };
 
-  const primaryDisease = organism.associatedDiseases[0]?.name ?? 'Infección clínica';
+  const primaryDisease = organism.associatedDiseases[0]?.name;
   const stageCount = organism.parasiticStages?.length ?? 0;
 
   return (
     <article 
       onClick={() => onSelect(organism)}
+      tabIndex={0}
+      aria-label={`Ver ficha de ${organism.scientificName}`}
+      onKeyDown={e=>{if(e.target===e.currentTarget&&(e.key==='Enter'||e.key===' ')){e.preventDefault();onSelect(organism);}}}
       className="group relative flex flex-col justify-between rounded-lg border border-slate-200 bg-white p-5 shadow-xs transition-all hover:border-sky-300 hover:shadow-md cursor-pointer"
     >
       <div>
@@ -85,14 +88,16 @@ export const MicroorganismCard: React.FC<MicroorganismCardProps> = ({
 
         {/* High-yield morphology & disease summary */}
         <p className="mt-1.5 text-xs text-slate-600 line-clamp-2 leading-relaxed">
-          {organism.morphology.shape} {organism.morphology.arrangement ? `(${organism.morphology.arrangement})` : ''}.
-          {' '}Enfermedad clave: <span className="font-semibold text-slate-800">{primaryDisease}</span>.
+          {organism.documentIndexed ? organism.documentPreview : organism.morphology.shape}
+          {!organism.documentIndexed && organism.morphology.arrangement ? ` (${organism.morphology.arrangement})` : ''}
+          {primaryDisease && <> Enfermedad clave: <span className="font-semibold text-slate-800">{primaryDisease}</span>.</>}
         </p>
+        {!!organism.documentPageCount && <p className="mt-2 text-xs font-semibold text-sky-800">Tus documentos · {organism.documentPageCount} páginas</p>}
 
         {/* Transmission / Vector highlights */}
         <div className="mt-3 text-[11px] text-slate-500">
           <span className="font-medium text-slate-700">Transmisión: </span>
-          <span>{organism.transmissionRoute[0]}</span>
+          <span>{organism.transmissionRoute[0] ?? 'Consulta la fuente documental'}</span>
           {organism.vector && (
             <span className="ml-1 text-amber-800 font-medium">
               [Vector: <span className="italic">{organism.vector}</span>]

@@ -1,12 +1,14 @@
-# InfectoAtlas GT · Fase 4C inicial — v0.4.3
+# InfectoAtlas GT · Atlas académico y documental — v0.5.0
 
-## Nueva ampliación de catálogo e imágenes
+## Ficha académica y atlas visual
 
-**Microorganismos → Explorar fichas documentadas** ofrece ocho fichas educativas con fuentes CDC enlazadas y cuatro fotografías reales con créditos, licencia y límites de interpretación. Se añaden únicamente las especies ausentes mediante un botón con vista previa; las versiones personales se conservan. El importador de PDF evita crear fichas repetidas y conserva la categoría bacteriana, viral, fúngica o parasitaria sin inventar campos clínicos.
+«Ver ficha» abre un dossier con índice de ocho apartados: identidad/morfología, patogenia/clínica, diagnóstico, tratamiento, transmisión/prevención, ciclo/estadios, Guatemala y fuentes. Se muestran los datos guardados y los fragmentos literales de la biblioteca dentro de cada tema, con páginas de origen. El texto completo sigue disponible en Documentos. El índice es lateral en escritorio y un selector en móvil.
 
-Consulta [el recorrido, fuentes, límites y roadmap](docs/CATALOGO-IMAGENES.md). Los modelos Three.js siguen pendientes. La Fase 4B documental ya está integrada en main mediante PR #2.
+La ampliación incluye 32 galerías con 168 imágenes de referencia, 21 ciclos originales CDC para 20 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
 
-Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. La base utilizada es `InfectoAtlas-GT.zip`, incluida dentro del ZIP entregado: contiene los respaldos corregidos, configuración de Replit y pruebas. La carpeta exterior del ZIP corresponde a una versión anterior.
+Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; esta entrega amplía la rama de trabajo de la Fase 4C.
+
+Continuación del proyecto existente con React 19, TypeScript, Vite 8 y Tailwind. Se conserva el proyecto existente, sus respaldos, configuración de Replit y pruebas; el paquete de esta entrega contiene el código fuente actualizado.
 
 ## Qué funciona
 
