@@ -1,6 +1,18 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { createWorker } from '../server/worker.mjs';
+import { createWorker, workerFetch } from '../server/worker.mjs';
+import { createNcbiTransport, PubmedError } from '../server/pubmed.mjs';
+
+test('Worker uses manual redirects and rejects a redirect without forwarding credentials', async () => {
+  const original = globalThis.fetch; const calls = [];
+  globalThis.fetch = async (url, options) => { calls.push({ url, options }); return new Response('', { status: 302, headers: { Location: 'https://untrusted.example/' } }); };
+  try {
+    const transport = createNcbiTransport({ env: { NCBI_API_KEY: 'synthetic-test-key' }, fetchImpl: workerFetch, sleep: async () => {} });
+    await assert.rejects(transport('esearch.fcgi', { term: 'malaria' }), error => error instanceof PubmedError && error.status === 502);
+    assert.equal(calls.length, 1); assert.equal(calls[0].options.redirect, 'manual');
+    assert.ok(calls[0].url.startsWith('https://eutils.ncbi.nlm.nih.gov/')); assert.ok(calls[0].options.signal instanceof AbortSignal);
+  } finally { globalThis.fetch = original; }
+});
 
 function fixture({ cached, limited = false, error } = {}) {
   const pending = []; let calls = 0; let budgets = 0; let saved;

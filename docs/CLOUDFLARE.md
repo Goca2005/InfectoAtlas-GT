@@ -13,6 +13,8 @@ El build d90b62f5 falló al instalar: `bun install --frozen-lockfile` detectó u
 
 PubMed reutiliza la validación, ESearch, ESummary, EFetch y normalización existentes. Las búsquedas repetidas se almacenan quince minutos en la caché de Cloudflare. Las consultas nuevas tienen un límite conservador compartido de una por diez segundos por ubicación de Cloudflare; no constituye un límite global entre todas las ubicaciones. Los errores no exponen credenciales. No hay consulta automática ni artículos inventados.
 
+La comprobación en vivo también detectó que Workers rechaza `redirect: error`. El adaptador usa `manual` y el transporte rechaza respuestas 3xx sin seguirlas; las credenciales NCBI no se reenvían a otro destino. El backend Node conserva su modo original. Se añadió una prueba de regresión de esta diferencia de entorno.
+
 `NCBI_EMAIL` y `NCBI_API_KEY` son opcionales y se configuran como variables/secretos de ejecución del Worker. Nunca usar nombres `VITE_` para secretos. El despliegue conserva las variables existentes. No se activa un plan de pago, base de datos, cron ni servicio adicional.
 
 Verificar después del despliegue: página principal, `/api/health`, `/api/live/sources` y una búsqueda manual en LIVE. Un error API debe devolver JSON, nunca la página HTML del atlas.
