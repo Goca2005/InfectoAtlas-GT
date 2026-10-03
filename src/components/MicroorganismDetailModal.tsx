@@ -17,6 +17,7 @@ import {
   ArrowRightLeft
 } from 'lucide-react';
 import { ParasiteStageVisualizer } from './ParasiteStageVisualizer';
+import { LiveSearchPanel } from './LiveSearchPanel';
 
 interface MicroorganismDetailModalProps {
   organism: Microorganism | null;
@@ -29,7 +30,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
   onClose,
   onAddToCompare,
 }) => {
-  const [viewMode, setViewMode] = useState<'resumen' | 'completa'>('resumen');
+  const [viewMode, setViewMode] = useState<'resumen' | 'completa' | 'actualizaciones'>('resumen');
 
   if (!organism) return null;
 
@@ -43,7 +44,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Top Bar */}
-        <div className="flex items-center justify-between border-b border-slate-200 bg-slate-50/90 px-6 py-4">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 bg-slate-50/90 px-4 sm:px-6 py-4">
           <div className="flex items-center gap-3">
             <div>
               <div className="flex items-center gap-2 text-xs text-slate-500 font-medium">
@@ -63,7 +64,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
                   {organism.reviewStatus}
                 </span>
               </div>
-              <h2 className="text-xl font-extrabold text-slate-900 tracking-tight flex items-baseline gap-2">
+              <h2 className="text-xl font-extrabold text-slate-900 tracking-tight flex flex-wrap items-baseline gap-2">
                 <span className="italic">{organism.scientificName}</span>
                 {organism.commonName && (
                   <span className="text-sm font-normal text-slate-500 not-italic">
@@ -76,7 +77,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
 
           <div className="flex items-center gap-2">
             {/* View Mode Switcher: Segmented Control */}
-            <div className="flex items-center rounded-lg bg-slate-200/80 p-1 text-xs">
+            <div className="flex flex-wrap items-center rounded-lg bg-slate-200/80 p-1 text-xs">
               <button
                 type="button"
                 onClick={() => setViewMode('resumen')}
@@ -101,6 +102,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
                 <BookOpen className="h-3.5 w-3.5" />
                 <span>Ficha Completa</span>
               </button>
+              <button type="button" onClick={() => setViewMode('actualizaciones')} className={`rounded-md px-3 py-1 font-semibold ${viewMode === 'actualizaciones' ? 'bg-white text-sky-900 shadow-xs' : 'text-slate-600 hover:text-slate-900'}`}>Actualizaciones científicas</button>
             </div>
 
             <button
@@ -125,6 +127,7 @@ export const MicroorganismDetailModal: React.FC<MicroorganismDetailModalProps> =
 
         {/* Scrollable Content Body */}
         <div className="flex-1 overflow-y-auto p-6 space-y-6 text-sm text-slate-700">
+          {viewMode === 'actualizaciones' && <LiveSearchPanel key={organism.id} microorganisms={[organism]} fixedOrganism={organism} />}
 
           {/* ========================================================= */}
           {/* MODE 1: RESUMEN RÁPIDO (High-yield board review summary) */}

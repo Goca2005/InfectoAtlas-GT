@@ -9,6 +9,9 @@ import {
 import { Microorganism } from '../types/microorganism';
 import { extractTextFromPDF } from '../utils/pdfExtractor';
 import { analyzeAcademicDocument } from '../services/aiDocumentAnalyzer';
+import { BackupImportModal } from './BackupImportModal';
+import type { BackupImportPreview } from './BackupImportModal';
+import type { BackupImportMode } from '../types/backup';
 import { 
   Upload, 
   FileText, 
@@ -46,8 +49,13 @@ interface AcademicLibraryProps {
   onOpenReviewModal: (docIdFilter?: string) => void;
   microorganisms: Microorganism[];
   onSelectOrganism?: (org: Microorganism) => void;
-  onExportBackup?: () => void;
-  onImportBackup?: (file: File) => void;
+  onExportBackup?: () => void | Promise<void>;
+  onImportBackup?: (file: File) => void | Promise<void>;
+  backupImportPreview?: BackupImportPreview | null;
+  backupImportError?: string | null;
+  isApplyingBackup?: boolean;
+  onConfirmBackupImport?: (mode: BackupImportMode) => void;
+  onCancelBackupImport?: () => void;
   onClearDemoData?: () => void;
 }
 
@@ -64,6 +72,11 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
   onSelectOrganism,
   onExportBackup,
   onImportBackup,
+  backupImportPreview,
+  backupImportError,
+  isApplyingBackup,
+  onConfirmBackupImport,
+  onCancelBackupImport,
   onClearDemoData
 }) => {
   // Filters & Search
@@ -308,7 +321,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
                 type="button"
                 onClick={onExportBackup}
                 className="inline-flex items-center gap-1 rounded bg-slate-100 px-2 py-1 text-[11px] font-bold text-slate-700 hover:bg-slate-200 transition-colors"
-                title="Descargar archivo JSON de respaldo de toda la biblioteca y fichas"
+                title="Descargar respaldo de datos y texto extraído; no incluye los archivos originales"
               >
                 <Download className="h-3 w-3 text-slate-500" />
                 <span>Exportar Respaldo JSON</span>
@@ -322,9 +335,9 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
                   accept=".json,application/json"
                   ref={backupInputRef}
                   onChange={(e) => {
-                    if (e.target.files && e.target.files[0]) {
-                      onImportBackup(e.target.files[0]);
-                    }
+                    const file = e.currentTarget.files?.[0];
+                    e.currentTarget.value = '';
+                    if (file) void onImportBackup(file);
                   }}
                   className="hidden"
                 />
@@ -332,7 +345,7 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
                   type="button"
                   onClick={() => backupInputRef.current?.click()}
                   className="inline-flex items-center gap-1 rounded bg-slate-100 px-2 py-1 text-[11px] font-bold text-slate-700 hover:bg-slate-200 transition-colors"
-                  title="Restaurar copia de seguridad previa"
+                  title="Revisar e importar una copia de seguridad"
                 >
                   <FolderSync className="h-3 w-3 text-slate-500" />
                   <span>Restaurar Respaldo</span>
@@ -353,6 +366,12 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
             )}
           </div>
         </div>
+
+        {backupImportError && !backupImportPreview && (
+          <div role="alert" className="mt-3 rounded-lg border border-rose-200 bg-rose-50 p-2.5 text-[11px] text-rose-800">
+            {backupImportError}
+          </div>
+        )}
 
         {/* Engine Rigor Disclaimer */}
         <div className="mt-2.5 bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-[11px] text-slate-600 flex items-start gap-2">
@@ -931,6 +950,16 @@ export const AcademicLibrary: React.FC<AcademicLibraryProps> = ({
 
           </div>
         </div>
+      )}
+
+      {backupImportPreview && onConfirmBackupImport && onCancelBackupImport && (
+        <BackupImportModal
+          preview={backupImportPreview}
+          error={backupImportError}
+          busy={isApplyingBackup}
+          onConfirm={onConfirmBackupImport}
+          onCancel={onCancelBackupImport}
+        />
       )}
 
     </div>

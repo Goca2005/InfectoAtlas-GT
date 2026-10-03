@@ -75,7 +75,7 @@ export const EpidemiologyView: React.FC<EpidemiologyViewProps> = ({
               Boletines y Reportes Epidemiológicos Oficiales
             </h3>
             <p className="text-xs text-slate-500">
-              Registro histórico y tiempo real del Centro Nacional de Epidemiología (MSPAS)
+              Integración de comunicados del MSPAS en desarrollo; no hay vigilancia automática conectada.
             </p>
           </div>
 
@@ -90,6 +90,7 @@ export const EpidemiologyView: React.FC<EpidemiologyViewProps> = ({
         </div>
 
         <div className="space-y-3">
+          {reports.length === 0 && <p className="rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-600">Aún no se han incorporado boletines oficiales verificados. Consulta los comunicados en <a href="https://epidemiologia.mspas.gob.gt/" target="_blank" rel="noopener noreferrer" className="text-sky-700 underline">Epidemiología del MSPAS</a>.</p>}
           {reports.map((rep) => {
             const dept = GUATEMALA_DEPARTMENTS.find(d => d.departmentId === rep.departmentId);
             return (
