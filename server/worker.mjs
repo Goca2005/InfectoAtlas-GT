@@ -42,6 +42,11 @@ export function createWorker({ cache = () => caches.default, service = env => cr
         ctx.waitUntil(store.put(key, new Response(JSON.stringify(result), { headers: { 'Content-Type': headers['Content-Type'], 'Cache-Control': 'public, max-age=900' } })).catch(() => {}));
         return json(result);
       } catch (error) {
+        if (error.cause) {
+          let reason = String(error.cause.message || error.cause.name || 'transport error').replace(/https?:\/\/\S+/g, '[URL omitida]');
+          for (const secret of [env.NCBI_API_KEY, env.NCBI_EMAIL].filter(Boolean)) reason = reason.replaceAll(secret, '[omitido]');
+          console.error('PubMed transport:', reason.slice(0, 240));
+        }
         const known = error instanceof PubmedError;
         return json({ error: known ? error.message : 'No se pudo recuperar la información de PubMed. Reintenta la consulta.' }, known ? error.status : 502, known && error.retryAfter ? { 'Retry-After': String(error.retryAfter) } : {});
       }

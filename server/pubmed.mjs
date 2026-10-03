@@ -163,8 +163,10 @@ export function createNcbiTransport({ fetchImpl = fetch, sleep = ms => new Promi
         let response;
         try {
           response = await fetchImpl(url, { signal: AbortSignal.timeout(12000), redirect: 'error', headers: { Accept: format === 'json' ? 'application/json' : 'application/xml' } });
-        } catch {
-          throw new PubmedError('No fue posible conectar con PubMed o se agotó el tiempo de espera.', 504);
+        } catch (cause) {
+          const error = new PubmedError('No fue posible conectar con PubMed o se agotó el tiempo de espera.', 504);
+          error.cause = cause;
+          throw error;
         }
         if ((response.status === 429 || response.status === 503) && attempt === 0) {
           const waitSeconds = Math.min(3, Math.max(1, Number(response.headers.get('retry-after')) || 1));
