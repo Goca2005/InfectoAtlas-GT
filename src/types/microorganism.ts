@@ -82,6 +82,8 @@ export interface GuatemalaEpidemiology {
 }
 
 export interface Microorganism {
+  /** Bundled reference displayed without writing to personal storage. */
+  publicReference?: boolean;
   /** Display-only documentary fichas are reconstructed from local document text. */
   documentIndexed?: boolean;
   documentPageCount?: number;

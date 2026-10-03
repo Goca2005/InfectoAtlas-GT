@@ -38,5 +38,103 @@
       "consultedAt": "2026-10-03",
       "interpretation": "Caso de referencia identificado en el registro original. La imagen permite estudiar el hallazgo, sin emitir resultados sobre otro paciente ni aportar cifras de Guatemala."
     }
+  },
+  {
+    "names": [
+      "Varicella-zoster virus",
+      "Virus de la varicela",
+      "VVZ",
+      "VZV"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Lesiones de varicela en la espalda de un niño",
+      "stainOrModality": "Fotografía clínica",
+      "creditOrSource": "CDC",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/20040908/2d4664936550421d85a71364ed879b68/6121_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/details.aspx?pid=6121",
+      "license": "Dominio público; redistribución con crédito CDC y autor cuando se informa",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 6121",
+      "imageDate": "1995",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado por el registro original. El aspecto no establece la causa o el estadio de otro paciente. Fuente internacional para estudio en Guatemala; no aporta cifras nacionales."
+    }
+  },
+  {
+    "names": [
+      "Treponema pallidum"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Chancro primario de sífilis en el labio inferior",
+      "stainOrModality": "Fotografía clínica",
+      "creditOrSource": "CDC / Susan Lindsley",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/2361/2361_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/details.aspx?pid=2361",
+      "license": "Dominio público; redistribución con crédito CDC y autor cuando se informa",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 2361",
+      "imageDate": "1971",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado por el registro original. El aspecto no establece la causa o el estadio de otro paciente. Fuente internacional para estudio en Guatemala; no aporta cifras nacionales."
+    }
+  },
+  {
+    "names": [
+      "Treponema pallidum"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Chancro extragenital de sífilis en el dedo índice",
+      "stainOrModality": "Fotografía clínica",
+      "creditOrSource": "CDC",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/4147/4147_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/details.aspx?pid=4147",
+      "license": "Dominio público; redistribución con crédito CDC y autor cuando se informa",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 4147",
+      "imageDate": "1969",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado por el registro original. El aspecto no establece la causa o el estadio de otro paciente. Fuente internacional para estudio en Guatemala; no aporta cifras nacionales."
+    }
+  },
+  {
+    "names": [
+      "Trichophyton mentagrophytes"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Tiña del pie: lesión plantar atribuida a Trichophyton mentagrophytes en el caso original",
+      "stainOrModality": "Fotografía clínica",
+      "creditOrSource": "CDC",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/15441/15441_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/details.aspx?pid=15441",
+      "license": "Dominio público; redistribución con crédito CDC y autor cuando se informa",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 15441",
+      "imageDate": "No informada",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado por el registro original. El aspecto no establece la causa o el estadio de otro paciente. Fuente internacional para estudio en Guatemala; no aporta cifras nacionales."
+    }
+  },
+  {
+    "names": [
+      "Trichophyton rubrum"
+    ],
+    "image": {
+      "type": "fotografia_clinica",
+      "caption": "Tiña corporal atribuida a Trichophyton rubrum en el caso original",
+      "stainOrModality": "Fotografía clínica",
+      "creditOrSource": "CDC",
+      "url": "https://wwwn.cdc.gov/phil/PHIL_Images/16682/16682_lores.jpg",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/details.aspx?pid=16682",
+      "license": "Dominio público; redistribución con crédito CDC y autor cuando se informa",
+      "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+      "imageId": "PHIL 16682",
+      "imageDate": "1971",
+      "consultedAt": "2026-10-03",
+      "interpretation": "Caso de referencia identificado por el registro original. El aspecto no establece la causa o el estadio de otro paciente. Fuente internacional para estudio en Guatemala; no aporta cifras nacionales."
+    }
   }
 ]

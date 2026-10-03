@@ -1,6 +1,8 @@
 import React from 'react';
 import { Microorganism } from '../types/microorganism';
 import { ChevronRight, Bookmark, BookmarkCheck, ArrowRightLeft } from 'lucide-react';
+import { OrganismThumbnail } from './OrganismThumbnail';
+import { curatedImages } from '../services/learningAtlas';
 
 interface MicroorganismCardProps {
   organism: Microorganism;
@@ -27,6 +29,7 @@ export const MicroorganismCard: React.FC<MicroorganismCardProps> = ({
 
   const primaryDisease = organism.associatedDiseases[0]?.name;
   const stageCount = organism.parasiticStages?.length ?? 0;
+  const images = curatedImages(organism);
 
   return (
     <article 
@@ -37,6 +40,10 @@ export const MicroorganismCard: React.FC<MicroorganismCardProps> = ({
       className="group relative flex flex-col justify-between rounded-lg border border-slate-200 bg-white p-5 shadow-xs transition-all hover:border-sky-300 hover:shadow-md cursor-pointer"
     >
       <div>
+        <div className="relative -mx-5 -mt-5 mb-4 overflow-hidden rounded-t-lg bg-slate-950">
+          <OrganismThumbnail organism={organism} className="h-40 w-full object-contain"/>
+          <p className="absolute bottom-0 left-0 right-0 bg-slate-950/80 px-3 py-2 text-[10px] text-slate-200">{images.length ? `${images.length} imágenes documentadas · fuentes en la ficha` : 'Imágenes documentadas por incorporar'}</p>
+        </div>
         {/* Top quiet metadata line with typographic separators (anti-slop zero-pill) */}
         <div className="flex items-center justify-between text-xs text-slate-500">
           <div className="flex items-center gap-1.5 font-medium">
@@ -93,6 +100,7 @@ export const MicroorganismCard: React.FC<MicroorganismCardProps> = ({
           {primaryDisease && <> Enfermedad clave: <span className="font-semibold text-slate-800">{primaryDisease}</span>.</>}
         </p>
         {!!organism.documentPageCount && <p className="mt-2 text-xs font-semibold text-sky-800">Tus documentos · {organism.documentPageCount} páginas</p>}
+        {organism.publicReference && <p className="mt-2 text-[11px] text-slate-500">Referencia incluida · revisión y ampliación en curso</p>}
 
         {/* Transmission / Vector highlights */}
         <div className="mt-3 text-[11px] text-slate-500">

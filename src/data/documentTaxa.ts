@@ -20,6 +20,7 @@ const aliases:Record<string,string[]>={
   'Talaromyces marneffei':['Penicillium marneffei'],
 };
 const viruses:[string,string[]][]=[
+  ['Parvovirus B19',['Human parvovirus B19','parvovirus humano B19']],
   ['Herpes simplex virus 1',['HSV-1','HSV 1','VHS-1','VHS 1','herpes simple tipo 1','herpes simplex tipo 1','virus del herpes simple 1','virus herpes tipo 1']],
   ['Herpes simplex virus 2',['HSV-2','HSV 2','VHS-2','VHS 2','herpes simple tipo 2','herpes simplex tipo 2','virus del herpes simple 2','virus herpes tipo 2']],
   ['Varicella-zoster virus',['virus varicela zoster','virus de la varicela','VVZ','VZV']],
