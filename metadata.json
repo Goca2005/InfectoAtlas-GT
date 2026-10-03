@@ -1,0 +1,6 @@
+{
+  "name": "InfectoAtlas GT",
+  "description": "Atlas médico interactivo de infectología, microbiología y parasitología con enfoque prioritario en Guatemala y Centroamérica para estudiantes y profesionales de la salud.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
