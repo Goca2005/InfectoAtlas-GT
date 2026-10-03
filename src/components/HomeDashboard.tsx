@@ -6,6 +6,7 @@ import { curatedImages } from '../services/learningAtlas';
 import { buildVisualAtlas, visualCoverage } from '../services/visualAtlas';
 import { PUBLIC_REFERENCE_CATALOG } from '../services/publicCatalog';
 import { OrganismThumbnail } from './OrganismThumbnail';
+import { ACADEMIC_PROFILES, ACADEMIC_SOURCES, academicProfile } from '../services/academicContent';
 
 interface HomeDashboardProps {
   microorganisms: Microorganism[];
@@ -29,6 +30,7 @@ export function HomeDashboard({ microorganisms, onNavigateSection, onSelectOrgan
   const coverage = useMemo(() => visualCoverage(microorganisms), [microorganisms]);
   const references = useMemo(() => buildVisualAtlas(PUBLIC_REFERENCE_CATALOG), []);
   const featured = ['Plasmodium vivax','Corynebacterium diphtheriae','Measles virus','Histoplasma capsulatum'].map(name => microorganisms.find(o => o.scientificName === name)).filter((o): o is Microorganism => !!o);
+  const expandedReferences = PUBLIC_REFERENCE_CATALOG.filter(o=>academicProfile(o.scientificName)).length;
   return <div className="space-y-8">
     <section className="relative overflow-hidden rounded-2xl border border-sky-900 bg-slate-950 text-white">
       <div className="grid lg:grid-cols-[1.45fr_1fr]">
@@ -57,6 +59,7 @@ export function HomeDashboard({ microorganisms, onNavigateSection, onSelectOrgan
       ].map(item => <button key={item.section} onClick={() => onNavigateSection(item.section)} className="rounded-xl border border-slate-200 bg-white p-5 text-left hover:border-sky-400 hover:shadow-sm transition"><item.icon className="text-sky-700" size={21}/><h3 className="mt-3 font-bold text-slate-900 text-sm">{item.title}</h3><p className="mt-2 text-xs leading-6 text-slate-600">{item.text}</p><ArrowRight className="mt-3 text-sky-700" size={16}/></button>)}
     </section>
 
+    <section className="rounded-xl border border-sky-200 bg-sky-50 p-5 sm:p-6"><p className="text-[11px] font-semibold uppercase tracking-widest text-sky-700">Ampliación académica</p><h3 className="mt-2 text-lg font-bold text-slate-900">{expandedReferences} fichas con nueva información organizada</h3><p className="mt-2 text-sm leading-7 text-slate-600">{ACADEMIC_PROFILES.reduce((n,p)=>n+p.sections.length,0)} apartados con enlaces a {ACADEMIC_SOURCES.length} fuentes. Clínica, muestras, interpretación diagnóstica y principios de manejo se integran con tus documentos. Revisión clínica independiente en curso.</p><div className="mt-4 flex flex-wrap gap-2">{['Clostridium tetani','Parvovirus B19','Trichophyton mentagrophytes','Cyclospora cayetanensis'].map(name=>{const o=microorganisms.find(o=>o.scientificName===name);return o&&<button key={o.id} onClick={()=>onSelectOrganism(o)} className="rounded-lg border border-sky-200 bg-white px-3 py-2 text-xs font-semibold italic text-sky-900 hover:bg-sky-100">{name} →</button>;})}</div></section>
     <section className="space-y-4"><div className="flex flex-wrap justify-between gap-3 items-end"><div><p className="text-[11px] uppercase tracking-widest text-sky-700 font-semibold">Selección para estudiar</p><h3 className="mt-1 text-xl font-bold">Morfología, clínica y procedencia</h3></div><button onClick={() => onNavigateSection('microorganismos')} className="text-sm font-semibold text-sky-800 underline">Ver catálogo completo</button></div>
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">{featured.map(o => <button key={o.id} onClick={() => onSelectOrganism(o)} className="rounded-xl overflow-hidden border border-slate-200 bg-white text-left hover:border-sky-400 transition"><OrganismThumbnail organism={o} className="h-36 w-full object-contain bg-slate-950"/><div className="p-4"><p className="text-[11px] text-sky-800 capitalize">{o.category} · {curatedImages(o).length} imágenes</p><h4 className="mt-1 text-sm font-bold italic">{o.scientificName}</h4><p className="mt-2 text-xs leading-6 text-slate-500">{o.documentPageCount ? `${o.documentPageCount} páginas de tus documentos vinculadas` : 'Fuentes de referencia disponibles en la ficha'}</p><p className="mt-3 text-xs font-bold text-sky-800">Abrir ficha académica →</p></div></button>)}</div>
     </section>
