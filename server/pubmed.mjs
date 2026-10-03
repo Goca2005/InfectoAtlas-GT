@@ -1,3 +1,4 @@
+import { Buffer } from 'node:buffer';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { pubmedSearchUrl } from '../shared/pubmedUrl.mjs';
 
