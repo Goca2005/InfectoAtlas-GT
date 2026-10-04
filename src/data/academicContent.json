@@ -335,6 +335,555 @@
       "issuer": "CDC",
       "kind": "Guía clínica",
       "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-1a3fcfaf2464",
+      "url": "https://www.cdc.gov/typhoid-fever/hcp/clinical-guidance/index.html",
+      "title": "Clinical Guidance for Typhoid Fever and Paratyphoid Fever",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-3f5abaeaa221",
+      "url": "https://www.cdc.gov/campylobacter/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Campylobacter",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-46991ac437df",
+      "url": "https://www.cdc.gov/shigella/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Shigellosis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-5992310c325a",
+      "url": "https://www.cdc.gov/ecoli/hcp/guidance/index.html",
+      "title": "Information for Clinicians — E. coli",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-4fb599d7a8f9",
+      "url": "https://www.cdc.gov/pneumococcal/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Pneumococcal Disease",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-3cd110a213fa",
+      "url": "https://www.cdc.gov/pneumococcal/hcp/clinical-guidance/index.html",
+      "title": "Clinical Guidance for Pneumococcal Disease",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-841333bb3645",
+      "url": "https://www.cdc.gov/flu/hcp/testing-methods/index.html",
+      "title": "Overview of Influenza Testing Methods",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-210408ec8820",
+      "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+      "title": "Influenza Antiviral Medications: Summary for Clinicians",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-1997d9d2c13f",
+      "url": "https://www.cdc.gov/flu/hcp/clinical-guidance/testing-guidance-for-outpatient.html",
+      "title": "Clinical Guidance for Acute Respiratory Illness",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-002fdf57f416",
+      "url": "https://www.cdc.gov/dengue/hcp/diagnosis-testing/",
+      "title": "Clinical Testing Guidance for Dengue",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-562588658a6a",
+      "url": "https://www.cdc.gov/dengue/hcp/clinical-care/index.html",
+      "title": "Clinical Care of Dengue",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-7eec9eb7e928",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/dengue.html",
+      "title": "Yellow Book — Dengue",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-e83967430dbb",
+      "url": "https://www.cdc.gov/dpdx/malaria/index.html",
+      "title": "DPDx — malaria",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-abd58d1b7a21",
+      "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html",
+      "title": "Guía clínica — Plasmodium vivax",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-4e88ccddfd2f",
+      "url": "https://www.cdc.gov/malaria/php/public-health-strategy/case-diagnosis-treatment.html",
+      "title": "Guía clínica — Plasmodium falciparum",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-f1cfa9def845",
+      "url": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+      "title": "DPDx — taeniasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-59c51ae4ce74",
+      "url": "https://www.cdc.gov/taeniasis/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Taenia solium",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-072ec970503d",
+      "url": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+      "title": "DPDx — strongyloidiasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-33cff2e06d46",
+      "url": "https://www.cdc.gov/strongyloides/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Strongyloides stercoralis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-d42e5922d197",
+      "url": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+      "title": "DPDx — trichuriasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-4f5724a6ec2c",
+      "url": "https://www.cdc.gov/sth/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Trichuris trichiura",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-c0c210110d8b",
+      "url": "https://www.cdc.gov/dpdx/hookworm/index.html",
+      "title": "DPDx — hookworm",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-6a4acdbf7059",
+      "url": "https://www.cdc.gov/dpdx/hymenolepiasis/index.html",
+      "title": "DPDx — hymenolepiasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-0149b35abbf9",
+      "url": "https://www.cdc.gov/hymenolepis/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Hymenolepis nana",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-7421c90c9291",
+      "url": "https://www.cdc.gov/dpdx/trypanosomiasisAmerican/index.html",
+      "title": "DPDx — trypanosomiasisAmerican",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-1211540cba95",
+      "url": "https://www.cdc.gov/chagas/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Trypanosoma cruzi",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-c501cecf3d41",
+      "url": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+      "title": "DPDx — leishmaniasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-ce9a718820f5",
+      "url": "https://www.cdc.gov/leishmaniasis/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Leishmania braziliensis / L. mexicana",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-23fc4c659e38",
+      "url": "https://www.cdc.gov/dpdx/fascioliasis/index.html",
+      "title": "DPDx — fascioliasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-ff398422d8be",
+      "url": "https://www.cdc.gov/liver-flukes/hcp/clinical-overview-fasciola/index.html",
+      "title": "Guía clínica — Fasciola hepatica",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-30a575581d1d",
+      "url": "https://www.cdc.gov/dpdx/onchocerciasis/index.html",
+      "title": "DPDx — onchocerciasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-93a1ac4c0f7b",
+      "url": "https://www.cdc.gov/filarial-worms/treatment/onchocerciasis.html",
+      "title": "Guía clínica — Onchocerca volvulus",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-005bdd22a087",
+      "url": "https://www.cdc.gov/dpdx/scabies/index.html",
+      "title": "DPDx — scabies",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-e7a3733b5d29",
+      "url": "https://www.cdc.gov/scabies/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Sarcoptes scabiei var. hominis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-b1db68bc1931",
+      "url": "https://www.cdc.gov/dpdx/pediculosis/index.html",
+      "title": "DPDx — pediculosis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-698db9a8991b",
+      "url": "https://www.cdc.gov/lice/treatment/index.html",
+      "title": "Guía clínica — Pediculus humanus capitis / corporis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-a99f14abcc1d",
+      "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+      "title": "DPDx — cryptosporidiosis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-a7b4c6e9e78a",
+      "url": "https://www.cdc.gov/cryptosporidium/treatment/",
+      "title": "Guía clínica — Cryptosporidium parvum / C. hominis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-06cfefcb195a",
+      "url": "https://www.cdc.gov/dpdx/toxoplasmosis/index.html",
+      "title": "DPDx — toxoplasmosis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-2cfa3e762eff",
+      "url": "https://www.cdc.gov/toxoplasmosis/hcp/clinical-care/index.html",
+      "title": "Guía clínica — Toxoplasma gondii",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-766ecd271fd3",
+      "url": "https://www.cdc.gov/klebsiella/about/index.html",
+      "title": "About Klebsiella",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-b266719fac58",
+      "url": "https://www.cdc.gov/pseudomonas-aeruginosa/about/index.html",
+      "title": "About Pseudomonas aeruginosa",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-a84a49dce7f8",
+      "url": "https://www.cdc.gov/vre/about/index.html",
+      "title": "Vancomycin-resistant Enterococci Basics",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-fb6c10c5d97b",
+      "url": "https://wwwn.cdc.gov/phil/Details.aspx?pid=2646",
+      "title": "PHIL 2646 — Enterococcus faecalis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-ffde5fa884bb",
+      "url": "https://www.cdc.gov/hiv/about/index.html",
+      "title": "About HIV",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-81bf8161ea28",
+      "url": "https://www.cdc.gov/hepatitis-a/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Hepatitis A",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-29ca9497bff3",
+      "url": "https://www.cdc.gov/hepatitis-c/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Hepatitis C",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-1e4d37ccce71",
+      "url": "https://www.cdc.gov/candida-auris/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Candida auris",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-20ec14018d6f",
+      "url": "https://www.cdc.gov/candida-auris/hcp/laboratories/identification-of-c-auris.html",
+      "title": "Identification of C. auris · actualización 30/09/2026",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-151fbd0f2410",
+      "url": "https://www.cdc.gov/candida-auris/hcp/clinical-care/index.html",
+      "title": "Clinical Treatment of C. auris · actualización 28/09/2026",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-40c5422f0642",
+      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis?view=full",
+      "title": "Pneumocystis Pneumonia — guía NIH, revisada 27/05/2026",
+      "issuer": "NIH",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-5177c3775866",
+      "url": "https://www.cdc.gov/valley-fever/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Valley Fever",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-66380ddaf8fb",
+      "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+      "title": "DPDx — Cystoisosporiasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-ea75c43da7d5",
+      "url": "https://www.cdc.gov/cystoisospora/hcp/clinical-care/index.html",
+      "title": "Clinical Treatment of Cystoisosporiasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-21b1fca967db",
+      "url": "https://www.cdc.gov/dpdx/balantidiasis/",
+      "title": "DPDx — Balantidiasis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-3f5c96c73b31",
+      "url": "https://www.cdc.gov/balantidium/hcp/clinical-care/index.html",
+      "title": "Clinical Treatment of Balantidium coli infection",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-353fbc4d5718",
+      "url": "https://www.cdc.gov/dpdx/echinococcosis/",
+      "title": "DPDx — Echinococcosis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-ed3aca7ce97f",
+      "url": "https://www.who.int/publications/i/item/9789240110472",
+      "title": "WHO guidelines for cystic echinococcosis · 2025",
+      "issuer": "OMS",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-4fe3664c8205",
+      "url": "https://www.cdc.gov/lyme/treatment/index.html",
+      "title": "Treatment and Intervention for Lyme Disease",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-3749cc09dccc",
+      "url": "https://www.cdc.gov/chickenpox/hcp/clinical-guidance/index.html",
+      "title": "Clinical Guidance for Severe Varicella",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-79a8d08c9b80",
+      "url": "https://www.cdc.gov/giardia/hcp/clinical-care/index.html",
+      "title": "Patient Care for Giardia Infection",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-b54f2a20392e",
+      "url": "https://www.cdc.gov/pinworm/hcp/clinical-overview/index.html",
+      "title": "Clinical Overview of Pinworm Infection",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-9b0eb7b937cc",
+      "url": "https://www.cdc.gov/parvovirus-b19/prevention-treatment/",
+      "title": "Preventing Parvovirus B19",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03",
+      "published": "2025-12-17"
+    },
+    {
+      "id": "ref-8a5ee579ba86",
+      "url": "https://www.cdc.gov/cryptococcosis/prevention/index.html",
+      "title": "Reducing Risk for Cryptococcosis",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03",
+      "published": "2024-04-24"
+    },
+    {
+      "id": "ref-d074dedf67c6",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-diarrhea.html",
+      "title": "Post-Travel Diarrhea · CDC Yellow Book 2026",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03",
+      "published": "2025-04-23"
+    },
+    {
+      "id": "ref-3caf8de04f70",
+      "url": "https://www.cdc.gov/hepatitis-a/hcp/diagnosis-testing/index.html",
+      "title": "Clinical Screening and Diagnosis for Hepatitis A",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03",
+      "published": "2024-01-11"
+    },
+    {
+      "id": "ref-a9fa4360bd84",
+      "url": "https://www.cdc.gov/hivnexus/hcp/diagnosis-testing/index.html",
+      "title": "Clinical Testing Guidance for HIV",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03"
+    },
+    {
+      "id": "ref-6394d6f2d563",
+      "url": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+      "title": "Signs and Symptoms of Flu",
+      "issuer": "CDC",
+      "kind": "Referencia clínica y de laboratorio",
+      "consultedAt": "2026-10-03",
+      "published": "2024-08-26"
     }
   ],
   "profiles": [
@@ -411,6 +960,16 @@
           "sourceIds": [
             "ref-a5d1431f1ea0",
             "ref-8859ff0d6ee4"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-a5d1431f1ea0"
           ]
         }
       ]
@@ -489,6 +1048,16 @@
           "sourceIds": [
             "ref-c18c8145129c"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-c18c8145129c"
+          ]
         }
       ]
     },
@@ -503,7 +1072,8 @@
       "newReference": false,
       "sourceIds": [
         "ref-26ff90ef4f0f",
-        "ref-c3ab2ee36c30"
+        "ref-c3ab2ee36c30",
+        "ref-4fe3664c8205"
       ],
       "sections": [
         {
@@ -555,6 +1125,26 @@
           "sourceIds": [
             "ref-26ff90ef4f0f"
           ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Doxiciclina, amoxicilina o cefuroxima axetilo son opciones descritas para Lyme; selección y duración dependen de manifestación, edad, embarazo y alergias. Evaluar por separado compromiso cardíaco o neurológico."
+          ],
+          "sourceIds": [
+            "ref-4fe3664c8205"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-26ff90ef4f0f"
+          ]
         }
       ]
     },
@@ -568,7 +1158,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-7e1f5a852837"
+        "ref-7e1f5a852837",
+        "ref-9b0eb7b937cc"
       ],
       "sections": [
         {
@@ -620,6 +1211,26 @@
           "sourceIds": [
             "ref-7e1f5a852837"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-7e1f5a852837"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Prevención y periodo de contagio",
+          "paragraphs": [
+            "No existe vacuna preventiva. Se transmite por partículas respiratorias, sangre y durante el embarazo. El contagio suele ser mayor antes del exantema. Priorizar higiene de manos, cubrir tos y mejorar la ventilación. Embarazo, inmunodepresión o enfermedad hematológica requieren valoración ante exposición o infección."
+          ],
+          "sourceIds": [
+            "ref-9b0eb7b937cc"
+          ]
         }
       ]
     },
@@ -636,7 +1247,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-5f7d9425c71f"
+        "ref-5f7d9425c71f",
+        "ref-3749cc09dccc"
       ],
       "sections": [
         {
@@ -684,6 +1296,26 @@
           "title": "Latencia y zóster",
           "paragraphs": [
             "La varicela y el zóster corresponden a etapas distintas de infección por el mismo virus. Estudiar cada fotografía según la presentación documentada; no confundir lesiones de reactivación con primoinfección."
+          ],
+          "sourceIds": [
+            "ref-5f7d9425c71f"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "La varicela típica no complicada en niños sanos no requiere antiviral de rutina. Aciclovir o valaciclovir pueden considerarse en grupos de riesgo; enfermedad grave o inmunodeficiencia puede requerir aciclovir intravenoso."
+          ],
+          "sourceIds": [
+            "ref-3749cc09dccc"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-5f7d9425c71f"
@@ -764,6 +1396,16 @@
           "sourceIds": [
             "ref-62cab8909107"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-62cab8909107"
+          ]
         }
       ]
     },
@@ -827,6 +1469,26 @@
           "title": "Control",
           "paragraphs": [
             "Se transmite por secreciones nasofaríngeas. La prevención se basa en vacunas con componente contra rubéola y evaluación rápida de casos sospechosos; el esquema aplicable en Guatemala se contrasta con MSPAS."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "No hay tratamiento antiviral específico para rubéola; manejo sintomático. La sospecha durante embarazo requiere confirmación y valoración especializada por riesgo fetal."
+          ],
+          "sourceIds": [
+            "ref-98bae5a88ad5"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-98bae5a88ad5"
@@ -898,6 +1560,26 @@
           "sourceIds": [
             "ref-39ea9dd65a6f"
           ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Manejo de soporte y complicaciones; vitamina A debe administrarse bajo supervisión clínica cuando corresponde. No sustituye vacunación ni evita la infección. Los antibióticos se reservan para complicaciones bacterianas."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-39ea9dd65a6f"
+          ]
         }
       ]
     },
@@ -959,6 +1641,26 @@
           "title": "Inmunidad después de infección",
           "paragraphs": [
             "La enfermedad no garantiza inmunidad. Durante la recuperación se revisa y completa la vacunación correspondiente."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-01e6ebd34286"
+          ]
+        },
+        {
+          "section": "identity",
+          "title": "Identificación y producción de toxina",
+          "paragraphs": [
+            "La identificación de C. diphtheriae no demuestra por sí sola que una cepa produzca toxina. Tras recuperar la bacteria en cultivo, se necesita establecer si es toxigénica. Esta distinción es esencial al interpretar una sospecha de difteria y coordinar su confirmación con salud pública."
           ],
           "sourceIds": [
             "ref-01e6ebd34286"
@@ -1031,6 +1733,16 @@
           "sourceIds": [
             "ref-61a1348cc52e"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-50d5fc4aa4a2"
+          ]
         }
       ]
     },
@@ -1092,6 +1804,16 @@
           "title": "Transmisión aérea",
           "paragraphs": [
             "La enfermedad pulmonar o laríngea puede transmitir partículas por el aire. La detección, el tratamiento y las precauciones aéreas interrumpen la transmisión."
+          ],
+          "sourceIds": [
+            "ref-2c4259309acc"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-2c4259309acc"
@@ -1161,6 +1883,16 @@
           "sourceIds": [
             "ref-581492bec1b3"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-581492bec1b3"
+          ]
         }
       ]
     },
@@ -1222,6 +1954,16 @@
           "title": "Dispositivos y barreras",
           "paragraphs": [
             "El cuidado de catéteres, higiene de manos y uso prudente de antimicrobianos son medidas de prevención hospitalaria."
+          ],
+          "sourceIds": [
+            "ref-04eb1c524934"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-04eb1c524934"
@@ -1291,6 +2033,16 @@
           "sourceIds": [
             "ref-c604c45887d0"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-c604c45887d0"
+          ]
         }
       ]
     },
@@ -1304,7 +2056,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-17bd7ab12042"
+        "ref-17bd7ab12042",
+        "ref-8a5ee579ba86"
       ],
       "sections": [
         {
@@ -1346,6 +2099,26 @@
           "sourceIds": [
             "ref-17bd7ab12042"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-17bd7ab12042"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Riesgo y detección dirigida",
+          "paragraphs": [
+            "Es difícil evitar la inhalación ambiental de Cryptococcus. No hay una medida ambiental que garantice prevenir la infección. El VIH avanzado, trasplante e inmunosupresión aumentan el riesgo. La detección dirigida de antígeno criptocócico en personas con VIH permite identificar infección y valorar tratamiento para prevenir enfermedad grave."
+          ],
+          "sourceIds": [
+            "ref-8a5ee579ba86"
+          ]
         }
       ]
     },
@@ -1361,7 +2134,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-4557c7e5e0a1"
+        "ref-4557c7e5e0a1",
+        "ref-79a8d08c9b80"
       ],
       "sections": [
         {
@@ -1413,6 +2187,26 @@
           "sourceIds": [
             "ref-4557c7e5e0a1"
           ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Tinidazol, nitazoxanida y metronidazol son opciones eficaces. Ante persistencia, confirmar infección, valorar reinfección y adherencia antes de cambiar esquema; síntomas pueden continuar pese a eliminación del parásito."
+          ],
+          "sourceIds": [
+            "ref-79a8d08c9b80"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-4557c7e5e0a1"
+          ]
         }
       ]
     },
@@ -1426,7 +2220,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-59f55570175d"
+        "ref-59f55570175d",
+        "ref-d074dedf67c6"
       ],
       "sections": [
         {
@@ -1478,6 +2273,26 @@
           "sourceIds": [
             "ref-59f55570175d"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-59f55570175d"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Tratamiento tisular y luminal",
+          "paragraphs": [
+            "En amebiasis intestinal sintomática, el manejo descrito incluye metronidazol, seguido de un agente intraluminal como paromomicina o iodoquinol. La fase luminal debe considerarse aparte del control de enfermedad invasiva. Confirmar la especie: la microscopía no distingue siempre E. histolytica de E. dispar. La afectación extraintestinal requiere valoración específica."
+          ],
+          "sourceIds": [
+            "ref-d074dedf67c6"
+          ]
         }
       ]
     },
@@ -1491,7 +2306,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-6e58e24f77ec"
+        "ref-6e58e24f77ec",
+        "ref-4f5724a6ec2c"
       ],
       "sections": [
         {
@@ -1543,6 +2359,26 @@
           "sourceIds": [
             "ref-6e58e24f77ec"
           ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Albendazol o mebendazol son opciones descritas. La obstrucción intestinal o biliar necesita evaluación específica; un programa poblacional de desparasitación no sustituye manejo de una complicación individual."
+          ],
+          "sourceIds": [
+            "ref-4f5724a6ec2c"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-6e58e24f77ec"
+          ]
         }
       ]
     },
@@ -1556,7 +2392,8 @@
       "scope": "Síntesis de fuentes internacionales para estudio en Guatemala; no aporta tasas nacionales.",
       "newReference": false,
       "sourceIds": [
-        "ref-f8edb5bae3d9"
+        "ref-f8edb5bae3d9",
+        "ref-b54f2a20392e"
       ],
       "sections": [
         {
@@ -1604,6 +2441,26 @@
           "title": "Manos y ropa de cama",
           "paragraphs": [
             "La higiene de manos y el control de contaminación de ropa y superficies interrumpen la ingestión de huevos."
+          ],
+          "sourceIds": [
+            "ref-f8edb5bae3d9"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Mebendazol, pirantel o albendazol según indicación, con segunda dosis a las dos semanas para alcanzar gusanos nacidos de huevos sobrevivientes. Coordinar higiene y manejo de convivientes según guía."
+          ],
+          "sourceIds": [
+            "ref-b54f2a20392e"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-f8edb5bae3d9"
@@ -1659,6 +2516,26 @@
           "title": "Seguimiento y prevención",
           "paragraphs": [
             "La evaluación de contactos y vacunación dependen del contexto. Las recomendaciones del CDC requieren adaptación a protocolos locales; esta ficha no confirma un brote en Guatemala."
+          ],
+          "sourceIds": [
+            "ref-ffb75e37213a"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-ffb75e37213a"
+          ]
+        },
+        {
+          "section": "identity",
+          "title": "Meningococo y enfermedad invasiva",
+          "paragraphs": [
+            "N. meningitidis causa enfermedad meningocócica, con meningitis y septicemia como síndromes invasivos principales. La identificación mediante cultivo o amplificación de ácidos nucleicos debe interpretarse con la muestra y el cuadro clínico. Establecer el serogrupo permite apoyar la investigación epidemiológica y la respuesta a brotes."
           ],
           "sourceIds": [
             "ref-ffb75e37213a"
@@ -1731,6 +2608,16 @@
           "sourceIds": [
             "ref-2bee9e0c0dcf"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-2bee9e0c0dcf"
+          ]
         }
       ]
     },
@@ -1796,6 +2683,16 @@
           "title": "Transmisión",
           "paragraphs": [
             "El contacto oral o sexual puede transmitir incluso sin lesiones. Evitar contacto durante lesiones reduce riesgo; el preservativo no elimina toda exposición cutánea."
+          ],
+          "sourceIds": [
+            "ref-29de11b207b1"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-29de11b207b1"
@@ -1879,6 +2776,16 @@
           "sourceIds": [
             "ref-3147d9c14968"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-3147d9c14968"
+          ]
         }
       ]
     },
@@ -1948,6 +2855,26 @@
           "sourceIds": [
             "ref-f882160f78ef"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-f882160f78ef"
+          ]
+        },
+        {
+          "section": "identity",
+          "title": "Agente de COVID-19",
+          "paragraphs": [
+            "SARS-CoV-2 es el virus causante de COVID-19. Su identificación requiere pruebas específicas en el contexto clínico. Los síntomas respiratorios por sí solos no permiten distinguir COVID-19 de influenza u otras infecciones. Una imagen ilustrativa tampoco identifica una variante viral."
+          ],
+          "sourceIds": [
+            "ref-f882160f78ef"
+          ]
         }
       ]
     },
@@ -2013,6 +2940,16 @@
           "sourceIds": [
             "ref-4a5fc005b672"
           ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-4a5fc005b672"
+          ]
         }
       ]
     },
@@ -2074,6 +3011,16 @@
           "title": "Proteger piel",
           "paragraphs": [
             "Guantes y ropa protectora reducen heridas al manipular plantas o materiales potencialmente contaminados. Las referencias de otros países no prueban un brote guatemalteco."
+          ],
+          "sourceIds": [
+            "ref-75c6009aed35"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
           ],
           "sourceIds": [
             "ref-75c6009aed35"
@@ -2153,6 +3100,2938 @@
           ],
           "sourceIds": [
             "ref-22e958b58e9f"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-6e216865085c"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Salmonella enterica subsp. enterica serovar Typhi",
+      "aliases": [
+        "Salmonella enterica subsp. enterica serovar Typhi",
+        "Salmonella typhi"
+      ],
+      "category": "bacteria",
+      "subtitle": "Fiebre entérica: distinguir infección sistémica de gastroenteritis.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-1a3fcfaf2464"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Salmonella Typhi causa fiebre tifoidea, una infección sistémica. Salmonella Paratyphi causa una enfermedad semejante; el cuadro clínico no identifica el serovar."
+          ],
+          "sourceIds": [
+            "ref-1a3fcfaf2464"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Inicio progresivo con fiebre, cefalea, malestar, dolor muscular y estreñimiento o diarrea. Pueden aparecer roséolas en el tronco. En cuadros graves, encefalopatía, hemorragia intestinal o perforación; una minoría desarrolla portación crónica."
+          ],
+          "sourceIds": [
+            "ref-1a3fcfaf2464"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "El hemocultivo es la prueba principal; pueden necesitarse varias muestras. El cultivo de médula ósea puede seguir positivo después de antibióticos. Widal no se recomienda para confirmar por su elevada frecuencia de falsos positivos."
+          ],
+          "sourceIds": [
+            "ref-1a3fcfaf2464"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Tratar con antibióticos y ajustar al antibiograma, gravedad y lugar de adquisición. La resistencia puede impedir usar un esquema empírico habitual; las recomendaciones para viajeros estadounidenses requieren adaptación local."
+          ],
+          "sourceIds": [
+            "ref-1a3fcfaf2464"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Lavado de manos, agua segura y alimentos preparados higiénicamente. La vacunación antitifoidea se valora según riesgo y disponibilidad; no reemplaza el saneamiento."
+          ],
+          "sourceIds": [
+            "ref-1a3fcfaf2464"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-1a3fcfaf2464"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Campylobacter jejuni",
+      "aliases": [
+        "Campylobacter jejuni"
+      ],
+      "category": "bacteria",
+      "subtitle": "Enteritis y complicaciones posteriores a la infección.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-3f5abaeaa221"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Bacteria gramnegativa microaerófila. C. jejuni crece mejor entre 37 y 42 °C y se adapta al intestino de aves; otras especies también causan infección humana."
+          ],
+          "sourceIds": [
+            "ref-3f5abaeaa221"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Incubación habitual de 2 a 5 días. Diarrea, a menudo sanguinolenta, fiebre y dolor abdominal que puede simular apendicitis. Puede asociarse posteriormente con artritis, intestino irritable o síndrome de Guillain-Barré."
+          ],
+          "sourceIds": [
+            "ref-3f5abaeaa221"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Analizar heces mediante cultivo o prueba independiente de cultivo, como PCR. Obtener un aislamiento permite estudiar susceptibilidad y caracterizar brotes; una prueba molecular no entrega por sí sola un antibiograma."
+          ],
+          "sourceIds": [
+            "ref-3f5abaeaa221"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "La mayoría mejora con hidratación. Considerar antibióticos en enfermedad grave o pacientes vulnerables; azitromicina es una opción descrita. La resistencia a fluoroquinolonas obliga a contrastar susceptibilidad."
+          ],
+          "sourceIds": [
+            "ref-3f5abaeaa221"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Cocinar bien aves, evitar contaminación cruzada, leche no pasteurizada y agua insegura. Lavarse las manos tras manipular animales o sus heces."
+          ],
+          "sourceIds": [
+            "ref-3f5abaeaa221"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-3f5abaeaa221"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Shigella dysenteriae",
+      "aliases": [
+        "Shigella dysenteriae"
+      ],
+      "category": "bacteria",
+      "subtitle": "Disentería, toxina Shiga y selección del tratamiento.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-46991ac437df"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Una de las cuatro especies de Shigella. El tipo 1 de S. dysenteriae puede provocar enfermedad particularmente grave; no todas las infecciones por Shigella producen toxina Shiga."
+          ],
+          "sourceIds": [
+            "ref-46991ac437df"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Diarrea acuosa o sanguinolenta, fiebre, dolor abdominal y tenesmo. Las cepas productoras de toxina Shiga pueden causar síndrome hemolítico urémico. También son posibles bacteriemia y convulsiones infantiles."
+          ],
+          "sourceIds": [
+            "ref-46991ac437df"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Solicitar heces para cultivo o prueba molecular. Si una prueba independiente de cultivo es positiva, recuperar el aislamiento cuando sea posible. Hacer antibiograma cuando se prevé tratar con antibióticos."
+          ],
+          "sourceIds": [
+            "ref-46991ac437df"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Hidratación; los cuadros leves pueden ser autolimitados. Cuando se indica antibiótico, seleccionar según susceptibilidad y datos locales de resistencia. No extrapolar sensibilidad de otra especie o de otro país."
+          ],
+          "sourceIds": [
+            "ref-46991ac437df"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Transmisión fecal-oral mediante alimentos, agua o contacto interpersonal, incluido contacto sexual con materia fecal. Priorizar higiene de manos y saneamiento."
+          ],
+          "sourceIds": [
+            "ref-46991ac437df"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-46991ac437df"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Escherichia coli",
+      "aliases": [
+        "Escherichia coli"
+      ],
+      "category": "bacteria",
+      "subtitle": "Interpretar el patotipo antes de atribuir virulencia y tratamiento.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-5992310c325a"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "La detección de E. coli requiere contexto: existen distintos patotipos diarreogénicos. Una identificación de especie no demuestra producción de toxina Shiga."
+          ],
+          "sourceIds": [
+            "ref-5992310c325a"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "STEC puede ocasionar diarrea sanguinolenta y síndrome hemolítico urémico: anemia, trombocitopenia y lesión renal. Esa tríada corresponde a una complicación y no está presente en toda infección por E. coli."
+          ],
+          "sourceIds": [
+            "ref-5992310c325a"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "En diarrea, combinar estudio de E. coli O157 con detección de toxina Shiga o sus genes para incluir STEC no O157. Hemograma y función renal evalúan sospecha de síndrome hemolítico urémico."
+          ],
+          "sourceIds": [
+            "ref-5992310c325a"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Hidratación y seguimiento clínico. En sospecha de STEC, los antibióticos pueden aumentar el riesgo de síndrome hemolítico urémico; evitar antimotilidad en STEC o diarrea sanguinolenta. No usar esa restricción como regla para todas las infecciones extraintestinales."
+          ],
+          "sourceIds": [
+            "ref-5992310c325a"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "La caracterización temprana ayuda a investigar brotes y reducir transmisión secundaria. La identificación del patotipo y la fuente de exposición orienta las medidas de control."
+          ],
+          "sourceIds": [
+            "ref-5992310c325a"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-5992310c325a"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Streptococcus pneumoniae",
+      "aliases": [
+        "Streptococcus pneumoniae"
+      ],
+      "category": "bacteria",
+      "subtitle": "Colonización respiratoria e infección invasiva.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-4fb599d7a8f9",
+        "ref-3cd110a213fa"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Neumococo: bacteria grampositiva de forma lanceolada y anaerobia facultativa. La cápsula define serotipos y contribuye a la patogenicidad; la colonización nasofaríngea no equivale a enfermedad invasiva."
+          ],
+          "sourceIds": [
+            "ref-4fb599d7a8f9"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Neumonía, bacteriemia y meningitis son cuadros graves; otitis media y sinusitis son frecuentes. Asplenia, inmunosupresión, enfermedades crónicas y extremos de edad aumentan el riesgo."
+          ],
+          "sourceIds": [
+            "ref-4fb599d7a8f9"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "El aislamiento desde un sitio normalmente estéril sustenta infección invasiva. También existen pruebas moleculares y antígeno urinario. Interpretar un cultivo respiratorio considerando calidad de muestra y colonización."
+          ],
+          "sourceIds": [
+            "ref-4fb599d7a8f9"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Se transmite por contacto con secreciones respiratorias. La vacunación es la principal prevención; aplicar el esquema vigente pertinente para Guatemala y para el riesgo individual."
+          ],
+          "sourceIds": [
+            "ref-4fb599d7a8f9"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Elegir antibiótico según síndrome, gravedad y susceptibilidad. La meningitis requiere valoración y tratamiento urgente; el fármaco útil para una infección no invasiva no se extrapola automáticamente al sistema nervioso central."
+          ],
+          "sourceIds": [
+            "ref-3cd110a213fa"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-4fb599d7a8f9"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Influenza A virus",
+      "aliases": [
+        "Influenza A virus"
+      ],
+      "category": "virus",
+      "subtitle": "Pruebas respiratorias y oportunidad del tratamiento antiviral.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-841333bb3645",
+        "ref-210408ec8820",
+        "ref-1997d9d2c13f",
+        "ref-6394d6f2d563"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Influenza A es un virus respiratorio. El síndrome gripal no permite distinguirlo de influenza B, COVID-19 u otros agentes sin contexto y pruebas."
+          ],
+          "sourceIds": [
+            "ref-841333bb3645"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "El resultado de una prueba debe correlacionarse con gravedad, fecha de inicio y circulación de otros virus. Puede existir coinfección con SARS-CoV-2; una prueba positiva para uno no excluye al otro."
+          ],
+          "sourceIds": [
+            "ref-841333bb3645"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Las pruebas moleculares respiratorias son más sensibles que las rápidas de antígeno. Un antígeno negativo durante alta circulación o un brote puede requerir confirmación molecular."
+          ],
+          "sourceIds": [
+            "ref-841333bb3645"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "La vacunación y las medidas para reducir exposición a secreciones respiratorias complementan el tratamiento; la prueba puede orientar precauciones en hospitales y brotes."
+          ],
+          "sourceIds": [
+            "ref-841333bb3645"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Iniciar antiviral pronto en pacientes hospitalizados, con enfermedad progresiva o alto riesgo. Oseltamivir es una opción principal para hospitalizados. El beneficio es mayor al inicio, pero no se limita a las primeras 48 horas en enfermedad grave o de alto riesgo. Amantadina y rimantadina no se recomiendan por resistencia."
+          ],
+          "sourceIds": [
+            "ref-210408ec8820"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "La evaluación clínica considera neumonía, descompensación de enfermedades previas y criterios de hospitalización."
+          ],
+          "sourceIds": [
+            "ref-1997d9d2c13f"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-841333bb3645"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Inicio, síntomas y complicaciones",
+          "paragraphs": [
+            "La influenza suele comenzar de forma brusca con fiebre o escalofríos, tos, mialgias, cefalea y fatiga; no todos presentan fiebre. Puede complicarse con neumonía, miocarditis, encefalitis, rabdomiólisis o sepsis y agravar enfermedades previas. Los síntomas no permiten determinar el subtipo viral ni excluir COVID-19."
+          ],
+          "sourceIds": [
+            "ref-6394d6f2d563"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Dengue virus (DENV 1, 2, 3, 4)",
+      "aliases": [
+        "Dengue virus (DENV 1, 2, 3, 4)",
+        "Dengue virus",
+        "Virus del dengue"
+      ],
+      "category": "virus",
+      "subtitle": "Fases clínicas, signos de alarma y ventana diagnóstica.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-002fdf57f416",
+        "ref-562588658a6a",
+        "ref-7eec9eb7e928"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "La infección por dengue necesita interpretación temporal de las pruebas. La serología puede reaccionar de forma cruzada con otros flavivirus."
+          ],
+          "sourceIds": [
+            "ref-002fdf57f416"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Durante los primeros 7 días: NAAT/RT-PCR e IgM, o NS1 e IgM. Después del día 7, IgM adquiere mayor utilidad. NAAT o NS1 positivos confirman infección aguda; una IgM aislada sugiere infección reciente. Una IgG aislada no confirma dengue agudo."
+          ],
+          "sourceIds": [
+            "ref-002fdf57f416"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Fiebre con dolor retroocular, cefalea, mialgias, artralgias o exantema. Los signos de alarma pueden comenzar cuando cede la fiebre: dolor abdominal intenso, vómitos persistentes, sangrado mucoso, acumulación de líquido, alteración del estado mental y aumento progresivo del hematocrito. Dengue grave incluye choque por fuga plasmática, hemorragia grave o daño orgánico."
+          ],
+          "sourceIds": [
+            "ref-562588658a6a"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "No hay antiviral específico. Evaluar hidratación y evolución; usar paracetamol y evitar aspirina y antiinflamatorios no esteroideos. Los signos de alarma o dengue grave requieren manejo hospitalario. La sospecha clínica debe atenderse sin esperar confirmación."
+          ],
+          "sourceIds": [
+            "ref-562588658a6a"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "La prevención se centra en evitar picaduras y reducir criaderos. La ficha no convierte publicaciones científicas ni imágenes del vector en cifras actuales de Guatemala."
+          ],
+          "sourceIds": [
+            "ref-7eec9eb7e928"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-002fdf57f416"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Plasmodium vivax",
+      "aliases": [
+        "Plasmodium vivax"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-e83967430dbb",
+        "ref-abd58d1b7a21"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Protozoo sanguíneo con hipnozoítos hepáticos, responsables de recaídas."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Fiebre, escalofríos, anemia y malestar; el patrón febril clásico puede faltar. P. vivax también puede causar enfermedad grave."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "P. vivax puede conservar hipnozoítos hepáticos: esta forma explica recaídas y no se identifica en el frotis periférico."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Esporozoíto: para el humano, inoculado por Anopheles; Gametocitos: para el mosquito que ingiere sangre. Fase diagnóstica: Formas sanguíneas: trofozoítos, esquizontes y gametocitos. P. vivax puede conservar hipnozoítos hepáticos: esta forma explica recaídas y no se identifica en el frotis periférico."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Evitar picaduras de Anopheles mediante mosquiteros y protección personal; el esquema preventivo para viajeros depende de destino y riesgo."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Tratar fase sanguínea según lugar de adquisición y susceptibilidad, y valorar cura radical de hipnozoítos. Primaquina o tafenoquina requieren prueba cuantitativa de G6PD y revisión de embarazo y contraindicaciones."
+          ],
+          "sourceIds": [
+            "ref-abd58d1b7a21"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Plasmodium falciparum",
+      "aliases": [
+        "Plasmodium falciparum"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-e83967430dbb",
+        "ref-4e88ccddfd2f"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Protozoo intraeritrocitario. Los gametocitos maduros suelen ser semilunares; no forma hipnozoítos."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Puede progresar rápidamente a malaria cerebral, anemia grave, acidosis, hipoglucemia, lesión renal o insuficiencia respiratoria. No esperar una periodicidad febril típica para investigarlo."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Los esquizontes de P. falciparum son poco habituales en sangre periférica; su ausencia no excluye infección."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Esporozoíto: para el humano, inoculado por Anopheles; Gametocitos: para el mosquito que ingiere sangre. Fase diagnóstica: Formas sanguíneas: trofozoítos, esquizontes y gametocitos. Los esquizontes de P. falciparum son poco habituales en sangre periférica; su ausencia no excluye infección."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Evitar picaduras de Anopheles mediante mosquiteros y protección personal; el esquema preventivo para viajeros depende de destino y riesgo."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "La selección del antimalárico depende de gravedad y adquisición. La malaria grave necesita manejo hospitalario urgente; revisar la guía vigente, porque los esquemas cambian."
+          ],
+          "sourceIds": [
+            "ref-4e88ccddfd2f"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-e83967430dbb"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Taenia solium",
+      "aliases": [
+        "Taenia solium"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-f1cfa9def845",
+        "ref-59c51ae4ce74"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Cestodo adulto intestinal; la infección humana por larvas produce cisticercosis."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "La teniasis suele ser leve. La cisticercosis puede afectar sistema nervioso y ojos; no se diagnostica por un huevo de Taenia en heces."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Distinguir las dos vías: comer cisticercos produce teniasis; ingerir huevos puede producir cisticercosis."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Teniasis: cisticerco viable en carne de cerdo; Cisticercosis: huevo de T. solium ingerido por vía fecal-oral. Fase diagnóstica: Teniasis: huevos o proglótides en heces; Cisticercosis: larvas en tejidos; imagen y pruebas inmunológicas según contexto. Distinguir las dos vías: comer cisticercos produce teniasis; ingerir huevos puede producir cisticercosis."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Cocinar la carne y prevenir contaminación fecal. Ingerir cisticercos produce teniasis; ingerir huevos de T. solium puede causar cisticercosis."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Praziquantel es preferido para teniasis; valorar posible cisticercosis antes de praziquantel o albendazol, por riesgo de convulsiones asociado al tratamiento. La neurocisticercosis necesita evaluación específica."
+          ],
+          "sourceIds": [
+            "ref-59c51ae4ce74"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Taenia saginata",
+      "aliases": [
+        "Taenia saginata"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-f1cfa9def845",
+        "ref-59c51ae4ce74"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Cestodo intestinal adquirido mediante cisticercos en carne bovina."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Habitualmente síntomas abdominales leves y expulsión de proglótides. La presencia de proglótides orienta identificación; los huevos no distinguen T. saginata de T. solium."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Identificar especie mediante proglótides/escólex o métodos específicos; los huevos de Taenia son morfológicamente indistinguibles."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Cisticerco viable en carne de res: para el humano. Fase diagnóstica: Huevos y proglótides: heces. Identificar especie mediante proglótides/escólex o métodos específicos; los huevos de Taenia son morfológicamente indistinguibles."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Cocinar la carne y prevenir contaminación fecal. Ingerir cisticercos produce teniasis; ingerir huevos de T. solium puede causar cisticercosis."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Praziquantel es una opción preferida para teniasis; confirmar eliminación y revisar heces después del tratamiento según guía."
+          ],
+          "sourceIds": [
+            "ref-59c51ae4ce74"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-f1cfa9def845"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Strongyloides stercoralis",
+      "aliases": [
+        "Strongyloides stercoralis"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-072ec970503d",
+        "ref-33cff2e06d46"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Nematodo con ciclos de vida libre, parasitario y autoinfección."
+          ],
+          "sourceIds": [
+            "ref-072ec970503d"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Puede ser asintomático, ocasionar diarrea, dolor abdominal y larva currens. Corticoides pueden desencadenar hiperinfección o diseminación grave; ausencia de eosinofilia no la excluye."
+          ],
+          "sourceIds": [
+            "ref-072ec970503d"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La autoinfección permite persistencia durante años. No confundir larva rabditiforme diagnóstica con filariforme infectiva."
+          ],
+          "sourceIds": [
+            "ref-072ec970503d"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Larva filariforme L3: penetra piel; también participa en autoinfección. Fase diagnóstica: Larvas, principalmente rabditiformes: heces; otras muestras en formas graves. La autoinfección permite persistencia durante años. No confundir larva rabditiforme diagnóstica con filariforme infectiva."
+          ],
+          "sourceIds": [
+            "ref-072ec970503d"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Usar calzado y mejorar saneamiento; la autoinfección permite persistencia durante años."
+          ],
+          "sourceIds": [
+            "ref-072ec970503d"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Ivermectina es primera línea. La hiperinfección requiere manejo especializado, seguimiento parasitológico y reducción de inmunosupresión cuando sea posible. Considerar exposición previa antes de iniciar corticoides."
+          ],
+          "sourceIds": [
+            "ref-33cff2e06d46"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-072ec970503d"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Trichuris trichiura",
+      "aliases": [
+        "Trichuris trichiura"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-d42e5922d197",
+        "ref-4f5724a6ec2c"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Nematodo con extremo anterior fino, alojado en ciego y colon ascendente."
+          ],
+          "sourceIds": [
+            "ref-d42e5922d197"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Infecciones intensas pueden causar dolor, diarrea, prolapso rectal y alteración del crecimiento infantil."
+          ],
+          "sourceIds": [
+            "ref-d42e5922d197"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La maduración ambiental precede a la fase infectiva; un huevo recién eliminado no es ya el huevo infectivo."
+          ],
+          "sourceIds": [
+            "ref-d42e5922d197"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Huevo embrionado: ingestión. Fase diagnóstica: Huevo no embrionado: heces. La maduración ambiental precede a la fase infectiva; un huevo recién eliminado no es ya el huevo infectivo."
+          ],
+          "sourceIds": [
+            "ref-d42e5922d197"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, agua y alimentos seguros y disposición sanitaria de excretas reducen exposición a las fases infectivas descritas en el ciclo."
+          ],
+          "sourceIds": [
+            "ref-d42e5922d197"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Albendazol o mebendazol son opciones descritas; el esquema para Trichuris no se asume igual al de Ascaris. Revisar edad, embarazo y guía local."
+          ],
+          "sourceIds": [
+            "ref-4f5724a6ec2c"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-d42e5922d197"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Necator americanus / Ancylostoma duodenale",
+      "aliases": [
+        "Necator americanus / Ancylostoma duodenale",
+        "Necator americanus",
+        "Ancylostoma duodenale"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-c0c210110d8b",
+        "ref-4f5724a6ec2c"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Uncinarias intestinales: los huevos no permiten diferenciar estas especies por microscopía rutinaria."
+          ],
+          "sourceIds": [
+            "ref-c0c210110d8b"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Pérdida sanguínea crónica con anemia ferropénica, dolor abdominal y, en cargas altas, pérdida proteica. La penetración larvaria puede causar prurito y la migración pulmonar síntomas respiratorios."
+          ],
+          "sourceIds": [
+            "ref-c0c210110d8b"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Los huevos no diferencian especies. La vía oral descrita para algunas especies no debe atribuirse a N. americanus."
+          ],
+          "sourceIds": [
+            "ref-c0c210110d8b"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Larva filariforme L3: penetración cutánea; otras rutas dependen de la especie. Fase diagnóstica: Huevos: heces. Los huevos no diferencian especies. La vía oral descrita para algunas especies no debe atribuirse a N. americanus."
+          ],
+          "sourceIds": [
+            "ref-c0c210110d8b"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Calzado y saneamiento reducen contacto cutáneo con larvas del suelo."
+          ],
+          "sourceIds": [
+            "ref-c0c210110d8b"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Albendazol o mebendazol son opciones; evaluar y corregir anemia y deficiencias nutricionales."
+          ],
+          "sourceIds": [
+            "ref-4f5724a6ec2c"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-c0c210110d8b"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Hymenolepis nana",
+      "aliases": [
+        "Hymenolepis nana"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-6a4acdbf7059",
+        "ref-0149b35abbf9"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Cestodo pequeño que puede completar un ciclo directo y mantener autoinfección."
+          ],
+          "sourceIds": [
+            "ref-6a4acdbf7059"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Frecuentemente asintomático; cargas altas pueden ocasionar dolor abdominal, diarrea, anorexia y debilidad."
+          ],
+          "sourceIds": [
+            "ref-6a4acdbf7059"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "El ciclo directo no requiere un hospedero intermediario; existe además una vía mediante artrópodos con cisticercoides."
+          ],
+          "sourceIds": [
+            "ref-6a4acdbf7059"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Huevo embrionado: inmediatamente infectivo; cisticercoide en artrópodos por vía alternativa. Fase diagnóstica: Huevos: heces. El ciclo directo no requiere un hospedero intermediario; existe además una vía mediante artrópodos con cisticercoides."
+          ],
+          "sourceIds": [
+            "ref-6a4acdbf7059"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, agua y alimentos seguros y disposición sanitaria de excretas reducen exposición a las fases infectivas descritas en el ciclo."
+          ],
+          "sourceIds": [
+            "ref-6a4acdbf7059"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Praziquantel es tratamiento de elección; niclosamida y nitazoxanida son alternativas descritas."
+          ],
+          "sourceIds": [
+            "ref-0149b35abbf9"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-6a4acdbf7059"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Trypanosoma cruzi",
+      "aliases": [
+        "Trypanosoma cruzi"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-7421c90c9291",
+        "ref-1211540cba95"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Protozoo con tripomastigotes sanguíneos y amastigotes tisulares."
+          ],
+          "sourceIds": [
+            "ref-7421c90c9291"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "La fase aguda puede presentar fiebre, chagoma o signo de Romaña. La fase crónica puede ser indeterminada o producir cardiomiopatía, alteraciones de conducción y enfermedad digestiva."
+          ],
+          "sourceIds": [
+            "ref-7421c90c9291"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La transmisión vectorial típica ocurre por contaminación con heces, no por inoculación salival. El diagnóstico crónico requiere enfoques serológicos."
+          ],
+          "sourceIds": [
+            "ref-7421c90c9291"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Tripomastigote metacíclico: heces del triatomino que contaminan piel lesionada o mucosas. Fase diagnóstica: Tripomastigote sanguíneo: sangre en fase aguda; amastigote: tejido. La transmisión vectorial típica ocurre por contaminación con heces, no por inoculación salival. El diagnóstico crónico requiere enfoques serológicos."
+          ],
+          "sourceIds": [
+            "ref-7421c90c9291"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Prevenir contacto con heces del triatomino, mejorar vivienda y aplicar seguridad transfusional y atención de transmisión congénita."
+          ],
+          "sourceIds": [
+            "ref-7421c90c9291"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Benznidazol o nifurtimox; se indica tratamiento en infección aguda, congénita y reactivación. En crónicos, individualizar según edad y cardiopatía; no revierte automáticamente daño establecido."
+          ],
+          "sourceIds": [
+            "ref-1211540cba95"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-7421c90c9291"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Leishmania braziliensis / L. mexicana",
+      "aliases": [
+        "Leishmania braziliensis / L. mexicana",
+        "Leishmania braziliensis",
+        "Leishmania mexicana"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-c501cecf3d41",
+        "ref-ce9a718820f5"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Protozoos intracelulares: amastigotes en tejido y promastigotes en el flebótomo. La morfología no distingue especies."
+          ],
+          "sourceIds": [
+            "ref-c501cecf3d41"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Úlceras cutáneas de evolución variable. Algunas especies del subgénero Viannia implican riesgo mucoso; no atribuir el mismo riesgo a todas las especies."
+          ],
+          "sourceIds": [
+            "ref-c501cecf3d41"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La microscopía identifica amastigotes, pero la determinación de especie requiere métodos adicionales."
+          ],
+          "sourceIds": [
+            "ref-c501cecf3d41"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Promastigote metacíclico: inoculado por flebótomo. Fase diagnóstica: Amastigote: raspado, aspirado o biopsia de lesión/tejido según forma clínica. La microscopía identifica amastigotes, pero la determinación de especie requiere métodos adicionales."
+          ],
+          "sourceIds": [
+            "ref-c501cecf3d41"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Reducir picaduras de flebótomos con barreras físicas y protección personal."
+          ],
+          "sourceIds": [
+            "ref-c501cecf3d41"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Individualizar por especie, sitio, extensión y región de adquisición. La forma mucosa necesita tratamiento; la decisión y los medicamentos para lesión cutánea requieren valoración especializada."
+          ],
+          "sourceIds": [
+            "ref-ce9a718820f5"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-c501cecf3d41"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Fasciola hepatica",
+      "aliases": [
+        "Fasciola hepatica"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-23fc4c659e38",
+        "ref-ff398422d8be"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Trematodo hepático con caracol intermediario y metacercarias infectivas."
+          ],
+          "sourceIds": [
+            "ref-23fc4c659e38"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Fase migratoria: dolor, fiebre, hepatomegalia y eosinofilia. Fase biliar crónica: inflamación u obstrucción; las heces pueden ser negativas en fase temprana."
+          ],
+          "sourceIds": [
+            "ref-23fc4c659e38"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "En la fase temprana pueden faltar huevos en heces; los huevos no son la forma infectiva que se ingiere."
+          ],
+          "sourceIds": [
+            "ref-23fc4c659e38"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Metacercaria: vegetación acuática contaminada. Fase diagnóstica: Huevos: heces o material biliar durante fase patente. En la fase temprana pueden faltar huevos en heces; los huevos no son la forma infectiva que se ingiere."
+          ],
+          "sourceIds": [
+            "ref-23fc4c659e38"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Evitar plantas acuáticas y agua contaminadas con metacercarias; lavar vegetales no garantiza eliminar todas las formas infectivas."
+          ],
+          "sourceIds": [
+            "ref-23fc4c659e38"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Triclabendazol es el fármaco de elección. Praziquantel generalmente no es activo contra Fasciola y no se recomienda como sustituto."
+          ],
+          "sourceIds": [
+            "ref-ff398422d8be"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-23fc4c659e38"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Onchocerca volvulus",
+      "aliases": [
+        "Onchocerca volvulus"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-30a575581d1d",
+        "ref-93a1ac4c0f7b"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Nematodo filarial: adultos en nódulos y microfilarias principalmente en piel y ojos."
+          ],
+          "sourceIds": [
+            "ref-30a575581d1d"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Prurito, dermatitis, nódulos subcutáneos y lesión ocular que puede progresar a ceguera."
+          ],
+          "sourceIds": [
+            "ref-30a575581d1d"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La muestra diagnóstica típica es piel. La descripción mundial del ciclo no prueba transmisión activa en Guatemala."
+          ],
+          "sourceIds": [
+            "ref-30a575581d1d"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Larva L3: depositada por Simulium y penetra la herida. Fase diagnóstica: Microfilaria: biopsia superficial de piel; adultos en nódulos. La muestra diagnóstica típica es piel. La descripción mundial del ciclo no prueba transmisión activa en Guatemala."
+          ],
+          "sourceIds": [
+            "ref-30a575581d1d"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, agua y alimentos seguros y disposición sanitaria de excretas reducen exposición a las fases infectivas descritas en el ciclo."
+          ],
+          "sourceIds": [
+            "ref-30a575581d1d"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Ivermectina reduce microfilarias; el manejo requiere evaluación especializada, incluida exposición a Loa loa cuando corresponda. No aplicar campañas internacionales como indicación individual local."
+          ],
+          "sourceIds": [
+            "ref-93a1ac4c0f7b"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-30a575581d1d"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Sarcoptes scabiei var. hominis",
+      "aliases": [
+        "Sarcoptes scabiei var. hominis",
+        "Sarcoptes scabiei"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-005bdd22a087",
+        "ref-e7a3733b5d29"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Ácaro que excava túneles en el estrato córneo; larvas con tres pares de patas y adultos con cuatro."
+          ],
+          "sourceIds": [
+            "ref-005bdd22a087"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Prurito nocturno, pápulas y surcos, frecuentemente en espacios interdigitales y muñecas. La sarna costrosa tiene gran carga de ácaros y puede requerir medidas más intensivas."
+          ],
+          "sourceIds": [
+            "ref-005bdd22a087"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La fase infestante principal es la hembra fecundada. No confundir las microfotografías de Demodex de la misma página con Sarcoptes."
+          ],
+          "sourceIds": [
+            "ref-005bdd22a087"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Hembra adulta fecundada: transmisión predominante por contacto piel con piel. Fase diagnóstica: Ácaros, huevos o material fecal del ácaro: raspado cutáneo. La fase infestante principal es la hembra fecundada. No confundir las microfotografías de Demodex de la misma página con Sarcoptes."
+          ],
+          "sourceIds": [
+            "ref-005bdd22a087"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Reducir contacto piel con piel durante infestación y atender contactos según guía; limpiar ropa y ropa de cama."
+          ],
+          "sourceIds": [
+            "ref-005bdd22a087"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Permetrina tópica o ivermectina oral según indicación. La sarna costrosa puede necesitar combinación y manejo especializado; revisar edad, embarazo y contactos."
+          ],
+          "sourceIds": [
+            "ref-e7a3733b5d29"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-005bdd22a087"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Pediculus humanus capitis / corporis",
+      "aliases": [
+        "Pediculus humanus capitis / corporis",
+        "Pediculus humanus capitis",
+        "Pediculus humanus corporis",
+        "Pediculus humanus"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-b1db68bc1931",
+        "ref-698db9a8991b"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Piojos de cabeza y cuerpo son ectoparásitos. Distinguir localización: cabello frente a ropa y costuras."
+          ],
+          "sourceIds": [
+            "ref-b1db68bc1931"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Prurito y excoriaciones; el piojo corporal puede transmitir otras infecciones. Una liendre residual no demuestra por sí sola infestación activa."
+          ],
+          "sourceIds": [
+            "ref-b1db68bc1931"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Una cáscara de liendre vacía no demuestra por sí sola infestación activa."
+          ],
+          "sourceIds": [
+            "ref-b1db68bc1931"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Ninfa o adulto móvil: transferencia entre personas por contacto o fómites según variedad. Fase diagnóstica: Piojos vivos y liendres: cabello o ropa según variedad. Una cáscara de liendre vacía no demuestra por sí sola infestación activa."
+          ],
+          "sourceIds": [
+            "ref-b1db68bc1931"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Evitar compartir objetos en contacto con cabello; higiene de ropa y ropa de cama para pediculosis corporal."
+          ],
+          "sourceIds": [
+            "ref-b1db68bc1931"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Confirmar piojos vivos y utilizar tratamiento apropiado para la localización. En cabeza, revisar resistencia y repetir cuando corresponda al producto; en cuerpo, higiene y lavado de ropa son esenciales."
+          ],
+          "sourceIds": [
+            "ref-698db9a8991b"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-b1db68bc1931"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Cryptosporidium parvum / C. hominis",
+      "aliases": [
+        "Cryptosporidium parvum / C. hominis",
+        "Cryptosporidium parvum",
+        "Cryptosporidium hominis"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-a99f14abcc1d",
+        "ref-a7b4c6e9e78a"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Protozoos coccidios; ooquistes eliminados ya infectivos y autoinfección mediante ooquistes de pared fina."
+          ],
+          "sourceIds": [
+            "ref-a99f14abcc1d"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Diarrea acuosa; inmunosupresión puede producir enfermedad prolongada, malabsorción y afectación biliar."
+          ],
+          "sourceIds": [
+            "ref-a99f14abcc1d"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La microscopía no distingue C. parvum de C. hominis; la identificación de especie requiere métodos específicos."
+          ],
+          "sourceIds": [
+            "ref-a99f14abcc1d"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Ooquiste esporulado de pared gruesa: infectivo al eliminarse. Fase diagnóstica: Ooquistes de pared gruesa: heces. La microscopía no distingue C. parvum de C. hominis; la identificación de especie requiere métodos específicos."
+          ],
+          "sourceIds": [
+            "ref-a99f14abcc1d"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Evitar agua o alimentos contaminados y transmisión fecal-oral. La resistencia de ooquistes dificulta control con desinfección habitual."
+          ],
+          "sourceIds": [
+            "ref-a99f14abcc1d"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Hidratación. Nitazoxanida tiene indicación en inmunocompetentes según edad; su eficacia en inmunosuprimidos es incierta. En VIH, el tratamiento antirretroviral puede mejorar la respuesta."
+          ],
+          "sourceIds": [
+            "ref-a7b4c6e9e78a"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-a99f14abcc1d"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Toxoplasma gondii",
+      "aliases": [
+        "Toxoplasma gondii"
+      ],
+      "category": "parasito",
+      "subtitle": "Biología, manifestaciones, muestra diagnóstica y manejo con fuentes.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": false,
+      "sourceIds": [
+        "ref-06cfefcb195a",
+        "ref-2cfa3e762eff"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Protozoo con taquizoítos de multiplicación rápida, bradizoítos en quistes y ooquistes producidos por felinos."
+          ],
+          "sourceIds": [
+            "ref-06cfefcb195a"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Infección frecuentemente asintomática; puede causar adenopatías, retinocoroiditis, enfermedad congénita o encefalitis en inmunodeficiencia."
+          ],
+          "sourceIds": [
+            "ref-06cfefcb195a"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "En humanos no se diagnostica toxoplasmosis buscando ooquistes en heces; la interpretación serológica depende del contexto."
+          ],
+          "sourceIds": [
+            "ref-06cfefcb195a"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: Ooquiste esporulado: contaminación ambiental; Quiste tisular con bradizoítos: carne insuficientemente cocida; Taquizoíto: transmisión transplacentaria y otras vías. Fase diagnóstica: Taquizoítos/quistes tisulares en muestras seleccionadas; habitualmente serología y/o PCR. En humanos no se diagnostica toxoplasmosis buscando ooquistes en heces; la interpretación serológica depende del contexto."
+          ],
+          "sourceIds": [
+            "ref-06cfefcb195a"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Cocinar carne, lavar manos y vegetales, y evitar exposición a heces de gato; embarazo e inmunosupresión merecen especial prevención."
+          ],
+          "sourceIds": [
+            "ref-06cfefcb195a"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "No todos los inmunocompetentes requieren tratamiento. Cuando se indica, pirimetamina se combina con otro fármaco y ácido folínico por toxicidad medular; existen alternativas. Embarazo, forma ocular y encefalitis necesitan pautas especializadas."
+          ],
+          "sourceIds": [
+            "ref-2cfa3e762eff"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-06cfefcb195a"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Klebsiella pneumoniae",
+      "aliases": [
+        "Klebsiella pneumoniae"
+      ],
+      "category": "bacteria",
+      "subtitle": "Infección hospitalaria y resistencia: interpretar cultivo y antibiograma.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-766ecd271fd3"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Klebsiella es un grupo de bacterias gramnegativas que puede formar parte de la flora intestinal. La especie y el mecanismo de resistencia necesitan identificación de laboratorio."
+          ],
+          "sourceIds": [
+            "ref-766ecd271fd3"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Puede causar neumonía, bacteriemia, infecciones de heridas y meningitis. El riesgo aumenta con ventilación mecánica, dispositivos invasivos y exposición prolongada a antibióticos."
+          ],
+          "sourceIds": [
+            "ref-766ecd271fd3"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Obtener muestra del foco sospechado; identificar el microorganismo y realizar antibiograma. Un aislamiento debe interpretarse con el cuadro para distinguir colonización de infección."
+          ],
+          "sourceIds": [
+            "ref-766ecd271fd3"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Seleccionar antibiótico según foco, gravedad y susceptibilidad. Cepas resistentes a carbapenémicos limitan opciones y requieren asesoría especializada; no asumir resistencia en todo aislamiento."
+          ],
+          "sourceIds": [
+            "ref-766ecd271fd3"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, equipos limpios y prevención de infección asociada a dispositivos. Puede transmitirse por contacto con manos o equipos contaminados; no se considera transmisión aérea."
+          ],
+          "sourceIds": [
+            "ref-766ecd271fd3"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-766ecd271fd3"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Pseudomonas aeruginosa",
+      "aliases": [
+        "Pseudomonas aeruginosa"
+      ],
+      "category": "bacteria",
+      "subtitle": "Oportunista ambiental y de dispositivos hospitalarios.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-b266719fac58"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Bacteria ambiental presente en suelo y agua. Puede presentar multirresistencia, incluida resistencia a carbapenémicos."
+          ],
+          "sourceIds": [
+            "ref-b266719fac58"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Neumonía, bacteriemia, infecciones urinarias y del sitio quirúrgico. Son vulnerables pacientes ventilados, con catéteres, quemaduras o heridas abiertas."
+          ],
+          "sourceIds": [
+            "ref-b266719fac58"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Enviar muestra clínica del foco al laboratorio e identificar susceptibilidad. La presencia en una superficie o secreción no confirma invasión del tejido."
+          ],
+          "sourceIds": [
+            "ref-b266719fac58"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Utilizar antibióticos activos según antibiograma, sitio y gravedad. Las cepas multirresistentes pueden requerir manejo especializado y control del foco."
+          ],
+          "sourceIds": [
+            "ref-b266719fac58"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, limpieza de superficies y equipos, cuidado de dispositivos y planes de manejo del agua hospitalaria. La contaminación ambiental puede mantener brotes."
+          ],
+          "sourceIds": [
+            "ref-b266719fac58"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-b266719fac58"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Enterococcus faecalis",
+      "aliases": [
+        "Enterococcus faecalis"
+      ],
+      "category": "bacteria",
+      "subtitle": "Flora intestinal, infección y fenotipo de resistencia.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-a84a49dce7f8",
+        "ref-fb6c10c5d97b"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Enterococo: componente de flora intestinal y genital. VRE significa resistencia a vancomicina; no es una especie ni una propiedad universal de E. faecalis."
+          ],
+          "sourceIds": [
+            "ref-a84a49dce7f8"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Las infecciones por enterococos resistentes se observan especialmente con hospitalización, dispositivos y exposición antibiótica. La localización de un cultivo importa para distinguir colonización."
+          ],
+          "sourceIds": [
+            "ref-a84a49dce7f8"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Identificar especie y susceptibilidad desde una muestra apropiada. No inferir E. faecalis a partir de una prueba que solo informa Enterococcus o VRE."
+          ],
+          "sourceIds": [
+            "ref-a84a49dce7f8"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "El tratamiento se ajusta a sitio y antibiograma; VRE requiere fármacos diferentes de vancomicina. La colonización asintomática no requiere antibióticos."
+          ],
+          "sourceIds": [
+            "ref-a84a49dce7f8"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, manejo cuidadoso de fluidos corporales y desinfección de habitación y equipos. Comunicar resistencia en traslados asistenciales."
+          ],
+          "sourceIds": [
+            "ref-a84a49dce7f8"
+          ]
+        },
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Cocos grampositivos y anaerobios facultativos. La fuente fotográfica documenta asociación con infección urinaria, bacteriemia y endocarditis; no todas las cepas son resistentes."
+          ],
+          "sourceIds": [
+            "ref-fb6c10c5d97b"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-a84a49dce7f8"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Human immunodeficiency virus 1",
+      "aliases": [
+        "Human immunodeficiency virus 1",
+        "HIV-1",
+        "VIH-1",
+        "Virus de la inmunodeficiencia humana tipo 1"
+      ],
+      "category": "virus",
+      "subtitle": "VIH: fases de infección, diagnóstico y prevención combinada.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-ffde5fa884bb",
+        "ref-a9fa4360bd84"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "VIH afecta el sistema inmunitario. Sin tratamiento puede progresar a sida; con atención y tratamiento eficaz puede mantenerse controlado."
+          ],
+          "sourceIds": [
+            "ref-ffde5fa884bb"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "La infección aguda puede presentar síndrome similar a gripe entre 2 y 4 semanas, o ser asintomática. La fase crónica puede no dar síntomas; inmunodeficiencia avanzada favorece infecciones oportunistas."
+          ],
+          "sourceIds": [
+            "ref-ffde5fa884bb"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Los síntomas no diagnostican VIH. La elección e interpretación de pruebas depende del tiempo desde exposición; un resultado de cribado necesita el procedimiento confirmatorio aplicable."
+          ],
+          "sourceIds": [
+            "ref-ffde5fa884bb"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "El tratamiento antirretroviral controla la infección y requiere seguimiento y adherencia. Una carga viral indetectable mantenida previene transmisión sexual; no equivale a curación."
+          ],
+          "sourceIds": [
+            "ref-ffde5fa884bb"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Preservativos, material de inyección seguro, PrEP y PEP según valoración. Una exposición reciente debe evaluarse pronto para profilaxis; no esperar síntomas."
+          ],
+          "sourceIds": [
+            "ref-ffde5fa884bb"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-ffde5fa884bb"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Qué detecta cada prueba de VIH",
+          "paragraphs": [
+            "Las pruebas de ácidos nucleicos detectan ARN del VIH. Las combinadas detectan antígeno p24 y anticuerpos IgM/IgG; las de anticuerpos detectan la respuesta inmunitaria. El periodo ventana depende del método, por lo que un resultado negativo temprano requiere interpretarse con la fecha de exposición. Un tamizaje reactivo necesita seguir el algoritmo confirmatorio y vinculación a atención."
+          ],
+          "sourceIds": [
+            "ref-a9fa4360bd84"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Hepatitis A virus",
+      "aliases": [
+        "Hepatitis A virus",
+        "HAV",
+        "Virus de la hepatitis A"
+      ],
+      "category": "virus",
+      "subtitle": "Hepatitis aguda transmitida por vía fecal-oral.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-81bf8161ea28",
+        "ref-3caf8de04f70"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "HAV produce hepatitis aguda; no se convierte en infección crónica. Incubación aproximada de 15 a 50 días."
+          ],
+          "sourceIds": [
+            "ref-81bf8161ea28"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Niños pequeños pueden no presentar síntomas. En mayores y adultos puede haber ictericia y enfermedad sintomática; la insuficiencia hepática es poco frecuente pero grave."
+          ],
+          "sourceIds": [
+            "ref-81bf8161ea28"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "La clínica no distingue HAV de otras hepatitis. Solicitar pruebas específicas cuando el contexto lo indique; correlacionar resultado con síntomas y fecha de exposición."
+          ],
+          "sourceIds": [
+            "ref-81bf8161ea28"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Habitualmente soporte, hidratación y alimentación; cuadros graves pueden requerir hospitalización. No existe un antiviral específico de uso rutinario para HAV."
+          ],
+          "sourceIds": [
+            "ref-81bf8161ea28"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Vacunación, higiene de manos y agua y alimentos seguros. Tras exposición, vacuna o inmunoglobulina pueden ser útiles dentro de dos semanas según riesgo e indicación. Revisar disponibilidad y pauta local."
+          ],
+          "sourceIds": [
+            "ref-81bf8161ea28"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-81bf8161ea28"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Interpretación de IgM, IgG y ARN",
+          "paragraphs": [
+            "En un cuadro compatible, IgM anti-HAV o ARN de HAV apoyan infección aguda. IgG anti-HAV indica inmunidad por infección previa o vacunación; los anticuerpos totales por sí solos no confirman enfermedad aguda. Interpretar una IgM positiva con síntomas, exposición y vacunación reciente: puede haber reactividad cruzada o falsos positivos."
+          ],
+          "sourceIds": [
+            "ref-3caf8de04f70"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Hepatitis C virus",
+      "aliases": [
+        "Hepatitis C virus",
+        "HCV",
+        "Virus de la hepatitis C"
+      ],
+      "category": "virus",
+      "subtitle": "Confirmar infección activa y vincular al tratamiento curativo.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-29ca9497bff3"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "HCV se transmite principalmente por exposición a sangre infectada. Puede causar infección aguda y crónica; muchas personas no presentan síntomas."
+          ],
+          "sourceIds": [
+            "ref-29ca9497bff3"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "La cronicidad puede producir cirrosis y carcinoma hepatocelular. También puede asociarse con crioglobulinemia, glomerulonefritis o porfiria cutánea tarda; no son hallazgos exclusivos."
+          ],
+          "sourceIds": [
+            "ref-29ca9497bff3"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Iniciar con anticuerpos y confirmar infección activa mediante RNA de HCV cuando son reactivos. Un anticuerpo positivo aislado no diferencia infección actual de infección ya resuelta."
+          ],
+          "sourceIds": [
+            "ref-29ca9497bff3"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Los antivirales de acción directa pueden curar la mayoría de casos; seleccionar esquema según evaluación clínica, interacciones y enfermedad hepática. La curación no protege de reinfección."
+          ],
+          "sourceIds": [
+            "ref-29ca9497bff3"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "No hay vacuna. Material de inyección seguro, precauciones frente a sangre y control de procedimientos y donaciones reducen transmisión."
+          ],
+          "sourceIds": [
+            "ref-29ca9497bff3"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-29ca9497bff3"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Candida auris",
+      "aliases": [
+        "Candida auris",
+        "Candidozyma auris"
+      ],
+      "category": "hongo",
+      "subtitle": "Candidozyma auris: distinguir colonización de infección invasiva.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-1e4d37ccce71",
+        "ref-20ec14018d6f",
+        "ref-151fbd0f2410"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Levadura también denominada Candidozyma auris. Puede persistir como colonización y transmitirse en establecimientos sanitarios."
+          ],
+          "sourceIds": [
+            "ref-1e4d37ccce71"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "La infección invasiva puede ser grave. Los síntomas son inespecíficos y dependen del foco; no existe una lesión cutánea que confirme por sí sola esta especie."
+          ],
+          "sourceIds": [
+            "ref-1e4d37ccce71"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Higiene de manos, desinfección eficaz de equipos y entorno y comunicación del estado al trasladar pacientes; colonizados pueden transmitir el hongo."
+          ],
+          "sourceIds": [
+            "ref-1e4d37ccce71"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Los métodos fenotípicos pueden identificarla erróneamente. MALDI-TOF requiere una base de datos adecuada; secuenciación u otros métodos validados permiten confirmación. No basta el color de una colonia."
+          ],
+          "sourceIds": [
+            "ref-20ec14018d6f"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Tratar infección clínica, no colonización sin signos de infección. Equinocandinas son el inicio recomendado para adultos y mayores de dos meses; lactantes menores requieren pautas diferentes. Realizar susceptibilidad y vigilar respuesta."
+          ],
+          "sourceIds": [
+            "ref-151fbd0f2410"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-1e4d37ccce71"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Pneumocystis jirovecii",
+      "aliases": [
+        "Pneumocystis jirovecii"
+      ],
+      "category": "hongo",
+      "subtitle": "Neumonía oportunista: muestra respiratoria y diagnóstico diferencial.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-40c5422f0642"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Hongo que infecta humanos; P. carinii corresponde actualmente a una especie que infecta ratas. PCP y PJP se usan para la neumonía por Pneumocystis."
+          ],
+          "sourceIds": [
+            "ref-40c5422f0642"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "En VIH suele causar disnea progresiva, fiebre y tos seca de evolución subaguda. Puede haber hipoxemia y deterioro importante; fuera de VIH el curso puede ser más rápido."
+          ],
+          "sourceIds": [
+            "ref-40c5422f0642"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Estudiar esputo inducido o lavado broncoalveolar con tinción, inmunofluorescencia o PCR según recursos. PCR muy sensible puede detectar colonización; interpretar cantidad y cuadro clínico. Beta-D-glucano es auxiliar, no específico."
+          ],
+          "sourceIds": [
+            "ref-40c5422f0642"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "TMP-SMX es tratamiento preferido. Valorar oxigenación para indicar corticoides complementarios en casos de VIH con hipoxemia; no aplicarlos automáticamente a todo paciente."
+          ],
+          "sourceIds": [
+            "ref-40c5422f0642"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Tratamiento antirretroviral y profilaxis cuando se cumplen criterios de inmunosupresión. El inicio y suspensión dependen de CD4, carga viral y situación clínica."
+          ],
+          "sourceIds": [
+            "ref-40c5422f0642"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-40c5422f0642"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Coccidioides immitis / C. posadasii",
+      "aliases": [
+        "Coccidioides immitis / C. posadasii",
+        "Coccidioides immitis",
+        "Coccidioides posadasii"
+      ],
+      "category": "hongo",
+      "subtitle": "Coccidioidomicosis: exposición ambiental y enfermedad diseminada.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-5177c3775866"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "C. immitis y C. posadasii causan coccidioidomicosis. Se adquiere al inhalar artroconidias del ambiente; ambas producen enfermedad similar."
+          ],
+          "sourceIds": [
+            "ref-5177c3775866"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Tras exposición puede haber tos, fiebre, cansancio, disnea y exantema. Algunos casos desarrollan enfermedad pulmonar persistente o diseminación a piel, huesos o meninges."
+          ],
+          "sourceIds": [
+            "ref-5177c3775866"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Combinar exposición, cuadro y serología; cultivo e histopatología pueden aportar evidencia. Una serología temprana negativa puede requerir repetición. Alertar al laboratorio ante sospecha, porque el cultivo puede generar exposición peligrosa."
+          ],
+          "sourceIds": [
+            "ref-5177c3775866"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "La necesidad de antifúngico depende de gravedad, factores de riesgo y diseminación. No toda enfermedad pulmonar autolimitada requiere el mismo manejo que meningitis."
+          ],
+          "sourceIds": [
+            "ref-5177c3775866"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Reducir exposición a polvo en áreas de riesgo. La descripción de distribución internacional no confirma incidencia o transmisión actual en un departamento de Guatemala."
+          ],
+          "sourceIds": [
+            "ref-5177c3775866"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-5177c3775866"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Cystoisospora belli",
+      "aliases": [
+        "Cystoisospora belli",
+        "Isospora belli"
+      ],
+      "category": "parasito",
+      "subtitle": "Coccidio intestinal: maduración ambiental y ooquiste diagnóstico.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-66380ddaf8fb",
+        "ref-ea75c43da7d5"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Antes denominada Isospora belli. Infecta epitelio intestinal; los ooquistes suelen ser ovalados y miden aproximadamente 25–30 µm."
+          ],
+          "sourceIds": [
+            "ref-66380ddaf8fb"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Diarrea no sanguinolenta, cólicos, malabsorción y pérdida de peso; puede ser grave o prolongada en inmunodeficiencia. A diferencia de muchas protozoosis, puede existir eosinofilia."
+          ],
+          "sourceIds": [
+            "ref-66380ddaf8fb"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Buscar ooquistes en heces con concentración y tinción ácido-alcohol resistente modificada, microscopía UV o técnicas apropiadas. La eliminación variable puede requerir muestras repetidas."
+          ],
+          "sourceIds": [
+            "ref-66380ddaf8fb"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: ooquiste esporulado con dos esporoquistes, cada uno con cuatro esporozoítos. Fase diagnóstica: ooquiste inmaduro eliminado en heces. La maduración ocurre fuera del hospedador."
+          ],
+          "sourceIds": [
+            "ref-66380ddaf8fb"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Prevenir ingestión de ooquistes en agua o alimentos contaminados; higiene y saneamiento interrumpen exposición fecal-oral."
+          ],
+          "sourceIds": [
+            "ref-66380ddaf8fb"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "TMP-SMX es tratamiento preferido. En inmunodeficiencia puede necesitarse duración mayor o prevención de recurrencia; revisar guía y situación clínica."
+          ],
+          "sourceIds": [
+            "ref-ea75c43da7d5"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-66380ddaf8fb"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Balantioides coli",
+      "aliases": [
+        "Balantioides coli",
+        "Balantidium coli",
+        "Neobalantidium coli"
+      ],
+      "category": "parasito",
+      "subtitle": "Balantidium coli: protozoo ciliado intestinal.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-21b1fca967db",
+        "ref-3f5c96c73b31"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "También denominado Balantidium coli o Neobalantidium coli; la nomenclatura varía entre fuentes. Los cerdos son un reservorio importante."
+          ],
+          "sourceIds": [
+            "ref-21b1fca967db"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Muchas infecciones son asintomáticas. Puede causar diarrea o disentería; invasión del colon puede ocasionar ulceración, perforación y peritonitis, especialmente en personas debilitadas."
+          ],
+          "sourceIds": [
+            "ref-21b1fca967db"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "Reconocer quistes o trofozoítos en heces. El trofozoíto es grande y ciliado, con citostoma y macronúcleo característico; correlacionar muestra fresca y cuadro."
+          ],
+          "sourceIds": [
+            "ref-21b1fca967db"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva: quiste ingerido con agua o alimentos. Fase diagnóstica: quistes y trofozoítos en heces. Excista en intestino delgado y los trofozoítos colonizan el intestino grueso."
+          ],
+          "sourceIds": [
+            "ref-21b1fca967db"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Agua segura, higiene y manejo sanitario de excretas humanas y porcinas."
+          ],
+          "sourceIds": [
+            "ref-21b1fca967db"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Tetraciclina, metronidazol o iodoquinol son opciones descritas; elegir según edad, embarazo y condiciones individuales, además de corregir deshidratación."
+          ],
+          "sourceIds": [
+            "ref-3f5c96c73b31"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-21b1fca967db"
+          ]
+        }
+      ]
+    },
+    {
+      "scientificName": "Echinococcus granulosus sensu lato",
+      "aliases": [
+        "Echinococcus granulosus sensu lato",
+        "Echinococcus granulosus"
+      ],
+      "category": "parasito",
+      "subtitle": "Hidatidosis: el humano alberga la fase larvaria.",
+      "scope": "Material académico internacional para estudio en Guatemala. No representa incidencia nacional, un boletín vigente ni un protocolo del MSPAS. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente.",
+      "newReference": true,
+      "sourceIds": [
+        "ref-353fbc4d5718",
+        "ref-ed3aca7ce97f"
+      ],
+      "sections": [
+        {
+          "section": "identity",
+          "title": "Identificación y biología",
+          "paragraphs": [
+            "Complejo de cestodos que causa equinococosis quística. El perro es hospedador definitivo y el humano, intermediario accidental."
+          ],
+          "sourceIds": [
+            "ref-353fbc4d5718"
+          ]
+        },
+        {
+          "section": "clinical",
+          "title": "Manifestaciones y complicaciones",
+          "paragraphs": [
+            "Quistes, frecuentemente hepáticos o pulmonares, pueden permanecer años sin síntomas. Crecimiento u obstrucción producen manifestaciones; ruptura puede causar diseminación y anafilaxia."
+          ],
+          "sourceIds": [
+            "ref-353fbc4d5718"
+          ]
+        },
+        {
+          "section": "diagnosis",
+          "title": "Muestra, pruebas e interpretación",
+          "paragraphs": [
+            "El diagnóstico humano se apoya en imagen y serología; una serología negativa no excluye enfermedad. No buscar huevos en heces humanas como prueba de hidatidosis ni realizar punción rutinaria sin evaluación especializada."
+          ],
+          "sourceIds": [
+            "ref-353fbc4d5718"
+          ]
+        },
+        {
+          "section": "cycle",
+          "title": "Estadios y ciclo biológico",
+          "paragraphs": [
+            "Fase infectiva humana: huevo procedente de heces de cánidos. Fase tisular: quiste hidatídico con protoescólices. Los adultos y huevos corresponden al hospedador definitivo, no al humano."
+          ],
+          "sourceIds": [
+            "ref-353fbc4d5718"
+          ]
+        },
+        {
+          "section": "prevention",
+          "title": "Transmisión y prevención",
+          "paragraphs": [
+            "Evitar contaminación por heces de perro y que perros ingieran vísceras crudas; higiene, control veterinario y manejo adecuado de faena interrumpen el ciclo."
+          ],
+          "sourceIds": [
+            "ref-353fbc4d5718"
+          ]
+        },
+        {
+          "section": "treatment",
+          "title": "Principios de manejo",
+          "paragraphs": [
+            "Elegir según estadio del quiste, órgano, complicaciones y recursos. Las guías OMS 2025 contemplan opciones médicas, percutáneas o quirúrgicas; quistes inactivos sin complicación pueden vigilarse con imagen. No todos deben operarse ni puncionarse."
+          ],
+          "sourceIds": [
+            "ref-ed3aca7ce97f"
+          ]
+        },
+        {
+          "section": "guatemala",
+          "title": "Aplicación al estudio en Guatemala",
+          "paragraphs": [
+            "Uso en Guatemala: estudiar exposición, muestra y diagnóstico diferencial con estas referencias internacionales. La ficha no acredita casos actuales ni prevalencia por departamento. Para una decisión local, contrastar boletines del MSPAS, guías aplicables, disponibilidad de pruebas y susceptibilidad del aislamiento."
+          ],
+          "sourceIds": [
+            "ref-353fbc4d5718"
           ]
         }
       ]

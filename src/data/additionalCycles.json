@@ -28,5 +28,99 @@
         "note": "El ooquiste recién eliminado no es infectivo."
       }
     ]
+  },
+  {
+    "scientificName": "Cystoisospora belli",
+    "aliases": [
+      "Cystoisospora belli",
+      "Isospora belli"
+    ],
+    "category": "parasito",
+    "scope": "Ciclo original CDC / DPDx para estudio en Guatemala; no aporta incidencia nacional.",
+    "images": [],
+    "diagnosticPearls": [],
+    "cycles": [
+      {
+        "title": "Ciclo CDC — Cystoisospora belli",
+        "imageUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/modules/Cystoisospora_LifeCycle.gif",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "infective": [
+          "Ooquiste esporulado: dos esporoquistes, cuatro esporozoítos cada uno"
+        ],
+        "diagnostic": [
+          "Ooquiste inmaduro en heces"
+        ],
+        "steps": [
+          "Los ooquistes salen inmaduros con las heces.",
+          "En el ambiente maduran a ooquistes esporulados.",
+          "La ingestión libera esporozoítos que invaden epitelio del intestino delgado.",
+          "Multiplicación asexual y sexual produce nuevos ooquistes."
+        ],
+        "note": "La maduración ambiental separa fase infectiva y diagnóstica."
+      }
+    ]
+  },
+  {
+    "scientificName": "Balantioides coli",
+    "aliases": [
+      "Balantioides coli",
+      "Balantidium coli",
+      "Neobalantidium coli"
+    ],
+    "category": "parasito",
+    "scope": "Ciclo original CDC / DPDx para estudio en Guatemala; no aporta incidencia nacional.",
+    "images": [],
+    "diagnosticPearls": [],
+    "cycles": [
+      {
+        "title": "Ciclo CDC — Balantioides coli",
+        "imageUrl": "https://www.cdc.gov/dpdx/balantidiasis/modules/Balantidium_LifeCycle_19.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "infective": [
+          "Quiste"
+        ],
+        "diagnostic": [
+          "Quiste o trofozoíto en heces"
+        ],
+        "steps": [
+          "Se ingieren quistes con agua o alimentos contaminados.",
+          "La excistación ocurre en el intestino delgado.",
+          "Trofozoítos colonizan el colon, se multiplican y pueden invadir mucosa.",
+          "El enquistamiento produce quistes que salen con las heces."
+        ],
+        "note": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos."
+      }
+    ]
+  },
+  {
+    "scientificName": "Echinococcus granulosus sensu lato",
+    "aliases": [
+      "Echinococcus granulosus sensu lato",
+      "Echinococcus granulosus"
+    ],
+    "category": "parasito",
+    "scope": "Ciclo original CDC / DPDx para estudio en Guatemala; no aporta incidencia nacional.",
+    "images": [],
+    "diagnosticPearls": [],
+    "cycles": [
+      {
+        "title": "Ciclo CDC — Echinococcus granulosus sensu lato",
+        "imageUrl": "https://www.cdc.gov/dpdx/echinococcosis/modules/Echinococcus_gran_LifeCycle_19.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "infective": [
+          "Huevo embrionado ingerido desde contaminación fecal de cánidos"
+        ],
+        "diagnostic": [
+          "Quiste hidatídico en imagen; serología complementaria; protoescólices en material obtenido por indicación especializada"
+        ],
+        "steps": [
+          "Adultos en perro producen huevos que salen en sus heces.",
+          "Ovinos u otros intermediarios ingieren huevos y desarrollan quistes.",
+          "El perro ingiere vísceras con quistes y completa el ciclo.",
+          "El humano ingiere huevos accidentalmente y desarrolla quistes; no elimina huevos en sus heces."
+        ],
+        "note": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación."
+      }
+    ]
   }
 ]
