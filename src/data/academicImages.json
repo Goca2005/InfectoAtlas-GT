@@ -1002,5 +1002,1256 @@
         "interpretation": "Cyclospora cayetanensis. Lectura educativa; confirmar con método validado y contexto clínico."
       }
     ]
+  },
+  {
+    "names": [
+      "Klebsiella pneumoniae"
+    ],
+    "images": [
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Colonias en agar TCBS; identificación del registro CDC · PHIL 30494",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Wallis DeWitt",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30494/30494_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30494",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30494",
+        "imageDate": "1974",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Montaje de técnicas para estudiar la cápsula · PHIL 28780",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Eickhoff",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28780/28780_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28780",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 28780",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Inmunofluorescencia de un aislamiento de hemocultivo · PHIL 25178",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/25178/25178_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25178",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 25178",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Neutrófilo y bacterias; SEM con coloración digital · PHIL 18170",
+        "stainOrModality": "Microscopía electrónica de barrido (SEM) · coloración digital; colores no naturales",
+        "creditOrSource": "National Institute of Allergy and Infectious Diseases (NIAID); David Dorward; Ph.D.; National Institute of Allergy and Infectious Diseases (NIAID)",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/18170/18170_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=18170",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 18170",
+        "imageDate": "2014",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Pseudomonas aeruginosa"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Bacilos gramnegativos en una preparación teñida · PHIL 17370",
+        "stainOrModality": "Tinción de Gram",
+        "creditOrSource": "CDC/ Dr. W.A. Clark",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/17370/17370_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=17370",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 17370",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "SEM coloreada; bacilos y cocos de otra especie en el campo · PHIL 10043",
+        "stainOrModality": "Microscopía electrónica de barrido (SEM) · coloración digital; colores no naturales",
+        "creditOrSource": "CDC/ Janice Haney Carr; Janice Haney Carr",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/10043/10043_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10043",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 10043",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Colonias en agar sangre · PHIL 6688",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Dr. Theo. Hawkins",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/6688/6688_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6688",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 6688",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Colonias en agar XLD · PHIL 6687",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Dr. Theo. Hawkins",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/6687/6687_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6687",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 6687",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Enterococcus faecalis"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Cocos en SEM con coloración digital · PHIL 12803",
+        "stainOrModality": "Microscopía electrónica de barrido (SEM)",
+        "creditOrSource": "CDC/ Pete Wardell; Pete Wardell",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/12803/12803_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12803",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 12803",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo durante prueba de susceptibilidad · PHIL 2646",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Don Stalons",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/2646/2646_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=2646",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 2646",
+        "imageDate": "1972",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Otra preparación del ensayo de susceptibilidad · PHIL 2645",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Don Stalons",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/2645/2645_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=2645",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 2645",
+        "imageDate": "1972",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Human immunodeficiency virus 1"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "TEM: cápsides observadas en distintos planos · PHIL 948",
+        "stainOrModality": "Microscopía electrónica de transmisión (TEM)",
+        "creditOrSource": "CDC/ Dr. Edwin P. Ewing, Jr.; Carey S . Callaway",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/948/948_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/Details.aspx?pid=948",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 948",
+        "imageDate": "1985",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "TEM con rojo de rutenio: glucoproteínas superficiales · PHIL 949",
+        "stainOrModality": "Microscopía electrónica de transmisión (TEM)",
+        "creditOrSource": "CDC/ Dr. Edwin P. Ewing, Jr.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/949/949_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/Details.aspx?pid=949",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 949",
+        "imageDate": "1985",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "SEM coloreada: viriones sobre linfocito · PHIL 11279",
+        "stainOrModality": "Microscopía electrónica de barrido (SEM) · coloración digital; colores no naturales",
+        "creditOrSource": "CDC/ C. Goldsmith, P. Feorino, E. L. Palmer, W. R. McManus",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/11279/11279_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/Details.aspx?pid=11279",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 11279",
+        "imageDate": "1989",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "TEM de tejido de cultivo con viriones · PHIL 1839",
+        "stainOrModality": "Microscopía electrónica de transmisión (TEM)",
+        "creditOrSource": "CDC/ A. Harrison, P. Feorino, E. L. Palmer and C. Goldsmith.; A. Harrison, P. Feorino, E. L. Palmer and C. Goldsmith.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/1839/1839_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/details_linked.aspx?pid=1839",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 1839",
+        "imageDate": "1984",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Hepatitis A virus"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "TEM: agrupación de partículas de HAV · PHIL 2739",
+        "stainOrModality": "Microscopía electrónica de transmisión (TEM)",
+        "creditOrSource": "CDC/ Betty Partin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/2739/2739_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/details.aspx?pid=2739",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 2739",
+        "imageDate": "1976",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Hepatitis B virus"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "TEM: partículas de Dane · PHIL 270",
+        "stainOrModality": "Microscopía electrónica de transmisión (TEM)",
+        "creditOrSource": "CDC/ Dr. Erskine Palmer",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/270/270_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/details.aspx?pid=270",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 270",
+        "imageDate": "1981",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "SARS-CoV-2"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "TEM: viriones en cisternas de una célula infectada · PHIL 23591",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Cynthia S Goldsmith; Cynthia S Goldsmith and Azaibi Tamin; CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23591/23591_lores.jpg",
+        "sourceUrl": "https://phil.cdc.gov/Details.aspx?pid=23591",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23591",
+        "imageDate": "2020",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Candida auris"
+    ],
+    "images": [
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo en placa; medio no especificado · PHIL 21796",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ NCEZID; DFWED; MDB; Shawn Lockhart",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/21796/21796_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=21796",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 21796",
+        "imageDate": "2016",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Pneumocystis jirovecii"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Tejido con neumonía por Pneumocystis; H&E · PHIL 26053",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Martin Hicklin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26053/26053_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26053",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 26053",
+        "imageDate": "1961",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Formas quísticas teñidas con plata metenamina · PHIL 26051",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Martin Hicklin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26051/26051_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26051",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 26051",
+        "imageDate": "1961",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Impronta pulmonar con Giemsa; contenido intraquístico · PHIL 22812",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Mae Melvin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/22812/22812_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22812",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 22812",
+        "imageDate": "1971",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Impronta pulmonar con azul de toluidina · PHIL 22807",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Lois Norman",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/22807/22807_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22807",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 22807",
+        "imageDate": "1971",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Quistes en tejido pulmonar teñido con plata · PHIL 21112",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Lois Norman, M.S.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/21112/21112_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=21112",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 21112",
+        "imageDate": "1968",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tejido pulmonar con Giemsa · PHIL 21111",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Lois Norman, M.S.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/21111/21111_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=21111",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 21111",
+        "imageDate": "1968",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Material espumoso alveolar; tinción PAS · PHIL 21107",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Lois Norman, M.S.",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/21107/21107_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=21107",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 21107",
+        "imageDate": "1968",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Impronta pulmonar con Giemsa · PHIL 19333",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Mae Melvin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/19333/19333_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=19333",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 19333",
+        "imageDate": "1971",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Coccidioides immitis / C. posadasii"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Histopatología de coccidioidomicosis; género identificado · PHIL 29237",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29237/29237_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29237",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29237",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos. El registro identifica el género y no distingue las dos especies."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Otra vista tisular; género identificado · PHIL 29236",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29236/29236_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29236",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29236",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos. El registro identifica el género y no distingue las dos especies."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Esférulas en tejido; género identificado · PHIL 29233",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29233/29233_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29233",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29233",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos. El registro identifica el género y no distingue las dos especies."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Esférulas con endosporas; género identificado · PHIL 29232",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29232/29232_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29232",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29232",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos. El registro identifica el género y no distingue las dos especies."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Artroconidias de C. immitis según registro · PHIL 29018",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29018/29018_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29018",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29018",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Aspergillus fumigatus"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Cabezas conidiales con cadenas columnares · PHIL 26622",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26622/26622_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26622",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 26622",
+        "imageDate": null,
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Conidióforo visto a 258 aumentos · PHIL 25205",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/25205/25205_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25205",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 25205",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Conidióforo visto a 166 aumentos · PHIL 25204",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ Dr. Libero Ajello",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/25204/25204_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25204",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 25204",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo con superficie pulverulenta verde grisácea · PHIL 25088",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Merle J. Selin",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/25088/25088_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25088",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 25088",
+        "imageDate": "1963",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Sporothrix schenckii"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Biopsia humana con inmunofluorescencia · PHIL 29098",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. W. Kaplan",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29098/29098_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29098",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29098",
+        "imageDate": "1961",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Secreción purulenta; forma levaduriforme · PHIL 29006",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29006/29006_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29006",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29006",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Otra vista de levaduras en secreción purulenta · PHIL 29005",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29005/29005_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29005",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29005",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Preparación fluorescente de secreción purulenta · PHIL 29004",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29004/29004_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29004",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29004",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cultivo en forma levaduriforme · PHIL 29003",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29003/29003_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29003",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29003",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cultivo en forma micelial con inmunoconjugado · PHIL 29002",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29002/29002_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29002",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29002",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Forma micelial; tinción de control · PHIL 29001",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29001/29001_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29001",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29001",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo en tubo inclinado; fase levaduriforme · PHIL 28812",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Dr. Lucille K. Georg",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/28812/28812_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28812",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 28812",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Neisseria meningitidis"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Diplococos intracelulares; muestra uretral histórica · PHIL 2678",
+        "stainOrModality": "Microscopía; técnica en el registro original",
+        "creditOrSource": "CDC/ James Volk",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/2678/2678_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=2678",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 2678",
+        "imageDate": "1972",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos. Muestra uretral histórica: no es una imagen de líquido cefalorraquídeo."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Líquido cefalorraquídeo; inmunofluorescencia, grupo C · PHIL 29187",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ M.S. Mitchell, MD",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29187/29187_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29187",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29187",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cultivo de líquido cefalorraquídeo; inmunofluorescencia · PHIL 29185",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ M.S. Mitchell, MD",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/29185/29185_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29185",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 29185",
+        "imageDate": "1964",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tinción de Gram de cultivo, grupo B · PHIL 26803",
+        "stainOrModality": "Tinción de Gram",
+        "creditOrSource": "CDC/ Dr. Brodsky",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/26803/26803_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26803",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 26803",
+        "imageDate": "1966",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo en agar BTB con reacciones diferenciales de pH · PHIL 23727",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Dr. Fox",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23727/23727_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23727",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23727",
+        "imageDate": "1967",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Otra vista de colonias en agar BTB · PHIL 23726",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Dr. Fox",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23726/23726_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23726",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23726",
+        "imageDate": "1967",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Herpes simplex virus 1"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Raspado cutáneo; antígeno HSV-1 por inmunofluorescencia · PHIL 32094",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/32094/32094_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=32094",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 32094",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Antígeno HSV-1 en cultivo de células HEp-2 · PHIL 32072",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/32072/32072_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=32072",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 32072",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Antígeno HSV-1 en preparación de células HEp-2 · PHIL 30646",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30646/30646_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30646",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30646",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Antígeno HSV-1 en fibroblastos pulmonares embrionarios · PHIL 30642",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30642/30642_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30642",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30642",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Antígeno HSV-1 en muestra de raspado cutáneo · PHIL 30639",
+        "stainOrModality": "Inmunofluorescencia",
+        "creditOrSource": "CDC/ Dr. F.T. Forrester",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/30639/30639_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30639",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 30639",
+        "imageDate": "1977",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Vibrio cholerae"
+    ],
+    "images": [
+      {
+        "type": "fotografia_clinica",
+        "caption": "Deshidratación en un caso histórico de cólera; pliegue cutáneo · PHIL 23559",
+        "stainOrModality": "Fotografía clínica",
+        "creditOrSource": "CDC/ Dr. David MacKenzie",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23559/23559_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23559",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23559",
+        "imageDate": "1967",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_cultivo",
+        "caption": "Cultivo mixto: V. cholerae a la izquierda y E. coli a la derecha · PHIL 23063",
+        "stainOrModality": "Cultivo",
+        "creditOrSource": "CDC/ Dr. W.H. Ewing",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23063/23063_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23063",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23063",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Tinción de Gram; preparación bacteriana del registro · PHIL 23062",
+        "stainOrModality": "Tinción de Gram",
+        "creditOrSource": "CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/23062/23062_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23062",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 23062",
+        "imageDate": "1965",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "fotografia_clinica",
+        "caption": "Caso histórico de cólera con rehidratación intravenosa · PHIL 19201",
+        "stainOrModality": "Fotografía clínica",
+        "creditOrSource": "CDC",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/19201/19201_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=19201",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 19201",
+        "imageDate": "1971",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "SEM de V. cholerae serogrupo O1 · PHIL 7819",
+        "stainOrModality": "Microscopía electrónica de barrido (SEM)",
+        "creditOrSource": "CDC/ Janice Haney Carr; Janice Haney Carr",
+        "url": "https://wwwn.cdc.gov/phil///PHIL_Images/7819/7819_lores.jpg",
+        "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=7819",
+        "license": "Dominio público según registro PHIL; atribución al CDC y autor requerido",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "PHIL 7819",
+        "imageDate": "2005",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Preparación de referencia identificada por el registro CDC. Correlacionar con clínica y pruebas; la imagen sola no confirma diagnóstico ni procedencia guatemalteca. Las vistas de una misma serie no se presentan como casos distintos."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Cystoisospora belli",
+      "Isospora belli"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 1",
+        "stainOrModality": "Safranina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/1/C_belli_spore_wtmt1.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_spore_wtmt1.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 2",
+        "stainOrModality": "Safranina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/1/C_belli_oocyst_safranin.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_safranin.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 3",
+        "stainOrModality": "Ácido-alcohol resistente",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/1/C_belli_oocyst_acidfast.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_acidfast.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 4",
+        "stainOrModality": "UV",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/1/C_belli_oocyst_UV_IN.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_UV_IN.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 5",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/2/C_belli_oocyst_wtmt2_40x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_wtmt2_40x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 6",
+        "stainOrModality": "UV",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/2/C_belli_oocyst_wtmt_uv2_40x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_wtmt_uv2_40x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 7",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/2/C_belli_oocyst_wtmt_40x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_wtmt_40x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Cystoisospora belli · preparación 8",
+        "stainOrModality": "UV",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/cystoisosporiasis/images/2/C_belli_oocyst_wtmt_uv_40x.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/cystoisosporiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx C_belli_oocyst_wtmt_uv_40x.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "La maduración ambiental separa fase infectiva y diagnóstica. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Balantioides coli",
+      "Balantidium coli",
+      "Neobalantidium coli"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Balantioides coli · preparación 1",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/balantidiasis/images/1/Bcoli_cyst_wtmt3.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Bcoli_cyst_wtmt3.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Balantioides coli · preparación 2",
+        "stainOrModality": "Montaje húmedo",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/balantidiasis/images/2/Bcoli_troph_wtmt.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Bcoli_troph_wtmt.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Balantioides coli · preparación 3",
+        "stainOrModality": "Hematoxilina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/balantidiasis/images/2/Bcoli_troph_hematoxylin.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Bcoli_troph_hematoxylin.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Balantioides coli · preparación 4",
+        "stainOrModality": "DIC",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/balantidiasis/images/2/Bcoli_troph_DIC.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Bcoli_troph_DIC.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Balantioides coli · preparación 5",
+        "stainOrModality": "Hematoxilina-eosina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/balantidiasis/images/3/Bcoli_troph_hande_colon.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Bcoli_troph_hande_colon.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Balantioides coli · preparación 6",
+        "stainOrModality": "Hematoxilina-eosina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/balantidiasis/images/3/Bcoli_troph_hande2_colon.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/balantidiasis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Bcoli_troph_hande2_colon.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "El cerdo es un reservorio importante; no toda muestra de referencia proviene de humanos. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Echinococcus granulosus sensu lato",
+      "Echinococcus granulosus"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Echinococcus granulosus sensu lato · preparación 1",
+        "stainOrModality": "Hematoxilina-eosina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/echinococcosis/images/1/Eg_cyst.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Eg_cyst.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Echinococcus granulosus sensu lato · preparación 2",
+        "stainOrModality": "Hematoxilina-eosina",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/echinococcosis/images/1/Eg_cyst5.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Eg_cyst5.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Echinococcus granulosus sensu lato · preparación 3",
+        "stainOrModality": "Microscopía; preparación descrita en la fuente",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/echinococcosis/images/1/Echinococcus_hydatidsand_A.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Echinococcus_hydatidsand_A.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Echinococcus granulosus sensu lato · preparación 4",
+        "stainOrModality": "Microscopía; preparación descrita en la fuente",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/echinococcosis/images/1/Echinococcus_hydatidsand_B.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Echinococcus_hydatidsand_B.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Echinococcus granulosus sensu lato · preparación 5",
+        "stainOrModality": "Carmín",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/echinococcosis/images/5/Eg_adult_labels.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Eg_adult_labels.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      },
+      {
+        "type": "microfotografia_real",
+        "caption": "Echinococcus granulosus sensu lato · preparación 6",
+        "stainOrModality": "Microscopía; preparación descrita en la fuente",
+        "creditOrSource": "CDC / DPDx; crédito particular en la fuente",
+        "url": "https://www.cdc.gov/dpdx/echinococcosis/images/5/Egranulosus_scolex_stained_BAM.jpg",
+        "sourceUrl": "https://www.cdc.gov/dpdx/echinococcosis/",
+        "license": "Material educativo CDC; respetar condiciones y créditos particulares en la fuente",
+        "licenseUrl": "https://www.cdc.gov/other/agencymaterials.html",
+        "imageId": "DPDx Egranulosus_scolex_stained_BAM.jpg",
+        "consultedAt": "2026-10-03",
+        "interpretation": "No recomendar aspiración diagnóstica rutinaria: ruptura puede causar anafilaxia y diseminación. Preparación histórica de referencia; no se infiere diagnóstico de otro paciente."
+      }
+    ]
+  },
+  {
+    "names": [
+      "Hepatitis C virus"
+    ],
+    "images": [
+      {
+        "type": "microfotografia_real",
+        "caption": "Biopsia hepática de un caso publicado con infección por HCV: fibrosis e inflamación.",
+        "stainOrModality": "Histopatología · hematoxilina y eosina",
+        "creditOrSource": "Rathi C, Pipaliya N, Choksi D, Parikh P, Ingle M, Sawant P · ACG Case Reports Journal (2015), figura 1 · DOI 10.14309/crj.2015.74",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/26d4/4508956/9cd3b8b9b4ae/crj-02-247-g001.jpg",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4508956/figure/F1/",
+        "license": "CC BY-NC-ND 4.0 · uso no comercial, con atribución y sin modificaciones",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "imageId": "PMC4508956 Figure 1",
+        "imageDate": "2015",
+        "consultedAt": "2026-10-03",
+        "interpretation": "Imagen original sin modificaciones de un caso histórico, no de un paciente de Guatemala. La fibrosis y la inflamación no son específicas de HCV ni muestran partículas virales. La segunda biopsia del artículo corresponde a hepatitis autoinmunitaria y no se incluye. El tratamiento histórico del caso no constituye una recomendación vigente."
+      }
+    ]
   }
 ]

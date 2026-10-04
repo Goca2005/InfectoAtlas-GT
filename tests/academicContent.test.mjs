@@ -6,9 +6,9 @@ import { curatedImages, learningSupplement } from '../src/services/learningAtlas
 import { FICHA_SECTIONS } from '../src/services/academicFicha.ts';
 
 test('academic expansion has explicit section citations, unique aliases and honest review scope', () => {
-  assert.equal(ACADEMIC_PROFILES.length, 27);
-  assert.equal(ACADEMIC_SOURCES.length, 38);
-  assert.equal(ACADEMIC_PROFILES.reduce((n,p)=>n+p.sections.length,0), 138);
+  assert.equal(ACADEMIC_PROFILES.length, 62);
+  assert.equal(ACADEMIC_SOURCES.length, 106);
+  assert.equal(ACADEMIC_PROFILES.reduce((n,p)=>n+p.sections.length,0), 412);
   const ids = new Set(ACADEMIC_SOURCES.map(s=>s.id)), aliases = new Set();
   assert.equal(ids.size, ACADEMIC_SOURCES.length);
   for (const s of ACADEMIC_SOURCES) { assert.equal(new URL(s.url).protocol,'https:'); assert.equal(s.consultedAt,'2026-10-03'); }
@@ -22,9 +22,9 @@ test('academic expansion has explicit section citations, unique aliases and hone
   }
 });
 test('new references appear without replacing personal fields, review status or backup records', () => {
-  assert.equal(PUBLIC_REFERENCE_CATALOG.length,51);
+  assert.equal(PUBLIC_REFERENCE_CATALOG.length,63);
   const additions=ACADEMIC_PROFILES.filter(p=>p.newReference);
-  assert.equal(additions.length,8);
+  assert.equal(additions.length,20);
   for(const p of additions){
     const o=PUBLIC_REFERENCE_CATALOG.find(o=>o.scientificName===p.scientificName);
     assert.ok(o); assert.deepEqual(o.treatment.firstLine,[]);
@@ -64,4 +64,25 @@ test('Cyclospora cycle distinguishes environmentally matured infective stage and
   assert.deepEqual(p.cycles[0].infective,['Ooquiste esporulado']);
   assert.deepEqual(p.cycles[0].diagnostic,['Ooquiste no esporulado en heces']);
   assert.match(p.cycles[0].sourceUrl,/cdc.gov\/dpdx\/cyclosporiasis/);
+});
+test('every public reference has cited core academic sections without inventing local counts',()=>{
+  for(const o of PUBLIC_REFERENCE_CATALOG){
+    const p=academicProfile(o.scientificName); assert.ok(p,o.scientificName);
+    for(const section of ['identity','clinical','diagnosis','treatment','prevention','guatemala']){
+      assert.ok(p.sections.some(b=>b.section===section && b.sourceIds.length && b.paragraphs.length),`${o.scientificName}: ${section}`);
+    }
+  }
+});
+test('new references have documented images and new parasite cycles name both stages',()=>{
+  const groups={bacteria:17,virus:12,hongo:10,parasito:24};
+  for(const [category,n] of Object.entries(groups))assert.equal(PUBLIC_REFERENCE_CATALOG.filter(o=>o.category===category).length,n);
+  for(const o of PUBLIC_REFERENCE_CATALOG)assert.ok(curatedImages(o).length,o.scientificName);
+  for(const name of ['Cystoisospora belli','Balantioides coli','Echinococcus granulosus sensu lato']){
+    const cycle=learningSupplement({scientificName:name})?.cycles[0];assert.ok(cycle,name);
+    assert.ok(cycle.infective.length && cycle.diagnostic.length);assert.equal(cycle.steps.length,4);
+    assert.match(cycle.sourceUrl,/cdc.gov\/dpdx\//);
+  }
+  const hcv=curatedImages(PUBLIC_REFERENCE_CATALOG.find(o=>o.scientificName==='Hepatitis C virus'));
+  assert.ok(hcv.some(i=>i.imageId==='PMC4508956 Figure 1' && i.license.includes('BY-NC-ND')));
+  assert.ok(!hcv.some(i=>i.imageId==='PHIL 16467'),'murine hepatitis is not human HCV');
 });

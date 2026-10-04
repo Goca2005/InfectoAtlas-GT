@@ -1,4 +1,10 @@
-# InfectoAtlas GT · Atlas académico y documental — v0.7.0
+# InfectoAtlas GT · Atlas académico y documental — v0.8.0
+
+## Avance 0.8.0
+
+El catálogo público reúne 63 referencias: 17 bacterianas, 12 virales, 10 fúngicas y 24 parasitarias. Todas tienen síntesis con fuentes para identidad, clínica, diagnóstico, principios de manejo, prevención y contexto de Guatemala. Se añadieron 12 referencias y se completaron las 23 fichas que carecían de esta síntesis. Hay 355 imágenes distintas, 357 asociaciones y ciclos CDC con estadios nombrados para las 24 fichas parasitarias. Consulta editorial: 3 de octubre de 2026; revisión clínica independiente pendiente. [Alcance, cobertura y pendientes](docs/CATALOGO-0.8.md).
+
+El visor 3D se retiró de la interfaz. Cloudflare dispone del catálogo y de consulta real a PubMed; la vigilancia nacional aún requiere revisar e incorporar boletines oficiales manualmente.
 
 ## Avance 0.7.0
 
@@ -12,7 +18,7 @@ Portal académico con imágenes auténticas, atlas visual filtrable, referencias
 
 «Ver ficha» abre un dossier con índice de ocho apartados: identidad/morfología, patogenia/clínica, diagnóstico, tratamiento, transmisión/prevención, ciclo/estadios, Guatemala y fuentes. Se muestran los datos guardados y los fragmentos literales de la biblioteca dentro de cada tema, con páginas de origen. El texto completo sigue disponible en Documentos. El índice es lateral en escritorio y un selector en móvil.
 
-La colección incluida reúne 51 referencias, 44 con imágenes; 274 fotografías distintas y 276 asociaciones con perfiles, 22 ciclos originales CDC para 21 fichas parasitarias y diez formas educativas Three.js en azul marino. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala.
+La colección incluida reúne 63 referencias con imágenes documentadas; 355 imágenes distintas y 357 asociaciones con perfiles, además de 25 ciclos originales CDC para 24 fichas parasitarias. Las entradas documentales se reconstruyen desde el texto local; incluyen grupos y no representan fichas clínicas completas ni circulación comprobada en Guatemala. Las fotografías clínicas o histológicas no son necesariamente específicas del patógeno.
 
 Consulta [el recorrido académico, fuentes, límites y roadmap actualizado](docs/ATLAS-ACADEMICO.md). La Fase 4B documental está integrada en main mediante PR #2; el atlas académico v0.5.0 se integró en main mediante PR #3. Esta entrega continúa la Fase 4C con muestras reales, coordenadas experimentales y manifestaciones clínicas.
 
